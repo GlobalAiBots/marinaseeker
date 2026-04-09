@@ -1,14 +1,15 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { use, useState, useMemo } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { unified, stateList } from "@/data/all-marinas";
 
 const MarinaMap = dynamic(() => import("@/components/MarinaMap"), { ssr: false });
 
-export default function StatePage({ params }: { params: { state: string } }) {
-  const stateInfo = stateList.find((s) => s.slug === params.state);
+export default function StatePage({ params }: { params: Promise<{ state: string }> }) {
+  const { state } = use(params);
+  const stateInfo = stateList.find((s) => s.slug === state);
   const stateMarinas = useMemo(
     () => (stateInfo ? unified.filter((m) => m.state === stateInfo.code) : []),
     [stateInfo]
