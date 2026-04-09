@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { unified, stateList } from "@/data/all-marinas";
+import MarinaMapWrapper from "@/components/MarinaMapWrapper";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -86,13 +87,10 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
           )}
         </div>
 
-        {/* Map placeholder */}
-        <div className="bg-gray-100 border border-gray-200 rounded-xl h-[300px] flex items-center justify-center mb-8">
-          <div className="text-center text-gray-400">
-            <p className="text-3xl mb-2">\{"🗺"}</p>
-            <p className="text-sm font-semibold">GPS: {marina.lat.toFixed(4)}, {marina.lng.toFixed(4)}</p>
-            <a href={`https://www.google.com/maps?q=${marina.lat},${marina.lng}`} target="_blank" rel="noopener noreferrer" className="text-[#C4924B] text-xs hover:underline mt-1 inline-block">Open in Google Maps &rarr;</a>
-          </div>
+        {/* Map */}
+        <div className="mb-8">
+          <MarinaMapWrapper marinas={[{ id: marina.id, name: marina.name, lat: marina.lat, lng: marina.lng, city: marina.city, state: marina.state }]} center={[marina.lat, marina.lng]} zoom={14} height="350px" />
+          <p className="text-center mt-2 text-xs text-gray-400">GPS: {marina.lat.toFixed(4)}, {marina.lng.toFixed(4)} &middot; <a href={`https://www.google.com/maps?q=${marina.lat},${marina.lng}`} target="_blank" rel="noopener noreferrer" className="text-[#C4924B] hover:underline">Open in Google Maps</a></p>
         </div>
 
         {/* Amenities */}
