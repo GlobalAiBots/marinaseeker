@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: #1B3A5C;
+  --color-gold: #C4924B;
+  --color-cream: #FAF8F5;
+  --color-charcoal: #1A1A1A;
+}
