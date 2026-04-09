@@ -24,7 +24,7 @@ function Nav() {
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg font-[Cabin]">
-          <span className="text-2xl">&#9875;</span>
+          <span className="text-2xl">&#9973;</span>
           <span className="text-charcoal">Marina<span className="text-navy">Seeker</span></span>
         </Link>
         <div className="flex items-center gap-4 sm:gap-6 text-sm font-medium">
@@ -43,7 +43,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-sm text-white/50">
           <div>
-            <p className="font-bold text-white mb-2 font-[Cabin]">&#9875; MarinaSeeker</p>
+            <p className="font-bold text-white mb-2 font-[Cabin]">&#9973; MarinaSeeker</p>
             <p>The most complete marina directory in America.</p>
           </div>
           <div>
