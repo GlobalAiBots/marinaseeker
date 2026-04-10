@@ -48,6 +48,16 @@ export default function StatePage({ params }: { params: Promise<{ state: string 
 
   return (
     <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: `How many marinas are in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `There are ${stateMarinas.length} marinas in ${stateInfo.name}. MarinaSeeker has mapped every marina with GPS coordinates and amenity details.` } },
+          { "@type": "Question", name: `How much does a boat slip cost in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `Boat slip costs in ${stateInfo.name} vary by location, size, and season. Expect $200-$800/month for a standard slip. Contact individual marinas for current rates.` } },
+          { "@type": "Question", name: `Are there marinas with fuel in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `Yes, many marinas in ${stateInfo.name} offer fuel docks. Browse MarinaSeeker listings and filter for marinas with fuel availability.` } },
+          { "@type": "Question", name: `Can I live on my boat at a marina in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `Some marinas in ${stateInfo.name} allow liveaboards. Policies vary by marina — contact them directly about liveaboard regulations and fees.` } },
+          { "@type": "Question", name: `How do I find marinas near me in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `Use MarinaSeeker to browse all ${stateMarinas.length} marinas in ${stateInfo.name} by city. Each listing includes a map, contact info, and amenities.` } },
+        ],
+      }) }} />
       <section className="py-16 md:py-24 text-center px-4" style={{ background: "#FAF8F5", backgroundImage: "radial-gradient(circle at 20% 80%, rgba(27,58,92,0.06) 0%, transparent 50%)" }}>
         <p className="text-[#1B3A5C] text-sm font-bold tracking-wider uppercase mb-3 font-[Cabin]">{stateInfo.name} Marina Directory</p>
         <h1 className="font-[Cabin] text-4xl md:text-5xl font-bold text-[#1A1A1A] leading-tight max-w-3xl mx-auto">Marinas in {stateInfo.name}</h1>

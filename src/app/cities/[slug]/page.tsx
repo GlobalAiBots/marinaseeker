@@ -42,6 +42,14 @@ export default function CityPage({ params }: { params: Promise<{ slug: string }>
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: `How many marinas are in ${cityInfo.city}, ${cityInfo.stateName}?`, acceptedAnswer: { "@type": "Answer", text: `There are ${marinas.length} marinas in ${cityInfo.city}, ${cityInfo.stateName}. Browse them all on MarinaSeeker with maps and contact info.` } },
+          { "@type": "Question", name: `Where is the closest marina in ${cityInfo.city}?`, acceptedAnswer: { "@type": "Answer", text: `MarinaSeeker lists all ${marinas.length} marinas in ${cityInfo.city}, ${cityInfo.stateName} with exact GPS locations. Click any listing for directions.` } },
+          { "@type": "Question", name: `Are there marinas with transient slips in ${cityInfo.city}, ${cityInfo.stateName}?`, acceptedAnswer: { "@type": "Answer", text: `Many marinas in ${cityInfo.city} offer transient slips for visiting boaters. Contact individual marinas for availability and rates.` } },
+        ],
+      }) }} />
       <nav className="text-sm text-gray-400 mb-6 flex flex-wrap gap-2">
         <Link href="/" className="hover:text-[#1B3A5C] transition">Home</Link><span>/</span>
         <Link href={`/${cityInfo.stateSlug}`} className="hover:text-[#1B3A5C] transition">{cityInfo.stateName}</Link><span>/</span>
