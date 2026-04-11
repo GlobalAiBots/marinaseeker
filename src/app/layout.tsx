@@ -53,6 +53,7 @@ function Footer() {
               <Link href="/marinas" className="text-white/40 hover:text-white transition">Browse</Link>
               <Link href="/about" className="text-white/40 hover:text-white transition">About</Link>
               <Link href="/blog" className="text-white/40 hover:text-white transition">Blog</Link>
+              <Link href="/claim" className="text-[#C4924B] hover:text-white transition font-semibold">For Marina Owners</Link>
               <Link href="/privacy" className="text-white/40 hover:text-white transition">Privacy</Link>
               <Link href="/terms" className="text-white/40 hover:text-white transition">Terms</Link>
             </div>

@@ -4002,7 +4002,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-oak-hollow-marina-125",
+    "id": "marina--oak-hollow-marina-125",
     "slug": "oak-hollow-marina"
   },
   {
@@ -4032,7 +4032,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ga-lake-blackshear-marina-126",
+    "id": "marina--lake-blackshear-marina-126",
     "slug": "lake-blackshear-marina"
   },
   {
@@ -4060,7 +4060,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-kerr-scott-127",
+    "id": "marina--kerr-scott-127",
     "slug": "kerr-scott"
   },
   {
@@ -4088,7 +4088,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-eagle-cove-marina-128",
+    "id": "marina--eagle-cove-marina-128",
     "slug": "eagle-cove-marina"
   },
   {
@@ -4116,7 +4116,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-livingston-boat-dock-129",
+    "id": "marina--livingston-boat-dock-129",
     "slug": "livingston-boat-dock"
   },
   {
@@ -4144,7 +4144,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-star-point-marina-130",
+    "id": "marina--star-point-marina-130",
     "slug": "star-point-marina"
   },
   {
@@ -4172,7 +4172,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-sunset-marina-131",
+    "id": "marina--sunset-marina-131",
     "slug": "sunset-marina"
   },
   {
@@ -4200,7 +4200,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-willow-grove-dock-132",
+    "id": "marina--willow-grove-dock-132",
     "slug": "willow-grove-dock"
   },
   {
@@ -4228,7 +4228,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ky-wisdom-dock-133",
+    "id": "marina--wisdom-dock-133",
     "slug": "wisdom-dock"
   },
   {
@@ -4256,7 +4256,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ky-wolf-river-marina-134",
+    "id": "marina--wolf-river-marina-134",
     "slug": "wolf-river-marina"
   },
   {
@@ -4284,7 +4284,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-east-port-marina-135",
+    "id": "marina--east-port-marina-135",
     "slug": "east-port-marina"
   },
   {
@@ -4314,7 +4314,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-port-of-miami-cruise-terminals-136",
+    "id": "marina--port-of-miami-cruise-terminals-136",
     "slug": "port-of-miami-cruise-terminals"
   },
   {
@@ -4382,7 +4382,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-whale-harbor-marina-138",
+    "id": "marina--whale-harbor-marina-138",
     "slug": "whale-harbor-marina"
   },
   {
@@ -4413,7 +4413,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-coral-bay-marina-139",
+    "id": "marina--coral-bay-marina-139",
     "slug": "coral-bay-marina"
   },
   {
@@ -4446,7 +4446,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-robbie-s-140",
+    "id": "marina--robbie-s-140",
     "slug": "robbie-s"
   },
   {
@@ -4454,7 +4454,7 @@
     "lat": 24.8378436,
     "lng": -80.7988319,
     "state": "FL",
-    "city": "Layton",
+    "city": "Monroe County",
     "source": "osm",
     "source_id": "node_3058878550",
     "amenities": [],
@@ -4478,7 +4478,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-sea-bird-marina-141",
+    "id": "marina--sea-bird-marina-141",
     "slug": "sea-bird-marina"
   },
   {
@@ -4548,7 +4548,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-grassy-key-marina-143",
+    "id": "marina--grassy-key-marina-143",
     "slug": "grassy-key-marina"
   },
   {
@@ -4583,7 +4583,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-driftwood-marina-storage-144",
+    "id": "marina--driftwood-marina-storage-144",
     "slug": "driftwood-marina-storage"
   },
   {
@@ -4689,7 +4689,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-starfish-snorkel-147",
+    "id": "marina--starfish-snorkel-147",
     "slug": "starfish-snorkel"
   },
   {
@@ -4697,7 +4697,7 @@
     "lat": 24.5743233,
     "lng": -81.7355179,
     "state": "FL",
-    "city": "Key West",
+    "city": "Monroe County",
     "source": "osm",
     "source_id": "node_3060595241",
     "amenities": [],
@@ -4721,7 +4721,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-murray-marine-148",
+    "id": "marina--murray-marine-148",
     "slug": "murray-marine"
   },
   {
@@ -4752,7 +4752,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-hurricane-hole-marina-149",
+    "id": "marina--hurricane-hole-marina-149",
     "slug": "hurricane-hole-marina"
   },
   {
@@ -4784,7 +4784,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-spirit-snorkeling-150",
+    "id": "marina--spirit-snorkeling-150",
     "slug": "spirit-snorkeling"
   },
   {
@@ -4815,7 +4815,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-stock-island-yacht-club-marina-key-west-harbour-151",
+    "id": "marina--stock-island-yacht-club-marina-key-west-harbour-151",
     "slug": "stock-island-yacht-club-marina-key-west-harbour"
   },
   {
@@ -4845,7 +4845,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-henricus-dock-152",
+    "id": "marina--henricus-dock-152",
     "slug": "henricus-dock"
   },
   {
@@ -4875,7 +4875,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-cypress-point-dock-153",
+    "id": "marina--cypress-point-dock-153",
     "slug": "cypress-point-dock"
   },
   {
@@ -4905,7 +4905,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-horsetrail-dock-154",
+    "id": "marina--horsetrail-dock-154",
     "slug": "horsetrail-dock"
   },
   {
@@ -4935,7 +4935,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-peninsula-dock-155",
+    "id": "marina--peninsula-dock-155",
     "slug": "peninsula-dock"
   },
   {
@@ -4965,7 +4965,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-sycamore-dock-156",
+    "id": "marina--sycamore-dock-156",
     "slug": "sycamore-dock"
   },
   {
@@ -4995,15 +4995,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-brown-s-island-haxal-canal-dock-157",
+    "id": "marina--brown-s-island-haxal-canal-dock-157",
     "slug": "brown-s-island-haxal-canal-dock"
   },
   {
     "name": "Courthouse Bay Marina",
     "lat": 34.5828394,
     "lng": -77.3720734,
-    "state": "NC",
-    "city": "Onslow County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3152830235",
     "amenities": [],
@@ -5027,15 +5027,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-courthouse-bay-marina-158",
+    "id": "marina--courthouse-bay-marina-158",
     "slug": "courthouse-bay-marina"
   },
   {
     "name": "Constant's Wharf Marina",
     "lat": 36.7395314,
     "lng": -76.5811621,
-    "state": "VA",
-    "city": "Suffolk",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3158748451",
     "amenities": [],
@@ -5057,7 +5057,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-constant-s-wharf-marina-159",
+    "id": "marina--constant-s-wharf-marina-159",
     "slug": "constant-s-wharf-marina"
   },
   {
@@ -5099,8 +5099,8 @@
     "name": "Palmer's Marina",
     "lat": 37.0146485,
     "lng": -79.6301292,
-    "state": "VA",
-    "city": "Franklin County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3188760788",
     "amenities": [],
@@ -5122,15 +5122,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-palmer-s-marina-161",
+    "id": "marina--palmer-s-marina-161",
     "slug": "palmer-s-marina"
   },
   {
     "name": "Air Boat",
     "lat": 26.1769345,
     "lng": -80.447986,
-    "state": "FL",
-    "city": "Broward County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3191104417",
     "amenities": [],
@@ -5152,15 +5152,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-air-boat-162",
+    "id": "marina--air-boat-162",
     "slug": "air-boat"
   },
   {
     "name": "Delaware City Marina",
     "lat": 39.5726304,
     "lng": -75.5905209,
-    "state": "DE",
-    "city": "Delaware City",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3235113269",
     "amenities": [],
@@ -5181,15 +5181,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-de-delaware-city-marina-163",
+    "id": "marina--delaware-city-marina-163",
     "slug": "delaware-city-marina"
   },
   {
     "name": "Teach's Lair Marina",
     "lat": 35.2104017,
     "lng": -75.6990516,
-    "state": "NC",
-    "city": "Dare County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3246744094",
     "amenities": [],
@@ -5211,15 +5211,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-teach-s-lair-marina-164",
+    "id": "marina--teach-s-lair-marina-164",
     "slug": "teach-s-lair-marina"
   },
   {
     "name": "Hatteras Harbor Marina",
     "lat": 35.2183631,
     "lng": -75.6956255,
-    "state": "NC",
-    "city": "Dare County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3246744097",
     "amenities": [],
@@ -5242,15 +5242,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-hatteras-harbor-marina-165",
+    "id": "marina--hatteras-harbor-marina-165",
     "slug": "hatteras-harbor-marina"
   },
   {
     "name": "Hollywood City Marina",
     "lat": 26.0146717,
     "lng": -80.1187227,
-    "state": "FL",
-    "city": "Broward County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3292400817",
     "amenities": [],
@@ -5272,15 +5272,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-hollywood-city-marina-166",
+    "id": "marina--hollywood-city-marina-166",
     "slug": "hollywood-city-marina"
   },
   {
     "name": "Joe's Landing",
     "lat": 29.6853076,
     "lng": -90.1017488,
-    "state": "LA",
-    "city": "Jefferson Parish",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3293919621",
     "amenities": [],
@@ -5302,15 +5302,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-la-joe-s-landing-167",
+    "id": "marina--joe-s-landing-167",
     "slug": "joe-s-landing"
   },
   {
     "name": "Eddy Creek Marina",
     "lat": 37.0077363,
     "lng": -88.0170522,
-    "state": "KY",
-    "city": "Lyon County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3294554029",
     "amenities": [],
@@ -5330,7 +5330,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ky-eddy-creek-marina-168",
+    "id": "marina--eddy-creek-marina-168",
     "slug": "eddy-creek-marina"
   },
   {
@@ -5486,8 +5486,8 @@
     "name": "Fire4 Marina",
     "lat": 39.1971622,
     "lng": -84.7969171,
-    "state": "OH",
-    "city": "Hamilton County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3448979691",
     "amenities": [],
@@ -5507,15 +5507,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-oh-fire4-marina-173",
+    "id": "marina--fire4-marina-173",
     "slug": "fire4-marina"
   },
   {
     "name": "Stingray Point Marina",
     "lat": 37.5618725,
     "lng": -76.3081333,
-    "state": "VA",
-    "city": "Middlesex County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3472044596",
     "amenities": [
@@ -5543,15 +5543,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-stingray-point-marina-174",
+    "id": "marina--stingray-point-marina-174",
     "slug": "stingray-point-marina"
   },
   {
     "name": "Heritage Lake Marina",
     "lat": 39.7222114,
     "lng": -86.7246202,
-    "state": "IN",
-    "city": "Putnam County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3580667798",
     "amenities": [],
@@ -5573,15 +5573,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-in-heritage-lake-marina-175",
+    "id": "marina--heritage-lake-marina-175",
     "slug": "heritage-lake-marina"
   },
   {
     "name": "Tybee Island Marina",
     "lat": 32.0133157,
     "lng": -80.8829667,
-    "state": "GA",
-    "city": "Chatham County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3698957800",
     "amenities": [],
@@ -5604,15 +5604,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ga-tybee-island-marina-176",
+    "id": "marina--tybee-island-marina-176",
     "slug": "tybee-island-marina"
   },
   {
     "name": "South Shore Marina",
     "lat": 38.6043967,
     "lng": -75.0768151,
-    "state": "DE",
-    "city": "Sussex County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3700976914",
     "amenities": [],
@@ -5632,15 +5632,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-de-south-shore-marina-177",
+    "id": "marina--south-shore-marina-177",
     "slug": "south-shore-marina"
   },
   {
     "name": "Lake Shelbyville Storage",
     "lat": 39.4441274,
     "lng": -88.7942014,
-    "state": "IL",
-    "city": "Shelby County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3735429025",
     "amenities": [],
@@ -5660,7 +5660,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-il-lake-shelbyville-storage-178",
+    "id": "marina--lake-shelbyville-storage-178",
     "slug": "lake-shelbyville-storage"
   },
   {
@@ -5771,7 +5771,7 @@
     "name": "Bee Run Marina",
     "lat": 38.6570556,
     "lng": -80.6826856,
-    "state": "WV",
+    "state": "",
     "city": "Sutton",
     "source": "osm",
     "source_id": "node_4103943130",
@@ -5797,7 +5797,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-wv-bee-run-marina-182",
+    "id": "marina--bee-run-marina-182",
     "slug": "bee-run-marina"
   },
   {
@@ -5836,8 +5836,8 @@
     "name": "Fins Marina",
     "lat": 27.8266735,
     "lng": -80.4726677,
-    "state": "FL",
-    "city": "Sebastian",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4116434639",
     "amenities": [],
@@ -5857,7 +5857,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-fins-marina-184",
+    "id": "marina--fins-marina-184",
     "slug": "fins-marina"
   },
   {
@@ -5899,8 +5899,8 @@
     "name": "B an B Marina",
     "lat": 35.3267025,
     "lng": -84.8291436,
-    "state": "TN",
-    "city": "Bradley County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4169842171",
     "amenities": [],
@@ -5920,15 +5920,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-b-an-b-marina-186",
+    "id": "marina--b-an-b-marina-186",
     "slug": "b-an-b-marina"
   },
   {
     "name": "Lighthouse Point Marina",
     "lat": 27.8118553,
     "lng": -82.7598111,
-    "state": "FL",
-    "city": "Pinellas County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4184366922",
     "amenities": [],
@@ -5950,15 +5950,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-lighthouse-point-marina-187",
+    "id": "marina--lighthouse-point-marina-187",
     "slug": "lighthouse-point-marina"
   },
   {
     "name": "SpaceX Barge Dock",
     "lat": 28.4170103,
     "lng": -80.6239972,
-    "state": "FL",
-    "city": "Brevard County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4202762203",
     "amenities": [],
@@ -5980,15 +5980,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-spacex-barge-dock-188",
+    "id": "marina--spacex-barge-dock-188",
     "slug": "spacex-barge-dock"
   },
   {
     "name": "Kowaliga Marina",
     "lat": 32.7393545,
     "lng": -85.9706391,
-    "state": "AL",
-    "city": "Elmore County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4270567843",
     "amenities": [],
@@ -6009,7 +6009,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-al-kowaliga-marina-189",
+    "id": "marina--kowaliga-marina-189",
     "slug": "kowaliga-marina"
   },
   {
@@ -6049,7 +6049,7 @@
     "name": "Burnsville Docks",
     "lat": 38.8423258,
     "lng": -80.6176323,
-    "state": "WV",
+    "state": "",
     "city": "Burnsville",
     "source": "osm",
     "source_id": "node_4358208177",
@@ -6073,15 +6073,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-wv-burnsville-docks-191",
+    "id": "marina--burnsville-docks-191",
     "slug": "burnsville-docks"
   },
   {
     "name": "Grande Dunes Marina",
     "lat": 33.7635764,
     "lng": -78.817664,
-    "state": "SC",
-    "city": "Myrtle Beach",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4409794190",
     "amenities": [],
@@ -6103,7 +6103,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-sc-grande-dunes-marina-192",
+    "id": "marina--grande-dunes-marina-192",
     "slug": "grande-dunes-marina"
   },
   {
@@ -6149,8 +6149,8 @@
     "name": "Benton Boat Ramp & Marina",
     "lat": 32.3123856,
     "lng": -86.8192643,
-    "state": "AL",
-    "city": "Benton",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4567931059",
     "amenities": [
@@ -6179,15 +6179,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-al-benton-boat-ramp-marina-194",
+    "id": "marina--benton-boat-ramp-marina-194",
     "slug": "benton-boat-ramp-marina"
   },
   {
     "name": "Watson Island Marina",
     "lat": 25.7837217,
     "lng": -80.1723293,
-    "state": "FL",
-    "city": "Miami",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4595645711",
     "amenities": [],
@@ -6209,15 +6209,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-watson-island-marina-195",
+    "id": "marina--watson-island-marina-195",
     "slug": "watson-island-marina"
   },
   {
     "name": "Crown Harbor Owner's Boat Slips",
     "lat": 35.4971398,
     "lng": -80.8710816,
-    "state": "NC",
-    "city": "Mecklenburg County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4630654019",
     "amenities": [],
@@ -6237,7 +6237,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-crown-harbor-owner-s-boat-slips-196",
+    "id": "marina--crown-harbor-owner-s-boat-slips-196",
     "slug": "crown-harbor-owner-s-boat-slips"
   },
   {
@@ -6276,8 +6276,8 @@
     "name": "Lighthouse Point Marina",
     "lat": 26.2664883,
     "lng": -80.0837168,
-    "state": "FL",
-    "city": "Broward County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4632155295",
     "amenities": [],
@@ -6300,15 +6300,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-lighthouse-point-marina-198",
+    "id": "marina--lighthouse-point-marina-198",
     "slug": "lighthouse-point-marina"
   },
   {
     "name": "Boat House Weddings",
     "lat": 34.7090929,
     "lng": -76.6314416,
-    "state": "NC",
-    "city": "Carteret County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4635737060",
     "amenities": [],
@@ -6330,15 +6330,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-boat-house-weddings-199",
+    "id": "marina--boat-house-weddings-199",
     "slug": "boat-house-weddings"
   },
   {
     "name": "Limehouse Boat Landing",
     "lat": 32.7851969,
     "lng": -80.1067537,
-    "state": "SC",
-    "city": "Charleston",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4675010726",
     "amenities": [],
@@ -6360,15 +6360,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-sc-limehouse-boat-landing-200",
+    "id": "marina--limehouse-boat-landing-200",
     "slug": "limehouse-boat-landing"
   },
   {
     "name": "Gallatin Marina",
     "lat": 36.3477092,
     "lng": -86.4764061,
-    "state": "TN",
-    "city": "Gallatin",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4726211687",
     "amenities": [],
@@ -6388,15 +6388,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-gallatin-marina-201",
+    "id": "marina--gallatin-marina-201",
     "slug": "gallatin-marina"
   },
   {
     "name": "Cassen Park Marina",
     "lat": 29.285295,
     "lng": -81.054519,
-    "state": "FL",
-    "city": "Ormond Beach",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4733394326",
     "amenities": [],
@@ -6418,15 +6418,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-cassen-park-marina-202",
+    "id": "marina--cassen-park-marina-202",
     "slug": "cassen-park-marina"
   },
   {
     "name": "Battery Park Marina",
     "lat": 29.7230508,
     "lng": -84.9823741,
-    "state": "FL",
-    "city": "Apalachicola",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4744964936",
     "amenities": [],
@@ -6451,7 +6451,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-battery-park-marina-203",
+    "id": "marina--battery-park-marina-203",
     "slug": "battery-park-marina"
   },
   {
@@ -6486,8 +6486,8 @@
     "name": "Ocean Springs Small Craft Harbor",
     "lat": 30.4034062,
     "lng": -88.8232666,
-    "state": "MS",
-    "city": "Ocean Springs",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4823980571",
     "amenities": [],
@@ -6507,15 +6507,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ms-ocean-springs-small-craft-harbor-205",
+    "id": "marina--ocean-springs-small-craft-harbor-205",
     "slug": "ocean-springs-small-craft-harbor"
   },
   {
     "name": "Ocean Springs Inner Harbor",
     "lat": 30.4055416,
     "lng": -88.8197768,
-    "state": "MS",
-    "city": "Ocean Springs",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4823980572",
     "amenities": [],
@@ -6535,15 +6535,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ms-ocean-springs-inner-harbor-206",
+    "id": "marina--ocean-springs-inner-harbor-206",
     "slug": "ocean-springs-inner-harbor"
   },
   {
     "name": "Burnside Marina",
     "lat": 36.9867109,
     "lng": -84.6047891,
-    "state": "KY",
-    "city": "Burnside",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4835283723",
     "amenities": [],
@@ -6563,7 +6563,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ky-burnside-marina-207",
+    "id": "marina--burnside-marina-207",
     "slug": "burnside-marina"
   },
   {
@@ -6605,8 +6605,8 @@
     "name": "Lake Mattoon Marina",
     "lat": 39.3571947,
     "lng": -88.4705072,
-    "state": "IL",
-    "city": "Cumberland County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4993677826",
     "amenities": [],
@@ -6626,7 +6626,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-il-lake-mattoon-marina-209",
+    "id": "marina--lake-mattoon-marina-209",
     "slug": "lake-mattoon-marina"
   },
   {
@@ -6670,8 +6670,8 @@
     "name": "Cudjoe Gardens Marina And Dive Center",
     "lat": 24.6580266,
     "lng": -81.5056317,
-    "state": "FL",
-    "city": "Monroe County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5104474553",
     "amenities": [],
@@ -6692,15 +6692,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-cudjoe-gardens-marina-and-dive-center-211",
+    "id": "marina--cudjoe-gardens-marina-and-dive-center-211",
     "slug": "cudjoe-gardens-marina-and-dive-center"
   },
   {
     "name": "Boat Launch",
     "lat": 35.7913988,
     "lng": -78.353575,
-    "state": "NC",
-    "city": "Wendell",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5257913545",
     "amenities": [],
@@ -6720,15 +6720,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-boat-launch-212",
+    "id": "marina--boat-launch-212",
     "slug": "boat-launch"
   },
   {
     "name": "Boat Launch",
     "lat": 35.7501956,
     "lng": -78.8187995,
-    "state": "NC",
-    "city": "Apex",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5257955423",
     "amenities": [],
@@ -6750,15 +6750,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-boat-launch-213",
+    "id": "marina--boat-launch-213",
     "slug": "boat-launch"
   },
   {
     "name": "Apex lake boat launch",
     "lat": 35.7516793,
     "lng": -78.8230286,
-    "state": "NC",
-    "city": "Apex",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5257955429",
     "amenities": [],
@@ -6780,15 +6780,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-apex-lake-boat-launch-214",
+    "id": "marina--apex-lake-boat-launch-214",
     "slug": "apex-lake-boat-launch"
   },
   {
     "name": "Castaways Marina",
     "lat": 26.9459544,
     "lng": -80.0811267,
-    "state": "FL",
-    "city": "Palm Beach County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5331963964",
     "amenities": [],
@@ -6810,7 +6810,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-castaways-marina-215",
+    "id": "marina--castaways-marina-215",
     "slug": "castaways-marina"
   },
   {
@@ -6850,8 +6850,8 @@
     "name": "Aspinwall Marina",
     "lat": 40.4877357,
     "lng": -79.9031871,
-    "state": "PA",
-    "city": "Aspinwall",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5473150480",
     "amenities": [],
@@ -6873,15 +6873,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-pa-aspinwall-marina-217",
+    "id": "marina--aspinwall-marina-217",
     "slug": "aspinwall-marina"
   },
   {
     "name": "Walker's Hideaway Marina of Marco Island",
     "lat": 25.9568533,
     "lng": -81.7217535,
-    "state": "FL",
-    "city": "Marco Island",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5482408657",
     "amenities": [],
@@ -6904,15 +6904,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-walker-s-hideaway-marina-of-marco-island-218",
+    "id": "marina--walker-s-hideaway-marina-of-marco-island-218",
     "slug": "walker-s-hideaway-marina-of-marco-island"
   },
   {
     "name": "Eagle Creek Marina",
     "lat": 38.7201777,
     "lng": -83.8296846,
-    "state": "OH",
-    "city": "Ripley",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5521979044",
     "amenities": [],
@@ -6932,15 +6932,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-oh-eagle-creek-marina-219",
+    "id": "marina--eagle-creek-marina-219",
     "slug": "eagle-creek-marina"
   },
   {
     "name": "Lively Lady",
     "lat": 38.6561913,
     "lng": -83.7672996,
-    "state": "OH",
-    "city": "Aberdeen",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5522429719",
     "amenities": [],
@@ -6960,15 +6960,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-oh-lively-lady-220",
+    "id": "marina--lively-lady-220",
     "slug": "lively-lady"
   },
   {
     "name": "Grand Valley Lake Marina",
     "lat": 35.1505272,
     "lng": -89.0143574,
-    "state": "TN",
-    "city": "Hardeman County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5525887417",
     "amenities": [],
@@ -6989,7 +6989,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-grand-valley-lake-marina-221",
+    "id": "marina--grand-valley-lake-marina-221",
     "slug": "grand-valley-lake-marina"
   },
   {
@@ -7035,8 +7035,8 @@
     "name": "Marlin Quay",
     "lat": 33.5519318,
     "lng": -79.0196958,
-    "state": "SC",
-    "city": "Georgetown County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5738965787",
     "amenities": [],
@@ -7058,7 +7058,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-sc-marlin-quay-223",
+    "id": "marina--marlin-quay-223",
     "slug": "marlin-quay"
   },
   {
@@ -7102,8 +7102,8 @@
     "name": "Pirates Cove",
     "lat": 38.8431296,
     "lng": -76.5385723,
-    "state": "MD",
-    "city": "Anne Arundel County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5884938617",
     "amenities": [],
@@ -7127,15 +7127,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-md-pirates-cove-225",
+    "id": "marina--pirates-cove-225",
     "slug": "pirates-cove"
   },
   {
     "name": "Bayfront Marina (Turtle Beach Marina)",
     "lat": 27.2201456,
     "lng": -82.5143547,
-    "state": "FL",
-    "city": "Sarasota County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_5930370144",
     "amenities": [],
@@ -7157,15 +7157,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-bayfront-marina-turtle-beach-marina-226",
+    "id": "marina--bayfront-marina-turtle-beach-marina-226",
     "slug": "bayfront-marina-turtle-beach-marina"
   },
   {
     "name": "Lock Wall One Marina",
     "lat": 40.4545931,
     "lng": -79.9852341,
-    "state": "PA",
-    "city": "Pittsburgh",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6058673199",
     "amenities": [],
@@ -7187,7 +7187,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-pa-lock-wall-one-marina-227",
+    "id": "marina--lock-wall-one-marina-227",
     "slug": "lock-wall-one-marina"
   },
   {
@@ -7233,8 +7233,8 @@
     "name": "Jordan Marina",
     "lat": 37.2646975,
     "lng": -76.4892518,
-    "state": "VA",
-    "city": "Gloucester County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6097113695",
     "amenities": [],
@@ -7256,15 +7256,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-jordan-marina-229",
+    "id": "marina--jordan-marina-229",
     "slug": "jordan-marina"
   },
   {
     "name": "Hampton River Marina",
     "lat": 31.2954292,
     "lng": -81.3434069,
-    "state": "GA",
-    "city": "Glynn County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6195428258",
     "amenities": [],
@@ -7286,7 +7286,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ga-hampton-river-marina-230",
+    "id": "marina--hampton-river-marina-230",
     "slug": "hampton-river-marina"
   },
   {
@@ -7331,8 +7331,8 @@
     "name": "Lake Raystown Resort",
     "lat": 40.2952631,
     "lng": -78.1821647,
-    "state": "PA",
-    "city": "Lincoln Township",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6302516109",
     "amenities": [],
@@ -7352,15 +7352,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-pa-lake-raystown-resort-232",
+    "id": "marina--lake-raystown-resort-232",
     "slug": "lake-raystown-resort"
   },
   {
     "name": "Causeway Marina",
     "lat": 36.3004712,
     "lng": -76.2051452,
-    "state": "NC",
-    "city": "Camden County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6311332758",
     "amenities": [],
@@ -7382,15 +7382,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-causeway-marina-233",
+    "id": "marina--causeway-marina-233",
     "slug": "causeway-marina"
   },
   {
     "name": "RiverCrest Marina",
     "lat": 38.73916,
     "lng": -85.4003424,
-    "state": "IN",
-    "city": "Madison",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6336145076",
     "amenities": [],
@@ -7410,7 +7410,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-in-rivercrest-marina-234",
+    "id": "marina--rivercrest-marina-234",
     "slug": "rivercrest-marina"
   },
   {
@@ -7533,8 +7533,8 @@
     "name": "Harbor Light Marina",
     "lat": 34.4824974,
     "lng": -83.0336806,
-    "state": "GA",
-    "city": "Hart County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6593510582",
     "amenities": [],
@@ -7554,15 +7554,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ga-harbor-light-marina-238",
+    "id": "marina--harbor-light-marina-238",
     "slug": "harbor-light-marina"
   },
   {
     "name": "Sugartree Fork Marina",
     "lat": 40.1219281,
     "lng": -81.5234484,
-    "state": "OH",
-    "city": "Guernsey County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6594173385",
     "amenities": [],
@@ -7582,15 +7582,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-oh-sugartree-fork-marina-239",
+    "id": "marina--sugartree-fork-marina-239",
     "slug": "sugartree-fork-marina"
   },
   {
     "name": "Halifax Harbor Marina",
     "lat": 29.2041299,
     "lng": -81.0125605,
-    "state": "FL",
-    "city": "Daytona Beach",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6685567336",
     "amenities": [],
@@ -7612,7 +7612,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-halifax-harbor-marina-240",
+    "id": "marina--halifax-harbor-marina-240",
     "slug": "halifax-harbor-marina"
   },
   {
@@ -7654,8 +7654,8 @@
     "name": "Water Ways Marina",
     "lat": 38.3784355,
     "lng": -75.0697969,
-    "state": "MD",
-    "city": "Ocean City",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_6970897284",
     "amenities": [],
@@ -7677,15 +7677,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-md-water-ways-marina-242",
+    "id": "marina--water-ways-marina-242",
     "slug": "water-ways-marina"
   },
   {
     "name": "Cape Crossing Marina",
     "lat": 28.4072204,
     "lng": -80.7072541,
-    "state": "FL",
-    "city": "Brevard County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7029227637",
     "amenities": [],
@@ -7706,15 +7706,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-cape-crossing-marina-243",
+    "id": "marina--cape-crossing-marina-243",
     "slug": "cape-crossing-marina"
   },
   {
     "name": "Tarpon Point Marina",
     "lat": 26.5391764,
     "lng": -81.9998993,
-    "state": "FL",
-    "city": "Cape Coral",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7107428774",
     "amenities": [
@@ -7743,15 +7743,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-tarpon-point-marina-244",
+    "id": "marina--tarpon-point-marina-244",
     "slug": "tarpon-point-marina"
   },
   {
     "name": "Park Shore Marina",
     "lat": 26.197937,
     "lng": -81.8123155,
-    "state": "FL",
-    "city": "Naples",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7120744951",
     "amenities": [],
@@ -7773,15 +7773,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-park-shore-marina-245",
+    "id": "marina--park-shore-marina-245",
     "slug": "park-shore-marina"
   },
   {
     "name": "Little Harbor Marina",
     "lat": 27.7252832,
     "lng": -82.4698544,
-    "state": "FL",
-    "city": "Hillsborough County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7157067330",
     "amenities": [],
@@ -7801,15 +7801,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-little-harbor-marina-246",
+    "id": "marina--little-harbor-marina-246",
     "slug": "little-harbor-marina"
   },
   {
     "name": "Colonial Harbor Marina",
     "lat": 37.4011586,
     "lng": -76.913678,
-    "state": "VA",
-    "city": "New Kent County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7367005617",
     "amenities": [
@@ -7840,14 +7840,14 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-colonial-harbor-marina-247",
+    "id": "marina--colonial-harbor-marina-247",
     "slug": "colonial-harbor-marina"
   },
   {
     "name": "Straight Creek Boat Dock",
     "lat": 36.3718027,
     "lng": -83.6763382,
-    "state": "TN",
+    "state": "",
     "city": "New Tazewell",
     "source": "osm",
     "source_id": "node_7394095620",
@@ -7873,15 +7873,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-straight-creek-boat-dock-248",
+    "id": "marina--straight-creek-boat-dock-248",
     "slug": "straight-creek-boat-dock"
   },
   {
     "name": "River’s Rest Marina",
     "lat": 37.3628496,
     "lng": -76.9129001,
-    "state": "VA",
-    "city": "Charles City County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7567785218",
     "amenities": [],
@@ -7903,15 +7903,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-river-s-rest-marina-249",
+    "id": "marina--river-s-rest-marina-249",
     "slug": "river-s-rest-marina"
   },
   {
     "name": "Limestone Bay Yacht Club",
     "lat": 38.3231445,
     "lng": -85.6444197,
-    "state": "KY",
-    "city": "Louisville",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7573379485",
     "amenities": [],
@@ -7931,15 +7931,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ky-limestone-bay-yacht-club-250",
+    "id": "marina--limestone-bay-yacht-club-250",
     "slug": "limestone-bay-yacht-club"
   },
   {
     "name": "The Ridges Marina",
     "lat": 34.9692908,
     "lng": -83.8158306,
-    "state": "GA",
-    "city": "Towns County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7589548231",
     "amenities": [],
@@ -7959,15 +7959,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ga-the-ridges-marina-251",
+    "id": "marina--the-ridges-marina-251",
     "slug": "the-ridges-marina"
   },
   {
     "name": "Cotten's Marina & Restaurant",
     "lat": 35.8029126,
     "lng": -85.6087375,
-    "state": "TN",
-    "city": "Warren County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7615714386",
     "amenities": [
@@ -7997,15 +7997,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-cotten-s-marina-restaurant-252",
+    "id": "marina--cotten-s-marina-restaurant-252",
     "slug": "cotten-s-marina-restaurant"
   },
   {
     "name": "Fontana Lake Marina",
     "lat": 35.4416941,
     "lng": -83.7919161,
-    "state": "NC",
-    "city": "Graham County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7641195250",
     "amenities": [],
@@ -8025,15 +8025,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-fontana-lake-marina-253",
+    "id": "marina--fontana-lake-marina-253",
     "slug": "fontana-lake-marina"
   },
   {
     "name": "Bay Rock Marina",
     "lat": 37.2192459,
     "lng": -79.7971237,
-    "state": "VA",
-    "city": "Franklin County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782445",
     "amenities": [],
@@ -8055,15 +8055,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-bay-rock-marina-254",
+    "id": "marina--bay-rock-marina-254",
     "slug": "bay-rock-marina"
   },
   {
     "name": "Mooman's Marina",
     "lat": 37.2221828,
     "lng": -79.7748721,
-    "state": "VA",
-    "city": "Bedford County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782446",
     "amenities": [],
@@ -8083,15 +8083,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-mooman-s-marina-255",
+    "id": "marina--mooman-s-marina-255",
     "slug": "mooman-s-marina"
   },
   {
     "name": "Halesford Harbor Marina",
     "lat": 37.159034,
     "lng": -79.6630454,
-    "state": "VA",
-    "city": "Bedford County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782447",
     "amenities": [],
@@ -8113,15 +8113,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-halesford-harbor-marina-256",
+    "id": "marina--halesford-harbor-marina-256",
     "slug": "halesford-harbor-marina"
   },
   {
     "name": "Captain's Quarters",
     "lat": 37.1448474,
     "lng": -79.668721,
-    "state": "VA",
-    "city": "Franklin County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782448",
     "amenities": [],
@@ -8143,7 +8143,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-captain-s-quarters-257",
+    "id": "marina--captain-s-quarters-257",
     "slug": "captain-s-quarters"
   },
   {
@@ -8185,8 +8185,8 @@
     "name": "Waterwheel Marina",
     "lat": 37.1462328,
     "lng": -79.6599126,
-    "state": "VA",
-    "city": "Bedford County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782450",
     "amenities": [],
@@ -8208,7 +8208,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-waterwheel-marina-259",
+    "id": "marina--waterwheel-marina-259",
     "slug": "waterwheel-marina"
   },
   {
@@ -8248,8 +8248,8 @@
     "name": "Bayside Marina & Yacht Club",
     "lat": 37.1069693,
     "lng": -79.677363,
-    "state": "VA",
-    "city": "Franklin County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782453",
     "amenities": [],
@@ -8271,7 +8271,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-bayside-marina-yacht-club-261",
+    "id": "marina--bayside-marina-yacht-club-261",
     "slug": "bayside-marina-yacht-club"
   },
   {
@@ -8313,8 +8313,8 @@
     "name": "Pelican Point Yacht Club",
     "lat": 37.0457238,
     "lng": -79.640547,
-    "state": "VA",
-    "city": "Franklin County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782457",
     "amenities": [],
@@ -8336,15 +8336,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-pelican-point-yacht-club-263",
+    "id": "marina--pelican-point-yacht-club-263",
     "slug": "pelican-point-yacht-club"
   },
   {
     "name": "Lakeside Marina",
     "lat": 37.0155773,
     "lng": -79.6004972,
-    "state": "VA",
-    "city": "Pittsylvania County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782458",
     "amenities": [],
@@ -8366,15 +8366,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-lakeside-marina-264",
+    "id": "marina--lakeside-marina-264",
     "slug": "lakeside-marina"
   },
   {
     "name": "Lumpkins Marina",
     "lat": 37.016376,
     "lng": -79.5912102,
-    "state": "VA",
-    "city": "Pittsylvania County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782459",
     "amenities": [],
@@ -8396,15 +8396,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-lumpkins-marina-265",
+    "id": "marina--lumpkins-marina-265",
     "slug": "lumpkins-marina"
   },
   {
     "name": "The Dock @ SML",
     "lat": 37.0231617,
     "lng": -79.5866291,
-    "state": "VA",
-    "city": "Pittsylvania County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782460",
     "amenities": [],
@@ -8426,7 +8426,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-the-dock-sml-266",
+    "id": "marina--the-dock-sml-266",
     "slug": "the-dock-sml"
   },
   {
@@ -8466,8 +8466,8 @@
     "name": "Lake Haven Marina",
     "lat": 37.0636875,
     "lng": -79.5772684,
-    "state": "VA",
-    "city": "Bedford County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7737782462",
     "amenities": [],
@@ -8487,7 +8487,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-lake-haven-marina-268",
+    "id": "marina--lake-haven-marina-268",
     "slug": "lake-haven-marina"
   },
   {
@@ -8527,8 +8527,8 @@
     "name": "Wateree Marina",
     "lat": 34.4319879,
     "lng": -80.7694484,
-    "state": "SC",
-    "city": "Kershaw County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_7773219780",
     "amenities": [],
@@ -8550,14 +8550,14 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-sc-wateree-marina-270",
+    "id": "marina--wateree-marina-270",
     "slug": "wateree-marina"
   },
   {
     "name": "Southshore Marina",
     "lat": 34.0191384,
     "lng": -81.4350017,
-    "state": "SC",
+    "state": "",
     "city": "Leesville",
     "source": "osm",
     "source_id": "node_7791583257",
@@ -8588,15 +8588,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-sc-southshore-marina-271",
+    "id": "marina--southshore-marina-271",
     "slug": "southshore-marina"
   },
   {
     "name": "Ingrams Bay Marina",
     "lat": 37.8031572,
     "lng": -76.3099013,
-    "state": "VA",
-    "city": "Northumberland County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8169277368",
     "amenities": [],
@@ -8618,7 +8618,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-ingrams-bay-marina-272",
+    "id": "marina--ingrams-bay-marina-272",
     "slug": "ingrams-bay-marina"
   },
   {
@@ -8658,8 +8658,8 @@
     "name": "Washington Street Marina",
     "lat": 39.419373,
     "lng": -81.4621692,
-    "state": "OH",
-    "city": "Marietta",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8713434869",
     "amenities": [],
@@ -8682,7 +8682,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-oh-washington-street-marina-274",
+    "id": "marina--washington-street-marina-274",
     "slug": "washington-street-marina"
   },
   {
@@ -8722,8 +8722,8 @@
     "name": "Kayak Launch",
     "lat": 36.7401567,
     "lng": -76.5798248,
-    "state": "VA",
-    "city": "Suffolk",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8774121361",
     "amenities": [],
@@ -8745,15 +8745,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-kayak-launch-276",
+    "id": "marina--kayak-launch-276",
     "slug": "kayak-launch"
   },
   {
     "name": "Lakeview Marina",
     "lat": 35.2112251,
     "lng": -86.2464789,
-    "state": "TN",
-    "city": "Franklin County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8890694254",
     "amenities": [],
@@ -8775,15 +8775,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-lakeview-marina-277",
+    "id": "marina--lakeview-marina-277",
     "slug": "lakeview-marina"
   },
   {
     "name": "Village Marina",
     "lat": 35.2188241,
     "lng": -75.6952948,
-    "state": "NC",
-    "city": "Dare County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8911512375",
     "amenities": [],
@@ -8805,15 +8805,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-village-marina-278",
+    "id": "marina--village-marina-278",
     "slug": "village-marina"
   },
   {
     "name": "Bahia Mar Resort and Yachting Center",
     "lat": 26.111744,
     "lng": -80.1076002,
-    "state": "FL",
-    "city": "Fort Lauderdale",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8913511624",
     "amenities": [],
@@ -8836,15 +8836,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-bahia-mar-resort-and-yachting-center-279",
+    "id": "marina--bahia-mar-resort-and-yachting-center-279",
     "slug": "bahia-mar-resort-and-yachting-center"
   },
   {
     "name": "Port Royale Marina",
     "lat": 26.2106316,
     "lng": -80.1003932,
-    "state": "FL",
-    "city": "Fort Lauderdale",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8914015433",
     "amenities": [],
@@ -8866,7 +8866,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-port-royale-marina-280",
+    "id": "marina--port-royale-marina-280",
     "slug": "port-royale-marina"
   },
   {
@@ -8910,8 +8910,8 @@
     "name": "Hawks Cay Resort Marina",
     "lat": 24.7779182,
     "lng": -80.9131337,
-    "state": "FL",
-    "city": "Monroe County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8922857152",
     "amenities": [],
@@ -8935,7 +8935,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-hawks-cay-resort-marina-282",
+    "id": "marina--hawks-cay-resort-marina-282",
     "slug": "hawks-cay-resort-marina"
   },
   {
@@ -8980,8 +8980,8 @@
     "name": "Mangrove Marina",
     "lat": 25.0108477,
     "lng": -80.5198429,
-    "state": "FL",
-    "city": "Monroe County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8926769938",
     "amenities": [],
@@ -9005,7 +9005,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-mangrove-marina-284",
+    "id": "marina--mangrove-marina-284",
     "slug": "mangrove-marina"
   },
   {
@@ -9049,8 +9049,8 @@
     "name": "Banana Bay Resort & Marina",
     "lat": 24.7169478,
     "lng": -81.0845031,
-    "state": "FL",
-    "city": "Monroe County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8928599380",
     "amenities": [],
@@ -9073,7 +9073,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-banana-bay-resort-marina-286",
+    "id": "marina--banana-bay-resort-marina-286",
     "slug": "banana-bay-resort-marina"
   },
   {
@@ -9117,8 +9117,8 @@
     "name": "Blackfin Resort and Marina",
     "lat": 24.7169137,
     "lng": -81.0829727,
-    "state": "FL",
-    "city": "Monroe County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8928642214",
     "amenities": [],
@@ -9142,15 +9142,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-blackfin-resort-and-marina-288",
+    "id": "marina--blackfin-resort-and-marina-288",
     "slug": "blackfin-resort-and-marina"
   },
   {
     "name": "Caloosa Cove Resort & Marina",
     "lat": 24.8491927,
     "lng": -80.7377951,
-    "state": "FL",
-    "city": "Monroe County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8928678682",
     "amenities": [],
@@ -9175,15 +9175,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-caloosa-cove-resort-marina-289",
+    "id": "marina--caloosa-cove-resort-marina-289",
     "slug": "caloosa-cove-resort-marina"
   },
   {
     "name": "Riviera Beach Marina",
     "lat": 26.7735863,
     "lng": -80.0510589,
-    "state": "FL",
-    "city": "Palm Beach County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8931436356",
     "amenities": [],
@@ -9206,15 +9206,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-riviera-beach-marina-290",
+    "id": "marina--riviera-beach-marina-290",
     "slug": "riviera-beach-marina"
   },
   {
     "name": "Safe Harbor Old Port Cove",
     "lat": 26.8311997,
     "lng": -80.0548107,
-    "state": "FL",
-    "city": "Palm Beach County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8932662874",
     "amenities": [],
@@ -9237,15 +9237,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-safe-harbor-old-port-cove-291",
+    "id": "marina--safe-harbor-old-port-cove-291",
     "slug": "safe-harbor-old-port-cove"
   },
   {
     "name": "Safe Harbor North Palm Beach",
     "lat": 26.8286031,
     "lng": -80.0589148,
-    "state": "FL",
-    "city": "Palm Beach County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8932662879",
     "amenities": [],
@@ -9267,15 +9267,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-safe-harbor-north-palm-beach-292",
+    "id": "marina--safe-harbor-north-palm-beach-292",
     "slug": "safe-harbor-north-palm-beach"
   },
   {
     "name": "Seminole Marine",
     "lat": 26.8460311,
     "lng": -80.0695576,
-    "state": "FL",
-    "city": "Palm Beach County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8932662880",
     "amenities": [],
@@ -9298,15 +9298,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-seminole-marine-293",
+    "id": "marina--seminole-marine-293",
     "slug": "seminole-marine"
   },
   {
     "name": "Palm Beach Marina",
     "lat": 26.7038173,
     "lng": -80.0456735,
-    "state": "FL",
-    "city": "Palm Beach",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8933096447",
     "amenities": [],
@@ -9329,15 +9329,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-palm-beach-marina-294",
+    "id": "marina--palm-beach-marina-294",
     "slug": "palm-beach-marina"
   },
   {
     "name": "Free Marina Day Slips",
     "lat": 28.8152803,
     "lng": -81.2677706,
-    "state": "FL",
-    "city": "Seminole County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_8934027328",
     "amenities": [],
@@ -9361,7 +9361,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-free-marina-day-slips-295",
+    "id": "marina--free-marina-day-slips-295",
     "slug": "free-marina-day-slips"
   },
   {
@@ -14053,8 +14053,8 @@
     "name": "Atlantis Marina",
     "lat": 39.2237929,
     "lng": -76.460629,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83230084",
     "amenities": [],
@@ -14083,8 +14083,8 @@
     "name": "Meehan's Marina",
     "lat": 39.2297352,
     "lng": -76.4599745,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83230095",
     "amenities": [],
@@ -14113,8 +14113,8 @@
     "name": "North Point Yacht Club",
     "lat": 39.2261262,
     "lng": -76.4630081,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83230098",
     "amenities": [],
@@ -14143,8 +14143,8 @@
     "name": "Pleasant Yacht Club",
     "lat": 39.2278654,
     "lng": -76.4628472,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83230099",
     "amenities": [],
@@ -14173,8 +14173,8 @@
     "name": "Young's Boat Yard",
     "lat": 39.2265937,
     "lng": -76.4604091,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83230105",
     "amenities": [],
@@ -14204,8 +14204,8 @@
     "name": "Holly Neck Marina",
     "lat": 39.283878,
     "lng": -76.3977938,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83270828",
     "amenities": [],
@@ -14234,8 +14234,8 @@
     "name": "Baltimore Yacht Club",
     "lat": 39.2883661,
     "lng": -76.3972098,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83270860",
     "amenities": [],
@@ -14264,8 +14264,8 @@
     "name": "Baltimore Boating Center",
     "lat": 39.2937467,
     "lng": -76.4109158,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83270862",
     "amenities": [],
@@ -14294,8 +14294,8 @@
     "name": "Sue Haven Yacht Club",
     "lat": 39.2928195,
     "lng": -76.4090591,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83270865",
     "amenities": [],
@@ -14324,8 +14324,8 @@
     "name": "Sunset Harbor Marina",
     "lat": 39.3019647,
     "lng": -76.430971,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83278830",
     "amenities": [],
@@ -14354,8 +14354,8 @@
     "name": "Crescent Yacht Club",
     "lat": 39.3036739,
     "lng": -76.4181249,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83278846",
     "amenities": [],
@@ -14384,8 +14384,8 @@
     "name": "Stouton's Marina",
     "lat": 39.2588925,
     "lng": -76.4721158,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83279619",
     "amenities": [],
@@ -14414,8 +14414,8 @@
     "name": "North Point Cove Marina",
     "lat": 39.2593103,
     "lng": -76.4524805,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83546067",
     "amenities": [],
@@ -14444,8 +14444,8 @@
     "name": "Key Yacht Club",
     "lat": 39.2785923,
     "lng": -76.4583341,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83546748",
     "amenities": [],
@@ -14474,8 +14474,8 @@
     "name": "Key West Bight Marina",
     "lat": 24.5619147,
     "lng": -81.8016413,
-    "state": "",
-    "city": "",
+    "state": "FL",
+    "city": "Key West",
     "source": "osm",
     "source_id": "way_83579780",
     "amenities": [],
@@ -14542,8 +14542,8 @@
     "name": "Harbor East Marina",
     "lat": 39.2810616,
     "lng": -76.6016677,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Baltimore",
     "source": "osm",
     "source_id": "way_83580895",
     "amenities": [],
@@ -14572,8 +14572,8 @@
     "name": "Harborview Marina",
     "lat": 39.2766557,
     "lng": -76.6028486,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Baltimore",
     "source": "osm",
     "source_id": "way_83580936",
     "amenities": [],
@@ -14602,8 +14602,8 @@
     "name": "Anchor Bay East Marina",
     "lat": 39.2506165,
     "lng": -76.4891626,
-    "state": "",
-    "city": "",
+    "state": "MD",
+    "city": "Dundalk",
     "source": "osm",
     "source_id": "way_83585939",
     "amenities": [],
@@ -20167,8 +20167,8 @@
     "name": "Inlet Harbor Marina",
     "lat": 29.0916495,
     "lng": -80.9387579,
-    "state": "FL",
-    "city": "Ponce Inlet",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_399299551",
     "amenities": [],
@@ -20190,15 +20190,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-inlet-harbor-marina-629",
+    "id": "marina--inlet-harbor-marina-629",
     "slug": "inlet-harbor-marina"
   },
   {
     "name": "Sea Love Marina",
     "lat": 29.0823409,
     "lng": -80.9351178,
-    "state": "FL",
-    "city": "Ponce Inlet",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_399302391",
     "amenities": [],
@@ -20220,15 +20220,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-sea-love-marina-630",
+    "id": "marina--sea-love-marina-630",
     "slug": "sea-love-marina"
   },
   {
     "name": "Lighthouse Boatyard",
     "lat": 29.0791517,
     "lng": -80.9272674,
-    "state": "FL",
-    "city": "Ponce Inlet",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_399304728",
     "amenities": [],
@@ -20250,7 +20250,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-lighthouse-boatyard-631",
+    "id": "marina--lighthouse-boatyard-631",
     "slug": "lighthouse-boatyard"
   },
   {
@@ -20322,8 +20322,8 @@
     "name": "Southport Marina",
     "lat": 33.9184559,
     "lng": -78.0283376,
-    "state": "NC",
-    "city": "Southport",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_413046516",
     "amenities": [],
@@ -20345,7 +20345,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-southport-marina-634",
+    "id": "marina--southport-marina-634",
     "slug": "southport-marina"
   },
   {
@@ -20395,8 +20395,8 @@
     "name": "Cutter Boardwalk Marina",
     "lat": 39.3247528,
     "lng": -76.4421525,
-    "state": "MD",
-    "city": "Dundalk",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_416485244",
     "amenities": [],
@@ -20420,15 +20420,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-md-cutter-boardwalk-marina-636",
+    "id": "marina--cutter-boardwalk-marina-636",
     "slug": "cutter-boardwalk-marina"
   },
   {
     "name": "Lake Ridge Marina",
     "lat": 38.6970411,
     "lng": -77.3182828,
-    "state": "VA",
-    "city": "Prince William County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_419921981",
     "amenities": [],
@@ -20452,15 +20452,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-lake-ridge-marina-637",
+    "id": "marina--lake-ridge-marina-637",
     "slug": "lake-ridge-marina"
   },
   {
     "name": "Palm Harbor Marina",
     "lat": 26.7164365,
     "lng": -80.0501796,
-    "state": "FL",
-    "city": "West Palm Beach",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_420019318",
     "amenities": [],
@@ -20484,15 +20484,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-palm-harbor-marina-638",
+    "id": "marina--palm-harbor-marina-638",
     "slug": "palm-harbor-marina"
   },
   {
     "name": "Bull Run Marina",
     "lat": 38.7422796,
     "lng": -77.3876092,
-    "state": "VA",
-    "city": "Fairfax County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_425109167",
     "amenities": [],
@@ -20514,15 +20514,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-va-bull-run-marina-639",
+    "id": "marina--bull-run-marina-639",
     "slug": "bull-run-marina"
   },
   {
     "name": "Palmetto Bay Marina",
     "lat": 32.1781585,
     "lng": -80.7719689,
-    "state": "SC",
-    "city": "Hilton Head Island",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_426014217",
     "amenities": [],
@@ -20544,15 +20544,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-sc-palmetto-bay-marina-640",
+    "id": "marina--palmetto-bay-marina-640",
     "slug": "palmetto-bay-marina"
   },
   {
     "name": "Strawberry Landing",
     "lat": 38.5007735,
     "lng": -75.0716113,
-    "state": "DE",
-    "city": "Sussex County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_427723746",
     "amenities": [],
@@ -20576,15 +20576,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-de-strawberry-landing-641",
+    "id": "marina--strawberry-landing-641",
     "slug": "strawberry-landing"
   },
   {
     "name": "Tidal Basin Paddle Boats",
     "lat": 38.8846141,
     "lng": -77.0347412,
-    "state": "District of Columbia",
-    "city": "Washington",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_431104544",
     "amenities": [],
@@ -20606,15 +20606,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-district-of-columbia-tidal-basin-paddle-boats-642",
+    "id": "marina--tidal-basin-paddle-boats-642",
     "slug": "tidal-basin-paddle-boats"
   },
   {
     "name": "Norris Dam Marina",
     "lat": 36.2256294,
     "lng": -84.0952747,
-    "state": "TN",
-    "city": "Campbell County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_431472029",
     "amenities": [],
@@ -20636,7 +20636,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tn-norris-dam-marina-643",
+    "id": "marina--norris-dam-marina-643",
     "slug": "norris-dam-marina"
   },
   {
@@ -20797,8 +20797,8 @@
     "name": "Delray Harbor Club Marina",
     "lat": 26.4457248,
     "lng": -80.0660381,
-    "state": "FL",
-    "city": "Delray Beach",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_436265225",
     "amenities": [],
@@ -20821,15 +20821,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-delray-harbor-club-marina-648",
+    "id": "marina--delray-harbor-club-marina-648",
     "slug": "delray-harbor-club-marina"
   },
   {
     "name": "The Moorings",
     "lat": 30.2864745,
     "lng": -81.426215,
-    "state": "FL",
-    "city": "Jacksonville",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_436926340",
     "amenities": [],
@@ -20851,15 +20851,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-the-moorings-649",
+    "id": "marina--the-moorings-649",
     "slug": "the-moorings"
   },
   {
     "name": "Whitehall Marina",
     "lat": 39.0164579,
     "lng": -76.4314473,
-    "state": "MD",
-    "city": "Anne Arundel County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_437337070",
     "amenities": [],
@@ -20883,15 +20883,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-md-whitehall-marina-650",
+    "id": "marina--whitehall-marina-650",
     "slug": "whitehall-marina"
   },
   {
     "name": "Podickory Point Yacht & Beach Club",
     "lat": 39.0327538,
     "lng": -76.4053689,
-    "state": "MD",
-    "city": "Anne Arundel County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_437337071",
     "amenities": [],
@@ -20913,15 +20913,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-md-podickory-point-yacht-beach-club-651",
+    "id": "marina--podickory-point-yacht-beach-club-651",
     "slug": "podickory-point-yacht-beach-club"
   },
   {
     "name": "Middle Branch Marina",
     "lat": 39.2572515,
     "lng": -76.6253828,
-    "state": "MD",
-    "city": "Baltimore",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_440347864",
     "amenities": [],
@@ -20943,7 +20943,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-md-middle-branch-marina-652",
+    "id": "marina--middle-branch-marina-652",
     "slug": "middle-branch-marina"
   },
   {
@@ -20991,8 +20991,8 @@
     "name": "Crosswinds Boating Center",
     "lat": 35.7428101,
     "lng": -79.0079325,
-    "state": "NC",
-    "city": "Chatham County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_446383460",
     "amenities": [],
@@ -21013,15 +21013,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-nc-crosswinds-boating-center-654",
+    "id": "marina--crosswinds-boating-center-654",
     "slug": "crosswinds-boating-center"
   },
   {
     "name": "Harbortown Marina",
     "lat": 30.3208842,
     "lng": -81.4408994,
-    "state": "FL",
-    "city": "Jacksonville",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_453729755",
     "amenities": [],
@@ -21043,15 +21043,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-harbortown-marina-655",
+    "id": "marina--harbortown-marina-655",
     "slug": "harbortown-marina"
   },
   {
     "name": "Palafox Pier",
     "lat": 30.4040374,
     "lng": -87.2142425,
-    "state": "FL",
-    "city": "Pensacola",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_458181099",
     "amenities": [],
@@ -21073,15 +21073,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-fl-palafox-pier-656",
+    "id": "marina--palafox-pier-656",
     "slug": "palafox-pier"
   },
   {
     "name": "Lucy's Branch Marina",
     "lat": 34.7782418,
     "lng": -87.2211661,
-    "state": "AL",
-    "city": "Limestone County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_458521713",
     "amenities": [
@@ -21106,7 +21106,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-al-lucy-s-branch-marina-657",
+    "id": "marina--lucy-s-branch-marina-657",
     "slug": "lucy-s-branch-marina"
   },
   {
@@ -53852,8 +53852,8 @@
     "name": "Ahgosatown Landing Marina and RV Park",
     "lat": 45.0769135,
     "lng": -85.5868603,
-    "state": "",
-    "city": "Omena",
+    "state": "MI",
+    "city": "",
     "source": "osm",
     "source_id": "way_418427794",
     "amenities": [],
@@ -53924,8 +53924,8 @@
     "name": "Minnesota Marina (Treasure Island Casino)",
     "lat": 44.6375951,
     "lng": -92.6421534,
-    "state": "",
-    "city": "",
+    "state": "MN",
+    "city": "Red Wing",
     "source": "osm",
     "source_id": "way_431779384",
     "amenities": [],
@@ -53953,8 +53953,8 @@
     "name": "Lorain Harbor Boat Club",
     "lat": 41.4712462,
     "lng": -82.1789764,
-    "state": "",
-    "city": "",
+    "state": "OH",
+    "city": "Lorain",
     "source": "osm",
     "source_id": "way_435057312",
     "amenities": [],
@@ -54022,8 +54022,8 @@
     "name": "West Branch Marina",
     "lat": 41.1414431,
     "lng": -81.0931294,
-    "state": "",
-    "city": "",
+    "state": "OH",
+    "city": "Portage County",
     "source": "osm",
     "source_id": "way_456889411",
     "amenities": [
@@ -54093,8 +54093,8 @@
     "name": "Pleasant Point",
     "lat": 41.5395554,
     "lng": -82.7150903,
-    "state": "",
-    "city": "",
+    "state": "OH",
+    "city": "Marblehead",
     "source": "osm",
     "source_id": "way_464387169",
     "amenities": [],
@@ -54124,8 +54124,8 @@
     "name": "Toledo Yacht Club",
     "lat": 41.6934361,
     "lng": -83.4753137,
-    "state": "",
-    "city": "",
+    "state": "OH",
+    "city": "Toledo",
     "source": "osm",
     "source_id": "way_465962295",
     "amenities": [],
@@ -54156,8 +54156,8 @@
     "name": "SkipperBud's Marina",
     "lat": 44.8236536,
     "lng": -87.372609,
-    "state": "",
-    "city": "",
+    "state": "WI",
+    "city": "Sturgeon Bay",
     "source": "osm",
     "source_id": "way_466735438",
     "amenities": [],
@@ -54187,8 +54187,8 @@
     "name": "Harbor Club Marina",
     "lat": 44.8321909,
     "lng": -87.3827403,
-    "state": "",
-    "city": "",
+    "state": "WI",
+    "city": "Sturgeon Bay",
     "source": "osm",
     "source_id": "way_466742406",
     "amenities": [],
@@ -54219,8 +54219,8 @@
     "name": "Kewaunee Marina",
     "lat": 44.4634061,
     "lng": -87.5025563,
-    "state": "",
-    "city": "",
+    "state": "WI",
+    "city": "Kewaunee",
     "source": "osm",
     "source_id": "way_471992041",
     "amenities": [],
@@ -54250,8 +54250,8 @@
     "name": "Yacht Works Kewaunee",
     "lat": 44.465572,
     "lng": -87.4990076,
-    "state": "",
-    "city": "",
+    "state": "WI",
+    "city": "Kewaunee",
     "source": "osm",
     "source_id": "way_471992396",
     "amenities": [],
@@ -68590,8 +68590,8 @@
     "name": "Gull Lake Marina",
     "lat": 37.7771176,
     "lng": -119.0800112,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Mono County",
     "source": "osm",
     "source_id": "node_3031189155",
     "amenities": [],
@@ -68620,8 +68620,8 @@
     "name": "Big Rock Resort Marina",
     "lat": 37.7833929,
     "lng": -119.0755047,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Mono County",
     "source": "osm",
     "source_id": "node_3031189162",
     "amenities": [],
@@ -68650,8 +68650,8 @@
     "name": "June Lake Marina",
     "lat": 37.7825394,
     "lng": -119.0766672,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Mono County",
     "source": "osm",
     "source_id": "node_3031189163",
     "amenities": [],
@@ -68680,8 +68680,8 @@
     "name": "Kokopelli Kayak Rentals",
     "lat": 38.1059855,
     "lng": -121.5711785,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Sacramento County",
     "source": "osm",
     "source_id": "node_3076228993",
     "amenities": [
@@ -68716,8 +68716,8 @@
     "name": "Korths Pirates Lair",
     "lat": 38.0974222,
     "lng": -121.5678599,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Sacramento County",
     "source": "osm",
     "source_id": "node_3076228994",
     "amenities": [],
@@ -68745,8 +68745,8 @@
     "name": "Emeryville Marina",
     "lat": 37.8402241,
     "lng": -122.3109628,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Emeryville",
     "source": "osm",
     "source_id": "node_3396258623",
     "amenities": [
@@ -68782,8 +68782,8 @@
     "name": "Saguaro Lake Marina",
     "lat": 33.5722927,
     "lng": -111.537378,
-    "state": "",
-    "city": "",
+    "state": "AZ",
+    "city": "Maricopa County",
     "source": "osm",
     "source_id": "node_3442097379",
     "amenities": [],
@@ -68812,8 +68812,8 @@
     "name": "Canyon Lake Marina",
     "lat": 33.5352698,
     "lng": -111.424321,
-    "state": "",
-    "city": "",
+    "state": "AZ",
+    "city": "Maricopa County",
     "source": "osm",
     "source_id": "node_3443072066",
     "amenities": [],
@@ -68842,8 +68842,8 @@
     "name": "Apache Lake Marina",
     "lat": 33.5797784,
     "lng": -111.2511557,
-    "state": "",
-    "city": "",
+    "state": "AZ",
+    "city": "Maricopa County",
     "source": "osm",
     "source_id": "node_3443093654",
     "amenities": [],
@@ -68870,8 +68870,8 @@
     "name": "Pittsburg Marina",
     "lat": 38.0355335,
     "lng": -121.8834441,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Pittsburg",
     "source": "osm",
     "source_id": "node_3448795950",
     "amenities": [
@@ -68904,8 +68904,8 @@
     "name": "Sugar Barge Resort",
     "lat": 38.0266624,
     "lng": -121.6123724,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Contra Costa County",
     "source": "osm",
     "source_id": "node_3455094956",
     "amenities": [
@@ -68936,8 +68936,8 @@
     "name": "Ballena Isle Marina",
     "lat": 37.7666189,
     "lng": -122.285825,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Alameda",
     "source": "osm",
     "source_id": "node_3462777776",
     "amenities": [
@@ -68973,8 +68973,8 @@
     "name": "Walnut Grove Marina",
     "lat": 38.2294854,
     "lng": -121.511126,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Sacramento County",
     "source": "osm",
     "source_id": "node_3472845471",
     "amenities": [
@@ -69007,8 +69007,8 @@
     "name": "Harbor Island West Marina",
     "lat": 32.7256612,
     "lng": -117.205625,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "San Diego",
     "source": "osm",
     "source_id": "node_3533840194",
     "amenities": [
@@ -69041,8 +69041,8 @@
     "name": "Lake Fork",
     "lat": 38.4556606,
     "lng": -107.3220558,
-    "state": "",
-    "city": "",
+    "state": "CO",
+    "city": "Gunnison County",
     "source": "osm",
     "source_id": "node_3733694600",
     "amenities": [],
@@ -69069,8 +69069,8 @@
     "name": "Elk Creek Marina",
     "lat": 38.4621117,
     "lng": -107.1646991,
-    "state": "",
-    "city": "",
+    "state": "CO",
+    "city": "Gunnison County",
     "source": "osm",
     "source_id": "node_3735083385",
     "amenities": [],
@@ -69097,8 +69097,8 @@
     "name": "British Marina",
     "lat": 37.7823655,
     "lng": -122.2432302,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Oakland",
     "source": "osm",
     "source_id": "node_4154456544",
     "amenities": [],
@@ -69127,8 +69127,8 @@
     "name": "Highland Marina",
     "lat": 40.1739284,
     "lng": -105.899918,
-    "state": "",
-    "city": "",
+    "state": "CO",
+    "city": "Grand County",
     "source": "osm",
     "source_id": "node_4205185889",
     "amenities": [],
@@ -69189,8 +69189,8 @@
     "name": "Embarcadero Cove",
     "lat": 37.783149,
     "lng": -122.2439253,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Oakland",
     "source": "osm",
     "source_id": "node_4684903172",
     "amenities": [],
@@ -69219,8 +69219,8 @@
     "name": "Nelson’s Marine Boat Yard and Nelson Yachts",
     "lat": 37.7756348,
     "lng": -122.299705,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Alameda",
     "source": "osm",
     "source_id": "node_4812440187",
     "amenities": [],
@@ -69249,8 +69249,8 @@
     "name": "Jack Smith Marina",
     "lat": 34.8363906,
     "lng": -114.5891406,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Needles",
     "source": "osm",
     "source_id": "node_4815495780",
     "amenities": [],
@@ -69277,8 +69277,8 @@
     "name": "Cachuma Marina & Boat Rentals",
     "lat": 34.5786012,
     "lng": -119.956899,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Santa Barbara County",
     "source": "osm",
     "source_id": "node_5003990334",
     "amenities": [
@@ -69312,8 +69312,8 @@
     "name": "Portobello Marina",
     "lat": 37.789814,
     "lng": -122.268901,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Oakland",
     "source": "osm",
     "source_id": "node_5587001259",
     "amenities": [],
@@ -69373,8 +69373,8 @@
     "name": "Convict Lake Resort Marina - Boat Rental",
     "lat": 37.5946956,
     "lng": -118.852137,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Mono County",
     "source": "osm",
     "source_id": "node_6241100065",
     "amenities": [
@@ -69405,8 +69405,8 @@
     "name": "Russo's Marina",
     "lat": 38.0336175,
     "lng": -121.6216117,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Contra Costa County",
     "source": "osm",
     "source_id": "node_6319955776",
     "amenities": [],
@@ -69435,8 +69435,8 @@
     "name": "Miller's Marina",
     "lat": 37.2983631,
     "lng": -119.5365672,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Madera County",
     "source": "osm",
     "source_id": "node_6874093579",
     "amenities": [],
@@ -69465,8 +69465,8 @@
     "name": "Brandy Creek Marina",
     "lat": 40.6211849,
     "lng": -122.5728539,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Shasta County",
     "source": "osm",
     "source_id": "node_7928676210",
     "amenities": [],
@@ -69494,8 +69494,8 @@
     "name": "Oak Bottom Marina",
     "lat": 40.6498028,
     "lng": -122.5867944,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Shasta County",
     "source": "osm",
     "source_id": "node_7928699014",
     "amenities": [],
@@ -69522,8 +69522,8 @@
     "name": "Marina Cortez",
     "lat": 32.7271776,
     "lng": -117.2074119,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "San Diego",
     "source": "osm",
     "source_id": "node_8340961100",
     "amenities": [],
@@ -69552,8 +69552,8 @@
     "name": "Point San Pablo Yacht Club",
     "lat": 37.9243515,
     "lng": -122.3763678,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Richmond",
     "source": "osm",
     "source_id": "node_9001860650",
     "amenities": [],
@@ -69580,8 +69580,8 @@
     "name": "Ridgeway Marina",
     "lat": 38.2240659,
     "lng": -107.7344238,
-    "state": "",
-    "city": "",
+    "state": "CO",
+    "city": "Ouray County",
     "source": "osm",
     "source_id": "node_9025712590",
     "amenities": [
@@ -69618,8 +69618,8 @@
     "name": "Gallatin Marina",
     "lat": 40.5576253,
     "lng": -120.7818279,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Lassen County",
     "source": "osm",
     "source_id": "node_9688495827",
     "amenities": [],
@@ -69686,8 +69686,8 @@
     "name": "Berth 202",
     "lat": 33.7686118,
     "lng": -118.2507322,
-    "state": "",
-    "city": "Wilmington",
+    "state": "CA",
+    "city": "Los Angeles",
     "source": "osm",
     "source_id": "node_10233739974",
     "amenities": [],
@@ -69722,8 +69722,8 @@
     "name": "Lido Isle Yacht Club",
     "lat": 33.6098826,
     "lng": -117.914959,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Newport Beach",
     "source": "osm",
     "source_id": "node_11914390437",
     "amenities": [],
@@ -69752,8 +69752,8 @@
     "name": "Grant Lake Marina",
     "lat": 37.8329785,
     "lng": -119.1212713,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Mono County",
     "source": "osm",
     "source_id": "node_11994795901",
     "amenities": [],
@@ -69783,8 +69783,8 @@
     "name": "Galilee Harbor",
     "lat": 37.8628383,
     "lng": -122.4886924,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Sausalito",
     "source": "osm",
     "source_id": "node_12116738714",
     "amenities": [],
@@ -69814,8 +69814,8 @@
     "name": "Sausalito Cruising Club",
     "lat": 37.8619276,
     "lng": -122.4879006,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Sausalito",
     "source": "osm",
     "source_id": "node_12116738734",
     "amenities": [],
@@ -69845,8 +69845,8 @@
     "name": "Cass Gidley Marina",
     "lat": 37.8624796,
     "lng": -122.4879297,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Sausalito",
     "source": "osm",
     "source_id": "node_12116738739",
     "amenities": [],
@@ -69877,8 +69877,8 @@
     "name": "Sausalito Marine",
     "lat": 37.8611965,
     "lng": -122.4852713,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Sausalito",
     "source": "osm",
     "source_id": "node_12116738740",
     "amenities": [],
@@ -69908,8 +69908,8 @@
     "name": "Pelican Harbour",
     "lat": 37.8607352,
     "lng": -122.4829893,
-    "state": "",
-    "city": "",
+    "state": "CA",
+    "city": "Sausalito",
     "source": "osm",
     "source_id": "node_12116738741",
     "amenities": [],
@@ -70813,8 +70813,8 @@
     "name": "Los Vaqueros Marina",
     "lat": 37.8068151,
     "lng": -121.7444024,
-    "state": "CA",
-    "city": "Contra Costa County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_95121923",
     "amenities": [],
@@ -70836,15 +70836,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-los-vaqueros-marina-2164",
+    "id": "marina--los-vaqueros-marina-2164",
     "slug": "los-vaqueros-marina"
   },
   {
     "name": "El Nautica Boat Club",
     "lat": 40.3039203,
     "lng": -111.8812291,
-    "state": "UT",
-    "city": "Saratoga Springs",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_97020566",
     "amenities": [],
@@ -70870,15 +70870,15 @@
       "basic",
       "private"
     ],
-    "id": "marina-ut-el-nautica-boat-club-2165",
+    "id": "marina--el-nautica-boat-club-2165",
     "slug": "el-nautica-boat-club"
   },
   {
     "name": "Lake Mountain Marina",
     "lat": 40.290401,
     "lng": -111.8701128,
-    "state": "UT",
-    "city": "Utah County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_97020568",
     "amenities": [],
@@ -70900,15 +70900,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ut-lake-mountain-marina-2166",
+    "id": "marina--lake-mountain-marina-2166",
     "slug": "lake-mountain-marina"
   },
   {
     "name": "Antelope Point Marina",
     "lat": 36.9651561,
     "lng": -111.4281992,
-    "state": "AZ",
-    "city": "Coconino County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_109032038",
     "amenities": [],
@@ -70928,15 +70928,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-az-antelope-point-marina-2167",
+    "id": "marina--antelope-point-marina-2167",
     "slug": "antelope-point-marina"
   },
   {
     "name": "Treasure Island Sailing Center",
     "lat": 37.8187775,
     "lng": -122.3652319,
-    "state": "CA",
-    "city": "San Francisco",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_110183752",
     "amenities": [],
@@ -70961,7 +70961,7 @@
       "basic",
       "private"
     ],
-    "id": "marina-ca-treasure-island-sailing-center-2168",
+    "id": "marina--treasure-island-sailing-center-2168",
     "slug": "treasure-island-sailing-center"
   },
   {
@@ -71009,8 +71009,8 @@
     "name": "Blue Heron Lake Boathouse & Bike Rental",
     "lat": 37.7706086,
     "lng": -122.4771155,
-    "state": "CA",
-    "city": "San Francisco",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_120479803",
     "amenities": [
@@ -71039,15 +71039,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-blue-heron-lake-boathouse-bike-rental-2170",
+    "id": "marina--blue-heron-lake-boathouse-bike-rental-2170",
     "slug": "blue-heron-lake-boathouse-bike-rental"
   },
   {
     "name": "Bear Lake State Park Marina",
     "lat": 41.9650236,
     "lng": -111.3969511,
-    "state": "UT",
-    "city": "Rich County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_121411760",
     "amenities": [
@@ -71076,15 +71076,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ut-bear-lake-state-park-marina-2171",
+    "id": "marina--bear-lake-state-park-marina-2171",
     "slug": "bear-lake-state-park-marina"
   },
   {
     "name": "Oxbow Marina",
     "lat": 38.1493624,
     "lng": -121.5900349,
-    "state": "CA",
-    "city": "Sacramento County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_147935922",
     "amenities": [
@@ -71112,15 +71112,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-oxbow-marina-2172",
+    "id": "marina--oxbow-marina-2172",
     "slug": "oxbow-marina"
   },
   {
     "name": "Lucerne Valley Marina",
     "lat": 40.9843914,
     "lng": -109.587132,
-    "state": "UT",
-    "city": "Daggett County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_158177650",
     "amenities": [],
@@ -71143,15 +71143,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ut-lucerne-valley-marina-2173",
+    "id": "marina--lucerne-valley-marina-2173",
     "slug": "lucerne-valley-marina"
   },
   {
     "name": "Houseboat Marina",
     "lat": 37.7046734,
     "lng": -120.4120106,
-    "state": "CA",
-    "city": "Tuolumne County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_170524545",
     "amenities": [],
@@ -71173,15 +71173,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-houseboat-marina-2174",
+    "id": "marina--houseboat-marina-2174",
     "slug": "houseboat-marina"
   },
   {
     "name": "Pinecrest Lake Marina",
     "lat": 38.1936202,
     "lng": -119.9915654,
-    "state": "CA",
-    "city": "Tuolumne County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_179231180",
     "amenities": [],
@@ -71204,15 +71204,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-pinecrest-lake-marina-2175",
+    "id": "marina--pinecrest-lake-marina-2175",
     "slug": "pinecrest-lake-marina"
   },
   {
     "name": "Wahweap Boat Rental",
     "lat": 37.0077865,
     "lng": -111.5013654,
-    "state": "UT",
-    "city": "Kane County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_190262361",
     "amenities": [
@@ -71235,15 +71235,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ut-wahweap-boat-rental-2176",
+    "id": "marina--wahweap-boat-rental-2176",
     "slug": "wahweap-boat-rental"
   },
   {
     "name": "Wahweap Marina",
     "lat": 36.9903743,
     "lng": -111.4820821,
-    "state": "AZ",
-    "city": "Coconino County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_190270198",
     "amenities": [],
@@ -71264,7 +71264,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-az-wahweap-marina-2177",
+    "id": "marina--wahweap-marina-2177",
     "slug": "wahweap-marina"
   },
   {
@@ -71299,8 +71299,8 @@
     "name": "Cherry Creek Reservoir Marina",
     "lat": 39.6407467,
     "lng": -104.8695015,
-    "state": "CO",
-    "city": "Arapahoe County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_217912812",
     "amenities": [],
@@ -71323,15 +71323,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-co-cherry-creek-reservoir-marina-2179",
+    "id": "marina--cherry-creek-reservoir-marina-2179",
     "slug": "cherry-creek-reservoir-marina"
   },
   {
     "name": "Lake Havasu Marina",
     "lat": 34.4610462,
     "lng": -114.3509297,
-    "state": "AZ",
-    "city": "Mohave County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_227901073",
     "amenities": [],
@@ -71354,7 +71354,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-az-lake-havasu-marina-2180",
+    "id": "marina--lake-havasu-marina-2180",
     "slug": "lake-havasu-marina"
   },
   {
@@ -71420,8 +71420,8 @@
     "name": "Oakland Marinas - Oakland Alameda Estuary",
     "lat": 37.7933893,
     "lng": -122.2764126,
-    "state": "CA",
-    "city": "Oakland",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_256941204",
     "amenities": [],
@@ -71444,15 +71444,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-oakland-marinas-oakland-alameda-estuary-2183",
+    "id": "marina--oakland-marinas-oakland-alameda-estuary-2183",
     "slug": "oakland-marinas-oakland-alameda-estuary"
   },
   {
     "name": "Oakland Marinas - Central Basin",
     "lat": 37.7822199,
     "lng": -122.244142,
-    "state": "CA",
-    "city": "Oakland",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_256942006",
     "amenities": [],
@@ -71475,15 +71475,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-oakland-marinas-central-basin-2184",
+    "id": "marina--oakland-marinas-central-basin-2184",
     "slug": "oakland-marinas-central-basin"
   },
   {
     "name": "Oakland Marinas - North Embarcadero Cove",
     "lat": 37.7870812,
     "lng": -122.2517935,
-    "state": "CA",
-    "city": "Oakland",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_256942007",
     "amenities": [],
@@ -71506,15 +71506,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-oakland-marinas-north-embarcadero-cove-2185",
+    "id": "marina--oakland-marinas-north-embarcadero-cove-2185",
     "slug": "oakland-marinas-north-embarcadero-cove"
   },
   {
     "name": "Oakland Marinas - Union Point Basin",
     "lat": 37.7772376,
     "lng": -122.2428418,
-    "state": "CA",
-    "city": "Oakland",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_256942008",
     "amenities": [],
@@ -71537,15 +71537,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-oakland-marinas-union-point-basin-2186",
+    "id": "marina--oakland-marinas-union-point-basin-2186",
     "slug": "oakland-marinas-union-point-basin"
   },
   {
     "name": "SRP Tempe Town Lake Marina",
     "lat": 33.4342017,
     "lng": -111.9327805,
-    "state": "AZ",
-    "city": "Tempe",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_288006971",
     "amenities": [],
@@ -71574,14 +71574,14 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-az-srp-tempe-town-lake-marina-2187",
+    "id": "marina--srp-tempe-town-lake-marina-2187",
     "slug": "srp-tempe-town-lake-marina"
   },
   {
     "name": "Obexer's Boat Company",
     "lat": 39.0818788,
     "lng": -120.1576331,
-    "state": "CA",
+    "state": "",
     "city": "Homewood",
     "source": "osm",
     "source_id": "way_339895548",
@@ -71617,14 +71617,14 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-obexer-s-boat-company-2188",
+    "id": "marina--obexer-s-boat-company-2188",
     "slug": "obexer-s-boat-company"
   },
   {
     "name": "Carter Lake Marina",
     "lat": 40.3533081,
     "lng": -105.2140263,
-    "state": "CO",
+    "state": "",
     "city": "Loveland",
     "source": "osm",
     "source_id": "way_359412830",
@@ -71654,7 +71654,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-co-carter-lake-marina-2189",
+    "id": "marina--carter-lake-marina-2189",
     "slug": "carter-lake-marina"
   },
   {
@@ -71785,8 +71785,8 @@
     "name": "5th Avenue Marina",
     "lat": 37.7883164,
     "lng": -122.2638685,
-    "state": "CA",
-    "city": "Oakland",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_372247284",
     "amenities": [],
@@ -71806,15 +71806,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-5th-avenue-marina-2193",
+    "id": "marina--5th-avenue-marina-2193",
     "slug": "5th-avenue-marina"
   },
   {
     "name": "Fortmann Marina",
     "lat": 37.7794787,
     "lng": -122.2564015,
-    "state": "CA",
-    "city": "Alameda",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_372261211",
     "amenities": [],
@@ -71836,15 +71836,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-fortmann-marina-2194",
+    "id": "marina--fortmann-marina-2194",
     "slug": "fortmann-marina"
   },
   {
     "name": "Grand Marina",
     "lat": 37.7790511,
     "lng": -122.2537159,
-    "state": "CA",
-    "city": "Alameda",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_372261212",
     "amenities": [],
@@ -71866,15 +71866,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-grand-marina-2195",
+    "id": "marina--grand-marina-2195",
     "slug": "grand-marina"
   },
   {
     "name": "Barnhill Marina",
     "lat": 37.7900911,
     "lng": -122.2746829,
-    "state": "CA",
-    "city": "Alameda",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_372293269",
     "amenities": [],
@@ -71896,15 +71896,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-barnhill-marina-2196",
+    "id": "marina--barnhill-marina-2196",
     "slug": "barnhill-marina"
   },
   {
     "name": "Mariner Square Marina",
     "lat": 37.7913669,
     "lng": -122.2768478,
-    "state": "CA",
-    "city": "Alameda",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_372293270",
     "amenities": [],
@@ -71926,15 +71926,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-mariner-square-marina-2197",
+    "id": "marina--mariner-square-marina-2197",
     "slug": "mariner-square-marina"
   },
   {
     "name": "Tahoe City Marina",
     "lat": 39.1716857,
     "lng": -120.1372905,
-    "state": "CA",
-    "city": "Placer County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_412835712",
     "amenities": [],
@@ -71958,15 +71958,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-tahoe-city-marina-2198",
+    "id": "marina--tahoe-city-marina-2198",
     "slug": "tahoe-city-marina"
   },
   {
     "name": "Shelter Cove Marina",
     "lat": 32.7196888,
     "lng": -117.2219179,
-    "state": "CA",
-    "city": "San Diego",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_414501611",
     "amenities": [
@@ -71994,15 +71994,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-shelter-cove-marina-2199",
+    "id": "marina--shelter-cove-marina-2199",
     "slug": "shelter-cove-marina"
   },
   {
     "name": "Lake Miramar Marina",
     "lat": 32.914135,
     "lng": -117.0995706,
-    "state": "CA",
-    "city": "San Diego",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_414531261",
     "amenities": [],
@@ -72024,15 +72024,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-lake-miramar-marina-2200",
+    "id": "marina--lake-miramar-marina-2200",
     "slug": "lake-miramar-marina"
   },
   {
     "name": "Point Loma Marina",
     "lat": 32.7242089,
     "lng": -117.2240671,
-    "state": "CA",
-    "city": "San Diego",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_414551953",
     "amenities": [],
@@ -72054,15 +72054,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-ca-point-loma-marina-2201",
+    "id": "marina--point-loma-marina-2201",
     "slug": "point-loma-marina"
   },
   {
     "name": "Kona Kai Marina",
     "lat": 32.7118399,
     "lng": -117.2311546,
-    "state": "CA",
-    "city": "San Diego",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_414560457",
     "amenities": [],
@@ -72086,7 +72086,7 @@
       "basic",
       "private"
     ],
-    "id": "marina-ca-kona-kai-marina-2202",
+    "id": "marina--kona-kai-marina-2202",
     "slug": "kona-kai-marina"
   },
   {
@@ -87448,8 +87448,8 @@
     "name": "Port Aransas Marina",
     "lat": 27.8390367,
     "lng": -97.0640775,
-    "state": "TX",
-    "city": "Port Aransas",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_1896394566",
     "amenities": [],
@@ -87471,15 +87471,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-port-aransas-marina-2684",
+    "id": "marina--port-aransas-marina-2684",
     "slug": "port-aransas-marina"
   },
   {
     "name": "Central Park Marina",
     "lat": 28.4154973,
     "lng": -96.4924596,
-    "state": "TX",
-    "city": "Calhoun County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_2645060673",
     "amenities": [],
@@ -87501,15 +87501,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-central-park-marina-2685",
+    "id": "marina--central-park-marina-2685",
     "slug": "central-park-marina"
   },
   {
     "name": "Stingaree Marina",
     "lat": 29.4815283,
     "lng": -94.6047246,
-    "state": "TX",
-    "city": "Galveston County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_3399118867",
     "amenities": [],
@@ -87530,15 +87530,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-stingaree-marina-2686",
+    "id": "marina--stingaree-marina-2686",
     "slug": "stingaree-marina"
   },
   {
     "name": "Clem's Marina",
     "lat": 27.6348121,
     "lng": -97.2383896,
-    "state": "TX",
-    "city": "Corpus Christi",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_4582270711",
     "amenities": [],
@@ -87562,7 +87562,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-clem-s-marina-2687",
+    "id": "marina--clem-s-marina-2687",
     "slug": "clem-s-marina"
   },
   {
@@ -87604,8 +87604,8 @@
     "name": "Lake Somerville Marina",
     "lat": 30.3080548,
     "lng": -96.5164694,
-    "state": "TX",
-    "city": "Washington County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_10211056527",
     "amenities": [],
@@ -87628,15 +87628,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-lake-somerville-marina-2689",
+    "id": "marina--lake-somerville-marina-2689",
     "slug": "lake-somerville-marina"
   },
   {
     "name": "Indianola fishing Marina",
     "lat": 28.5111186,
     "lng": -96.4880152,
-    "state": "TX",
-    "city": "Calhoun County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_11291333671",
     "amenities": [],
@@ -87658,7 +87658,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-indianola-fishing-marina-2690",
+    "id": "marina--indianola-fishing-marina-2690",
     "slug": "indianola-fishing-marina"
   },
   {
@@ -88111,8 +88111,8 @@
     "name": "Lake Houston Marina",
     "lat": 30.0181751,
     "lng": -95.1186931,
-    "state": "TX",
-    "city": "Houston",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "node_13251114501",
     "amenities": [],
@@ -88132,15 +88132,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-lake-houston-marina-2703",
+    "id": "marina--lake-houston-marina-2703",
     "slug": "lake-houston-marina"
   },
   {
     "name": "Serendumpity Marina",
     "lat": 28.6993695,
     "lng": -96.2234228,
-    "state": "TX",
-    "city": "Palacios",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_421189269",
     "amenities": [],
@@ -88161,15 +88161,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-serendumpity-marina-2704",
+    "id": "marina--serendumpity-marina-2704",
     "slug": "serendumpity-marina"
   },
   {
     "name": "Nautical Landings Marina",
     "lat": 28.6166476,
     "lng": -96.6225631,
-    "state": "TX",
-    "city": "Port Lavaca",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_519434423",
     "amenities": [],
@@ -88191,7 +88191,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-nautical-landings-marina-2705",
+    "id": "marina--nautical-landings-marina-2705",
     "slug": "nautical-landings-marina"
   },
   {
@@ -88238,8 +88238,8 @@
     "name": "Bentwater Marina",
     "lat": 30.4315168,
     "lng": -95.6151752,
-    "state": "TX",
-    "city": "Montgomery County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_629992284",
     "amenities": [],
@@ -88261,15 +88261,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-bentwater-marina-2707",
+    "id": "marina--bentwater-marina-2707",
     "slug": "bentwater-marina"
   },
   {
     "name": "Harbour Town Marina",
     "lat": 30.4064233,
     "lng": -95.5782626,
-    "state": "TX",
-    "city": "Montgomery County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_630013692",
     "amenities": [],
@@ -88289,15 +88289,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-harbour-town-marina-2708",
+    "id": "marina--harbour-town-marina-2708",
     "slug": "harbour-town-marina"
   },
   {
     "name": "Palms Marina",
     "lat": 30.415153,
     "lng": -95.5692992,
-    "state": "TX",
-    "city": "Montgomery County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_630013695",
     "amenities": [],
@@ -88317,15 +88317,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-palms-marina-2709",
+    "id": "marina--palms-marina-2709",
     "slug": "palms-marina"
   },
   {
     "name": "Seven Coves Marina",
     "lat": 30.4022364,
     "lng": -95.5646914,
-    "state": "TX",
-    "city": "Montgomery County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_630013698",
     "amenities": [],
@@ -88347,7 +88347,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-seven-coves-marina-2710",
+    "id": "marina--seven-coves-marina-2710",
     "slug": "seven-coves-marina"
   },
   {
@@ -88390,8 +88390,8 @@
     "name": "Pelican Rest Marina",
     "lat": 29.2850307,
     "lng": -94.8577485,
-    "state": "TX",
-    "city": "Galveston",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_693621760",
     "amenities": [],
@@ -88414,15 +88414,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-pelican-rest-marina-2712",
+    "id": "marina--pelican-rest-marina-2712",
     "slug": "pelican-rest-marina"
   },
   {
     "name": "Coast Guard Basin",
     "lat": 29.728224,
     "lng": -95.2572987,
-    "state": "TX",
-    "city": "Houston",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_833339950",
     "amenities": [],
@@ -88444,15 +88444,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-coast-guard-basin-2713",
+    "id": "marina--coast-guard-basin-2713",
     "slug": "coast-guard-basin"
   },
   {
     "name": "Coast Guard Basin",
     "lat": 28.9432281,
     "lng": -95.3021841,
-    "state": "TX",
-    "city": "Surfside Beach",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_833343580",
     "amenities": [],
@@ -88474,15 +88474,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-coast-guard-basin-2714",
+    "id": "marina--coast-guard-basin-2714",
     "slug": "coast-guard-basin"
   },
   {
     "name": "Coast Guard Basin",
     "lat": 28.4340229,
     "lng": -96.4279989,
-    "state": "TX",
-    "city": "Calhoun County",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_833615898",
     "amenities": [],
@@ -88504,15 +88504,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-coast-guard-basin-2715",
+    "id": "marina--coast-guard-basin-2715",
     "slug": "coast-guard-basin"
   },
   {
     "name": "Calcasieu Point Landing",
     "lat": 30.1041636,
     "lng": -93.3068051,
-    "state": "LA",
-    "city": "Calcasieu Parish",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_909122482",
     "amenities": [],
@@ -88534,15 +88534,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-la-calcasieu-point-landing-2716",
+    "id": "marina--calcasieu-point-landing-2716",
     "slug": "calcasieu-point-landing"
   },
   {
     "name": "Waterpoint Marina",
     "lat": 30.3589152,
     "lng": -95.5924559,
-    "state": "TX",
-    "city": "Conroe",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_1006141970",
     "amenities": [],
@@ -88565,15 +88565,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-waterpoint-marina-2717",
+    "id": "marina--waterpoint-marina-2717",
     "slug": "waterpoint-marina"
   },
   {
     "name": "UT Marina",
     "lat": 27.838034,
     "lng": -97.0530008,
-    "state": "TX",
-    "city": "Port Aransas",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_1017669676",
     "amenities": [],
@@ -88600,15 +88600,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-ut-marina-2718",
+    "id": "marina--ut-marina-2718",
     "slug": "ut-marina"
   },
   {
     "name": "West End Marina",
     "lat": 29.1446591,
     "lng": -95.047088,
-    "state": "TX",
-    "city": "Galveston",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_1340392952",
     "amenities": [],
@@ -88630,7 +88630,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-west-end-marina-2719",
+    "id": "marina--west-end-marina-2719",
     "slug": "west-end-marina"
   },
   {
@@ -88669,8 +88669,8 @@
     "name": "Public Boat Ramp",
     "lat": 29.3175392,
     "lng": -94.7775659,
-    "state": "TX",
-    "city": "Galveston",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_1383821855",
     "amenities": [],
@@ -88697,15 +88697,15 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-public-boat-ramp-2721",
+    "id": "marina--public-boat-ramp-2721",
     "slug": "public-boat-ramp"
   },
   {
     "name": "Pleasure Island Marina",
     "lat": 29.8680841,
     "lng": -93.9260883,
-    "state": "TX",
-    "city": "Port Arthur",
+    "state": "",
+    "city": "",
     "source": "osm",
     "source_id": "way_1470899889",
     "amenities": [],
@@ -88728,7 +88728,7 @@
     "categories": [
       "basic"
     ],
-    "id": "marina-tx-pleasure-island-marina-2722",
+    "id": "marina--pleasure-island-marina-2722",
     "slug": "pleasure-island-marina"
   }
 ]

@@ -171,6 +171,14 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
             </a>
           </div>
         </section>
+        {/* Claim Listing CTA */}
+        <section className="bg-[#F0F4F8] rounded-xl p-6 border border-[#D4D8DD] mb-8">
+          <h3 className="font-[Cabin] text-lg font-bold text-[#1A1A1A] mb-2">Own or manage this marina?</h3>
+          <p className="text-gray-500 text-sm mb-4">Claim your free listing to update slip availability, amenities, contact info, and fuel prices.</p>
+          <Link href={`/claim?marina=${encodeURIComponent(marina.id)}&name=${encodeURIComponent(marina.name)}`} className="inline-block bg-[#C4924B] hover:bg-[#b5833e] text-white font-bold px-6 py-3 rounded-lg transition text-sm">
+            Claim This Marina &mdash; It&apos;s Free
+          </Link>
+        </section>
       </div>
     </div>
   );
