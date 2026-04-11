@@ -40,7 +40,9 @@ export default function Home() {
       }) }} />
 
       {/* HERO */}
-      <section className="relative py-20 md:py-32 text-center px-4 text-white overflow-hidden" style={{ background: "linear-gradient(135deg, #0B1E33 0%, #1B3A5C 40%, #2B5F8A 70%, #0B1E33 100%)" }}>
+      <section className="relative py-20 md:py-32 text-center px-4 text-white overflow-hidden min-h-[500px] flex items-center justify-center">
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/hero-marina.jpg')" }} />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0B1E33]/80 via-[#1B3A5C]/70 to-[#0B1E33]/85" />
         <div className="relative z-10">
           <p className="text-white/70 text-sm font-semibold tracking-widest uppercase mb-4">Marina Directory</p>
           <h1 className="font-[Cabin] text-5xl md:text-7xl font-bold text-white leading-tight max-w-3xl mx-auto">Every Marina in America</h1>
