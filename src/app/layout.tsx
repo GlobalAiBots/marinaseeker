@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
+import StatesDropdown from "@/components/StatesDropdown";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -28,9 +29,11 @@ function Nav() {
           <span className="text-charcoal">Marina<span className="text-navy">Seeker</span></span>
         </Link>
         <div className="flex items-center gap-4 sm:gap-6 text-sm font-medium">
-          <Link href="/marinas" className="text-gray-500 hover:text-navy transition">Browse</Link>
+          <StatesDropdown />
+          <Link href="/map" className="text-gray-500 hover:text-navy transition">Map</Link>
           <Link href="/blog" className="text-gray-500 hover:text-navy transition hidden sm:block">Blog</Link>
           <Link href="/about" className="text-gray-500 hover:text-navy transition hidden sm:block">About</Link>
+          <Link href="/for-businesses" className="text-[#C4924B] font-bold hover:text-[#b5833e] transition hidden sm:block">For Businesses</Link>
         </div>
       </div>
     </nav>
