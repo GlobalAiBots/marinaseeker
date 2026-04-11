@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { unified, stateList } from "@/data/all-marinas";
+import NearMeButton from "@/components/NearMeButton";
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -63,7 +64,11 @@ export default function Home() {
             )}
           </div>
 
-          <div className="flex gap-2 justify-center mt-6 flex-wrap max-w-2xl mx-auto">
+          <div className="flex justify-center mt-4">
+            <NearMeButton label="Find Marinas Near Me" color="#C4924B" />
+          </div>
+
+          <div className="flex gap-2 justify-center mt-4 flex-wrap max-w-2xl mx-auto">
             {statesWithCounts.slice(0, 6).map((s) => (
               <Link key={s.code} href={`/${s.slug}`} className="bg-white/15 hover:bg-white/25 text-white font-bold px-4 py-2 rounded-lg transition text-xs backdrop-blur-sm border border-white/10">{s.name} ({s.count})</Link>
             ))}
@@ -110,11 +115,14 @@ export default function Home() {
       </section>
 
       {/* EMAIL SIGNUP */}
-      <section className="py-12" style={{ background: "#1B3A5C" }}>
+      <section className="py-16" style={{ background: "#1B3A5C" }}>
         <div className="max-w-lg mx-auto px-4 text-center">
-          <h2 className="font-[Cabin] text-2xl font-bold text-white mb-2">Get Marina Updates</h2>
-          <p className="text-white/60 text-sm mb-6">Slip availability, fuel prices, new marinas, and seasonal updates &mdash; delivered to your inbox.</p>
-          <a href="mailto:admin@globalaibots.com?subject=MarinaSeeker%20Newsletter%20Signup&body=Please%20add%20me%20to%20the%20MarinaSeeker%20email%20list." className="inline-block bg-[#C4924B] hover:bg-[#b5833e] text-white font-bold px-8 py-3.5 rounded-xl transition text-sm">Sign Up for Updates</a>
+          <h2 className="font-[Cabin] text-2xl font-bold text-white mb-2">Get Marina Updates &#9973;</h2>
+          <p className="text-white/70 text-sm mb-6">Slip availability, fuel prices, new marinas, and seasonal updates &mdash; delivered to your inbox.</p>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <input type="email" placeholder="your@email.com" className="flex-1 px-5 py-3.5 rounded-xl text-sm outline-none bg-white/10 text-white placeholder-white/40 border border-white/10 focus:border-[#C4924B] transition" />
+            <button className="bg-[#C4924B] hover:bg-[#b5833e] text-white font-bold px-7 py-3.5 rounded-xl transition text-sm whitespace-nowrap">Subscribe Free</button>
+          </div>
           <p className="text-white/30 text-xs mt-3">No spam, ever. Unsubscribe anytime.</p>
         </div>
       </section>
