@@ -3,8 +3,14 @@
     "slug": "yacht-clubs",
     "title": "Yacht Clubs & Sailing Clubs",
     "description": "Private and semi-private yacht clubs and sailing clubs with membership-based marina access.",
-    "totalCount": 291,
+    "totalCount": 383,
     "states": [
+      {
+        "code": "NY",
+        "name": "New York",
+        "slug": "new-york",
+        "count": 60
+      },
       {
         "code": "MD",
         "name": "Maryland",
@@ -54,9 +60,21 @@
         "count": 13
       },
       {
+        "code": "CT",
+        "name": "Connecticut",
+        "slug": "connecticut",
+        "count": 13
+      },
+      {
         "code": "NC",
         "name": "North Carolina",
         "slug": "north-carolina",
+        "count": 9
+      },
+      {
+        "code": "ME",
+        "name": "Maine",
+        "slug": "maine",
         "count": 9
       },
       {
@@ -102,6 +120,12 @@
         "count": 5
       },
       {
+        "code": "NH",
+        "name": "New Hampshire",
+        "slug": "new-hampshire",
+        "count": 5
+      },
+      {
         "code": "SC",
         "name": "South Carolina",
         "slug": "south-carolina",
@@ -144,6 +168,12 @@
         "count": 3
       },
       {
+        "code": "RI",
+        "name": "Rhode Island",
+        "slug": "rhode-island",
+        "count": 3
+      },
+      {
         "code": "IA",
         "name": "Iowa",
         "slug": "iowa",
@@ -153,6 +183,12 @@
         "code": "MO",
         "name": "Missouri",
         "slug": "missouri",
+        "count": 2
+      },
+      {
+        "code": "VT",
+        "name": "Vermont",
+        "slug": "vermont",
         "count": 2
       },
       {
@@ -191,7 +227,7 @@
     "slug": "with-pump-out",
     "title": "Marinas with Pump-Out Stations",
     "description": "Marinas equipped with pump-out stations for proper waste disposal — required for responsible boating.",
-    "totalCount": 147,
+    "totalCount": 155,
     "states": [
       {
         "code": "CA",
@@ -254,6 +290,12 @@
         "count": 6
       },
       {
+        "code": "CT",
+        "name": "Connecticut",
+        "slug": "connecticut",
+        "count": 6
+      },
+      {
         "code": "OH",
         "name": "Ohio",
         "slug": "ohio",
@@ -299,6 +341,12 @@
         "code": "AK",
         "name": "Alaska",
         "slug": "alaska",
+        "count": 2
+      },
+      {
+        "code": "ME",
+        "name": "Maine",
+        "slug": "maine",
         "count": 2
       },
       {
@@ -355,7 +403,7 @@
     "slug": "with-electric",
     "title": "Marinas with Shore Power",
     "description": "Marinas offering electrical hookups at the dock so you can plug in and keep systems running.",
-    "totalCount": 142,
+    "totalCount": 154,
     "states": [
       {
         "code": "MD",
@@ -386,6 +434,12 @@
         "name": "Illinois",
         "slug": "illinois",
         "count": 15
+      },
+      {
+        "code": "CT",
+        "name": "Connecticut",
+        "slug": "connecticut",
+        "count": 11
       },
       {
         "code": "WI",
@@ -518,6 +572,12 @@
         "name": "Utah",
         "slug": "utah",
         "count": 1
+      },
+      {
+        "code": "ME",
+        "name": "Maine",
+        "slug": "maine",
+        "count": 1
       }
     ]
   },
@@ -525,7 +585,7 @@
     "slug": "with-wifi",
     "title": "Marinas with WiFi",
     "description": "Marinas offering wireless internet access at the docks — essential for liveaboards and remote workers.",
-    "totalCount": 39,
+    "totalCount": 44,
     "states": [
       {
         "code": "MD",
@@ -538,6 +598,12 @@
         "name": "California",
         "slug": "california",
         "count": 9
+      },
+      {
+        "code": "CT",
+        "name": "Connecticut",
+        "slug": "connecticut",
+        "count": 5
       },
       {
         "code": "NC",
@@ -605,7 +671,7 @@
     "slug": "municipal",
     "title": "Municipal & Public Marinas",
     "description": "Government-owned public marinas typically offering lower slip rates and transient docking.",
-    "totalCount": 85,
+    "totalCount": 88,
     "states": [
       {
         "code": "MI",
@@ -686,6 +752,12 @@
         "count": 2
       },
       {
+        "code": "NY",
+        "name": "New York",
+        "slug": "new-york",
+        "count": 2
+      },
+      {
         "code": "DE",
         "name": "Delaware",
         "slug": "delaware",
@@ -744,6 +816,12 @@
         "name": "Texas",
         "slug": "texas",
         "count": 1
+      },
+      {
+        "code": "CT",
+        "name": "Connecticut",
+        "slug": "connecticut",
+        "count": 1
       }
     ]
   },
@@ -751,7 +829,7 @@
     "slug": "resort-marinas",
     "title": "Resort Marinas",
     "description": "Marinas at waterfront resorts offering full amenities, dining, and accommodation alongside docking.",
-    "totalCount": 48,
+    "totalCount": 49,
     "states": [
       {
         "code": "FL",
@@ -835,6 +913,12 @@
         "code": "MO",
         "name": "Missouri",
         "slug": "missouri",
+        "count": 1
+      },
+      {
+        "code": "NY",
+        "name": "New York",
+        "slug": "new-york",
         "count": 1
       }
     ]
