@@ -153,6 +153,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ */}
+      <section className="max-w-4xl mx-auto px-4 py-10">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org", "@type": "FAQPage",
+          mainEntity: [
+            { "@type": "Question", name: "How many marinas does MarinaSeeker list?", acceptedAnswer: { "@type": "Answer", text: `MarinaSeeker lists ${unified.length.toLocaleString()}+ marinas across ${statesWithCounts.filter(s => s.count > 0).length} states with GPS coordinates, amenities, and contact details.` } },
+            { "@type": "Question", name: "Is MarinaSeeker free?", acceptedAnswer: { "@type": "Answer", text: "Yes, completely free. No login, no account, no fees. Just find your marina and go." } },
+            { "@type": "Question", name: "How do I find a marina near me?", acceptedAnswer: { "@type": "Answer", text: "Click the 'Find Marinas Near Me' button or browse by state. MarinaSeeker will show the closest marinas with slip info, fuel, and amenities." } },
+            { "@type": "Question", name: "How much does a boat slip cost?", acceptedAnswer: { "@type": "Answer", text: "Boat slip costs vary by location and size. Expect $200-$800/month for a standard slip. Contact individual marinas for current rates." } },
+            { "@type": "Question", name: "Can I claim my marina listing?", acceptedAnswer: { "@type": "Answer", text: "Yes! If you own or manage a marina, visit our Claim page to update your amenities, contact info, and slip availability for free." } },
+          ],
+        }) }} />
+        <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mb-4">Frequently Asked Questions</h2>
+        <div className="space-y-2">
+          {[
+            { q: `How many marinas does MarinaSeeker list?`, a: `MarinaSeeker lists ${unified.length.toLocaleString()}+ marinas across ${statesWithCounts.filter(s => s.count > 0).length} states with GPS coordinates, amenities, and contact details.` },
+            { q: "Is MarinaSeeker free?", a: "Yes, completely free. No login, no account, no fees. Just find your marina and go." },
+            { q: "How do I find a marina near me?", a: "Click the \"Find Marinas Near Me\" button or browse by state. MarinaSeeker will show the closest marinas with slip info, fuel, and amenities." },
+            { q: "How much does a boat slip cost?", a: "Boat slip costs vary by location and size. Expect $200-$800/month for a standard slip. Contact individual marinas for current rates." },
+            { q: "Can I claim my marina listing?", a: "Yes! If you own or manage a marina, visit our Claim page to update your amenities, contact info, and slip availability for free." },
+          ].map((f, i) => (
+            <details key={i} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm group">
+              <summary className="px-5 py-4 cursor-pointer font-semibold text-[#1A1A1A] text-sm hover:text-[#1B3A5C] transition list-none flex items-center justify-between">{f.q}<svg className="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg></summary>
+              <div className="px-5 pb-4 text-gray-600 text-sm leading-relaxed">{f.a}</div>
+            </details>
+          ))}
+        </div>
+      </section>
+
       <div className="max-w-5xl mx-auto px-4"><CletusAd /></div>
 
       {/* SUBMIT */}
