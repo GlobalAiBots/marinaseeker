@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { unified, stateList } from "@/data/all-marinas";
 import NearMeButton from "@/components/NearMeButton";
+import CletusAd from "@/components/CletusAd";
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -126,6 +127,8 @@ export default function Home() {
           <p className="text-white/30 text-xs mt-3">No spam, ever. Unsubscribe anytime.</p>
         </div>
       </section>
+
+      <div className="max-w-5xl mx-auto px-4"><CletusAd /></div>
 
       {/* SUBMIT */}
       <section className="max-w-2xl mx-auto px-4 pb-20 pt-10">
