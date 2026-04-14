@@ -5,19 +5,9 @@
     "stateSlug": "washington",
     "city": "Seattle",
     "citySlug": "seattle",
-    "count": 33,
-    "lat": 47.63539849696971,
-    "lng": -122.33745351212123
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Middle River",
-    "citySlug": "middle-river",
-    "count": 26,
-    "lat": 39.31992945384615,
-    "lng": -76.41337144615385
+    "count": 19,
+    "lat": 47.63145447368421,
+    "lng": -122.33285504736841
   },
   {
     "state": "IL",
@@ -25,89 +15,19 @@
     "stateSlug": "illinois",
     "city": "Chicago",
     "citySlug": "chicago",
-    "count": 23,
-    "lat": 41.823888,
-    "lng": -87.60207342173912
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Portland",
-    "citySlug": "portland",
-    "count": 23,
-    "lat": 45.56481917391306,
-    "lng": -122.62682823913046
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Dundalk",
-    "citySlug": "dundalk",
-    "count": 20,
-    "lat": 39.25544583,
-    "lng": -76.44508655000001
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Detroit",
-    "citySlug": "detroit",
     "count": 18,
-    "lat": 42.346492544444445,
-    "lng": -82.98838481666665
+    "lat": 41.835497927777766,
+    "lng": -87.61226624444447
   },
   {
     "state": "MD",
     "stateName": "Maryland",
     "stateSlug": "maryland",
-    "city": "Baltimore",
-    "citySlug": "baltimore",
-    "count": 16,
-    "lat": 39.26947038125,
-    "lng": -76.58979496249998
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "San Diego",
-    "citySlug": "san-diego",
-    "count": 16,
-    "lat": 32.73293260625,
-    "lng": -117.20120478125
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Put-in-Bay",
-    "citySlug": "put-in-bay",
+    "city": "Middle River",
+    "citySlug": "middle-river",
     "count": 14,
-    "lat": 41.667308757142855,
-    "lng": -82.81836804285713
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Marathon",
-    "citySlug": "marathon",
-    "count": 13,
-    "lat": 24.718044861538466,
-    "lng": -81.07778096153847
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Jacksonville",
-    "citySlug": "jacksonville",
-    "count": 13,
-    "lat": 30.298407476923078,
-    "lng": -81.58023701538461
+    "lat": 39.32202526428572,
+    "lng": -76.40123550714286
   },
   {
     "state": "TX",
@@ -120,14 +40,14 @@
     "lng": -97.20872815384617
   },
   {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Los Angeles",
-    "citySlug": "los-angeles",
-    "count": 12,
-    "lat": 33.727032099999995,
-    "lng": -118.27632910000001
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Detroit",
+    "citySlug": "detroit",
+    "count": 10,
+    "lat": 42.35014782,
+    "lng": -82.98363787000001
   },
   {
     "state": "FL",
@@ -135,179 +55,9 @@
     "stateSlug": "florida",
     "city": "Miami",
     "citySlug": "miami",
-    "count": 11,
-    "lat": 25.769589018181815,
-    "lng": -80.18902869090908
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Islamorada",
-    "citySlug": "islamorada",
-    "count": 11,
-    "lat": 24.91272200909091,
-    "lng": -80.64491543636365
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Annapolis",
-    "citySlug": "annapolis",
-    "count": 11,
-    "lat": 38.982585163636365,
-    "lng": -76.48507209090909
-  },
-  {
-    "state": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Mobile",
-    "citySlug": "mobile",
-    "count": 11,
-    "lat": 30.57344168181818,
-    "lng": -88.09126932727273
-  },
-  {
-    "state": "LA",
-    "stateName": "Louisiana",
-    "stateSlug": "louisiana",
-    "city": "Port Sulphur",
-    "citySlug": "port-sulphur",
-    "count": 11,
-    "lat": 29.58956438181818,
-    "lng": -89.8427641818182
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Alameda",
-    "citySlug": "alameda",
-    "count": 11,
-    "lat": 37.78163974545455,
-    "lng": -122.26952744545456
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Toledo",
-    "citySlug": "toledo",
-    "count": 10,
-    "lat": 41.706524290000004,
-    "lng": -83.4780011
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "San Francisco",
-    "citySlug": "san-francisco",
-    "count": 10,
-    "lat": 37.806756850000006,
-    "lng": -122.41435433000001
-  },
-  {
-    "state": "SC",
-    "stateName": "South Carolina",
-    "stateSlug": "south-carolina",
-    "city": "Charleston",
-    "citySlug": "charleston",
-    "count": 9,
-    "lat": 32.78898481111111,
-    "lng": -79.96099254444444
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Essex",
-    "citySlug": "essex",
-    "count": 9,
-    "lat": 39.298179777777776,
-    "lng": -76.43265777777778
-  },
-  {
-    "state": "LA",
-    "stateName": "Louisiana",
-    "stateSlug": "louisiana",
-    "city": "Belle Chasse",
-    "citySlug": "belle-chasse",
-    "count": 9,
-    "lat": 29.809520533333334,
-    "lng": -89.99271028888889
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Oakland",
-    "citySlug": "oakland",
-    "count": 9,
-    "lat": 37.7779008,
-    "lng": -122.23770567777777
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Sausalito",
-    "citySlug": "sausalito",
-    "count": 9,
-    "lat": 37.86704418888888,
-    "lng": -122.49375715555556
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Saint Petersburg",
-    "citySlug": "saint-petersburg",
     "count": 8,
-    "lat": 27.745216075000002,
-    "lng": -82.65363712499999
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Deale",
-    "citySlug": "deale",
-    "count": 8,
-    "lat": 38.779465712500006,
-    "lng": -76.55891706250002
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Naples",
-    "citySlug": "naples",
-    "count": 8,
-    "lat": 26.1390937,
-    "lng": -81.76047705
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Oriental",
-    "citySlug": "oriental",
-    "count": 8,
-    "lat": 35.0271108375,
-    "lng": -76.6940726625
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Sandusky",
-    "citySlug": "sandusky",
-    "count": 8,
-    "lat": 41.4575929875,
-    "lng": -82.69798138750001
+    "lat": 25.771448725,
+    "lng": -80.19718302500002
   },
   {
     "state": "MI",
@@ -320,34 +70,14 @@
     "lng": -86.44687788750001
   },
   {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Harrison Township",
-    "citySlug": "harrison-township",
+    "state": "CA",
+    "stateName": "California",
+    "stateSlug": "california",
+    "city": "Alameda",
+    "citySlug": "alameda",
     "count": 8,
-    "lat": 42.5794327625,
-    "lng": -82.8097323375
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Cleveland",
-    "citySlug": "cleveland",
-    "count": 8,
-    "lat": 41.5236213875,
-    "lng": -81.6719432
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Edgewater",
-    "citySlug": "edgewater",
-    "count": 7,
-    "lat": 38.91192622857143,
-    "lng": -76.52788788571429
+    "lat": 37.785008287500006,
+    "lng": -122.266379275
   },
   {
     "state": "FL",
@@ -363,51 +93,11 @@
     "state": "FL",
     "stateName": "Florida",
     "stateSlug": "florida",
-    "city": "Key West",
-    "citySlug": "key-west",
+    "city": "Marathon",
+    "citySlug": "marathon",
     "count": 7,
-    "lat": 24.566484285714285,
-    "lng": -81.7747805
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Deltaville",
-    "citySlug": "deltaville",
-    "count": 7,
-    "lat": 37.553949085714294,
-    "lng": -76.32958762857143
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Colonial Beach",
-    "citySlug": "colonial-beach",
-    "count": 7,
-    "lat": 38.24437105714286,
-    "lng": -76.96514549999999
-  },
-  {
-    "state": "LA",
-    "stateName": "Louisiana",
-    "stateSlug": "louisiana",
-    "city": "Venice",
-    "citySlug": "venice",
-    "count": 7,
-    "lat": 29.26148437142857,
-    "lng": -89.34318712857143
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Muskegon",
-    "citySlug": "muskegon",
-    "count": 7,
-    "lat": 43.222330571428564,
-    "lng": -86.27815897142857
+    "lat": 24.723612228571426,
+    "lng": -81.06126004285714
   },
   {
     "state": "MI",
@@ -430,24 +120,14 @@
     "lng": -80.79735187142857
   },
   {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Port Orchard",
-    "citySlug": "port-orchard",
-    "count": 7,
-    "lat": 47.53796068571428,
-    "lng": -122.65191272857143
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Anne Arundel County",
-    "citySlug": "anne-arundel-county",
+    "state": "SC",
+    "stateName": "South Carolina",
+    "stateSlug": "south-carolina",
+    "city": "Charleston",
+    "citySlug": "charleston",
     "count": 6,
-    "lat": 39.00210791666667,
-    "lng": -76.47443008333333
+    "lat": 32.78521595,
+    "lng": -79.96223005
   },
   {
     "state": "TN",
@@ -470,54 +150,24 @@
     "lng": -80.89209008333334
   },
   {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Fort Lauderdale",
-    "citySlug": "fort-lauderdale",
-    "count": 6,
-    "lat": 26.134571250000004,
-    "lng": -80.11057803333334
-  },
-  {
     "state": "MD",
     "stateName": "Maryland",
     "stateSlug": "maryland",
-    "city": "Saint Michaels",
-    "citySlug": "saint-michaels",
+    "city": "Deale",
+    "citySlug": "deale",
     "count": 6,
-    "lat": 38.78724371666667,
-    "lng": -76.22037803333335
+    "lat": 38.7791296,
+    "lng": -76.55923276666668
   },
   {
-    "state": "SC",
-    "stateName": "South Carolina",
-    "stateSlug": "south-carolina",
-    "city": "Hilton Head Island",
-    "citySlug": "hilton-head-island",
+    "state": "FL",
+    "stateName": "Florida",
+    "stateSlug": "florida",
+    "city": "Islamorada",
+    "citySlug": "islamorada",
     "count": 6,
-    "lat": 32.17366755,
-    "lng": -80.78727426666667
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Wyandotte",
-    "citySlug": "wyandotte",
-    "count": 6,
-    "lat": 42.22546265,
-    "lng": -83.14763463333334
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Port Clinton",
-    "citySlug": "port-clinton",
-    "count": 6,
-    "lat": 41.54013713333333,
-    "lng": -82.91304043333332
+    "lat": 24.906406566666664,
+    "lng": -80.65419793333332
   },
   {
     "state": "MI",
@@ -533,31 +183,21 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Whitehall",
-    "citySlug": "whitehall",
+    "city": "Harrison Township",
+    "citySlug": "harrison-township",
     "count": 6,
-    "lat": 43.39287018333332,
-    "lng": -86.36997456666666
+    "lat": 42.58041443333334,
+    "lng": -82.81499434999999
   },
   {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Excelsior",
-    "citySlug": "excelsior",
+    "state": "MO",
+    "stateName": "Missouri",
+    "stateSlug": "missouri",
+    "city": "Camden County",
+    "citySlug": "camden-county",
     "count": 6,
-    "lat": 44.911716649999995,
-    "lng": -93.55313256666666
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Bayfield",
-    "citySlug": "bayfield",
-    "count": 6,
-    "lat": 46.802036183333335,
-    "lng": -90.82788335
+    "lat": 38.1417133,
+    "lng": -92.68306585
   },
   {
     "state": "CA",
@@ -570,44 +210,24 @@
     "lng": -121.34475656666667
   },
   {
-    "state": "AK",
-    "stateName": "Alaska",
-    "stateSlug": "alaska",
-    "city": "Ketchikan",
-    "citySlug": "ketchikan",
-    "count": 6,
-    "lat": 55.38838596666667,
-    "lng": -131.71209865
-  },
-  {
-    "state": "AK",
-    "stateName": "Alaska",
-    "stateSlug": "alaska",
-    "city": "Akutan",
-    "citySlug": "akutan",
-    "count": 6,
-    "lat": 54.13018963333334,
-    "lng": -165.80327081666667
-  },
-  {
-    "state": "HI",
-    "stateName": "Hawaii",
-    "stateSlug": "hawaii",
-    "city": "Honolulu",
-    "citySlug": "honolulu",
-    "count": 6,
-    "lat": 21.307747333333335,
-    "lng": -157.87412525
-  },
-  {
-    "state": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Biloxi",
-    "citySlug": "biloxi",
+    "state": "MD",
+    "stateName": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Edgewater",
+    "citySlug": "edgewater",
     "count": 5,
-    "lat": 30.396680120000003,
-    "lng": -88.88875800000001
+    "lat": 38.896599200000004,
+    "lng": -76.51766098
+  },
+  {
+    "state": "MD",
+    "stateName": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Anne Arundel County",
+    "citySlug": "anne-arundel-county",
+    "count": 5,
+    "lat": 39.0059883,
+    "lng": -76.47340952
   },
   {
     "state": "FL",
@@ -623,11 +243,11 @@
     "state": "FL",
     "stateName": "Florida",
     "stateSlug": "florida",
-    "city": "Stuart",
-    "citySlug": "stuart",
+    "city": "Saint Petersburg",
+    "citySlug": "saint-petersburg",
     "count": 5,
-    "lat": 27.164691319999996,
-    "lng": -80.23997542
+    "lat": 27.750455,
+    "lng": -82.64715457999999
   },
   {
     "state": "VA",
@@ -640,244 +260,84 @@
     "lng": -77.37051616
   },
   {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Franklin County",
-    "citySlug": "franklin-county",
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Muskegon",
+    "citySlug": "muskegon",
     "count": 5,
-    "lat": 37.10628698,
-    "lng": -79.68277678
+    "lat": 43.21699366,
+    "lng": -86.28490966
+  },
+  {
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Whitehall",
+    "citySlug": "whitehall",
+    "count": 5,
+    "lat": 43.38981937999999,
+    "lng": -86.37368638
   },
   {
     "state": "OH",
     "stateName": "Ohio",
     "stateSlug": "ohio",
-    "city": "Cincinnati",
-    "citySlug": "cincinnati",
+    "city": "Toledo",
+    "citySlug": "toledo",
     "count": 5,
-    "lat": 39.0876536,
-    "lng": -84.4278253
+    "lat": 41.72708718,
+    "lng": -83.46699128
   },
   {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Woodbridge",
-    "citySlug": "woodbridge",
+    "state": "OH",
+    "stateName": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Cleveland",
+    "citySlug": "cleveland",
     "count": 5,
-    "lat": 38.66236188,
-    "lng": -77.24567388
+    "lat": 41.51299248,
+    "lng": -81.69133930000001
   },
   {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Newport News",
-    "citySlug": "newport-news",
+    "state": "OH",
+    "stateName": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Ottawa County",
+    "citySlug": "ottawa-county",
     "count": 5,
-    "lat": 37.0598746,
-    "lng": -76.50427540000001
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Bay Lake",
-    "citySlug": "bay-lake",
-    "count": 5,
-    "lat": 28.40636798,
-    "lng": -81.56738146000001
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Ponce Inlet",
-    "citySlug": "ponce-inlet",
-    "count": 5,
-    "lat": 29.09738018,
-    "lng": -80.94201405999999
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Charlestown",
-    "citySlug": "charlestown",
-    "count": 5,
-    "lat": 39.5649448,
-    "lng": -75.98381736
-  },
-  {
-    "state": "PA",
-    "stateName": "Pennsylvania",
-    "stateSlug": "pennsylvania",
-    "city": "Erie",
-    "citySlug": "erie",
-    "count": 5,
-    "lat": 42.1343212,
-    "lng": -80.099253
+    "lat": 41.645646,
+    "lng": -82.82463028
   },
   {
     "state": "MN",
     "stateName": "Minnesota",
     "stateSlug": "minnesota",
-    "city": "Wayzata",
-    "citySlug": "wayzata",
+    "city": "Shorewood",
+    "citySlug": "shorewood",
     "count": 5,
-    "lat": 44.9578864,
-    "lng": -93.53085789999999
+    "lat": 44.91498694,
+    "lng": -93.55162059999999
   },
   {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Frankfort",
-    "citySlug": "frankfort",
+    "state": "HI",
+    "stateName": "Hawaii",
+    "stateSlug": "hawaii",
+    "city": "Honolulu",
+    "citySlug": "honolulu",
     "count": 5,
-    "lat": 44.64138776,
-    "lng": -86.23699822
+    "lat": 21.306376860000004,
+    "lng": -157.84511698
   },
   {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Alanson",
-    "citySlug": "alanson",
+    "state": "OR",
+    "stateName": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Portland",
+    "citySlug": "portland",
     "count": 5,
-    "lat": 45.4319164,
-    "lng": -84.8135262
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Marin City",
-    "citySlug": "marin-city",
-    "count": 5,
-    "lat": 37.86679074,
-    "lng": -122.49264652
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Isleton",
-    "citySlug": "isleton",
-    "count": 5,
-    "lat": 38.133374020000005,
-    "lng": -121.59266494
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Long Beach",
-    "citySlug": "long-beach",
-    "count": 5,
-    "lat": 33.75969816,
-    "lng": -118.14433782
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Sacramento",
-    "citySlug": "sacramento",
-    "count": 5,
-    "lat": 38.58100882,
-    "lng": -121.53935274
-  },
-  {
-    "state": "AK",
-    "stateName": "Alaska",
-    "stateSlug": "alaska",
-    "city": "Sitka",
-    "citySlug": "sitka",
-    "count": 5,
-    "lat": 57.05269396000001,
-    "lng": -135.3457049
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Olympia",
-    "citySlug": "olympia",
-    "count": 5,
-    "lat": 47.07141794,
-    "lng": -122.90580173999999
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Anacortes",
-    "citySlug": "anacortes",
-    "count": 5,
-    "lat": 48.50316858,
-    "lng": -122.6271738
-  },
-  {
-    "state": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Conroe",
-    "citySlug": "conroe",
-    "count": 5,
-    "lat": 30.402848940000002,
-    "lng": -95.58397686
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Glen Burnie",
-    "citySlug": "glen-burnie",
-    "count": 4,
-    "lat": 39.105887725,
-    "lng": -76.53296635
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Panama City",
-    "citySlug": "panama-city",
-    "count": 4,
-    "lat": 30.157125375,
-    "lng": -85.66111922500001
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Tampa",
-    "citySlug": "tampa",
-    "count": 4,
-    "lat": 27.943793975,
-    "lng": -82.4862734
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Pensacola",
-    "citySlug": "pensacola",
-    "count": 4,
-    "lat": 30.386148875000003,
-    "lng": -87.27162332500001
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Pasadena",
-    "citySlug": "pasadena",
-    "count": 4,
-    "lat": 39.11234785,
-    "lng": -76.4841223
+    "lat": 45.55082794,
+    "lng": -122.66103206
   },
   {
     "state": "TN",
@@ -890,164 +350,24 @@
     "lng": -85.19429397500001
   },
   {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Monroe County",
-    "citySlug": "monroe-county",
-    "count": 4,
-    "lat": 24.775988525,
-    "lng": -81.31948304999999
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Moneta",
-    "citySlug": "moneta",
-    "count": 4,
-    "lat": 37.114271450000004,
-    "lng": -79.64130115
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Key Largo",
-    "citySlug": "key-largo",
-    "count": 4,
-    "lat": 25.154005299999998,
-    "lng": -80.39527302500001
-  },
-  {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "La Follette",
-    "citySlug": "la-follette",
-    "count": 4,
-    "lat": 36.364675875,
-    "lng": -84.007389925
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Warrington",
-    "citySlug": "warrington",
-    "count": 4,
-    "lat": 30.360659125,
-    "lng": -87.30313655
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Hampton",
-    "citySlug": "hampton",
-    "count": 4,
-    "lat": 37.04861305,
-    "lng": -76.327902925
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Coral Gables",
-    "citySlug": "coral-gables",
-    "count": 4,
-    "lat": 25.65273665,
-    "lng": -80.28161105000001
-  },
-  {
     "state": "MD",
     "stateName": "Maryland",
     "stateSlug": "maryland",
-    "city": "Crisfield",
-    "citySlug": "crisfield",
+    "city": "Annapolis",
+    "citySlug": "annapolis",
     "count": 4,
-    "lat": 37.98635095,
-    "lng": -75.857085775
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Portsmouth",
-    "citySlug": "portsmouth",
-    "count": 4,
-    "lat": 36.83859495,
-    "lng": -76.301468475
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Norfolk",
-    "citySlug": "norfolk",
-    "count": 4,
-    "lat": 36.948546375,
-    "lng": -76.302065
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Fort Pierce",
-    "citySlug": "fort-pierce",
-    "count": 4,
-    "lat": 27.461457875,
-    "lng": -80.30790702499999
-  },
-  {
-    "state": "NE",
-    "stateName": "Nebraska",
-    "stateSlug": "nebraska",
-    "city": "Omaha",
-    "citySlug": "omaha",
-    "count": 4,
-    "lat": 41.318314025,
-    "lng": -95.940383275
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Monroe",
-    "citySlug": "monroe",
-    "count": 4,
-    "lat": 41.888564724999995,
-    "lng": -83.3771166
+    "lat": 38.973744624999995,
+    "lng": -76.48031202499999
   },
   {
     "state": "OH",
     "stateName": "Ohio",
     "stateSlug": "ohio",
-    "city": "Huron",
-    "citySlug": "huron",
+    "city": "Cincinnati",
+    "citySlug": "cincinnati",
     "count": 4,
-    "lat": 41.3967829,
-    "lng": -82.556374925
-  },
-  {
-    "state": "IA",
-    "stateName": "Iowa",
-    "stateSlug": "iowa",
-    "city": "Dubuque",
-    "citySlug": "dubuque",
-    "count": 4,
-    "lat": 42.509595125,
-    "lng": -90.65188632499999
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Oshkosh",
-    "citySlug": "oshkosh",
-    "count": 4,
-    "lat": 44.027833349999995,
-    "lng": -88.55542155
+    "lat": 39.088922275,
+    "lng": -84.429300175
   },
   {
     "state": "MI",
@@ -1090,64 +410,14 @@
     "lng": -86.275875875
   },
   {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Saint Joseph",
-    "citySlug": "saint-joseph",
-    "count": 4,
-    "lat": 42.10876677500001,
-    "lng": -86.4738032
-  },
-  {
-    "state": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "Peoria",
-    "citySlug": "peoria",
-    "count": 4,
-    "lat": 40.72686655,
-    "lng": -89.56857830000001
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Kenosha",
-    "citySlug": "kenosha",
-    "count": 4,
-    "lat": 42.589083125,
-    "lng": -87.8161747
-  },
-  {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Duluth",
-    "citySlug": "duluth",
-    "count": 4,
-    "lat": 46.776248175,
-    "lng": -92.093699575
-  },
-  {
     "state": "OH",
     "stateName": "Ohio",
     "stateSlug": "ohio",
-    "city": "Kelleys Island",
-    "citySlug": "kelleys-island",
+    "city": "Sandusky",
+    "citySlug": "sandusky",
     "count": 4,
-    "lat": 41.599678625,
-    "lng": -82.708100325
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Lorain",
-    "citySlug": "lorain",
-    "count": 4,
-    "lat": 41.45431235,
-    "lng": -82.21195405
+    "lat": 41.460264825,
+    "lng": -82.689303325
   },
   {
     "state": "WI",
@@ -1160,84 +430,34 @@
     "lng": -87.78271867500001
   },
   {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Milwaukee",
-    "citySlug": "milwaukee",
+    "state": "CA",
+    "stateName": "California",
+    "stateSlug": "california",
+    "city": "Sacramento",
+    "citySlug": "sacramento",
     "count": 4,
-    "lat": 43.030579775,
-    "lng": -87.89060525
-  },
-  {
-    "state": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Syracuse",
-    "citySlug": "syracuse",
-    "count": 4,
-    "lat": 41.405865925,
-    "lng": -85.7175495
+    "lat": 38.55761065,
+    "lng": -121.51741235
   },
   {
     "state": "AK",
     "stateName": "Alaska",
     "stateSlug": "alaska",
-    "city": "Petersburg",
-    "citySlug": "petersburg",
+    "city": "Sitka",
+    "citySlug": "sitka",
     "count": 4,
-    "lat": 56.81093585,
-    "lng": -132.9614392
+    "lat": 57.05341127500001,
+    "lng": -135.350112025
   },
   {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Kirkland",
-    "citySlug": "kirkland",
-    "count": 4,
-    "lat": 47.664258175,
-    "lng": -122.20776375
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Deer Harbor",
-    "citySlug": "deer-harbor",
-    "count": 4,
-    "lat": 48.6246462,
-    "lng": -122.9918172
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Chelan",
-    "citySlug": "chelan",
-    "count": 4,
-    "lat": 47.85061925000001,
-    "lng": -120.096051875
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Everett",
-    "citySlug": "everett",
-    "count": 4,
-    "lat": 48.011685325,
-    "lng": -122.20085957500001
-  },
-  {
-    "state": "SC",
-    "stateName": "South Carolina",
-    "stateSlug": "south-carolina",
-    "city": "Beaufort",
-    "citySlug": "beaufort",
+    "state": "MS",
+    "stateName": "Mississippi",
+    "stateSlug": "mississippi",
+    "city": "Biloxi",
+    "citySlug": "biloxi",
     "count": 3,
-    "lat": 32.41494333333333,
-    "lng": -80.6703074
+    "lat": 30.39180966666667,
+    "lng": -88.88663413333335
   },
   {
     "state": "SC",
@@ -1260,16 +480,6 @@
     "lng": -75.30398916666667
   },
   {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Punta Gorda",
-    "citySlug": "punta-gorda",
-    "count": 3,
-    "lat": 26.872254966666663,
-    "lng": -82.0649746
-  },
-  {
     "state": "KY",
     "stateName": "Kentucky",
     "stateSlug": "kentucky",
@@ -1278,6 +488,16 @@
     "count": 3,
     "lat": 36.642978899999996,
     "lng": -85.24778913333334
+  },
+  {
+    "state": "MD",
+    "stateName": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Pasadena",
+    "citySlug": "pasadena",
+    "count": 3,
+    "lat": 39.10087146666667,
+    "lng": -76.47252833333333
   },
   {
     "state": "FL",
@@ -1293,31 +513,21 @@
     "state": "FL",
     "stateName": "Florida",
     "stateSlug": "florida",
-    "city": "Hollywood",
-    "citySlug": "hollywood",
+    "city": "Stuart",
+    "citySlug": "stuart",
     "count": 3,
-    "lat": 26.060564966666664,
-    "lng": -80.11544906666667
+    "lat": 27.193584599999998,
+    "lng": -80.23635416666666
   },
   {
     "state": "FL",
     "stateName": "Florida",
     "stateSlug": "florida",
-    "city": "Homestead",
-    "citySlug": "homestead",
+    "city": "Monroe County",
+    "citySlug": "monroe-county",
     "count": 3,
-    "lat": 25.274362799999995,
-    "lng": -80.72448896666667
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Riviera Beach",
-    "citySlug": "riviera-beach",
-    "count": 3,
-    "lat": 26.779600633333335,
-    "lng": -80.04670976666667
+    "lat": 24.59766713333333,
+    "lng": -81.6599979
   },
   {
     "state": "FL",
@@ -1330,284 +540,34 @@
     "lng": -80.2168085
   },
   {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Beaufort",
-    "citySlug": "beaufort",
+    "state": "VA",
+    "stateName": "Virginia",
+    "stateSlug": "virginia",
+    "city": "Moneta",
+    "citySlug": "moneta",
     "count": 3,
-    "lat": 34.7552771,
-    "lng": -76.6811019
+    "lat": 37.129940866666665,
+    "lng": -79.63934796666666
   },
   {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Cornelius",
-    "citySlug": "cornelius",
+    "state": "FL",
+    "stateName": "Florida",
+    "stateSlug": "florida",
+    "city": "Key Largo",
+    "citySlug": "key-largo",
     "count": 3,
-    "lat": 35.51127516666667,
-    "lng": -80.89345276666666
-  },
-  {
-    "state": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Ocean Springs",
-    "citySlug": "ocean-springs",
-    "count": 3,
-    "lat": 30.400558166666666,
-    "lng": -88.81331673333334
-  },
-  {
-    "state": "KY",
-    "stateName": "Kentucky",
-    "stateSlug": "kentucky",
-    "city": "Burnside",
-    "citySlug": "burnside",
-    "count": 3,
-    "lat": 37.006728700000004,
-    "lng": -84.62788446666667
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Apex",
-    "citySlug": "apex",
-    "count": 3,
-    "lat": 35.74822833333333,
-    "lng": -78.88325353333333
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Ocean City",
-    "citySlug": "ocean-city",
-    "count": 3,
-    "lat": 38.34608103333334,
-    "lng": -75.08779533333332
+    "lat": 25.1811732,
+    "lng": -80.37307070000001
   },
   {
     "state": "VA",
     "stateName": "Virginia",
     "stateSlug": "virginia",
-    "city": "Bedford County",
-    "citySlug": "bedford-county",
+    "city": "Woodbridge",
+    "citySlug": "woodbridge",
     "count": 3,
-    "lat": 37.17581653333334,
-    "lng": -79.6992767
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Penhook",
-    "citySlug": "penhook",
-    "count": 3,
-    "lat": 37.01837166666667,
-    "lng": -79.59277883333334
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "North Shore",
-    "citySlug": "north-shore",
-    "count": 3,
-    "lat": 37.05916323333333,
-    "lng": -79.64669803333334
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Sanford",
-    "citySlug": "sanford",
-    "count": 3,
-    "lat": 28.81503603333333,
-    "lng": -81.26640336666667
-  },
-  {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Chattanooga",
-    "citySlug": "chattanooga",
-    "count": 3,
-    "lat": 35.10663806666667,
-    "lng": -85.21385016666667
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Chester",
-    "citySlug": "chester",
-    "count": 3,
-    "lat": 38.96612773333333,
-    "lng": -76.27248206666667
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Jensen Beach",
-    "citySlug": "jensen-beach",
-    "count": 3,
-    "lat": 27.239793966666667,
-    "lng": -80.21978106666667
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Havre de Grace",
-    "citySlug": "havre-de-grace",
-    "count": 3,
-    "lat": 39.54568896666667,
-    "lng": -76.08549326666666
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Southport",
-    "citySlug": "southport",
-    "count": 3,
-    "lat": 33.908952533333334,
-    "lng": -78.00872043333334
-  },
-  {
-    "state": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Brookville",
-    "citySlug": "brookville",
-    "count": 3,
-    "lat": 39.51350506666667,
-    "lng": -85.00512106666667
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Perryville",
-    "citySlug": "perryville",
-    "count": 3,
-    "lat": 39.56004433333334,
-    "lng": -76.08077873333333
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Upper Grand Lagoon",
-    "citySlug": "upper-grand-lagoon",
-    "count": 3,
-    "lat": 30.160353833333335,
-    "lng": -85.74130380000001
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Big Pine Key",
-    "citySlug": "big-pine-key",
-    "count": 3,
-    "lat": 24.675595766666664,
-    "lng": -81.29167373333333
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "McHenry",
-    "citySlug": "mchenry",
-    "count": 3,
-    "lat": 39.5512485,
-    "lng": -79.35266706666667
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "West Palm Beach",
-    "citySlug": "west-palm-beach",
-    "count": 3,
-    "lat": 26.728642566666668,
-    "lng": -80.04992653333333
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Chesapeake Beach",
-    "citySlug": "chesapeake-beach",
-    "count": 3,
-    "lat": 38.666649799999995,
-    "lng": -76.52834336666666
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Bradenton",
-    "citySlug": "bradenton",
-    "count": 3,
-    "lat": 27.472598333333334,
-    "lng": -82.57185133333333
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Mayo",
-    "citySlug": "mayo",
-    "count": 3,
-    "lat": 38.90089186666666,
-    "lng": -76.50841976666668
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Tilghman Island",
-    "citySlug": "tilghman-island",
-    "count": 3,
-    "lat": 38.71682186666666,
-    "lng": -76.33427596666667
-  },
-  {
-    "state": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Orange Beach",
-    "citySlug": "orange-beach",
-    "count": 3,
-    "lat": 30.289987333333332,
-    "lng": -87.56481536666666
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Murphy",
-    "citySlug": "murphy",
-    "count": 3,
-    "lat": 35.14177383333334,
-    "lng": -84.13674333333334
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Saint Augustine",
-    "citySlug": "saint-augustine",
-    "count": 3,
-    "lat": 29.886947833333334,
-    "lng": -81.32262446666668
+    "lat": 38.67360983333334,
+    "lng": -77.24952446666667
   },
   {
     "state": "MD",
@@ -1623,16 +583,6 @@
     "state": "MD",
     "stateName": "Maryland",
     "stateSlug": "maryland",
-    "city": "Stevensville",
-    "citySlug": "stevensville",
-    "count": 3,
-    "lat": 38.9220845,
-    "lng": -76.34316243333333
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
     "city": "Georgetown",
     "citySlug": "georgetown",
     "count": 3,
@@ -1640,44 +590,24 @@
     "lng": -75.88797213333334
   },
   {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Belhaven",
-    "citySlug": "belhaven",
+    "state": "MD",
+    "stateName": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Charlestown",
+    "citySlug": "charlestown",
     "count": 3,
-    "lat": 35.533961233333336,
-    "lng": -76.59080313333334
+    "lat": 39.57330986666667,
+    "lng": -75.9695617
   },
   {
-    "state": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "St. Charles",
-    "citySlug": "st-charles",
+    "state": "FL",
+    "stateName": "Florida",
+    "stateSlug": "florida",
+    "city": "Fort Pierce",
+    "citySlug": "fort-pierce",
     "count": 3,
-    "lat": 38.9323999,
-    "lng": -90.47738446666666
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Chincoteague",
-    "citySlug": "chincoteague",
-    "count": 3,
-    "lat": 37.914599833333334,
-    "lng": -75.39685659999999
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Clarksville",
-    "citySlug": "clarksville",
-    "count": 3,
-    "lat": 36.63815496666667,
-    "lng": -78.55228166666667
+    "lat": 27.465083766666666,
+    "lng": -80.30334236666666
   },
   {
     "state": "VA",
@@ -1690,66 +620,6 @@
     "lng": -76.01440889999999
   },
   {
-    "state": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "Innsbrook",
-    "citySlug": "innsbrook",
-    "count": 3,
-    "lat": 38.75501706666667,
-    "lng": -91.03027540000001
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Bumpass",
-    "citySlug": "bumpass",
-    "count": 3,
-    "lat": 38.049031066666664,
-    "lng": -77.7489463
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Glouster",
-    "citySlug": "glouster",
-    "count": 3,
-    "lat": 39.52456943333333,
-    "lng": -82.04356250000001
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Palm Coast",
-    "citySlug": "palm-coast",
-    "count": 3,
-    "lat": 29.5500957,
-    "lng": -81.17728266666667
-  },
-  {
-    "state": "LA",
-    "stateName": "Louisiana",
-    "stateSlug": "louisiana",
-    "city": "Empire",
-    "citySlug": "empire",
-    "count": 3,
-    "lat": 29.361301100000002,
-    "lng": -89.5187303
-  },
-  {
-    "state": "PA",
-    "stateName": "Pennsylvania",
-    "stateSlug": "pennsylvania",
-    "city": "Sewickley",
-    "citySlug": "sewickley",
-    "count": 3,
-    "lat": 40.5283405,
-    "lng": -80.16783316666668
-  },
-  {
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
@@ -1758,16 +628,6 @@
     "count": 3,
     "lat": 44.95236056666666,
     "lng": -85.25912340000001
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Madison",
-    "citySlug": "madison",
-    "count": 3,
-    "lat": 43.11048563333333,
-    "lng": -89.4032214
   },
   {
     "state": "MI",
@@ -1788,16 +648,6 @@
     "count": 3,
     "lat": 41.96869713333333,
     "lng": -83.27332246666667
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Prescott",
-    "citySlug": "prescott",
-    "count": 3,
-    "lat": 44.745600599999996,
-    "lng": -92.79914953333333
   },
   {
     "state": "MI",
@@ -1823,16 +673,6 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Petoskey",
-    "citySlug": "petoskey",
-    "count": 3,
-    "lat": 45.35465156666667,
-    "lng": -85.01115303333334
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
     "city": "Indian River",
     "citySlug": "indian-river",
     "count": 3,
@@ -1853,16 +693,6 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Alpena",
-    "citySlug": "alpena",
-    "count": 3,
-    "lat": 45.10743263333333,
-    "lng": -83.4367724
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
     "city": "Au Gres",
     "citySlug": "au-gres",
     "count": 3,
@@ -1873,61 +703,31 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Caseville",
-    "citySlug": "caseville",
+    "city": "Saint Joseph",
+    "citySlug": "saint-joseph",
     "count": 3,
-    "lat": 43.94326853333333,
-    "lng": -83.27539233333333
+    "lat": 42.10676566666667,
+    "lng": -86.47054106666667
   },
   {
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Bay City",
-    "citySlug": "bay-city",
+    "city": "Monroe",
+    "citySlug": "monroe",
     "count": 3,
-    "lat": 43.60922626666667,
-    "lng": -83.8779276
+    "lat": 41.88411086666667,
+    "lng": -83.3827418
   },
   {
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Port Huron",
-    "citySlug": "port-huron",
+    "city": "Wyandotte",
+    "citySlug": "wyandotte",
     "count": 3,
-    "lat": 42.98641043333333,
-    "lng": -82.42475893333334
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Grand Haven",
-    "citySlug": "grand-haven",
-    "count": 3,
-    "lat": 43.06691506666667,
-    "lng": -86.22720016666666
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Vermilion",
-    "citySlug": "vermilion",
-    "count": 3,
-    "lat": 41.41970753333334,
-    "lng": -82.35531596666665
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Traverse City",
-    "citySlug": "traverse-city",
-    "count": 3,
-    "lat": 44.817869333333334,
-    "lng": -85.59513956666666
+    "lat": 42.2226511,
+    "lng": -83.1474161
   },
   {
     "state": "MI",
@@ -1940,14 +740,14 @@
     "lng": -85.98488403333333
   },
   {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Stillwater",
-    "citySlug": "stillwater",
+    "state": "WI",
+    "stateName": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "city": "Milwaukee",
+    "citySlug": "milwaukee",
     "count": 3,
-    "lat": 45.0707923,
-    "lng": -92.80462176666667
+    "lat": 43.04150456666667,
+    "lng": -87.89351136666666
   },
   {
     "state": "MI",
@@ -1960,24 +760,14 @@
     "lng": -85.25082
   },
   {
-    "state": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "East Peoria",
-    "citySlug": "east-peoria",
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Frankfort",
+    "citySlug": "frankfort",
     "count": 3,
-    "lat": 40.695299033333335,
-    "lng": -89.5571983
-  },
-  {
-    "state": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "East Dubuque",
-    "citySlug": "east-dubuque",
-    "count": 3,
-    "lat": 42.477649166666666,
-    "lng": -90.63371006666667
+    "lat": 44.64893726666667,
+    "lng": -86.24160526666667
   },
   {
     "state": "MI",
@@ -1990,44 +780,34 @@
     "lng": -86.3236547
   },
   {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Bazetta Township",
-    "citySlug": "bazetta-township",
+    "state": "MN",
+    "stateName": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Duluth",
+    "citySlug": "duluth",
     "count": 3,
-    "lat": 41.3180532,
-    "lng": -80.74407033333334
+    "lat": 46.774160800000004,
+    "lng": -92.09264569999999
   },
   {
-    "state": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "Osage Beach",
-    "citySlug": "osage-beach",
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Alanson",
+    "citySlug": "alanson",
     "count": 3,
-    "lat": 38.12780563333333,
-    "lng": -92.65373226666667
+    "lat": 45.426707766666674,
+    "lng": -84.81605673333333
   },
   {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Richmond",
-    "citySlug": "richmond",
+    "state": "WI",
+    "stateName": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "city": "Bayfield",
+    "citySlug": "bayfield",
     "count": 3,
-    "lat": 37.91495293333333,
-    "lng": -122.37062213333333
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Dana Point",
-    "citySlug": "dana-point",
-    "count": 3,
-    "lat": 33.46010423333333,
-    "lng": -117.69633406666667
+    "lat": 46.795047933333336,
+    "lng": -90.84099603333334
   },
   {
     "state": "CA",
@@ -2040,164 +820,24 @@
     "lng": -122.2090435
   },
   {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "June Lake",
-    "citySlug": "june-lake",
-    "count": 3,
-    "lat": 37.78101663333333,
-    "lng": -119.07739436666668
-  },
-  {
-    "state": "AZ",
-    "stateName": "Arizona",
-    "stateSlug": "arizona",
-    "city": "Roosevelt",
-    "citySlug": "roosevelt",
-    "count": 3,
-    "lat": 33.59571996666667,
-    "lng": -111.2711978
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Newport Beach",
-    "citySlug": "newport-beach",
-    "count": 3,
-    "lat": 33.615250499999995,
-    "lng": -117.91872373333332
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Bridgeport",
-    "citySlug": "bridgeport",
-    "count": 3,
-    "lat": 38.199902333333334,
-    "lng": -119.30934693333334
-  },
-  {
     "state": "AK",
     "stateName": "Alaska",
     "stateSlug": "alaska",
-    "city": "Unalaska",
-    "citySlug": "unalaska",
+    "city": "Petersburg Borough",
+    "citySlug": "petersburg-borough",
     "count": 3,
-    "lat": 53.882719,
-    "lng": -166.5449314
+    "lat": 56.811096033333335,
+    "lng": -132.96156380000002
   },
   {
     "state": "WA",
     "stateName": "Washington",
     "stateSlug": "washington",
-    "city": "Tacoma",
-    "citySlug": "tacoma",
+    "city": "Anacortes",
+    "citySlug": "anacortes",
     "count": 3,
-    "lat": 47.2681328,
-    "lng": -122.45801106666666
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Bellevue",
-    "citySlug": "bellevue",
-    "count": 3,
-    "lat": 47.58627256666667,
-    "lng": -122.1949873
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Harbor",
-    "citySlug": "harbor",
-    "count": 3,
-    "lat": 42.04784813333333,
-    "lng": -124.26770959999999
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Bainbridge Island",
-    "citySlug": "bainbridge-island",
-    "count": 3,
-    "lat": 47.62997696666667,
-    "lng": -122.54956573333334
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Friday Harbor",
-    "citySlug": "friday-harbor",
-    "count": 3,
-    "lat": 48.55831723333333,
-    "lng": -123.05694946666665
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Grapeview",
-    "citySlug": "grapeview",
-    "count": 3,
-    "lat": 47.30575736666666,
-    "lng": -122.86030066666666
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Port Townsend",
-    "citySlug": "port-townsend",
-    "count": 3,
-    "lat": 48.10848016666666,
-    "lng": -122.80325423333333
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Astoria",
-    "citySlug": "astoria",
-    "count": 3,
-    "lat": 46.18522793333333,
-    "lng": -123.82641616666666
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Vashon",
-    "citySlug": "vashon",
-    "count": 3,
-    "lat": 47.385755200000006,
-    "lng": -122.46104543333333
-  },
-  {
-    "state": "ID",
-    "stateName": "Idaho",
-    "stateSlug": "idaho",
-    "city": "Harrison",
-    "citySlug": "harrison",
-    "count": 3,
-    "lat": 47.57161343333333,
-    "lng": -116.77257783333333
-  },
-  {
-    "state": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Galveston",
-    "citySlug": "galveston",
-    "count": 3,
-    "lat": 29.249076333333335,
-    "lng": -94.89413413333334
+    "lat": 48.501936433333334,
+    "lng": -122.64266133333332
   },
   {
     "state": "DE",
@@ -2210,6 +850,16 @@
     "lng": -75.0795705
   },
   {
+    "state": "MD",
+    "stateName": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Glen Burnie",
+    "citySlug": "glen-burnie",
+    "count": 2,
+    "lat": 39.0551114,
+    "lng": -76.545147
+  },
+  {
     "state": "PA",
     "stateName": "Pennsylvania",
     "stateSlug": "pennsylvania",
@@ -2220,16 +870,6 @@
     "lng": -80.0095397
   },
   {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Memphis",
-    "citySlug": "memphis",
-    "count": 2,
-    "lat": 35.12285185,
-    "lng": -90.07056
-  },
-  {
     "state": "IN",
     "stateName": "Indiana",
     "stateSlug": "indiana",
@@ -2238,16 +878,6 @@
     "count": 2,
     "lat": 39.04045645,
     "lng": -86.46834229999999
-  },
-  {
-    "state": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Indianapolis",
-    "citySlug": "indianapolis",
-    "count": 2,
-    "lat": 39.8306372,
-    "lng": -86.31037605
   },
   {
     "state": "IA",
@@ -2270,24 +900,14 @@
     "lng": -82.97312265
   },
   {
-    "state": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Tuscaloosa",
-    "citySlug": "tuscaloosa",
+    "state": "FL",
+    "stateName": "Florida",
+    "stateSlug": "florida",
+    "city": "Tampa",
+    "citySlug": "tampa",
     "count": 2,
-    "lat": 33.323964700000005,
-    "lng": -87.5663011
-  },
-  {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Nashville",
-    "citySlug": "nashville",
-    "count": 2,
-    "lat": 36.1473042,
-    "lng": -86.61677915
+    "lat": 27.952540149999997,
+    "lng": -82.5181852
   },
   {
     "state": "KY",
@@ -2298,16 +918,6 @@
     "count": 2,
     "lat": 36.65162365,
     "lng": -85.35602795
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Port Saint Joe",
-    "citySlug": "port-saint-joe",
-    "count": 2,
-    "lat": 29.7893705,
-    "lng": -85.35628475
   },
   {
     "state": "NC",
@@ -2323,11 +933,11 @@
     "state": "FL",
     "stateName": "Florida",
     "stateSlug": "florida",
-    "city": "Madeira Beach",
-    "citySlug": "madeira-beach",
+    "city": "Fort Lauderdale",
+    "citySlug": "fort-lauderdale",
     "count": 2,
-    "lat": 27.79430065,
-    "lng": -82.7891095
+    "lat": 26.122124149999998,
+    "lng": -80.11435075
   },
   {
     "state": "FL",
@@ -2343,11 +953,11 @@
     "state": "FL",
     "stateName": "Florida",
     "stateSlug": "florida",
-    "city": "Palmetto",
-    "citySlug": "palmetto",
+    "city": "Pensacola",
+    "citySlug": "pensacola",
     "count": 2,
-    "lat": 27.51753455,
-    "lng": -82.5937029
+    "lat": 30.41482155,
+    "lng": -87.21657815
   },
   {
     "state": "SC",
@@ -2383,31 +993,11 @@
     "state": "FL",
     "stateName": "Florida",
     "stateSlug": "florida",
-    "city": "Palm Beach Gardens",
-    "citySlug": "palm-beach-gardens",
+    "city": "Key West",
+    "citySlug": "key-west",
     "count": 2,
-    "lat": 26.863286549999998,
-    "lng": -80.0713959
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Duck Key",
-    "citySlug": "duck-key",
-    "count": 2,
-    "lat": 24.77633955,
-    "lng": -80.9144839
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Suffolk",
-    "citySlug": "suffolk",
-    "count": 2,
-    "lat": 36.73984405,
-    "lng": -76.58049345
+    "lat": 24.5687568,
+    "lng": -81.7326842
   },
   {
     "state": "NC",
@@ -2430,14 +1020,14 @@
     "lng": -80.66562565000001
   },
   {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Apalachicola",
-    "citySlug": "apalachicola",
+    "state": "MS",
+    "stateName": "Mississippi",
+    "stateSlug": "mississippi",
+    "city": "Ocean Springs",
+    "citySlug": "ocean-springs",
     "count": 2,
-    "lat": 29.72286615,
-    "lng": -84.98208615
+    "lat": 30.4044739,
+    "lng": -88.8215217
   },
   {
     "state": "NC",
@@ -2450,14 +1040,14 @@
     "lng": -75.98527575
   },
   {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Marco Island",
-    "citySlug": "marco-island",
+    "state": "NC",
+    "stateName": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "Apex",
+    "citySlug": "apex",
     "count": 2,
-    "lat": 25.9589137,
-    "lng": -81.71723425
+    "lat": 35.750937449999995,
+    "lng": -78.82091405
   },
   {
     "state": "NC",
@@ -2470,24 +1060,14 @@
     "lng": -78.95767825
   },
   {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Gloucester Point",
-    "citySlug": "gloucester-point",
+    "state": "FL",
+    "stateName": "Florida",
+    "stateSlug": "florida",
+    "city": "Naples",
+    "citySlug": "naples",
     "count": 2,
-    "lat": 37.28096015,
-    "lng": -76.4676339
-  },
-  {
-    "state": "KY",
-    "stateName": "Kentucky",
-    "stateSlug": "kentucky",
-    "city": "Louisville",
-    "citySlug": "louisville",
-    "count": 2,
-    "lat": 38.326554849999994,
-    "lng": -85.6427434
+    "lat": 26.2404436,
+    "lng": -81.80730545
   },
   {
     "state": "VA",
@@ -2498,206 +1078,6 @@
     "count": 2,
     "lat": 37.05623985,
     "lng": -79.5728382
-  },
-  {
-    "state": "SC",
-    "stateName": "South Carolina",
-    "stateSlug": "south-carolina",
-    "city": "Leesville",
-    "citySlug": "leesville",
-    "count": 2,
-    "lat": 34.049677450000004,
-    "lng": -81.49746315
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Heathsville",
-    "citySlug": "heathsville",
-    "count": 2,
-    "lat": 37.89255875,
-    "lng": -76.39043835000001
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Marietta",
-    "citySlug": "marietta",
-    "count": 2,
-    "lat": 39.415677450000004,
-    "lng": -81.45864525
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Hatteras",
-    "citySlug": "hatteras",
-    "count": 2,
-    "lat": 35.21366835,
-    "lng": -75.6986977
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Tavernier",
-    "citySlug": "tavernier",
-    "count": 2,
-    "lat": 25.00716235,
-    "lng": -80.52523235000001
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "North Palm Beach",
-    "citySlug": "north-palm-beach",
-    "count": 2,
-    "lat": 26.829901399999997,
-    "lng": -80.05686275
-  },
-  {
-    "state": "SC",
-    "stateName": "South Carolina",
-    "stateSlug": "south-carolina",
-    "city": "Lake Murray of Richland",
-    "citySlug": "lake-murray-of-richland",
-    "count": 2,
-    "lat": 34.1110242,
-    "lng": -81.27035615
-  },
-  {
-    "state": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Crane Hill",
-    "citySlug": "crane-hill",
-    "count": 2,
-    "lat": 34.083442000000005,
-    "lng": -86.9659524
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Sneads Ferry",
-    "citySlug": "sneads-ferry",
-    "count": 2,
-    "lat": 34.553174,
-    "lng": -77.37563804999999
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Annapolis Neck",
-    "citySlug": "annapolis-neck",
-    "count": 2,
-    "lat": 38.927660700000004,
-    "lng": -76.47619125
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Rodanthe",
-    "citySlug": "rodanthe",
-    "count": 2,
-    "lat": 35.587427500000004,
-    "lng": -75.4696254
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Newport",
-    "citySlug": "newport",
-    "count": 2,
-    "lat": 34.8504042,
-    "lng": -76.69215700000001
-  },
-  {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Rockwood",
-    "citySlug": "rockwood",
-    "count": 2,
-    "lat": 35.870255,
-    "lng": -84.6039997
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Seaford",
-    "citySlug": "seaford",
-    "count": 2,
-    "lat": 37.2049914,
-    "lng": -76.43132729999999
-  },
-  {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Harrison",
-    "citySlug": "harrison",
-    "count": 2,
-    "lat": 35.15317605,
-    "lng": -85.1228493
-  },
-  {
-    "state": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Guntersville",
-    "citySlug": "guntersville",
-    "count": 2,
-    "lat": 34.3607226,
-    "lng": -86.28237455
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Tarpon Springs",
-    "citySlug": "tarpon-springs",
-    "count": 2,
-    "lat": 28.16442485,
-    "lng": -82.7718083
-  },
-  {
-    "state": "GA",
-    "stateName": "Georgia",
-    "stateSlug": "georgia",
-    "city": "Blairsville",
-    "citySlug": "blairsville",
-    "count": 2,
-    "lat": 34.92051755,
-    "lng": -84.07439535
-  },
-  {
-    "state": "GA",
-    "stateName": "Georgia",
-    "stateSlug": "georgia",
-    "city": "Augusta",
-    "citySlug": "augusta",
-    "count": 2,
-    "lat": 33.4686088,
-    "lng": -81.94145835
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Alexandria",
-    "citySlug": "alexandria",
-    "count": 2,
-    "lat": 38.8046407,
-    "lng": -77.0450664
   },
   {
     "state": "FL",
@@ -2713,21 +1093,11 @@
     "state": "MD",
     "stateName": "Maryland",
     "stateSlug": "maryland",
-    "city": "Sparrows Point",
-    "citySlug": "sparrows-point",
+    "city": "Baltimore",
+    "citySlug": "baltimore",
     "count": 2,
-    "lat": 39.2231829,
-    "lng": -76.45241605
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "North Point Village",
-    "citySlug": "north-point-village",
-    "count": 2,
-    "lat": 39.2687424,
-    "lng": -76.46522494999999
+    "lat": 39.27684945,
+    "lng": -76.58996485
   },
   {
     "state": "MD",
@@ -2740,44 +1110,14 @@
     "lng": -76.25548615
   },
   {
-    "state": "PA",
-    "stateName": "Pennsylvania",
-    "stateSlug": "pennsylvania",
-    "city": "Lower Windsor Township",
-    "citySlug": "lower-windsor-township",
-    "count": 2,
-    "lat": 39.97162195,
-    "lng": -76.49423039999999
-  },
-  {
     "state": "MD",
     "stateName": "Maryland",
     "stateSlug": "maryland",
-    "city": "Riviera Beach",
-    "citySlug": "riviera-beach",
+    "city": "Saint Michaels",
+    "citySlug": "saint-michaels",
     "count": 2,
-    "lat": 39.15184695,
-    "lng": -76.50179675
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Morehead City",
-    "citySlug": "morehead-city",
-    "count": 2,
-    "lat": 34.72015905,
-    "lng": -76.6947876
-  },
-  {
-    "state": "KY",
-    "stateName": "Kentucky",
-    "stateSlug": "kentucky",
-    "city": "Dayton",
-    "citySlug": "dayton",
-    "count": 2,
-    "lat": 39.113419050000005,
-    "lng": -84.45326285
+    "lat": 38.786665049999996,
+    "lng": -76.21961350000001
   },
   {
     "state": "VA",
@@ -2790,106 +1130,6 @@
     "lng": -75.68629254999999
   },
   {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Saint Marks",
-    "citySlug": "saint-marks",
-    "count": 2,
-    "lat": 30.15787485,
-    "lng": -84.2088991
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Tracys Landing",
-    "citySlug": "tracys-landing",
-    "count": 2,
-    "lat": 38.7711823,
-    "lng": -76.56373525000001
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Chesapeake",
-    "citySlug": "chesapeake",
-    "count": 2,
-    "lat": 36.7210647,
-    "lng": -76.2106803
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Hampstead",
-    "citySlug": "hampstead",
-    "count": 2,
-    "lat": 34.371831,
-    "lng": -77.65901600000001
-  },
-  {
-    "state": "DE",
-    "stateName": "Delaware",
-    "stateSlug": "delaware",
-    "city": "Ocean View",
-    "citySlug": "ocean-view",
-    "count": 2,
-    "lat": 38.5275091,
-    "lng": -75.0868679
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Oakland",
-    "citySlug": "oakland",
-    "count": 2,
-    "lat": 39.508242100000004,
-    "lng": -79.32056145
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Vilano Beach",
-    "citySlug": "vilano-beach",
-    "count": 2,
-    "lat": 29.916728550000002,
-    "lng": -81.29849685
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "St. Augustine",
-    "citySlug": "st-augustine",
-    "count": 2,
-    "lat": 29.8912409,
-    "lng": -81.30662285
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Jacksonville Beach",
-    "citySlug": "jacksonville-beach",
-    "count": 2,
-    "lat": 30.2879175,
-    "lng": -81.42149215
-  },
-  {
-    "state": "SC",
-    "stateName": "South Carolina",
-    "stateSlug": "south-carolina",
-    "city": "Georgetown",
-    "citySlug": "georgetown",
-    "count": 2,
-    "lat": 33.36213345,
-    "lng": -79.3003667
-  },
-  {
     "state": "DC",
     "stateName": "DC",
     "stateSlug": "dc",
@@ -2898,56 +1138,6 @@
     "count": 2,
     "lat": 38.87425505,
     "lng": -77.0117845
-  },
-  {
-    "state": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Bay St. Louis",
-    "citySlug": "bay-st-louis",
-    "count": 2,
-    "lat": 30.3175721,
-    "lng": -89.32473325000001
-  },
-  {
-    "state": "KY",
-    "stateName": "Kentucky",
-    "stateSlug": "kentucky",
-    "city": "Jamestown",
-    "citySlug": "jamestown",
-    "count": 2,
-    "lat": 36.93298925,
-    "lng": -85.04581385
-  },
-  {
-    "state": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Pascagoula",
-    "citySlug": "pascagoula",
-    "count": 2,
-    "lat": 30.3445819,
-    "lng": -88.53747095
-  },
-  {
-    "state": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Bloomington",
-    "citySlug": "bloomington",
-    "count": 2,
-    "lat": 39.07599235,
-    "lng": -86.41463565000001
-  },
-  {
-    "state": "NC",
-    "stateName": "North Carolina",
-    "stateSlug": "north-carolina",
-    "city": "Lake Norman of Catawba",
-    "citySlug": "lake-norman-of-catawba",
-    "count": 2,
-    "lat": 35.5855181,
-    "lng": -80.9690822
   },
   {
     "state": "NC",
@@ -2963,61 +1153,21 @@
     "state": "MD",
     "stateName": "Maryland",
     "stateSlug": "maryland",
-    "city": "Ocean Pines",
-    "citySlug": "ocean-pines",
+    "city": "Crisfield",
+    "citySlug": "crisfield",
     "count": 2,
-    "lat": 38.385201699999996,
-    "lng": -75.1287212
+    "lat": 37.9793514,
+    "lng": -75.86156155
   },
   {
-    "state": "GA",
-    "stateName": "Georgia",
-    "stateSlug": "georgia",
-    "city": "St. Marys",
-    "citySlug": "st-marys",
+    "state": "NC",
+    "stateName": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "Oriental",
+    "citySlug": "oriental",
     "count": 2,
-    "lat": 30.80618565,
-    "lng": -81.55483785
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Urbanna",
-    "citySlug": "urbanna",
-    "count": 2,
-    "lat": 37.653243700000004,
-    "lng": -76.5892787
-  },
-  {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Silver Point",
-    "citySlug": "silver-point",
-    "count": 2,
-    "lat": 36.060380699999996,
-    "lng": -85.79275975
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Earleville",
-    "citySlug": "earleville",
-    "count": 2,
-    "lat": 39.46451595,
-    "lng": -75.88062685
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Cecilton",
-    "citySlug": "cecilton",
-    "count": 2,
-    "lat": 39.4607237,
-    "lng": -75.87253275
+    "lat": 35.03228345,
+    "lng": -76.68367330000001
   },
   {
     "state": "MD",
@@ -3030,26 +1180,6 @@
     "lng": -76.4558393
   },
   {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "La Vergne",
-    "citySlug": "la-vergne",
-    "count": 2,
-    "lat": 36.0474984,
-    "lng": -86.52915235
-  },
-  {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "North Chesapeake City",
-    "citySlug": "north-chesapeake-city",
-    "count": 2,
-    "lat": 39.526301000000004,
-    "lng": -75.8107281
-  },
-  {
     "state": "NC",
     "stateName": "North Carolina",
     "stateSlug": "north-carolina",
@@ -3060,274 +1190,14 @@
     "lng": -76.1531224
   },
   {
-    "state": "MD",
-    "stateName": "Maryland",
-    "stateSlug": "maryland",
-    "city": "Port Deposit",
-    "citySlug": "port-deposit",
+    "state": "NC",
+    "stateName": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "Murphy",
+    "citySlug": "murphy",
     "count": 2,
-    "lat": 39.6033782,
-    "lng": -76.11600870000001
-  },
-  {
-    "state": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "Rivers",
-    "citySlug": "rivers",
-    "count": 2,
-    "lat": 38.9313976,
-    "lng": -90.47750105
-  },
-  {
-    "state": "DE",
-    "stateName": "Delaware",
-    "stateSlug": "delaware",
-    "city": "Rehoboth Beach",
-    "citySlug": "rehoboth-beach",
-    "count": 2,
-    "lat": 38.61135245,
-    "lng": -75.07057595
-  },
-  {
-    "state": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Dauphin Island",
-    "citySlug": "dauphin-island",
-    "count": 2,
-    "lat": 30.2573843,
-    "lng": -88.0959471
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Smithfield",
-    "citySlug": "smithfield",
-    "count": 2,
-    "lat": 36.9888689,
-    "lng": -76.59231414999999
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Palm Beach Shores",
-    "citySlug": "palm-beach-shores",
-    "count": 2,
-    "lat": 26.7779974,
-    "lng": -80.03989609999999
-  },
-  {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Winchester",
-    "citySlug": "winchester",
-    "count": 2,
-    "lat": 35.2095548,
-    "lng": -86.1868308
-  },
-  {
-    "state": "GA",
-    "stateName": "Georgia",
-    "stateSlug": "georgia",
-    "city": "Talahi Island",
-    "citySlug": "talahi-island",
-    "count": 2,
-    "lat": 32.0352577,
-    "lng": -80.95950915
-  },
-  {
-    "state": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Fairfield Glade",
-    "citySlug": "fairfield-glade",
-    "count": 2,
-    "lat": 35.992039500000004,
-    "lng": -84.91544995000001
-  },
-  {
-    "state": "GA",
-    "stateName": "Georgia",
-    "stateSlug": "georgia",
-    "city": "Savannah",
-    "citySlug": "savannah",
-    "count": 2,
-    "lat": 31.88264435,
-    "lng": -81.11885179999999
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Panacea",
-    "citySlug": "panacea",
-    "count": 2,
-    "lat": 29.94495825,
-    "lng": -84.4134411
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Niceville",
-    "citySlug": "niceville",
-    "count": 2,
-    "lat": 30.508031000000003,
-    "lng": -86.4702388
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Neabsco",
-    "citySlug": "neabsco",
-    "count": 2,
-    "lat": 38.6010349,
-    "lng": -77.2606177
-  },
-  {
-    "state": "WV",
-    "stateName": "West Virginia",
-    "stateSlug": "west-virginia",
-    "city": "Cheat Lake",
-    "citySlug": "cheat-lake",
-    "count": 2,
-    "lat": 39.662503900000004,
-    "lng": -79.8538752
-  },
-  {
-    "state": "GA",
-    "stateName": "Georgia",
-    "stateSlug": "georgia",
-    "city": "Cumming",
-    "citySlug": "cumming",
-    "count": 2,
-    "lat": 34.19936675,
-    "lng": -84.10191865
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Mineral",
-    "citySlug": "mineral",
-    "count": 2,
-    "lat": 38.1122584,
-    "lng": -77.83916205
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Hernando Beach",
-    "citySlug": "hernando-beach",
-    "count": 2,
-    "lat": 28.491302249999997,
-    "lng": -82.65067025
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Panama City Beach",
-    "citySlug": "panama-city-beach",
-    "count": 2,
-    "lat": 30.148044849999998,
-    "lng": -85.7458146
-  },
-  {
-    "state": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Evansville",
-    "citySlug": "evansville",
-    "count": 2,
-    "lat": 37.9386609,
-    "lng": -87.6011502
-  },
-  {
-    "state": "VA",
-    "stateName": "Virginia",
-    "stateSlug": "virginia",
-    "city": "Gwynn",
-    "citySlug": "gwynn",
-    "count": 2,
-    "lat": 37.48665225,
-    "lng": -76.32447315
-  },
-  {
-    "state": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "Southern",
-    "citySlug": "southern",
-    "count": 2,
-    "lat": 37.61983395,
-    "lng": -88.9352716
-  },
-  {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "New Richmond",
-    "citySlug": "new-richmond",
-    "count": 2,
-    "lat": 38.94470695,
-    "lng": -84.2784357
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Captiva",
-    "citySlug": "captiva",
-    "count": 2,
-    "lat": 26.537772099999998,
-    "lng": -82.19317674999999
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "Clearwater",
-    "citySlug": "clearwater",
-    "count": 2,
-    "lat": 27.9661672,
-    "lng": -82.80497355
-  },
-  {
-    "state": "FL",
-    "stateName": "Florida",
-    "stateSlug": "florida",
-    "city": "St. Petersburg",
-    "citySlug": "st-petersburg",
-    "count": 2,
-    "lat": 27.769531800000003,
-    "lng": -82.63181055
-  },
-  {
-    "state": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Decatur",
-    "citySlug": "decatur",
-    "count": 2,
-    "lat": 34.619465250000005,
-    "lng": -86.9904023
-  },
-  {
-    "state": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Fairhope",
-    "citySlug": "fairhope",
-    "count": 2,
-    "lat": 30.52985055,
-    "lng": -87.90841040000001
+    "lat": 35.13715345,
+    "lng": -84.1221764
   },
   {
     "state": "MI",
@@ -3340,86 +1210,6 @@
     "lng": -83.4086102
   },
   {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Marblehead",
-    "citySlug": "marblehead",
-    "count": 2,
-    "lat": 41.526053149999996,
-    "lng": -82.72916555
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Shorewood Hills",
-    "citySlug": "shorewood-hills",
-    "count": 2,
-    "lat": 43.08305805,
-    "lng": -89.4551406
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Kearney Township",
-    "citySlug": "kearney-township",
-    "count": 2,
-    "lat": 44.9650538,
-    "lng": -85.20902495
-  },
-  {
-    "state": "PA",
-    "stateName": "Pennsylvania",
-    "stateSlug": "pennsylvania",
-    "city": "Millcreek Township",
-    "citySlug": "millcreek-township",
-    "count": 2,
-    "lat": 42.153748449999995,
-    "lng": -80.099293
-  },
-  {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Rochester",
-    "citySlug": "rochester",
-    "count": 2,
-    "lat": 43.989522550000004,
-    "lng": -92.44581495
-  },
-  {
-    "state": "IA",
-    "stateName": "Iowa",
-    "stateSlug": "iowa",
-    "city": "Council Bluffs",
-    "citySlug": "council-bluffs",
-    "count": 2,
-    "lat": 41.2473219,
-    "lng": -95.91368220000001
-  },
-  {
-    "state": "KS",
-    "stateName": "Kansas",
-    "stateSlug": "kansas",
-    "city": "Winfield",
-    "citySlug": "winfield",
-    "count": 2,
-    "lat": 37.34653665,
-    "lng": -96.89341445
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Suttons Bay Township",
-    "citySlug": "suttons-bay-township",
-    "count": 2,
-    "lat": 45.0041514,
-    "lng": -85.6236954
-  },
-  {
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
@@ -3430,24 +1220,14 @@
     "lng": -83.1598954
   },
   {
-    "state": "KS",
-    "stateName": "Kansas",
-    "stateSlug": "kansas",
-    "city": "Linn Valley",
-    "citySlug": "linn-valley",
+    "state": "IA",
+    "stateName": "Iowa",
+    "stateSlug": "iowa",
+    "city": "Dubuque",
+    "citySlug": "dubuque",
     "count": 2,
-    "lat": 38.37534665,
-    "lng": -94.68845125
-  },
-  {
-    "state": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "Fox Lake",
-    "citySlug": "fox-lake",
-    "count": 2,
-    "lat": 42.39204755,
-    "lng": -88.18262865
+    "lat": 42.49573355,
+    "lng": -90.65809265
   },
   {
     "state": "MI",
@@ -3463,11 +1243,11 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Hessel",
-    "citySlug": "hessel",
+    "city": "Petoskey",
+    "citySlug": "petoskey",
     "count": 2,
-    "lat": 46.00274,
-    "lng": -84.42521585
+    "lat": 45.35149605,
+    "lng": -85.001889
   },
   {
     "state": "MI",
@@ -3493,21 +1273,21 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
+    "city": "Alpena",
+    "citySlug": "alpena",
+    "count": 2,
+    "lat": 45.13131545,
+    "lng": -83.44001365
+  },
+  {
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
     "city": "Leland",
     "citySlug": "leland",
     "count": 2,
     "lat": 45.0222154,
     "lng": -85.761248
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Town of Osceola",
-    "citySlug": "town-of-osceola",
-    "count": 2,
-    "lat": 43.6910462,
-    "lng": -88.16875925
   },
   {
     "state": "MI",
@@ -3543,11 +1323,31 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
+    "city": "Port Sanilac",
+    "citySlug": "port-sanilac",
+    "count": 2,
+    "lat": 43.430988150000005,
+    "lng": -82.5388398
+  },
+  {
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
     "city": "Unionville",
     "citySlug": "unionville",
     "count": 2,
     "lat": 43.6831569,
     "lng": -83.56477154999999
+  },
+  {
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Bay City",
+    "citySlug": "bay-city",
+    "count": 2,
+    "lat": 43.613521649999996,
+    "lng": -83.86954845
   },
   {
     "state": "MI",
@@ -3563,6 +1363,16 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
+    "city": "Port Huron",
+    "citySlug": "port-huron",
+    "count": 2,
+    "lat": 42.97685685,
+    "lng": -82.42626555000001
+  },
+  {
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
     "city": "Spring Lake",
     "citySlug": "spring-lake",
     "count": 2,
@@ -3570,14 +1380,14 @@
     "lng": -86.225538
   },
   {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Greenwood Township",
-    "citySlug": "greenwood-township",
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Grand Haven",
+    "citySlug": "grand-haven",
     "count": 2,
-    "lat": 47.897703050000004,
-    "lng": -92.43635005
+    "lat": 43.06997915,
+    "lng": -86.2213978
   },
   {
     "state": "MI",
@@ -3613,16 +1423,6 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Houghton Township",
-    "citySlug": "houghton-township",
-    "count": 2,
-    "lat": 48.146793200000005,
-    "lng": -88.485555
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
     "city": "Chesterfield",
     "citySlug": "chesterfield",
     "count": 2,
@@ -3650,14 +1450,24 @@
     "lng": -83.37207710000001
   },
   {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Saint Paul",
-    "citySlug": "saint-paul",
+    "state": "WI",
+    "stateName": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "city": "Kenosha",
+    "citySlug": "kenosha",
     "count": 2,
-    "lat": 44.91529555,
-    "lng": -93.13401185000001
+    "lat": 42.590133050000006,
+    "lng": -87.8178121
+  },
+  {
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Traverse City",
+    "citySlug": "traverse-city",
+    "count": 2,
+    "lat": 44.779725150000004,
+    "lng": -85.62914624999999
   },
   {
     "state": "MI",
@@ -3678,36 +1488,6 @@
     "count": 2,
     "lat": 44.89991665,
     "lng": -85.4129412
-  },
-  {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Red Wing",
-    "citySlug": "red-wing",
-    "count": 2,
-    "lat": 44.60133425,
-    "lng": -92.59332275
-  },
-  {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Walker",
-    "citySlug": "walker",
-    "count": 2,
-    "lat": 47.10402995,
-    "lng": -94.58619820000001
-  },
-  {
-    "state": "MN",
-    "stateName": "Minnesota",
-    "stateSlug": "minnesota",
-    "city": "Hastings",
-    "citySlug": "hastings",
-    "count": 2,
-    "lat": 44.7476754,
-    "lng": -92.8462073
   },
   {
     "state": "IL",
@@ -3733,91 +1513,11 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
-    "city": "Greilickville",
-    "citySlug": "greilickville",
-    "count": 2,
-    "lat": 44.790356149999994,
-    "lng": -85.63550035
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Sturgeon Bay",
-    "citySlug": "sturgeon-bay",
-    "count": 2,
-    "lat": 44.82792225,
-    "lng": -87.37767464999999
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Kewaunee",
-    "citySlug": "kewaunee",
-    "count": 2,
-    "lat": 44.46448905,
-    "lng": -87.50078195
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Green Bay",
-    "citySlug": "green-bay",
-    "count": 2,
-    "lat": 44.5372961,
-    "lng": -88.0010763
-  },
-  {
-    "state": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "Lee's Summit",
-    "citySlug": "lee-s-summit",
-    "count": 2,
-    "lat": 38.9755488,
-    "lng": -94.33244375
-  },
-  {
-    "state": "WI",
-    "stateName": "Wisconsin",
-    "stateSlug": "wisconsin",
-    "city": "Town of Russell",
-    "citySlug": "town-of-russell",
-    "count": 2,
-    "lat": 46.867944550000004,
-    "lng": -90.77963325
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
     "city": "Holland",
     "citySlug": "holland",
     "count": 2,
     "lat": 42.79135355,
     "lng": -86.18662169999999
-  },
-  {
-    "state": "IA",
-    "stateName": "Iowa",
-    "stateSlug": "iowa",
-    "city": "North Liberty",
-    "citySlug": "north-liberty",
-    "count": 2,
-    "lat": 41.798988699999995,
-    "lng": -91.6133068
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Sault Ste. Marie",
-    "citySlug": "sault-ste-marie",
-    "count": 2,
-    "lat": 46.4857237,
-    "lng": -84.3199673
   },
   {
     "state": "MO",
@@ -3830,6 +1530,16 @@
     "lng": -94.52817999999999
   },
   {
+    "state": "IL",
+    "stateName": "Illinois",
+    "stateSlug": "illinois",
+    "city": "East Dubuque",
+    "citySlug": "east-dubuque",
+    "count": 2,
+    "lat": 42.48193275,
+    "lng": -90.64360755
+  },
+  {
     "state": "MN",
     "stateName": "Minnesota",
     "stateSlug": "minnesota",
@@ -3840,44 +1550,14 @@
     "lng": -93.43882055
   },
   {
-    "state": "OH",
-    "stateName": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Cortland",
-    "citySlug": "cortland",
+    "state": "MN",
+    "stateName": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Stillwater",
+    "citySlug": "stillwater",
     "count": 2,
-    "lat": 41.3167627,
-    "lng": -80.7533321
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Montague",
-    "citySlug": "montague",
-    "count": 2,
-    "lat": 43.408137249999996,
-    "lng": -86.35641150000001
-  },
-  {
-    "state": "NE",
-    "stateName": "Nebraska",
-    "stateSlug": "nebraska",
-    "city": "Blair",
-    "citySlug": "blair",
-    "count": 2,
-    "lat": 41.5869831,
-    "lng": -96.0933982
-  },
-  {
-    "state": "MI",
-    "stateName": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Marquette",
-    "citySlug": "marquette",
-    "count": 2,
-    "lat": 46.543136149999995,
-    "lng": -87.3880837
+    "lat": 45.075617199999996,
+    "lng": -92.8044976
   },
   {
     "state": "MI",
@@ -3900,6 +1580,46 @@
     "lng": -93.63119474999999
   },
   {
+    "state": "KS",
+    "stateName": "Kansas",
+    "stateSlug": "kansas",
+    "city": "Jefferson County",
+    "citySlug": "jefferson-county",
+    "count": 2,
+    "lat": 39.161942999999994,
+    "lng": -95.44595555000001
+  },
+  {
+    "state": "IL",
+    "stateName": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Lake County",
+    "citySlug": "lake-county",
+    "count": 2,
+    "lat": 42.30784345,
+    "lng": -88.1617011
+  },
+  {
+    "state": "KS",
+    "stateName": "Kansas",
+    "stateSlug": "kansas",
+    "city": "Osage County",
+    "citySlug": "osage-county",
+    "count": 2,
+    "lat": 38.578075600000005,
+    "lng": -95.65345785
+  },
+  {
+    "state": "MN",
+    "stateName": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Saint Paul",
+    "citySlug": "saint-paul",
+    "count": 2,
+    "lat": 44.91830205,
+    "lng": -93.13055605
+  },
+  {
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
@@ -3913,11 +1633,31 @@
     "state": "MI",
     "stateName": "Michigan",
     "stateSlug": "michigan",
+    "city": "Littlefield Township",
+    "citySlug": "littlefield-township",
+    "count": 2,
+    "lat": 45.43972935,
+    "lng": -84.8097304
+  },
+  {
+    "state": "MI",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
     "city": "Macatawa",
     "citySlug": "macatawa",
     "count": 2,
     "lat": 42.76978655,
     "lng": -86.19986985
+  },
+  {
+    "state": "OH",
+    "stateName": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Bazetta Township",
+    "citySlug": "bazetta-township",
+    "count": 2,
+    "lat": 41.315871650000005,
+    "lng": -80.7538239
   },
   {
     "state": "MN",
@@ -3930,14 +1670,14 @@
     "lng": -92.77867839999999
   },
   {
-    "state": "AR",
-    "stateName": "Arkansas",
-    "stateSlug": "arkansas",
-    "city": "Mountain Home",
-    "citySlug": "mountain-home",
+    "state": "MO",
+    "stateName": "Missouri",
+    "stateSlug": "missouri",
+    "city": "Taney County",
+    "citySlug": "taney-county",
     "count": 2,
-    "lat": 36.3321216,
-    "lng": -92.28039369999999
+    "lat": 36.557290449999996,
+    "lng": -93.29246465
   },
   {
     "state": "MI",
@@ -3953,11 +1693,31 @@
     "state": "KS",
     "stateName": "Kansas",
     "stateSlug": "kansas",
-    "city": "El Dorado",
-    "citySlug": "el-dorado",
+    "city": "Butler County",
+    "citySlug": "butler-county",
     "count": 2,
     "lat": 37.866958800000006,
     "lng": -96.7917099
+  },
+  {
+    "state": "KS",
+    "stateName": "Kansas",
+    "stateSlug": "kansas",
+    "city": "Geary County",
+    "citySlug": "geary-county",
+    "count": 2,
+    "lat": 39.117290749999995,
+    "lng": -96.89332064999999
+  },
+  {
+    "state": "MN",
+    "stateName": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Orono",
+    "citySlug": "orono",
+    "count": 2,
+    "lat": 44.957235,
+    "lng": -93.58193465
   },
   {
     "state": "MN",
@@ -3970,114 +1730,64 @@
     "lng": -93.57861009999999
   },
   {
+    "state": "MN",
+    "stateName": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Excelsior",
+    "citySlug": "excelsior",
+    "count": 2,
+    "lat": 44.91534485,
+    "lng": -93.54396879999999
+  },
+  {
     "state": "MO",
     "stateName": "Missouri",
     "stateSlug": "missouri",
-    "city": "Village of Four Seasons",
-    "citySlug": "village-of-four-seasons",
+    "city": "Osage Beach",
+    "citySlug": "osage-beach",
     "count": 2,
-    "lat": 38.19656995,
-    "lng": -92.7197743
+    "lat": 38.134082500000005,
+    "lng": -92.64632055
   },
   {
     "state": "WI",
     "stateName": "Wisconsin",
     "stateSlug": "wisconsin",
-    "city": "Cornucopia",
-    "citySlug": "cornucopia",
+    "city": "Town of Bell",
+    "citySlug": "town-of-bell",
     "count": 2,
     "lat": 46.8579157,
     "lng": -91.1018897
   },
   {
-    "state": "AZ",
-    "stateName": "Arizona",
-    "stateSlug": "arizona",
-    "city": "Peoria",
-    "citySlug": "peoria",
+    "state": "IL",
+    "stateName": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Rock Island County",
+    "citySlug": "rock-island-county",
     "count": 2,
-    "lat": 33.86392755,
-    "lng": -112.2747967
+    "lat": 41.5255079,
+    "lng": -90.4529946
   },
   {
     "state": "CA",
     "stateName": "California",
     "stateSlug": "california",
-    "city": "Vallejo",
-    "citySlug": "vallejo",
+    "city": "Solano County",
+    "citySlug": "solano-county",
     "count": 2,
-    "lat": 38.08773755,
-    "lng": -122.24122735
+    "lat": 38.13256105,
+    "lng": -121.9141029
   },
   {
     "state": "CA",
     "stateName": "California",
     "stateSlug": "california",
-    "city": "Bodega Bay",
-    "citySlug": "bodega-bay",
+    "city": "Dana Point",
+    "citySlug": "dana-point",
     "count": 2,
-    "lat": 38.331429400000005,
-    "lng": -123.05437230000001
-  },
-  {
-    "state": "UT",
-    "stateName": "Utah",
-    "stateSlug": "utah",
-    "city": "South Jordan",
-    "citySlug": "south-jordan",
-    "count": 2,
-    "lat": 40.5485209,
-    "lng": -112.00295985
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Emeryville",
-    "citySlug": "emeryville",
-    "count": 2,
-    "lat": 37.83931475,
-    "lng": -122.31081585
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Bethel Island",
-    "citySlug": "bethel-island",
-    "count": 2,
-    "lat": 38.03013995,
-    "lng": -121.61699205
-  },
-  {
-    "state": "CO",
-    "stateName": "Colorado",
-    "stateSlug": "colorado",
-    "city": "Gunnison",
-    "citySlug": "gunnison",
-    "count": 2,
-    "lat": 38.45888615,
-    "lng": -107.24337745
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Santa Barbara",
-    "citySlug": "santa-barbara",
-    "count": 2,
-    "lat": 34.492215900000005,
-    "lng": -119.82409315000001
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Oakley",
-    "citySlug": "oakley",
-    "count": 2,
-    "lat": 38.01435335,
-    "lng": -121.74143755
+    "lat": 33.45975015,
+    "lng": -117.69894085
   },
   {
     "state": "CA",
@@ -4093,41 +1803,31 @@
     "state": "CA",
     "stateName": "California",
     "stateSlug": "california",
-    "city": "Monterey",
-    "citySlug": "monterey",
+    "city": "Sausalito",
+    "citySlug": "sausalito",
     "count": 2,
-    "lat": 36.6062767,
-    "lng": -121.8920808
-  },
-  {
-    "state": "UT",
-    "stateName": "Utah",
-    "stateSlug": "utah",
-    "city": "Saratoga Springs",
-    "citySlug": "saratoga-springs",
-    "count": 2,
-    "lat": 40.29716065,
-    "lng": -111.87567095
-  },
-  {
-    "state": "UT",
-    "stateName": "Utah",
-    "stateSlug": "utah",
-    "city": "Garden City",
-    "citySlug": "garden-city",
-    "count": 2,
-    "lat": 41.937265800000006,
-    "lng": -111.38800795
+    "lat": 37.8636104,
+    "lng": -122.49120640000001
   },
   {
     "state": "CA",
     "stateName": "California",
     "stateSlug": "california",
-    "city": "Big Bear Lake",
-    "citySlug": "big-bear-lake",
+    "city": "Newport Beach",
+    "citySlug": "newport-beach",
     "count": 2,
-    "lat": 34.25562,
-    "lng": -116.9400932
+    "lat": 33.61793445,
+    "lng": -117.9206061
+  },
+  {
+    "state": "CA",
+    "stateName": "California",
+    "stateSlug": "california",
+    "city": "Oakland",
+    "citySlug": "oakland",
+    "count": 2,
+    "lat": 37.782776999999996,
+    "lng": -122.25335515
   },
   {
     "state": "CA",
@@ -4140,323 +1840,23 @@
     "lng": -121.52329714999999
   },
   {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Eureka",
-    "citySlug": "eureka",
-    "count": 2,
-    "lat": 40.80550245,
-    "lng": -124.1703509
-  },
-  {
-    "state": "CA",
-    "stateName": "California",
-    "stateSlug": "california",
-    "city": "Shaver Lake",
-    "citySlug": "shaver-lake",
-    "count": 2,
-    "lat": 37.139227399999996,
-    "lng": -119.30227255
-  },
-  {
-    "state": "UT",
-    "stateName": "Utah",
-    "stateSlug": "utah",
-    "city": "Heber City",
-    "citySlug": "heber-city",
-    "count": 2,
-    "lat": 40.16795795,
-    "lng": -111.10286605
-  },
-  {
-    "state": "AK",
-    "stateName": "Alaska",
-    "stateSlug": "alaska",
-    "city": "Juneau",
-    "citySlug": "juneau",
-    "count": 2,
-    "lat": 58.3039807,
-    "lng": -134.43189095000002
-  },
-  {
-    "state": "AK",
-    "stateName": "Alaska",
-    "stateSlug": "alaska",
-    "city": "Whittier",
-    "citySlug": "whittier",
-    "count": 2,
-    "lat": 60.777742450000005,
-    "lng": -148.6947454
-  },
-  {
-    "state": "AK",
-    "stateName": "Alaska",
-    "stateSlug": "alaska",
-    "city": "Wrangell",
-    "citySlug": "wrangell",
-    "count": 2,
-    "lat": 56.461009849999996,
-    "lng": -132.38287874999997
-  },
-  {
-    "state": "AK",
-    "stateName": "Alaska",
-    "stateSlug": "alaska",
-    "city": "Sand Point",
-    "citySlug": "sand-point",
-    "count": 2,
-    "lat": 55.33204285,
-    "lng": -160.50040075
-  },
-  {
     "state": "HI",
     "stateName": "Hawaii",
     "stateSlug": "hawaii",
-    "city": "Kaneohe",
-    "citySlug": "kaneohe",
+    "city": "East Honolulu",
+    "citySlug": "east-honolulu",
     "count": 2,
-    "lat": 21.41794405,
-    "lng": -157.77925234999998
-  },
-  {
-    "state": "HI",
-    "stateName": "Hawaii",
-    "stateSlug": "hawaii",
-    "city": "Waipahu",
-    "citySlug": "waipahu",
-    "count": 2,
-    "lat": 21.32090695,
-    "lng": -157.96374045
-  },
-  {
-    "state": "ID",
-    "stateName": "Idaho",
-    "stateSlug": "idaho",
-    "city": "Orofino",
-    "citySlug": "orofino",
-    "count": 2,
-    "lat": 46.51950705,
-    "lng": -116.29662465000001
+    "lat": 21.36432835,
+    "lng": -157.81666615
   },
   {
     "state": "WA",
     "stateName": "Washington",
     "stateSlug": "washington",
-    "city": "Point Roberts",
-    "citySlug": "point-roberts",
+    "city": "Port Orchard",
+    "citySlug": "port-orchard",
     "count": 2,
-    "lat": 48.97773205,
-    "lng": -123.064932
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Wheeler",
-    "citySlug": "wheeler",
-    "count": 2,
-    "lat": 45.690030300000004,
-    "lng": -123.8916175
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Blaine",
-    "citySlug": "blaine",
-    "count": 2,
-    "lat": 48.98990925,
-    "lng": -122.76632599999999
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Manson",
-    "citySlug": "manson",
-    "count": 2,
-    "lat": 47.9022419,
-    "lng": -120.1850504
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Junction City",
-    "citySlug": "junction-city",
-    "count": 2,
-    "lat": 44.1172008,
-    "lng": -123.3146509
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Crescent",
-    "citySlug": "crescent",
-    "count": 2,
-    "lat": 43.54138695,
-    "lng": -122.00599925
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Bremerton",
-    "citySlug": "bremerton",
-    "count": 2,
-    "lat": 47.58594825,
-    "lng": -122.641064
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Des Moines",
-    "citySlug": "des-moines",
-    "count": 2,
-    "lat": 47.39807505,
-    "lng": -122.32904055
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Newport",
-    "citySlug": "newport",
-    "count": 2,
-    "lat": 44.62593925,
-    "lng": -124.046419
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Oak Harbor",
-    "citySlug": "oak-harbor",
-    "count": 2,
-    "lat": 48.341935750000005,
-    "lng": -122.63075805
-  },
-  {
-    "state": "ID",
-    "stateName": "Idaho",
-    "stateSlug": "idaho",
-    "city": "McCall",
-    "citySlug": "mccall",
-    "count": 2,
-    "lat": 44.9136024,
-    "lng": -116.10834845
-  },
-  {
-    "state": "WA",
-    "stateName": "Washington",
-    "stateSlug": "washington",
-    "city": "Brinnon",
-    "citySlug": "brinnon",
-    "count": 2,
-    "lat": 47.66331285,
-    "lng": -122.91494424999999
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "St. Helens",
-    "citySlug": "st-helens",
-    "count": 2,
-    "lat": 45.84772315,
-    "lng": -122.8177908
-  },
-  {
-    "state": "MT",
-    "stateName": "Montana",
-    "stateSlug": "montana",
-    "city": "Helena",
-    "citySlug": "helena",
-    "count": 2,
-    "lat": 46.643162399999994,
-    "lng": -111.71135204999999
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Detroit",
-    "citySlug": "detroit",
-    "count": 2,
-    "lat": 44.73758315,
-    "lng": -122.15477175
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Sunriver",
-    "citySlug": "sunriver",
-    "count": 2,
-    "lat": 43.886825349999995,
-    "lng": -121.45561699999999
-  },
-  {
-    "state": "OR",
-    "stateName": "Oregon",
-    "stateSlug": "oregon",
-    "city": "Scappoose",
-    "citySlug": "scappoose",
-    "count": 2,
-    "lat": 45.729528599999995,
-    "lng": -122.86000745
-  },
-  {
-    "state": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Port Aransas",
-    "citySlug": "port-aransas",
-    "count": 2,
-    "lat": 27.83853535,
-    "lng": -97.05853915
-  },
-  {
-    "state": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Port O'Connor",
-    "citySlug": "port-o-connor",
-    "count": 2,
-    "lat": 28.4247601,
-    "lng": -96.46022925
-  },
-  {
-    "state": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Corpus Christi",
-    "citySlug": "corpus-christi",
-    "count": 2,
-    "lat": 27.71444345,
-    "lng": -97.3142665
-  },
-  {
-    "state": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Port Lavaca",
-    "citySlug": "port-lavaca",
-    "count": 2,
-    "lat": 28.563883099999998,
-    "lng": -96.55528915
-  },
-  {
-    "state": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Houston",
-    "citySlug": "houston",
-    "count": 2,
-    "lat": 29.873199550000002,
-    "lng": -95.1879959
+    "lat": 47.53148415,
+    "lng": -122.67314435
   }
 ]

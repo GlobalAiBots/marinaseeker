@@ -13,3 +13,8 @@
 1300/1992 done:57 fail:1241
 1400/1992 done:57 fail:1341
 1500/1992 done:97 fail:1400
+1600/1992 done:119 fail:1475
+1700/1992 done:119 fail:1575
+1800/1992 done:134 fail:1660
+1900/1992 done:189 fail:1701
+DONE: 216 geocoded, 1715 failed

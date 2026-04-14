@@ -3,7 +3,7 @@
     "slug": "yacht-clubs",
     "title": "Yacht Clubs & Sailing Clubs",
     "description": "Private and semi-private yacht clubs and sailing clubs with membership-based marina access.",
-    "totalCount": 278,
+    "totalCount": 291,
     "states": [
       {
         "code": "MD",
@@ -15,19 +15,19 @@
         "code": "FL",
         "name": "Florida",
         "slug": "florida",
-        "count": 38
+        "count": 36
       },
       {
         "code": "MI",
         "name": "Michigan",
         "slug": "michigan",
-        "count": 33
+        "count": 30
       },
       {
         "code": "OH",
         "name": "Ohio",
         "slug": "ohio",
-        "count": 26
+        "count": 24
       },
       {
         "code": "CA",
@@ -36,28 +36,58 @@
         "count": 24
       },
       {
-        "code": "VA",
-        "name": "Virginia",
-        "slug": "virginia",
-        "count": 22
-      },
-      {
         "code": "WA",
         "name": "Washington",
         "slug": "washington",
-        "count": 16
+        "count": 24
+      },
+      {
+        "code": "VA",
+        "name": "Virginia",
+        "slug": "virginia",
+        "count": 21
       },
       {
         "code": "WI",
         "name": "Wisconsin",
         "slug": "wisconsin",
-        "count": 12
+        "count": 13
       },
       {
         "code": "NC",
         "name": "North Carolina",
         "slug": "north-carolina",
         "count": 9
+      },
+      {
+        "code": "IN",
+        "name": "Indiana",
+        "slug": "indiana",
+        "count": 5
+      },
+      {
+        "code": "DC",
+        "name": "DC",
+        "slug": "dc",
+        "count": 5
+      },
+      {
+        "code": "MS",
+        "name": "Mississippi",
+        "slug": "mississippi",
+        "count": 5
+      },
+      {
+        "code": "AL",
+        "name": "Alabama",
+        "slug": "alabama",
+        "count": 5
+      },
+      {
+        "code": "MN",
+        "name": "Minnesota",
+        "slug": "minnesota",
+        "count": 5
       },
       {
         "code": "KS",
@@ -72,12 +102,6 @@
         "count": 5
       },
       {
-        "code": "IN",
-        "name": "Indiana",
-        "slug": "indiana",
-        "count": 4
-      },
-      {
         "code": "SC",
         "name": "South Carolina",
         "slug": "south-carolina",
@@ -90,21 +114,9 @@
         "count": 4
       },
       {
-        "code": "MO",
-        "name": "Missouri",
-        "slug": "missouri",
-        "count": 4
-      },
-      {
-        "code": "AL",
-        "name": "Alabama",
-        "slug": "alabama",
-        "count": 4
-      },
-      {
-        "code": "MN",
-        "name": "Minnesota",
-        "slug": "minnesota",
+        "code": "IL",
+        "name": "Illinois",
+        "slug": "illinois",
         "count": 4
       },
       {
@@ -114,9 +126,9 @@
         "count": 3
       },
       {
-        "code": "MS",
-        "name": "Mississippi",
-        "slug": "mississippi",
+        "code": "WV",
+        "name": "West Virginia",
+        "slug": "west-virginia",
         "count": 3
       },
       {
@@ -138,16 +150,10 @@
         "count": 2
       },
       {
-        "code": "IL",
-        "name": "Illinois",
-        "slug": "illinois",
+        "code": "MO",
+        "name": "Missouri",
+        "slug": "missouri",
         "count": 2
-      },
-      {
-        "code": "KY",
-        "name": "Kentucky",
-        "slug": "kentucky",
-        "count": 1
       },
       {
         "code": "Ms",
@@ -162,9 +168,9 @@
         "count": 1
       },
       {
-        "code": "LA",
-        "name": "Louisiana",
-        "slug": "louisiana",
+        "code": "KY",
+        "name": "Kentucky",
+        "slug": "kentucky",
         "count": 1
       },
       {
@@ -185,7 +191,7 @@
     "slug": "with-pump-out",
     "title": "Marinas with Pump-Out Stations",
     "description": "Marinas equipped with pump-out stations for proper waste disposal — required for responsible boating.",
-    "totalCount": 145,
+    "totalCount": 147,
     "states": [
       {
         "code": "CA",
@@ -197,12 +203,18 @@
         "code": "MD",
         "name": "Maryland",
         "slug": "maryland",
-        "count": 19
+        "count": 20
       },
       {
         "code": "MI",
         "name": "Michigan",
         "slug": "michigan",
+        "count": 15
+      },
+      {
+        "code": "IL",
+        "name": "Illinois",
+        "slug": "illinois",
         "count": 14
       },
       {
@@ -212,16 +224,10 @@
         "count": 12
       },
       {
-        "code": "IL",
-        "name": "Illinois",
-        "slug": "illinois",
-        "count": 12
-      },
-      {
         "code": "VA",
         "name": "Virginia",
         "slug": "virginia",
-        "count": 8
+        "count": 7
       },
       {
         "code": "NC",
@@ -248,21 +254,15 @@
         "count": 6
       },
       {
-        "code": "TN",
-        "name": "Tennessee",
-        "slug": "tennessee",
-        "count": 4
-      },
-      {
-        "code": "IA",
-        "name": "Iowa",
-        "slug": "iowa",
-        "count": 4
-      },
-      {
         "code": "OH",
         "name": "Ohio",
         "slug": "ohio",
+        "count": 4
+      },
+      {
+        "code": "TN",
+        "name": "Tennessee",
+        "slug": "tennessee",
         "count": 3
       },
       {
@@ -275,6 +275,18 @@
         "code": "AL",
         "name": "Alabama",
         "slug": "alabama",
+        "count": 2
+      },
+      {
+        "code": "MO",
+        "name": "Missouri",
+        "slug": "missouri",
+        "count": 2
+      },
+      {
+        "code": "IA",
+        "name": "Iowa",
+        "slug": "iowa",
         "count": 2
       },
       {
@@ -314,21 +326,15 @@
         "count": 1
       },
       {
-        "code": "MO",
-        "name": "Missouri",
-        "slug": "missouri",
+        "code": "KY",
+        "name": "Kentucky",
+        "slug": "kentucky",
         "count": 1
       },
       {
-        "code": "SD",
-        "name": "South Dakota",
-        "slug": "south-dakota",
-        "count": 1
-      },
-      {
-        "code": "KS",
-        "name": "Kansas",
-        "slug": "kansas",
+        "code": "NE",
+        "name": "Nebraska",
+        "slug": "nebraska",
         "count": 1
       },
       {
@@ -338,9 +344,9 @@
         "count": 1
       },
       {
-        "code": "NV",
-        "name": "Nevada",
-        "slug": "nevada",
+        "code": "AZ",
+        "name": "Arizona",
+        "slug": "arizona",
         "count": 1
       }
     ]
@@ -349,19 +355,25 @@
     "slug": "with-electric",
     "title": "Marinas with Shore Power",
     "description": "Marinas offering electrical hookups at the dock so you can plug in and keep systems running.",
-    "totalCount": 140,
+    "totalCount": 142,
     "states": [
+      {
+        "code": "MD",
+        "name": "Maryland",
+        "slug": "maryland",
+        "count": 18
+      },
+      {
+        "code": "MI",
+        "name": "Michigan",
+        "slug": "michigan",
+        "count": 18
+      },
       {
         "code": "CA",
         "name": "California",
         "slug": "california",
         "count": 18
-      },
-      {
-        "code": "MD",
-        "name": "Maryland",
-        "slug": "maryland",
-        "count": 17
       },
       {
         "code": "FL",
@@ -370,16 +382,10 @@
         "count": 17
       },
       {
-        "code": "MI",
-        "name": "Michigan",
-        "slug": "michigan",
-        "count": 17
-      },
-      {
         "code": "IL",
         "name": "Illinois",
         "slug": "illinois",
-        "count": 13
+        "count": 15
       },
       {
         "code": "WI",
@@ -388,16 +394,16 @@
         "count": 7
       },
       {
-        "code": "VA",
-        "name": "Virginia",
-        "slug": "virginia",
-        "count": 6
-      },
-      {
         "code": "MN",
         "name": "Minnesota",
         "slug": "minnesota",
         "count": 6
+      },
+      {
+        "code": "VA",
+        "name": "Virginia",
+        "slug": "virginia",
+        "count": 5
       },
       {
         "code": "SC",
@@ -412,12 +418,6 @@
         "count": 5
       },
       {
-        "code": "IA",
-        "name": "Iowa",
-        "slug": "iowa",
-        "count": 4
-      },
-      {
         "code": "AK",
         "name": "Alaska",
         "slug": "alaska",
@@ -427,6 +427,12 @@
         "code": "AL",
         "name": "Alabama",
         "slug": "alabama",
+        "count": 3
+      },
+      {
+        "code": "OH",
+        "name": "Ohio",
+        "slug": "ohio",
         "count": 3
       },
       {
@@ -442,9 +448,9 @@
         "count": 2
       },
       {
-        "code": "OH",
-        "name": "Ohio",
-        "slug": "ohio",
+        "code": "IA",
+        "name": "Iowa",
+        "slug": "iowa",
         "count": 2
       },
       {
@@ -478,9 +484,9 @@
         "count": 1
       },
       {
-        "code": "SD",
-        "name": "South Dakota",
-        "slug": "south-dakota",
+        "code": "NE",
+        "name": "Nebraska",
+        "slug": "nebraska",
         "count": 1
       },
       {
@@ -502,9 +508,9 @@
         "count": 1
       },
       {
-        "code": "NV",
-        "name": "Nevada",
-        "slug": "nevada",
+        "code": "AZ",
+        "name": "Arizona",
+        "slug": "arizona",
         "count": 1
       },
       {
@@ -519,7 +525,7 @@
     "slug": "with-wifi",
     "title": "Marinas with WiFi",
     "description": "Marinas offering wireless internet access at the docks — essential for liveaboards and remote workers.",
-    "totalCount": 38,
+    "totalCount": 39,
     "states": [
       {
         "code": "MD",
@@ -558,9 +564,9 @@
         "count": 2
       },
       {
-        "code": "MI",
-        "name": "Michigan",
-        "slug": "michigan",
+        "code": "OH",
+        "name": "Ohio",
+        "slug": "ohio",
         "count": 2
       },
       {
@@ -576,9 +582,15 @@
         "count": 1
       },
       {
-        "code": "OH",
-        "name": "Ohio",
-        "slug": "ohio",
+        "code": "MI",
+        "name": "Michigan",
+        "slug": "michigan",
+        "count": 1
+      },
+      {
+        "code": "WI",
+        "name": "Wisconsin",
+        "slug": "wisconsin",
         "count": 1
       },
       {
@@ -593,7 +605,7 @@
     "slug": "municipal",
     "title": "Municipal & Public Marinas",
     "description": "Government-owned public marinas typically offering lower slip rates and transient docking.",
-    "totalCount": 82,
+    "totalCount": 85,
     "states": [
       {
         "code": "MI",
@@ -611,13 +623,13 @@
         "code": "MN",
         "name": "Minnesota",
         "slug": "minnesota",
-        "count": 6
+        "count": 7
       },
       {
         "code": "OH",
         "name": "Ohio",
         "slug": "ohio",
-        "count": 4
+        "count": 6
       },
       {
         "code": "MD",
@@ -632,39 +644,45 @@
         "count": 4
       },
       {
-        "code": "WI",
-        "name": "Wisconsin",
-        "slug": "wisconsin",
-        "count": 4
-      },
-      {
         "code": "CA",
         "name": "California",
         "slug": "california",
         "count": 4
       },
       {
+        "code": "IL",
+        "name": "Illinois",
+        "slug": "illinois",
+        "count": 3
+      },
+      {
+        "code": "WI",
+        "name": "Wisconsin",
+        "slug": "wisconsin",
+        "count": 3
+      },
+      {
         "code": "PA",
         "name": "Pennsylvania",
         "slug": "pennsylvania",
-        "count": 3
+        "count": 2
       },
       {
         "code": "IA",
         "name": "Iowa",
         "slug": "iowa",
-        "count": 3
-      },
-      {
-        "code": "KS",
-        "name": "Kansas",
-        "slug": "kansas",
         "count": 2
       },
       {
-        "code": "IL",
-        "name": "Illinois",
-        "slug": "illinois",
+        "code": "MO",
+        "name": "Missouri",
+        "slug": "missouri",
+        "count": 2
+      },
+      {
+        "code": "WA",
+        "name": "Washington",
+        "slug": "washington",
         "count": 2
       },
       {
@@ -698,21 +716,21 @@
         "count": 1
       },
       {
-        "code": "MO",
-        "name": "Missouri",
-        "slug": "missouri",
+        "code": "NJ",
+        "name": "New Jersey",
+        "slug": "new-jersey",
+        "count": 1
+      },
+      {
+        "code": "KS",
+        "name": "Kansas",
+        "slug": "kansas",
         "count": 1
       },
       {
         "code": "AK",
         "name": "Alaska",
         "slug": "alaska",
-        "count": 1
-      },
-      {
-        "code": "WA",
-        "name": "Washington",
-        "slug": "washington",
         "count": 1
       },
       {
@@ -733,19 +751,13 @@
     "slug": "resort-marinas",
     "title": "Resort Marinas",
     "description": "Marinas at waterfront resorts offering full amenities, dining, and accommodation alongside docking.",
-    "totalCount": 46,
+    "totalCount": 48,
     "states": [
       {
         "code": "FL",
         "name": "Florida",
         "slug": "florida",
         "count": 14
-      },
-      {
-        "code": "CA",
-        "name": "California",
-        "slug": "california",
-        "count": 8
       },
       {
         "code": "TN",
@@ -757,12 +769,24 @@
         "code": "MI",
         "name": "Michigan",
         "slug": "michigan",
+        "count": 6
+      },
+      {
+        "code": "CA",
+        "name": "California",
+        "slug": "california",
         "count": 5
       },
       {
         "code": "WA",
         "name": "Washington",
         "slug": "washington",
+        "count": 4
+      },
+      {
+        "code": "NV",
+        "name": "Nevada",
+        "slug": "nevada",
         "count": 3
       },
       {
@@ -825,25 +849,19 @@
         "code": "CA",
         "name": "California",
         "slug": "california",
-        "count": 8
+        "count": 7
+      },
+      {
+        "code": "MD",
+        "name": "Maryland",
+        "slug": "maryland",
+        "count": 3
       },
       {
         "code": "MI",
         "name": "Michigan",
         "slug": "michigan",
         "count": 3
-      },
-      {
-        "code": "MD",
-        "name": "Maryland",
-        "slug": "maryland",
-        "count": 2
-      },
-      {
-        "code": "VA",
-        "name": "Virginia",
-        "slug": "virginia",
-        "count": 2
       },
       {
         "code": "FL",
@@ -858,6 +876,12 @@
         "count": 1
       },
       {
+        "code": "VA",
+        "name": "Virginia",
+        "slug": "virginia",
+        "count": 1
+      },
+      {
         "code": "WI",
         "name": "Wisconsin",
         "slug": "wisconsin",
@@ -867,6 +891,12 @@
         "code": "MO",
         "name": "Missouri",
         "slug": "missouri",
+        "count": 1
+      },
+      {
+        "code": "NV",
+        "name": "Nevada",
+        "slug": "nevada",
         "count": 1
       },
       {
