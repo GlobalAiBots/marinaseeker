@@ -4,6 +4,7 @@ import { use, useState, useMemo } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { unified, stateList } from "@/data/all-marinas";
+import FeaturedArticle from "@/components/FeaturedArticle";
 
 const MarinaMap = dynamic(() => import("@/components/MarinaMap"), { ssr: false });
 
@@ -64,6 +65,26 @@ export default function StatePage({ params }: { params: Promise<{ state: string 
         <p className="text-gray-500 mt-4 max-w-lg mx-auto">{stateMarinas.length} marinas across {stateInfo.name}. GPS coordinates, amenities, and contact information.</p>
       </section>
 
+      {/* State intro + tips */}
+      <section className="max-w-4xl mx-auto px-4 pt-10 pb-4">
+        <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm mb-6">
+          <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-3">Marinas in {stateInfo.name}</h2>
+          <p className="text-gray-600 leading-relaxed text-sm">
+            {stateInfo.name} has {stateMarinas.length} marinas listed on MarinaSeeker, offering everything from full-service facilities with fuel, electric, and pump-out to simple docks and boat launches. Whether you&apos;re looking for a transient slip, seasonal rental, or liveaboard berth, browse by city below to find the right marina.
+          </p>
+        </div>
+        <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-6">
+          <h3 className="font-[Cabin] font-bold text-[#1B3A5C] mb-3">Tips for Finding a Marina in {stateInfo.name}</h3>
+          <ul className="space-y-2 text-sm text-gray-700">
+            <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Call ahead to check slip availability, especially during peak boating season.</li>
+            <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Compare transient vs. seasonal rates &mdash; longer stays usually get better pricing.</li>
+            <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Check if the marina has the amenities you need: fuel, electric hookup, pump-out, WiFi.</li>
+            <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Ask about liveaboard policies if you plan to stay on your boat.</li>
+            <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Read our <Link href="/blog/what-to-look-for-choosing-marina" className="text-[#1B3A5C] hover:underline">guide to choosing a marina</Link>.</li>
+          </ul>
+        </div>
+      </section>
+
       {/* Map */}
       {stateMarinas.length > 0 && (
         <section className="max-w-6xl mx-auto px-4 pt-8 pb-4">
@@ -77,17 +98,14 @@ export default function StatePage({ params }: { params: Promise<{ state: string 
           <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-4">Browse by City</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
             {cityMap.slice(0, 16).map(([city, count]) => (
-              <button
+              <Link
                 key={city}
-                onClick={() => {
-                  setSelectedCity(city === selectedCity ? null : city);
-                  document.getElementById("marina-list")?.scrollIntoView({ behavior: "smooth" });
-                }}
-                className={`text-left bg-white border rounded-lg p-3 hover:border-[#1B3A5C] hover:bg-blue-50 transition cursor-pointer ${selectedCity === city ? "border-[#1B3A5C] bg-blue-50 ring-2 ring-[#1B3A5C]" : "border-gray-200"}`}
+                href={`/cities/${city.toLowerCase().replace(/\s+/g, "-")}-${stateInfo.code.toLowerCase()}`}
+                className="text-left bg-white border border-gray-200 rounded-lg p-3 hover:border-[#1B3A5C] hover:shadow-sm transition"
               >
                 <p className="font-bold text-[#1A1A1A] text-sm">{city}</p>
                 <p className="text-gray-400 text-xs">{count} marina{count !== 1 ? "s" : ""}</p>
-              </button>
+              </Link>
             ))}
           </div>
         </section>
@@ -117,6 +135,29 @@ export default function StatePage({ params }: { params: Promise<{ state: string 
           ))}
         </div>
       </section>
+
+      {/* Visible FAQ */}
+      <section className="max-w-4xl mx-auto px-4 py-8">
+        <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-4">Frequently Asked Questions</h2>
+        <div className="space-y-2">
+          {[
+            { q: `How many marinas are in ${stateInfo.name}?`, a: `There are ${stateMarinas.length} marinas in ${stateInfo.name} on MarinaSeeker with GPS coordinates, amenities, and contact details.` },
+            { q: `How much does a boat slip cost in ${stateInfo.name}?`, a: `Boat slip costs in ${stateInfo.name} vary from $200-$800/month depending on location, size, and season. Contact individual marinas for current rates.` },
+            { q: `Are there marinas with fuel in ${stateInfo.name}?`, a: `Yes, many marinas in ${stateInfo.name} offer fuel docks. Check individual marina listings on MarinaSeeker for fuel availability.` },
+            { q: `Can I live on my boat in ${stateInfo.name}?`, a: `Some marinas in ${stateInfo.name} allow liveaboards. Policies and fees vary — contact the marina directly about liveaboard regulations.` },
+            { q: `When is the best time to boat in ${stateInfo.name}?`, a: `Boating season varies by region. In ${stateInfo.name}, peak season is typically May through October, though southern states enjoy year-round access.` },
+          ].map((f, i) => (
+            <details key={i} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm group">
+              <summary className="px-5 py-4 cursor-pointer font-semibold text-[#1A1A1A] text-sm hover:text-[#1B3A5C] transition list-none flex items-center justify-between">{f.q}<svg className="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg></summary>
+              <div className="px-5 pb-4 text-gray-600 text-sm leading-relaxed">{f.a}</div>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <FeaturedArticle listingSlug={`state-${state}`} />
+      </div>
     </div>
   );
 }
