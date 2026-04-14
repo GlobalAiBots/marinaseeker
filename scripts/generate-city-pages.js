@@ -19,7 +19,7 @@ marinas.forEach(m => {
   cityGroups[key].lngs.push(m.lng);
 });
 
-const cities = Object.values(cityGroups).filter(c => c.count >= 2).map(c => ({
+const cities = Object.values(cityGroups).filter(c => c.count >= 1).map(c => ({
   state: c.state, stateName: STATE_NAMES[c.state] || c.state, stateSlug: STATE_SLUGS[c.state] || slugify(c.state),
   city: c.city, citySlug: slugify(c.city), count: c.count,
   lat: c.lats.reduce((a, b) => a + b, 0) / c.lats.length,
