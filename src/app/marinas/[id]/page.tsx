@@ -120,6 +120,83 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
           </section>
         )}
 
+        {/* About This Marina — unique content */}
+        <section className="mb-8">
+          <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+            <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-3">About {marina.name}</h2>
+            <p className="text-gray-600 leading-relaxed text-sm">
+              {marina.name} is a marina located in {marina.city ? `${marina.city}, ` : ""}{stateName}. {marina.amenities.length > 0 ? `Amenities include ${marina.amenities.slice(0, 4).map(a => (amenityLabels[a]?.label || a).toLowerCase()).join(", ")}.` : ""} {marina.operator ? `Operated by ${marina.operator}.` : ""} GPS coordinates: {marina.lat.toFixed(4)}, {marina.lng.toFixed(4)}.
+            </p>
+          </div>
+        </section>
+
+        {/* Tips */}
+        <section className="mb-8">
+          <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+            <h3 className="font-[Cabin] font-bold text-[#1B3A5C] mb-3">Tips for Visiting {marina.name}</h3>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Call ahead to check slip availability, especially during peak season.</li>
+              <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Ask about transient rates if you&apos;re just passing through.</li>
+              <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Check fuel prices before arrival &mdash; marina fuel can vary significantly.</li>
+              <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Read our <Link href="/blog/what-to-look-for-choosing-marina" className="text-[#1B3A5C] hover:underline">guide to choosing a marina</Link> for more advice.</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Marinas in State */}
+        {(() => {
+          const stateCount = unified.filter(m => m.state === marina.state).length;
+          return (
+            <section className="mb-8">
+              <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+                <h3 className="font-[Cabin] font-bold text-[#1A1A1A] mb-3">Marinas in {stateName}</h3>
+                <p className="text-gray-600 leading-relaxed text-sm">
+                  {stateName} has {stateCount.toLocaleString()} marinas listed on MarinaSeeker. Whether you need a full-service marina with fuel and electric, or a simple dock for the night, {stateName} has options for every boater. {stateSlug && <Link href={`/${stateSlug}`} className="text-[#1B3A5C] hover:underline">Browse all {stateCount.toLocaleString()} marinas in {stateName}</Link>}.
+                </p>
+              </div>
+            </section>
+          );
+        })()}
+
+        {/* FAQ */}
+        <section className="mb-8">
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
+            { "@type": "Question", name: `Where is ${marina.name}?`, acceptedAnswer: { "@type": "Answer", text: `${marina.name} is in ${marina.city ? marina.city + ", " : ""}${stateName}. GPS: ${marina.lat.toFixed(4)}, ${marina.lng.toFixed(4)}.` } },
+            { "@type": "Question", name: `Does ${marina.name} have fuel?`, acceptedAnswer: { "@type": "Answer", text: marina.amenities.includes("fuel") ? "Yes, fuel is available at this marina." : "Fuel availability is not confirmed. Call ahead to check." } },
+            { "@type": "Question", name: `How do I get to ${marina.name}?`, acceptedAnswer: { "@type": "Answer", text: "Click the 'Open in Google Maps' link above for turn-by-turn directions." } },
+          ] }) }} />
+          <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-4">Frequently Asked Questions</h2>
+          <div className="space-y-2">
+            {[
+              { q: `Where is ${marina.name}?`, a: `${marina.name} is in ${marina.city ? marina.city + ", " : ""}${stateName}. GPS: ${marina.lat.toFixed(4)}, ${marina.lng.toFixed(4)}.` },
+              { q: `Does ${marina.name} have fuel?`, a: marina.amenities.includes("fuel") ? "Yes, fuel is available at this marina." : "Fuel availability is not confirmed. Call ahead to check." },
+              { q: `How do I get to ${marina.name}?`, a: "Click the 'Open in Google Maps' link above for turn-by-turn directions." },
+            ].map((f, i) => (
+              <details key={i} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm group">
+                <summary className="px-5 py-4 cursor-pointer font-semibold text-[#1A1A1A] text-sm hover:text-[#1B3A5C] transition list-none flex items-center justify-between">{f.q}<svg className="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg></summary>
+                <div className="px-5 pb-4 text-gray-600 text-sm leading-relaxed">{f.a}</div>
+              </details>
+            ))}
+          </div>
+        </section>
+
+        {/* Related Guides */}
+        <section className="mb-8">
+          <h3 className="font-[Cabin] font-bold text-[#1A1A1A] mb-3">Related Guides</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {[
+              { href: "/blog/what-to-look-for-choosing-marina", title: "Choosing a Marina", desc: "What to look for in a marina" },
+              { href: "/blog/marina-etiquette", title: "Marina Etiquette", desc: "Be a good neighbor at the dock" },
+              { href: "/blog/seasonal-vs-annual-slip-rental", title: "Slip Rentals", desc: "Seasonal vs annual: which is better?" },
+            ].map((g) => (
+              <Link key={g.href} href={g.href} className="group bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all">
+                <p className="font-bold text-[#1A1A1A] group-hover:text-[#1B3A5C] transition text-sm">{g.title}</p>
+                <p className="text-gray-400 text-xs mt-1">{g.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         {/* Details */}
         {(marina.operator || marina.capacity || marina.description) && (
           <section className="mb-8">
