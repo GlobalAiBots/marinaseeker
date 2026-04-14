@@ -252,6 +252,36 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
         <FeaturedArticle listingSlug={marina.id} />
 
         {/* Claim Listing CTA */}
+        {/* Nearby Cities */}
+        {marina.city && (() => {
+          const otherCities = unified.filter(m => m.state === marina.state && m.city && m.city !== marina.city);
+          const uniqueCities = Array.from(new Set(otherCities.map(m => m.city))).slice(0, 6);
+          if (uniqueCities.length === 0) return null;
+          return (
+            <section className="mb-8">
+              <h3 className="font-[Cabin] font-bold text-[#1A1A1A] mb-3">Nearby Cities with Marinas</h3>
+              <div className="flex flex-wrap gap-2">
+                {uniqueCities.map(city => (
+                  <Link key={city} href={`/cities/${stateSlug}-${city.toLowerCase().replace(/\s+/g, "-")}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">
+                    {city}, {marina.state}
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })()}
+
+        {/* People Also Search For */}
+        <section className="mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5">
+          <h3 className="font-[Cabin] font-bold text-[#1A1A1A] mb-3 text-sm">People Also Search For</h3>
+          <div className="flex flex-wrap gap-2">
+            {marina.city && <Link href={`/cities/${stateSlug}-${marina.city.toLowerCase().replace(/\s+/g, "-")}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">Marinas near {marina.city}</Link>}
+            {stateSlug && <Link href={`/${stateSlug}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">Marinas in {stateName}</Link>}
+            {marina.city && <Link href={`/cities/${stateSlug}-${marina.city.toLowerCase().replace(/\s+/g, "-")}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">Boat slips in {marina.city}</Link>}
+            <Link href="/blog/what-to-look-for-choosing-marina" className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">How to choose a marina</Link>
+          </div>
+        </section>
+
         <section className="bg-[#F0F4F8] rounded-xl p-6 border border-[#D4D8DD] mb-8">
           <h3 className="font-[Cabin] text-lg font-bold text-[#1A1A1A] mb-2">Own or manage this marina?</h3>
           <p className="text-gray-500 text-sm mb-4">Claim your free listing to update slip availability, amenities, contact info, and fuel prices.</p>
