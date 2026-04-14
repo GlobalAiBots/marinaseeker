@@ -1,10 +1,13 @@
 "use client";
 
 import { use, useState, useMemo } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { unified } from "@/data/all-marinas";
 import cityPages from "@/data/city-pages.json";
 import FeaturedArticle from "@/components/FeaturedArticle";
+
+const MarinaMap = dynamic(() => import("@/components/MarinaMap"), { ssr: false, loading: () => <div className="rounded-xl bg-gray-100 flex items-center justify-center" style={{ height: 350 }}><p className="text-gray-400 text-sm">Loading map...</p></div> });
 
 interface CityPage { state: string; stateName: string; stateSlug: string; city: string; citySlug: string; count: number; lat: number; lng: number; }
 const allCityPages = cityPages as CityPage[];
@@ -17,6 +20,9 @@ export default function CityPage({ params }: { params: Promise<{ slug: string }>
     if (!cityInfo) return [];
     return unified.filter((m) => m.state === cityInfo.state && m.city?.trim() === cityInfo.city);
   }, [cityInfo]);
+
+  const mapMarinas = useMemo(() => marinas.map(m => ({ id: m.id, name: m.name, lat: m.lat, lng: m.lng, city: m.city })), [marinas]);
+  const center = useMemo<[number, number]>(() => marinas.length ? [marinas.reduce((s, m) => s + m.lat, 0) / marinas.length, marinas.reduce((s, m) => s + m.lng, 0) / marinas.length] : [39.8, -98.5], [marinas]);
 
   const [search, setSearch] = useState("");
   const filtered = search.length >= 2
@@ -63,6 +69,8 @@ export default function CityPage({ params }: { params: Promise<{ slug: string }>
       {marinas.length > 5 && (
         <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search marinas in this city..." className="w-full max-w-md px-4 py-2.5 rounded-lg border border-gray-200 text-sm outline-none focus:border-[#C4924B] transition mb-6" />
       )}
+
+      {marinas.length > 0 && <div className="mb-8"><MarinaMap marinas={mapMarinas} center={center} zoom={12} height="350px" /></div>}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-12">
         {filtered.map((m) => (
