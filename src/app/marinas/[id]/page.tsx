@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { unified, stateList } from "@/data/all-marinas";
 import MarinaMapWrapper from "@/components/MarinaMapWrapper";
+import FeaturedArticle from "@/components/FeaturedArticle";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -248,6 +249,8 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
             </a>
           </div>
         </section>
+        <FeaturedArticle listingSlug={marina.id} />
+
         {/* Claim Listing CTA */}
         <section className="bg-[#F0F4F8] rounded-xl p-6 border border-[#D4D8DD] mb-8">
           <h3 className="font-[Cabin] text-lg font-bold text-[#1A1A1A] mb-2">Own or manage this marina?</h3>
