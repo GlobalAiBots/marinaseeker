@@ -3,7 +3,10 @@ import { notFound } from "next/navigation";
 import { unified, stateList } from "@/data/all-marinas";
 import MarinaMapWrapper from "@/components/MarinaMapWrapper";
 import FeaturedArticle from "@/components/FeaturedArticle";
+import cityPagesData from "@/data/city-pages.json";
 import type { Metadata } from "next";
+
+const allCities = (cityPagesData as { state: string; stateSlug: string; city: string; citySlug: string; count: number }[]);
 
 export function generateStaticParams() {
   return unified.map((m) => ({ id: m.id }));
@@ -254,16 +257,15 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
         {/* Claim Listing CTA */}
         {/* Nearby Cities */}
         {marina.city && (() => {
-          const otherCities = unified.filter(m => m.state === marina.state && m.city && m.city !== marina.city);
-          const uniqueCities = Array.from(new Set(otherCities.map(m => m.city))).slice(0, 6);
-          if (uniqueCities.length === 0) return null;
+          const nearbyCities = allCities.filter(c => c.state === marina.state && c.city !== marina.city).slice(0, 6);
+          if (nearbyCities.length === 0) return null;
           return (
             <section className="mb-8">
               <h3 className="font-[Cabin] font-bold text-[#1A1A1A] mb-3">Nearby Cities with Marinas</h3>
               <div className="flex flex-wrap gap-2">
-                {uniqueCities.map(city => (
-                  <Link key={city} href={`/cities/${stateSlug}-${city.toLowerCase().replace(/\s+/g, "-")}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">
-                    {city}, {marina.state}
+                {nearbyCities.map(c => (
+                  <Link key={c.citySlug} href={`/cities/${c.stateSlug}-${c.citySlug}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">
+                    {c.city}, {marina.state}
                   </Link>
                 ))}
               </div>
@@ -275,9 +277,15 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
         <section className="mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5">
           <h3 className="font-[Cabin] font-bold text-[#1A1A1A] mb-3 text-sm">People Also Search For</h3>
           <div className="flex flex-wrap gap-2">
-            {marina.city && <Link href={`/cities/${stateSlug}-${marina.city.toLowerCase().replace(/\s+/g, "-")}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">Marinas near {marina.city}</Link>}
+            {(() => {
+              const cityPage = allCities.find(c => c.state === marina.state && c.city === marina.city);
+              if (!cityPage) return null;
+              return <>
+                <Link href={`/cities/${cityPage.stateSlug}-${cityPage.citySlug}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">Marinas near {marina.city}</Link>
+                <Link href={`/cities/${cityPage.stateSlug}-${cityPage.citySlug}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">Boat slips in {marina.city}</Link>
+              </>;
+            })()}
             {stateSlug && <Link href={`/${stateSlug}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">Marinas in {stateName}</Link>}
-            {marina.city && <Link href={`/cities/${stateSlug}-${marina.city.toLowerCase().replace(/\s+/g, "-")}`} className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">Boat slips in {marina.city}</Link>}
             <Link href="/blog/what-to-look-for-choosing-marina" className="text-xs bg-white border border-gray-200 rounded-full px-3 py-1.5 text-gray-500 hover:text-[#1B3A5C] hover:border-[#1B3A5C] transition">How to choose a marina</Link>
           </div>
         </section>
