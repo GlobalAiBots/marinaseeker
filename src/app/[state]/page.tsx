@@ -100,7 +100,7 @@ export default function StatePage({ params }: { params: Promise<{ state: string 
             {cityMap.slice(0, 16).map(([city, count]) => (
               <Link
                 key={city}
-                href={`/cities/${city.toLowerCase().replace(/\s+/g, "-")}-${stateInfo.code.toLowerCase()}`}
+                href={`/cities/${stateInfo.slug}-${city.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
                 className="text-left bg-white border border-gray-200 rounded-lg p-3 hover:border-[#1B3A5C] hover:shadow-sm transition"
               >
                 <p className="font-bold text-[#1A1A1A] text-sm">{city}</p>
