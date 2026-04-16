@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary", title: "MarinaSeeker | Every Marina in America", description: "2,700+ marinas across the US. GPS coordinates, amenities, slip info." },
   alternates: { canonical: "https://marinaseeker.com" },
-  other: { "google-adsense-account": "ca-pub-4822220549367368", "impact-site-verification": "129bfec8-5d1b-459f-95e7-9ffdbde9d529" },
+  other: { "google-adsense-account": "ca-pub-4822220549367368", "impact-site-verification": "5fa40e1e-c7f4-4422-9d60-69146a9bd3b5" },
 };
 
 function Nav() {
