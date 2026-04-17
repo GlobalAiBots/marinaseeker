@@ -24,7 +24,7 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
     { "@type": "ListItem", position: 2, name: "Blog", item: "https://marinaseeker.com/blog" },
-    { "@type": "ListItem", position: 3, name: "10 Things to Check Before Choosing a Marina" },
+    { "@type": "ListItem", position: 3, name: "10 Things to Check Before Choosing a Marina", item: "https://marinaseeker.com/blog/choosing-a-marina-checklist" },
   ],
 };
 

@@ -65,8 +65,7 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
           { "@type": "ListItem", position: 2, name: stateName, item: `https://marinaseeker.com/${stateSlug}` },
-          ...(marina.city ? [{ "@type": "ListItem", position: 3, name: marina.city }] : []),
-          { "@type": "ListItem", position: marina.city ? 4 : 3, name: marina.name },
+          { "@type": "ListItem", position: 3, name: marina.name, item: `https://marinaseeker.com/marinas/${marina.id}` },
         ],
       }) }} />
 

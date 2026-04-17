@@ -24,7 +24,7 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
     { "@type": "ListItem", position: 2, name: "Blog", item: "https://marinaseeker.com/blog" },
-    { "@type": "ListItem", position: 3, name: "How Much Does a Marina Slip Cost in 2026?" },
+    { "@type": "ListItem", position: 3, name: "How Much Does a Marina Slip Cost in 2026?", item: "https://marinaseeker.com/blog/marina-slip-costs" },
   ],
 };
 
