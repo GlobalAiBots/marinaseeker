@@ -76,10 +76,39 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-8 md:gap-16 text-center mt-12">
-            {[{ value: unified.length.toLocaleString(), label: "Marinas" }, { value: String(statesWithCounts.filter(s => s.count > 0).length), label: "States" }, { value: "Free", label: "& Updated" }, { value: "GPS", label: "Verified" }].map((s) => (
-              <div key={s.label}><p className="font-[Cabin] text-2xl font-bold text-white">{s.value}</p><p className="text-white/50 text-xs mt-0.5">{s.label}</p></div>
+            {[{ value: unified.length.toLocaleString(), label: "Marinas" }, { value: "29,500+", label: "Boat Ramps" }, { value: "35,150+", label: "Fishing Piers" }, { value: "51", label: "States" }].map((s) => (
+              <div key={s.label}><p className="font-[Cabin] text-3xl md:text-4xl font-bold text-white">{s.value}</p><p className="text-white/50 text-xs uppercase tracking-wider mt-1">{s.label}</p></div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* YOUR COMPLETE BOATING HUB */}
+      <section className="max-w-5xl mx-auto px-4 py-12">
+        <h2 className="font-[Cabin] text-[28px] md:text-[36px] font-extrabold text-[#1A1A1A] text-center mb-3">Your Complete Boating Hub</h2>
+        <p className="text-gray-500 text-center mb-10 max-w-lg mx-auto">Marinas, boat ramps, and fishing piers &mdash; everything you need on the water.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          <Link href="#browse-states" className="group rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ background: 'linear-gradient(135deg, #EFF6FF, #BFDBFE)', border: '2px solid rgba(27,58,92,0.2)' }}>
+            <span className="text-5xl block mb-3">&#9875;</span>
+            <h3 className="font-[Cabin] font-extrabold text-[#1A1A1A] text-xl mb-1">Marinas</h3>
+            <p className="font-extrabold text-[28px] text-[#1B3A5C] leading-none mb-2">{unified.length.toLocaleString()}</p>
+            <p className="text-gray-500 text-xs mb-4">Slips, fuel, repair, and docking across the US.</p>
+            <span className="inline-block text-white font-bold text-sm px-5 py-2 rounded-xl" style={{ background: 'linear-gradient(135deg, #2D5F8A, #1B3A5C)', boxShadow: '0 4px 12px rgba(27,58,92,0.25)' }}>Find a Marina &rarr;</span>
+          </Link>
+          <a href="https://rampseeker.com" target="_blank" rel="noopener noreferrer" className="group rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ background: 'linear-gradient(135deg, #F0FFF4, #C6F6D5)', border: '2px solid rgba(45,106,79,0.2)' }}>
+            <span className="text-5xl block mb-3">&#9981;</span>
+            <h3 className="font-[Cabin] font-extrabold text-[#1A1A1A] text-xl mb-1">Boat Ramps</h3>
+            <p className="font-extrabold text-[28px] text-[#2D6A4F] leading-none mb-2">29,500+</p>
+            <p className="text-gray-500 text-xs mb-4">Public launch sites with GPS and directions.</p>
+            <span className="inline-block text-white font-bold text-sm px-5 py-2 rounded-xl" style={{ background: 'linear-gradient(135deg, #40916C, #2D6A4F)', boxShadow: '0 4px 12px rgba(45,106,79,0.25)' }}>Find a Ramp &rarr;</span>
+          </a>
+          <a href="https://pierseeker.com" target="_blank" rel="noopener noreferrer" className="group rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ background: 'linear-gradient(135deg, #FFF7ED, #FDE68A)', border: '2px solid rgba(196,146,75,0.2)' }}>
+            <span className="text-5xl block mb-3">&#127907;</span>
+            <h3 className="font-[Cabin] font-extrabold text-[#1A1A1A] text-xl mb-1">Fishing Piers</h3>
+            <p className="font-extrabold text-[28px] text-[#C4924B] leading-none mb-2">35,150</p>
+            <p className="text-gray-500 text-xs mb-4">Public piers, jetties, and shore fishing spots.</p>
+            <span className="inline-block text-white font-bold text-sm px-5 py-2 rounded-xl" style={{ background: 'linear-gradient(135deg, #D4A84B, #C4924B)', boxShadow: '0 4px 12px rgba(196,146,75,0.25)' }}>Find a Pier &rarr;</span>
+          </a>
         </div>
       </section>
 
@@ -112,6 +141,39 @@ export default function Home() {
               <p className="text-gray-500 text-xs leading-relaxed">{f.desc}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* GEAR UP FOR THE MARINA */}
+      <section className="max-w-5xl mx-auto px-4 py-6">
+        <div className="rounded-2xl overflow-hidden" style={{ background: "linear-gradient(135deg, #0B1E33 0%, #1B3A5C 60%, #2D6A4F 100%)" }}>
+          <div className="px-6 py-8 md:py-10 flex flex-col md:flex-row items-start md:items-center gap-6">
+            <div className="flex-1">
+              <h3 className="font-[Cabin] text-xl md:text-2xl font-bold text-white mb-2">Gear Up for the Marina &#128674;</h3>
+              <p className="text-white/80 text-sm max-w-md">Top-rated marina and docking gear for every boater.</p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              {[
+                { href: "https://www.amazon.com/dp/B001GQ2A6O?tag=babymydog03-20", label: "Dock Lines" },
+                { href: "https://www.amazon.com/dp/B000ALQ7VO?tag=babymydog03-20", label: "Boat Fenders" },
+                { href: "https://www.amazon.com/dp/B00K59MPMW?tag=babymydog03-20", label: "Marine Battery" },
+                { href: "https://www.amazon.com/dp/B0084V43ZE?tag=babymydog03-20", label: "Dock Step" },
+              ].map((p) => (
+                <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer nofollow sponsored" className="bg-white/15 hover:bg-white/25 text-white font-bold text-xs px-4 py-2 rounded-lg transition">{p.label}</a>
+              ))}
+              <a href="https://www.amazon.com/dp/B01DO8B7RK?tag=babymydog03-20" target="_blank" rel="noopener noreferrer nofollow sponsored" className="bg-white text-[#1B3A5C] font-bold text-xs px-4 py-2 rounded-lg hover:shadow-lg transition">Boat Covers &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BOAT INSURANCE CTA */}
+      <section className="max-w-5xl mx-auto px-4 py-6">
+        <div className="bg-[#FAF8F5] border-2 border-[#C4924B] rounded-2xl p-6 md:p-8 text-center">
+          <h3 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-2">Protect Your Investment &#9973;</h3>
+          <p className="text-gray-500 text-sm mb-4 max-w-lg mx-auto">Boat insurance protects against theft, storm damage, and liability. Compare plans from top marine insurance providers.</p>
+          <span className="inline-block bg-[#C4924B] text-white font-bold text-sm px-6 py-3 rounded-xl cursor-default opacity-75">Compare Boat Insurance Plans &mdash; Coming Soon</span>
+          <p className="text-gray-400 text-xs mt-3">Affiliate partnerships with BoatUS, Progressive Marine &amp; Geico Boat in progress.</p>
         </div>
       </section>
 

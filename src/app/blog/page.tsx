@@ -8,6 +8,10 @@ export const metadata: Metadata = {
 };
 
 const posts = [
+  { slug: "marina-slip-costs", title: "How Much Does a Marina Slip Cost in 2026? State-by-State Guide", date: "April 15, 2026", description: "Marina slip costs vary from $500 to $6,000+ per month depending on region. See 2026 pricing by state and tips to save." },
+  { slug: "liveaboard-marinas", title: "Liveaboard Guide: Best Marinas for Living on Your Boat (2026)", date: "April 15, 2026", description: "Everything you need to know about living aboard full-time, from legal requirements to the best states for liveaboards." },
+  { slug: "choosing-a-marina-checklist", title: "10 Things to Check Before Choosing a Marina", date: "April 15, 2026", description: "Use this checklist to evaluate slip size, depth, fuel, security, insurance, pet policy, and more before signing a lease." },
+  { slug: "dock-life-rules", title: "Dock Life: The Unwritten Rules of Living at a Marina", date: "April 15, 2026", description: "The unwritten rules every marina resident should know, from harbor speed to helping with dock lines." },
   { slug: "what-to-look-for-choosing-marina", title: "What to Look for When Choosing a Marina", date: "April 9, 2026", description: "The complete guide to finding the perfect marina for your boat and lifestyle." },
   { slug: "marina-etiquette", title: "Marina Etiquette: 10 Rules Every Boater Should Know", date: "April 9, 2026", description: "Unwritten rules that will make you a welcome member of any marina community." },
   { slug: "liveaboard-guide", title: "Liveaboard Guide: Living on Your Boat at a Marina", date: "April 9, 2026", description: "Everything you need to know about making a marina your full-time home." },
