@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const stateName = stateList.find((s) => s.code === marina.state)?.name || marina.state;
   return {
     title: `${marina.name} — ${marina.city ? marina.city + ", " : ""}${stateName} | MarinaSeeker`,
-    description: `${marina.name} in ${marina.city ? marina.city + ", " : ""}${stateName}. GPS coordinates, amenities, and contact info. Free on MarinaSeeker.`,
+    description: `${marina.name} in ${marina.city ? marina.city + ", " : ""}${stateName}. Slip availability, fuel, amenities, GPS coordinates, and directions. Find marinas near you on MarinaSeeker.`,
     alternates: { canonical: `https://marinaseeker.com/marinas/${marina.id}` },
   };
 }
