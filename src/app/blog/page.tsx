@@ -8,6 +8,7 @@ export const metadata: Metadata = {
 };
 
 const posts = [
+  { slug: "transient-dockage-guide", title: "How to Find Transient Slips for Overnight Stays", date: "April 15, 2026", description: "Everything cruising boaters need to know about transient dockage: nightly rates, etiquette, and the best regions for overnight slips." },
   { slug: "marina-slip-costs", title: "How Much Does a Marina Slip Cost in 2026? State-by-State Guide", date: "April 15, 2026", description: "Marina slip costs vary from $500 to $6,000+ per month depending on region. See 2026 pricing by state and tips to save." },
   { slug: "liveaboard-marinas", title: "Liveaboard Guide: Best Marinas for Living on Your Boat (2026)", date: "April 15, 2026", description: "Everything you need to know about living aboard full-time, from legal requirements to the best states for liveaboards." },
   { slug: "choosing-a-marina-checklist", title: "10 Things to Check Before Choosing a Marina", date: "April 15, 2026", description: "Use this checklist to evaluate slip size, depth, fuel, security, insurance, pet policy, and more before signing a lease." },
