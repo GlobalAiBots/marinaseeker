@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Liveaboard Guide: Living on Your Boat at a Marina | MarinaSeeker",
@@ -97,6 +98,8 @@ export default function LiveaboardGuide() {
         <p>
           The liveaboard lifestyle is not for everyone, but for the right person, it is profoundly rewarding. If you are curious about making the switch, start by exploring marinas that offer liveaboard slips. Browse our <Link href="/marinas" className="text-[#1B3A5C] hover:underline font-semibold">marina directory</Link> to find facilities across the country and filter for the amenities that matter most to full-time living aboard.
         </p>
+
+        <GearRecommendation section="comfort" />
       </div>
     </article>
   );

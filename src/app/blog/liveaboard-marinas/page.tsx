@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Liveaboard Guide: Best Marinas for Living on Your Boat (2026) | MarinaSeeker",
@@ -157,6 +158,8 @@ export default function LiveaboardMarinas() {
             Find a Marina Near You &rarr;
           </Link>
         </div>
+
+        <GearRecommendation section="comfort" />
       </div>
     </article>
   );

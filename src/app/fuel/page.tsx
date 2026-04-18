@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Find Marina Fuel Docks Near You | MarinaSeeker",
@@ -125,6 +126,8 @@ export default function FuelPage() {
         <p className="text-sm text-gray-500 mt-4">
           Filter marinas by amenities on individual state pages to find fuel docks near you.
         </p>
+
+        <GearRecommendation section="maintenance" />
 
         <div className="mt-12 bg-[#FAF8F5] border border-gray-200 rounded-xl p-8 text-center">
           <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mb-3">Find Marinas with Fuel</h2>

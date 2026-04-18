@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Winter Boat Storage: Marina vs Dry Stack vs Home | MarinaSeeker",
@@ -138,6 +139,7 @@ export default function WinterBoatStorageAtMarinas() {
             <p className="px-4 pb-3 text-gray-600 text-sm">Book winter storage by late summer or early fall. Popular marinas and dry stack facilities fill up quickly, and waiting until October may mean limited options or premium pricing. Many facilities offer early-booking discounts for customers who commit before September. If you&apos;re storing at home, plan your winterization supplies and schedule the haul-out early to avoid the late-season rush.</p>
           </details>
         </div>
+        <GearRecommendation section="maintenance" />
       </section>
     </article>
   );

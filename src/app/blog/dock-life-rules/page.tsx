@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Dock Life: The Unwritten Rules of Living at a Marina | MarinaSeeker",
@@ -162,6 +163,8 @@ export default function DockLifeRules() {
             Find a Marina Near You &rarr;
           </Link>
         </div>
+
+        <GearRecommendation section="dock-essentials" />
       </div>
     </article>
   );

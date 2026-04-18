@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "How to Find Transient Slips for Overnight Stays | MarinaSeeker",
@@ -151,6 +152,8 @@ export default function TransientDockageGuide() {
         <p className="mt-8">
           Ready to plan your next cruise? Browse marinas across America on <Link href="/" className="text-[#1B3A5C] hover:underline font-semibold">MarinaSeeker&apos;s homepage</Link>, estimate your costs with the <Link href="/slip-cost-calculator" className="text-[#1B3A5C] hover:underline font-semibold">slip cost calculator</Link>, and brush up on dock manners with our <Link href="/blog/marina-etiquette" className="text-[#1B3A5C] hover:underline font-semibold">marina etiquette guide</Link>.
         </p>
+
+        <GearRecommendation section="dock-essentials" />
       </div>
     </article>
   );

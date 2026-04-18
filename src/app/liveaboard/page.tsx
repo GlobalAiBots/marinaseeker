@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Best Liveaboard Marinas in America (2026) | MarinaSeeker",
@@ -140,6 +141,10 @@ export default function LiveaboardPage() {
         <p>
           Essential amenities include shower and laundry facilities, reliable electrical hookups (30A or 50A), potable water, mail and package service, on-site parking, Wi-Fi, pump-out stations, and a pet-friendly policy if you have animals aboard.
         </p>
+
+        <GearRecommendation section="dock-essentials" />
+
+        <GearRecommendation section="comfort" />
 
         <div className="mt-12 bg-[#FAF8F5] border border-gray-200 rounded-xl p-8 text-center">
           <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mb-3">Ready to Find Your Liveaboard Marina?</h2>

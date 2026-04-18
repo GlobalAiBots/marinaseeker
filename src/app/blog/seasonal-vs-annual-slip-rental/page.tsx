@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Seasonal vs Annual Slip Rental: Which Saves You Money? | MarinaSeeker",
@@ -97,6 +98,8 @@ export default function SeasonalVsAnnualSlipRental() {
         <p>
           Whether you choose seasonal or annual, finding the right marina is the first step. Explore marinas near you with our <Link href="/marinas" className="text-[#1B3A5C] hover:underline font-semibold">marina directory</Link> to compare locations, amenities, and access before making your commitment.
         </p>
+
+        <GearRecommendation section="dock-essentials" />
       </div>
     </article>
   );

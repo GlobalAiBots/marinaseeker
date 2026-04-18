@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "What to Look for When Choosing a Marina | MarinaSeeker",
@@ -92,6 +93,8 @@ export default function WhatToLookForChoosingMarina() {
         <p>
           The best way to find the right marina is to compare options side by side. Browse marinas across the country on our <Link href="/marinas" className="text-[#1B3A5C] hover:underline font-semibold">marina directory</Link> to explore locations, amenities, and contact information. Whether you are looking for a quiet seasonal dock on a New England harbor or a full-service year-round facility on the Gulf Coast, the perfect marina is out there &mdash; you just need to know what to look for.
         </p>
+
+        <GearRecommendation section="dock-essentials" />
       </div>
     </article>
   );

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Top Marinas in Michigan for Weekend Boaters | MarinaSeeker",
@@ -96,6 +97,8 @@ export default function TopMarinasMichigan() {
         <p>
           Ready to explore Michigan&apos;s marinas? Browse our complete <Link href="/michigan" className="text-[#1B3A5C] hover:underline font-semibold">Michigan marina listings</Link> to find facilities across the Great Lakes State, compare amenities, and plan your next weekend on the water.
         </p>
+
+        <GearRecommendation section="comfort" />
       </div>
     </article>
   );

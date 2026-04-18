@@ -5,6 +5,7 @@ import Link from "next/link";
 import { unified, stateList } from "@/data/all-marinas";
 import NearMeButton from "@/components/NearMeButton";
 import CletusAd from "@/components/CletusAd";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -142,6 +143,13 @@ export default function Home() {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* ESSENTIAL GEAR SECTIONS */}
+      <section className="max-w-5xl mx-auto px-4 py-2">
+        <GearRecommendation section="dock-essentials" />
+        <GearRecommendation section="maintenance" />
+        <GearRecommendation section="comfort" />
       </section>
 
       {/* GEAR UP FOR THE MARINA */}

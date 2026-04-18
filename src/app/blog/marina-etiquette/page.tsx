@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "Marina Etiquette: 10 Rules Every Boater Should Know | MarinaSeeker",
@@ -120,6 +121,8 @@ export default function MarinaEtiquette() {
         <p>
           Looking for a marina where you can put these rules into practice? Browse thousands of marinas across America on our <Link href="/marinas" className="text-[#1B3A5C] hover:underline font-semibold">marina directory</Link> to find the right fit for your boat and your boating style. The best marina experience starts with being a great marina neighbor.
         </p>
+
+        <GearRecommendation section="dock-essentials" />
       </div>
     </article>
   );

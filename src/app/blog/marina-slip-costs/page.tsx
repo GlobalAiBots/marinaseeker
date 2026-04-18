@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import GearRecommendation from "@/components/GearRecommendation";
 
 export const metadata: Metadata = {
   title: "How Much Does a Marina Slip Cost in 2026? State-by-State Guide | MarinaSeeker",
@@ -159,6 +160,8 @@ export default function MarinaSlipCosts() {
             Find a Marina Near You &rarr;
           </Link>
         </div>
+
+        <GearRecommendation section="dock-essentials" />
       </div>
     </article>
   );

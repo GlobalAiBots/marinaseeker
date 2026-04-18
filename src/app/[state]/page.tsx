@@ -5,6 +5,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { unified, stateList } from "@/data/all-marinas";
 import FeaturedArticle from "@/components/FeaturedArticle";
+import GearRecommendation from "@/components/GearRecommendation";
 
 const MarinaMap = dynamic(() => import("@/components/MarinaMap"), { ssr: false });
 
@@ -83,6 +84,7 @@ export default function StatePage({ params }: { params: Promise<{ state: string 
             <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Read our <Link href="/blog/what-to-look-for-choosing-marina" className="text-[#1B3A5C] hover:underline">guide to choosing a marina</Link>.</li>
           </ul>
         </div>
+        <GearRecommendation section="dock-essentials" />
       </section>
 
       {/* Map */}
