@@ -51,7 +51,7 @@ export default function MarinaEtiquette() {
           Sloppy dock lines are more than an eyesore &mdash; they are a safety hazard. Lines that drape across the dock create tripping risks, especially at night when visibility is limited. Keep your spring lines, bow lines, and stern lines properly coiled and secured when not under tension. Replace chafed or fraying lines before they fail during a storm, which can send your boat drifting into a neighbor&apos;s hull.
         </p>
         <p>
-          Equally important is using the correct cleats and dock hardware. Never tie off to a power pedestal, a water spigot, or another boater&apos;s cleat. Use only the cleats assigned to your slip, and make sure your lines are long enough to allow for tidal changes without going slack or pulling your boat hard against the dock.
+          Equally important is using the correct cleats and dock hardware. Never tie off to a power pedestal, a water spigot, or another boater&apos;s cleat. Use only the cleats assigned to your slip, and make sure your lines are long enough to allow for tidal changes without going slack or pulling your boat hard against the dock. A telescoping boat hook (<a href="https://www.amazon.com/s?k=telescoping+boat+hook&tag=babymydog03-20" target="_blank" rel="noopener noreferrer nofollow sponsored" className="text-[#1B3A5C] hover:underline font-semibold">Our Pick on Amazon</a>) kept in easy reach lets you retrieve a dropped line or adjust a pennant without asking a neighbor for help.
         </p>
 
         <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4 font-[Cabin]">3. Maintain Slow Speed in the Marina Basin</h2>

@@ -76,10 +76,10 @@ export default function SeasonalVsAnnualSlipRental() {
 
         <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4 font-[Cabin]">Hidden Costs to Watch For</h2>
         <p>
-          Both rental types come with costs that do not appear on the rate card. Seasonal renters should budget for haul-out fees (typically $10 to $20 per foot), blocking and storage ($20 to $40 per foot for the winter), shrink-wrap ($12 to $18 per foot), spring launch, and mast stepping if you sail. These add-ons can total $2,000 to $5,000 for a 35-foot boat.
+          Both rental types come with costs that do not appear on the rate card. Seasonal renters should budget for haul-out fees (typically $10 to $20 per foot), blocking and storage ($20 to $40 per foot for the winter), shrink-wrap (<a href="https://www.amazon.com/s?k=boat+shrink+wrap&tag=babymydog03-20" target="_blank" rel="noopener noreferrer nofollow sponsored" className="text-[#1B3A5C] hover:underline font-semibold">Our Pick on Amazon</a>) at $12 to $18 per foot, spring launch, and mast stepping if you sail. These add-ons can total $2,000 to $5,000 for a 35-foot boat.
         </p>
         <p>
-          Annual renters face their own hidden costs. Winter utility usage can spike if you are running a de-icer or bubbler system to prevent ice damage around your hull. Insurance premiums may be higher for boats that remain in the water year-round in freeze-prone areas. And the cumulative wear on your running gear, bottom paint, and hull from 12 months of continuous immersion exceeds what a boat experiences during a six-month season.
+          Annual renters face their own hidden costs. Winter utility usage can spike if you are running a de-icer or bubbler system (<a href="https://www.amazon.com/s?k=dock+de+icer+bubbler&tag=babymydog03-20" target="_blank" rel="noopener noreferrer nofollow sponsored" className="text-[#1B3A5C] hover:underline font-semibold">Our Pick on Amazon</a>) to prevent ice damage around your hull. Insurance premiums may be higher for boats that remain in the water year-round in freeze-prone areas. And the cumulative wear on your running gear, bottom paint, and hull from 12 months of continuous immersion exceeds what a boat experiences during a six-month season.
         </p>
 
         <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4 font-[Cabin]">Which Boats Benefit from Which Arrangement?</h2>

@@ -6,6 +6,7 @@ import { unified, stateList } from "@/data/all-marinas";
 import NearMeButton from "@/components/NearMeButton";
 import CletusAd from "@/components/CletusAd";
 import GearRecommendation from "@/components/GearRecommendation";
+import SeasonalPicks from "@/components/SeasonalPicks";
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -143,6 +144,11 @@ export default function Home() {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* SEASONAL PICKS (rotates by month) */}
+      <section className="max-w-5xl mx-auto px-4 py-2">
+        <SeasonalPicks />
       </section>
 
       {/* ESSENTIAL GEAR SECTIONS */}

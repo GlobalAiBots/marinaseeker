@@ -56,7 +56,7 @@ export default function GearRecommendation({ section = "dock-essentials", headin
               rel="noopener noreferrer nofollow sponsored"
               className="inline-block mt-3 text-xs font-semibold text-[#C4924B] hover:text-[#A87834] transition"
             >
-              View on Amazon &rarr;
+              &#9733; Our Pick &mdash; View on Amazon
             </a>
           </div>
         ))}

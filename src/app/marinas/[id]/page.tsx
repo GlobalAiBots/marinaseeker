@@ -161,6 +161,24 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
           );
         })()}
 
+        {/* Trip Essentials Strip */}
+        <section className="mb-8 bg-[#FAF8F5] border border-gray-200 rounded-xl p-5">
+          <p className="font-[Cabin] font-bold text-[#1A1A1A] text-sm mb-3">Docking essentials:</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {[
+              { name: "Dock Lines 4-Pack", hook: "Replace before they fray", q: "marine dock lines 4 pack nylon" },
+              { name: "Boat Fenders", hook: "Protect hull at the slip", q: "boat fenders inflatable pair" },
+              { name: "Shore Power Cord", hook: "30A marine-grade hookup", q: "30 amp marine shore power cord" },
+            ].map((p) => (
+              <a key={p.name} href={`https://www.amazon.com/s?k=${encodeURIComponent(p.q)}&tag=babymydog03-20`} target="_blank" rel="noopener noreferrer nofollow sponsored" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-[#C4924B] hover:shadow-sm transition">
+                <p className="font-bold text-[#1A1A1A] text-sm">{p.name}</p>
+                <p className="text-gray-500 text-xs mt-0.5">{p.hook}</p>
+                <p className="text-[#C4924B] text-xs font-semibold mt-1">&#9733; Our Pick &mdash; Shop on Amazon</p>
+              </a>
+            ))}
+          </div>
+        </section>
+
         {/* FAQ */}
         <section className="mb-8">
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
