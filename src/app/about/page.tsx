@@ -11,7 +11,7 @@ export default function AboutPage() {
     <div className="max-w-3xl mx-auto px-4 py-16">
       <h1 className="font-[Cabin] text-3xl font-bold text-[#1A1A1A] mb-6">About MarinaSeeker</h1>
       <div className="space-y-4 text-gray-600 leading-relaxed">
-        <p>MarinaSeeker is the most complete marina directory in America. We compile data from OpenStreetMap, federal maritime agencies, and community contributions to build a comprehensive, free resource for boaters.</p>
+        <p>MarinaSeeker is the most complete marina directory in America, with 6,600+ marinas across all 50 states. We compile data from OpenStreetMap, Yelp, federal maritime agencies, and community contributions to build a comprehensive, free resource for boaters.</p>
         <p>Every marina listing includes GPS coordinates so you can navigate directly, plus amenity information like fuel availability, electric hookups, pump-out stations, showers, wifi, and restaurant access where available.</p>
         <p>MarinaSeeker is free to use. No login required. No account needed. Just find your marina and go.</p>
         <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mt-8 mb-3">Our Network</h2>
