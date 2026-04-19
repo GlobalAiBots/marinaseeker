@@ -18,7 +18,10 @@ export default function Home() {
   }, []);
 
   const statesWithCounts = useMemo(
-    () => stateList.map((s) => ({ ...s, count: stateCounts[s.code] || 0 })).sort((a, b) => b.count - a.count),
+    () => stateList
+      .map((s) => ({ ...s, count: stateCounts[s.code] || 0 }))
+      .filter((s) => s.count > 0)
+      .sort((a, b) => b.count - a.count),
     [stateCounts]
   );
 

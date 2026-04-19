@@ -1,0 +1,153 @@
+// Curated list of US coastal + large-lake cities with known marina density.
+// Focused on the 10 priority states the brief called out (FL, MI, MD, NY, NC, CA, WA, OH, VA, MA),
+// plus secondary coastal/lake coverage (ME, NH, CT, NJ, DE, SC, GA, AL, LA, TX, OR, TN, WI, MN).
+// Used as query seeds for Google Places Text Search: "marinas in {city}, {state}".
+
+module.exports = [
+  // --- Florida (priority 1) ---
+  ["Key West", "FL"], ["Marathon", "FL"], ["Key Largo", "FL"], ["Islamorada", "FL"],
+  ["Tavernier", "FL"], ["Big Pine Key", "FL"], ["Summerland Key", "FL"],
+  ["Miami", "FL"], ["Miami Beach", "FL"], ["Coconut Grove", "FL"], ["Aventura", "FL"],
+  ["Fort Lauderdale", "FL"], ["Pompano Beach", "FL"], ["Deerfield Beach", "FL"], ["Boca Raton", "FL"],
+  ["Palm Beach", "FL"], ["West Palm Beach", "FL"], ["Jupiter", "FL"], ["Stuart", "FL"],
+  ["Jensen Beach", "FL"], ["Fort Pierce", "FL"], ["Sebastian", "FL"], ["Vero Beach", "FL"],
+  ["Cocoa Beach", "FL"], ["Titusville", "FL"], ["Port Canaveral", "FL"], ["Melbourne", "FL"],
+  ["Daytona Beach", "FL"], ["New Smyrna Beach", "FL"], ["Flagler Beach", "FL"],
+  ["St Augustine", "FL"], ["Jacksonville", "FL"], ["Jacksonville Beach", "FL"], ["Fernandina Beach", "FL"],
+  ["Amelia Island", "FL"], ["Naples", "FL"], ["Marco Island", "FL"], ["Bonita Springs", "FL"],
+  ["Fort Myers", "FL"], ["Fort Myers Beach", "FL"], ["Sanibel", "FL"], ["Cape Coral", "FL"],
+  ["Punta Gorda", "FL"], ["Port Charlotte", "FL"], ["Englewood", "FL"], ["Boca Grande", "FL"],
+  ["Venice", "FL"], ["Sarasota", "FL"], ["Bradenton", "FL"], ["Anna Maria Island", "FL"],
+  ["Longboat Key", "FL"], ["St Petersburg", "FL"], ["St Pete Beach", "FL"], ["Treasure Island", "FL"],
+  ["Madeira Beach", "FL"], ["Clearwater", "FL"], ["Clearwater Beach", "FL"], ["Tarpon Springs", "FL"],
+  ["Tampa", "FL"], ["Ruskin", "FL"], ["Homosassa", "FL"], ["Crystal River", "FL"],
+  ["Cedar Key", "FL"], ["Apalachicola", "FL"], ["Port St Joe", "FL"], ["Panama City Beach", "FL"],
+  ["Destin", "FL"], ["Fort Walton Beach", "FL"], ["Pensacola", "FL"], ["Pensacola Beach", "FL"],
+
+  // --- Michigan (priority 1) ---
+  ["Detroit", "MI"], ["St Clair Shores", "MI"], ["Algonac", "MI"], ["Port Huron", "MI"],
+  ["St Clair", "MI"], ["Marysville", "MI"], ["New Baltimore", "MI"], ["Harrison Township", "MI"],
+  ["Bay City", "MI"], ["Saginaw", "MI"], ["Caseville", "MI"], ["Port Austin", "MI"],
+  ["Harbor Beach", "MI"], ["Traverse City", "MI"], ["Suttons Bay", "MI"], ["Leland", "MI"],
+  ["Northport", "MI"], ["Elk Rapids", "MI"], ["Charlevoix", "MI"], ["Harbor Springs", "MI"],
+  ["Petoskey", "MI"], ["Mackinaw City", "MI"], ["St Ignace", "MI"], ["Mackinac Island", "MI"],
+  ["Cheboygan", "MI"], ["Rogers City", "MI"], ["Alpena", "MI"], ["Frankfort", "MI"],
+  ["Manistee", "MI"], ["Ludington", "MI"], ["Pentwater", "MI"], ["Muskegon", "MI"],
+  ["Grand Haven", "MI"], ["Holland", "MI"], ["South Haven", "MI"], ["Saugatuck", "MI"],
+  ["St Joseph", "MI"], ["New Buffalo", "MI"], ["Marquette", "MI"], ["Munising", "MI"],
+  ["Sault Ste Marie", "MI"], ["Houghton", "MI"],
+
+  // --- Maryland (priority 1) ---
+  ["Annapolis", "MD"], ["Baltimore", "MD"], ["Havre de Grace", "MD"], ["North East", "MD"],
+  ["Chesapeake City", "MD"], ["Chestertown", "MD"], ["Rock Hall", "MD"], ["Kent Narrows", "MD"],
+  ["St Michaels", "MD"], ["Oxford", "MD"], ["Tilghman Island", "MD"], ["Cambridge", "MD"],
+  ["Crisfield", "MD"], ["Deal Island", "MD"], ["Solomons", "MD"], ["Chesapeake Beach", "MD"],
+  ["North Beach", "MD"], ["Deale", "MD"], ["Galesville", "MD"], ["Ocean City", "MD"],
+  ["Berlin", "MD"],
+
+  // --- New York (priority 1) ---
+  ["Montauk", "NY"], ["East Hampton", "NY"], ["Sag Harbor", "NY"], ["Southampton", "NY"],
+  ["Greenport", "NY"], ["Shelter Island", "NY"], ["Port Jefferson", "NY"], ["Huntington", "NY"],
+  ["Oyster Bay", "NY"], ["Port Washington", "NY"], ["Northport", "NY"], ["Sayville", "NY"],
+  ["Patchogue", "NY"], ["Babylon", "NY"], ["Freeport", "NY"], ["Long Beach", "NY"],
+  ["Glen Cove", "NY"], ["City Island", "NY"], ["Sheepshead Bay", "NY"], ["Brooklyn", "NY"],
+  ["New York", "NY"], ["Kingston", "NY"], ["Hudson", "NY"], ["Haverstraw", "NY"],
+  ["Nyack", "NY"], ["Tarrytown", "NY"], ["Poughkeepsie", "NY"], ["Beacon", "NY"],
+  ["Buffalo", "NY"], ["Rochester", "NY"], ["Oswego", "NY"], ["Sackets Harbor", "NY"],
+  ["Clayton", "NY"], ["Alexandria Bay", "NY"], ["Cape Vincent", "NY"],
+
+  // --- North Carolina (priority 1) ---
+  ["Manteo", "NC"], ["Nags Head", "NC"], ["Kitty Hawk", "NC"], ["Kill Devil Hills", "NC"],
+  ["Duck", "NC"], ["Corolla", "NC"], ["Hatteras", "NC"], ["Avon", "NC"],
+  ["Buxton", "NC"], ["Ocracoke", "NC"], ["Beaufort", "NC"], ["Morehead City", "NC"],
+  ["Atlantic Beach", "NC"], ["Emerald Isle", "NC"], ["Swansboro", "NC"], ["Hampstead", "NC"],
+  ["Surf City", "NC"], ["Topsail Beach", "NC"], ["Wilmington", "NC"], ["Wrightsville Beach", "NC"],
+  ["Carolina Beach", "NC"], ["Southport", "NC"], ["Oak Island", "NC"], ["Calabash", "NC"],
+  ["New Bern", "NC"], ["Oriental", "NC"], ["Bath", "NC"], ["Washington", "NC"],
+  ["Belhaven", "NC"], ["Edenton", "NC"], ["Elizabeth City", "NC"],
+
+  // --- California (priority 1) ---
+  ["San Diego", "CA"], ["Chula Vista", "CA"], ["Coronado", "CA"], ["Oceanside", "CA"],
+  ["Dana Point", "CA"], ["Newport Beach", "CA"], ["Huntington Beach", "CA"], ["Long Beach", "CA"],
+  ["San Pedro", "CA"], ["Marina del Rey", "CA"], ["Redondo Beach", "CA"], ["Avalon", "CA"],
+  ["Ventura", "CA"], ["Oxnard", "CA"], ["Santa Barbara", "CA"], ["Morro Bay", "CA"],
+  ["Avila Beach", "CA"], ["Pismo Beach", "CA"], ["Monterey", "CA"], ["Moss Landing", "CA"],
+  ["Santa Cruz", "CA"], ["Half Moon Bay", "CA"], ["San Francisco", "CA"], ["Sausalito", "CA"],
+  ["Tiburon", "CA"], ["Berkeley", "CA"], ["Alameda", "CA"], ["Oakland", "CA"],
+  ["Emeryville", "CA"], ["Redwood City", "CA"], ["San Rafael", "CA"], ["Bodega Bay", "CA"],
+  ["Mendocino", "CA"], ["Fort Bragg", "CA"], ["Eureka", "CA"], ["Crescent City", "CA"],
+  ["Lake Tahoe", "CA"], ["Discovery Bay", "CA"],
+
+  // --- Washington (priority 1) ---
+  ["Seattle", "WA"], ["Bellingham", "WA"], ["Anacortes", "WA"], ["La Conner", "WA"],
+  ["Blaine", "WA"], ["Friday Harbor", "WA"], ["Eastsound", "WA"], ["Lopez Island", "WA"],
+  ["Port Townsend", "WA"], ["Port Angeles", "WA"], ["Sequim", "WA"], ["Neah Bay", "WA"],
+  ["Forks", "WA"], ["Everett", "WA"], ["Edmonds", "WA"], ["Kingston", "WA"],
+  ["Poulsbo", "WA"], ["Bainbridge Island", "WA"], ["Bremerton", "WA"], ["Port Orchard", "WA"],
+  ["Gig Harbor", "WA"], ["Tacoma", "WA"], ["Olympia", "WA"], ["Shelton", "WA"],
+  ["Long Beach", "WA"], ["Ilwaco", "WA"], ["Westport", "WA"], ["Ocean Shores", "WA"],
+
+  // --- Ohio (priority 1) ---
+  ["Cleveland", "OH"], ["Lakewood", "OH"], ["Rocky River", "OH"], ["Bay Village", "OH"],
+  ["Avon Lake", "OH"], ["Lorain", "OH"], ["Vermilion", "OH"], ["Huron", "OH"],
+  ["Sandusky", "OH"], ["Port Clinton", "OH"], ["Marblehead", "OH"], ["Catawba Island", "OH"],
+  ["Put-in-Bay", "OH"], ["Kelleys Island", "OH"], ["Mentor", "OH"], ["Fairport Harbor", "OH"],
+  ["Geneva", "OH"], ["Ashtabula", "OH"], ["Conneaut", "OH"], ["Toledo", "OH"],
+
+  // --- Virginia (priority 1) ---
+  ["Virginia Beach", "VA"], ["Norfolk", "VA"], ["Portsmouth", "VA"], ["Chesapeake", "VA"],
+  ["Hampton", "VA"], ["Newport News", "VA"], ["Yorktown", "VA"], ["Gloucester Point", "VA"],
+  ["Mathews", "VA"], ["Deltaville", "VA"], ["Urbanna", "VA"], ["Irvington", "VA"],
+  ["Reedville", "VA"], ["White Stone", "VA"], ["Cape Charles", "VA"], ["Chincoteague", "VA"],
+  ["Onancock", "VA"], ["Wachapreague", "VA"],
+
+  // --- Massachusetts (priority 1) ---
+  ["Boston", "MA"], ["Quincy", "MA"], ["Hingham", "MA"], ["Scituate", "MA"],
+  ["Plymouth", "MA"], ["Duxbury", "MA"], ["Marion", "MA"], ["Mattapoisett", "MA"],
+  ["New Bedford", "MA"], ["Fairhaven", "MA"], ["Dartmouth", "MA"], ["Westport", "MA"],
+  ["Fall River", "MA"], ["Bourne", "MA"], ["Falmouth", "MA"], ["Woods Hole", "MA"],
+  ["Hyannis", "MA"], ["Orleans", "MA"], ["Chatham", "MA"], ["Wellfleet", "MA"],
+  ["Provincetown", "MA"], ["Nantucket", "MA"], ["Edgartown", "MA"], ["Vineyard Haven", "MA"],
+  ["Oak Bluffs", "MA"], ["Salem", "MA"], ["Marblehead", "MA"], ["Beverly", "MA"],
+  ["Gloucester", "MA"], ["Rockport", "MA"], ["Newburyport", "MA"],
+
+  // --- Priority 2: MN, WI, TN, AL, GA (Great Lakes + Gulf + TVA) ---
+  ["Duluth", "MN"], ["Two Harbors", "MN"], ["Grand Marais", "MN"], ["Brainerd", "MN"],
+  ["Bemidji", "MN"], ["Alexandria", "MN"], ["Walker", "MN"],
+  ["Milwaukee", "WI"], ["Racine", "WI"], ["Kenosha", "WI"], ["Sheboygan", "WI"],
+  ["Manitowoc", "WI"], ["Green Bay", "WI"], ["Sturgeon Bay", "WI"], ["Sister Bay", "WI"],
+  ["Bayfield", "WI"], ["Superior", "WI"], ["Madison", "WI"], ["La Crosse", "WI"],
+  ["Oshkosh", "WI"], ["Fond du Lac", "WI"],
+  ["Knoxville", "TN"], ["Chattanooga", "TN"], ["Lenoir City", "TN"], ["Kingston", "TN"],
+  ["Dandridge", "TN"], ["Hendersonville", "TN"],
+  ["Mobile", "AL"], ["Orange Beach", "AL"], ["Gulf Shores", "AL"], ["Dauphin Island", "AL"],
+  ["Fairhope", "AL"], ["Daphne", "AL"], ["Guntersville", "AL"], ["Scottsboro", "AL"],
+  ["Savannah", "GA"], ["Tybee Island", "GA"], ["Richmond Hill", "GA"], ["Darien", "GA"],
+  ["Brunswick", "GA"], ["St Simons Island", "GA"], ["Jekyll Island", "GA"],
+
+  // --- Secondary coastal: ME, NH, CT, NJ, DE, SC, TX, LA, OR ---
+  ["Portland", "ME"], ["South Portland", "ME"], ["Kennebunkport", "ME"], ["Boothbay Harbor", "ME"],
+  ["Damariscotta", "ME"], ["Rockland", "ME"], ["Camden", "ME"], ["Belfast", "ME"],
+  ["Bar Harbor", "ME"], ["Southwest Harbor", "ME"], ["Stonington", "ME"],
+  ["Portsmouth", "NH"], ["Rye", "NH"], ["Hampton", "NH"], ["Meredith", "NH"],
+  ["Wolfeboro", "NH"],
+  ["New London", "CT"], ["Mystic", "CT"], ["Stonington", "CT"], ["Groton", "CT"],
+  ["Niantic", "CT"], ["Essex", "CT"], ["Old Saybrook", "CT"], ["Branford", "CT"],
+  ["New Haven", "CT"], ["Milford", "CT"], ["Stamford", "CT"], ["Norwalk", "CT"],
+  ["Cape May", "NJ"], ["Wildwood", "NJ"], ["Ocean City", "NJ"], ["Atlantic City", "NJ"],
+  ["Brigantine", "NJ"], ["Beach Haven", "NJ"], ["Toms River", "NJ"], ["Point Pleasant Beach", "NJ"],
+  ["Manasquan", "NJ"], ["Belmar", "NJ"], ["Asbury Park", "NJ"], ["Sandy Hook", "NJ"],
+  ["Rehoboth Beach", "DE"], ["Dewey Beach", "DE"], ["Bethany Beach", "DE"], ["Lewes", "DE"],
+  ["Fenwick Island", "DE"],
+  ["Charleston", "SC"], ["Mount Pleasant", "SC"], ["Isle of Palms", "SC"], ["Sullivans Island", "SC"],
+  ["Folly Beach", "SC"], ["Beaufort", "SC"], ["Port Royal", "SC"], ["Hilton Head Island", "SC"],
+  ["Bluffton", "SC"], ["Georgetown", "SC"], ["Pawleys Island", "SC"], ["Murrells Inlet", "SC"],
+  ["Myrtle Beach", "SC"], ["Little River", "SC"],
+  ["Galveston", "TX"], ["Kemah", "TX"], ["Seabrook", "TX"], ["League City", "TX"],
+  ["Freeport", "TX"], ["Port Aransas", "TX"], ["Rockport", "TX"], ["Corpus Christi", "TX"],
+  ["Port Isabel", "TX"], ["South Padre Island", "TX"],
+  ["New Orleans", "LA"], ["Slidell", "LA"], ["Madisonville", "LA"], ["Mandeville", "LA"],
+  ["Lake Charles", "LA"], ["Houma", "LA"],
+  ["Astoria", "OR"], ["Warrenton", "OR"], ["Newport", "OR"], ["Florence", "OR"],
+  ["Coos Bay", "OR"], ["Brookings", "OR"], ["Portland", "OR"],
+];

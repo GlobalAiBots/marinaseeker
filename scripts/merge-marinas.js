@@ -1,13 +1,22 @@
 /**
- * merge-marinas.js — Merge existing marinas.json + yelp-marinas.json + osm-marinas-grid.json
- * into a single unified marinas.json.
+ * merge-marinas.js — Merge 4 sources into a unified marinas.json:
+ *   1. existing marinas.json     (OSM-originated baseline, stable URLs)
+ *   2. google-marinas.json       (cleanest addresses, place_id)
+ *   3. yelp-marinas.json         (ratings, review_count, phone)
+ *   4. osm-marinas-grid.json     (broader OSM sweep)
  *
  * Dedup key: lower(name) + | + lower(city) + | + state
- * Preference when a duplicate is found: Yelp > existing > OSM-grid
- *   (Yelp has phone, rating, review_count — highest-value data)
+ * Priority:  Google > Yelp > existing > OSM-grid
  *
- * For OSM-grid records without state: infer from lat/lng using state bboxes.
- * US-only: records outside rough US bounds are dropped.
+ * Strategy:
+ *   - Existing records keep their IDs (URL stability).
+ *   - New records added once per unique key, first source wins on identity,
+ *     later sources enrich fields that are empty/missing.
+ *   - Order of processing: Google (first — adds new + enriches existing),
+ *                          Yelp (enriches rating/reviews/phone),
+ *                          OSM-grid (adds new only, no override).
+ *
+ * Missing state on OSM: inferred from lat/lng via state bbox table.
  */
 const fs = require("fs");
 const path = require("path");
@@ -15,17 +24,14 @@ const path = require("path");
 const DATA = path.join(__dirname, "..", "src", "data");
 const EXISTING_PATH = path.join(DATA, "marinas.json");
 const YELP_PATH = path.join(DATA, "yelp-marinas.json");
+const GOOGLE_PATH = path.join(DATA, "google-marinas.json");
 const OSM_PATH = path.join(DATA, "osm-marinas-grid.json");
-const OUT_PATH = EXISTING_PATH; // overwrite
+const OUT_PATH = EXISTING_PATH;
 
-function slugify(s) {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-}
+function slugify(s) { return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
 function norm(s) { return (s || "").toLowerCase().trim(); }
 function key(name, city, state) { return `${norm(name)}|${norm(city)}|${(state || "").toUpperCase()}`; }
 
-// US state bounding boxes [minLat, maxLat, minLon, maxLon] — approximate, for lat/lng → state inference.
-// Source: rough USGS state extents. Imperfect near borders but serviceable for OSM marina geocoding.
 const STATE_BBOX = {
   AL:[30.1,35.1,-88.5,-84.9], AK:[51,72,-180,-130], AZ:[31.3,37.1,-114.9,-109.0],
   AR:[33.0,36.5,-94.6,-89.6], CA:[32.5,42.1,-124.5,-114.1], CO:[36.9,41.1,-109.1,-102.0],
@@ -60,47 +66,95 @@ function loadJson(p, fallback) {
 
 function main() {
   const existing = loadJson(EXISTING_PATH, []);
+  const google = loadJson(GOOGLE_PATH, []);
   const yelp = loadJson(YELP_PATH, []);
   const osm = loadJson(OSM_PATH, []);
 
-  console.log(`Input counts:`);
+  console.log("Input counts:");
   console.log(`  existing: ${existing.length}`);
+  console.log(`  google:   ${google.length}`);
   console.log(`  yelp:     ${yelp.length}`);
   console.log(`  osm-grid: ${osm.length}`);
 
-  // Keep ALL existing records (stable IDs for existing URLs).
-  // Build a lookup set for dedup against new Yelp/OSM, but don't collapse existing dupes.
+  // Keep existing intact, track by key for enrichment
   const allRecords = [...existing];
-  const existingKeys = new Set(existing.map((m) => key(m.name, m.city, m.state)));
-  console.log(`\nExisting kept intact: ${allRecords.length} (with ${existing.length - existingKeys.size} internal dupes preserved for URL stability)`);
+  const indexByKey = new Map();
+  existing.forEach((m, i) => {
+    const k = key(m.name, m.city, m.state);
+    if (!indexByKey.has(k)) indexByKey.set(k, { idx: i, source: "existing" });
+  });
+  console.log(`\nExisting seeded: ${allRecords.length} records, ${indexByKey.size} unique keys`);
 
-  // 2. Overlay Yelp — enrich existing (in place) and add new
-  const existingIndexByKey = new Map();
-  existing.forEach((m, i) => { existingIndexByKey.set(key(m.name, m.city, m.state), i); });
+  // --- Pass 1: Google (priority 1 — adds new + enriches existing with clean address) ---
+  let gAdded = 0, gEnriched = 0, gSkipped = 0;
+  for (const g of google) {
+    if (!g.lat || !g.lng || !g.state) { gSkipped++; continue; }
+    const k = key(g.name, g.city, g.state);
+    const match = indexByKey.get(k);
+    if (match) {
+      const cur = allRecords[match.idx];
+      allRecords[match.idx] = {
+        ...cur,
+        // Google is authoritative on address formatting
+        formatted_address: g.formatted_address || cur.formatted_address,
+        google_place_id: g.place_id,
+        // Only fill blanks
+        phone: cur.phone || (g.formatted_phone_number || ""),
+        rating: cur.rating ?? g.rating,
+        review_count: cur.review_count ?? g.user_ratings_total,
+      };
+      gEnriched++;
+    } else {
+      const rec = {
+        id: `marina-${slugify(g.state)}-${slugify(g.name)}-g${gAdded}`,
+        name: g.name,
+        slug: slugify(g.name),
+        lat: g.lat,
+        lng: g.lng,
+        state: g.state,
+        city: g.city || "",
+        source: "google-places",
+        amenities: [],
+        website: "",
+        phone: "",
+        email: "",
+        capacity: null,
+        operator: "",
+        description: "",
+        categories: [],
+        formatted_address: g.formatted_address || "",
+        google_place_id: g.place_id,
+        rating: g.rating,
+        review_count: g.user_ratings_total,
+      };
+      const newIdx = allRecords.length;
+      allRecords.push(rec);
+      indexByKey.set(k, { idx: newIdx, source: "google" });
+      gAdded++;
+    }
+  }
+  console.log(`Google: +${gAdded} new, ${gEnriched} enriched existing, ${gSkipped} skipped`);
 
-  const newKeys = new Set();
-  let yelpAdded = 0, yelpMerged = 0, yelpSkipped = 0;
+  // --- Pass 2: Yelp (priority 2 — enriches rating/reviews/phone, adds if missing) ---
+  let yAdded = 0, yEnriched = 0, ySkipped = 0;
   for (const y of yelp) {
-    if (!y.latitude || !y.longitude || !y.state) { yelpSkipped++; continue; }
+    if (!y.latitude || !y.longitude || !y.state) { ySkipped++; continue; }
     const k = key(y.name, y.city, y.state);
-    if (existingIndexByKey.has(k)) {
-      // Enrich FIRST matching existing record with Yelp commercial fields
-      const idx = existingIndexByKey.get(k);
-      const cur = allRecords[idx];
-      allRecords[idx] = {
+    const match = indexByKey.get(k);
+    if (match) {
+      const cur = allRecords[match.idx];
+      allRecords[match.idx] = {
         ...cur,
         phone: cur.phone || y.phone || "",
+        // Yelp overrides Google on rating since Yelp ratings are more trusted by boaters
         rating: y.rating ?? cur.rating,
         review_count: y.review_count ?? cur.review_count,
         yelp_url: y.yelp_url || cur.yelp_url,
       };
-      yelpMerged++;
-    } else if (newKeys.has(k)) {
-      // Already added a new record with this key this run; skip to avoid intra-new dupes
-      yelpMerged++;
+      yEnriched++;
     } else {
-      allRecords.push({
-        id: `marina-${slugify(y.state)}-${slugify(y.name)}-y${yelpAdded}`,
+      const rec = {
+        id: `marina-${slugify(y.state)}-${slugify(y.name)}-y${yAdded}`,
         name: y.name,
         slug: slugify(y.name),
         lat: y.latitude,
@@ -119,27 +173,29 @@ function main() {
         rating: y.rating,
         review_count: y.review_count,
         yelp_url: y.yelp_url,
-      });
-      newKeys.add(k);
-      yelpAdded++;
+      };
+      const newIdx = allRecords.length;
+      allRecords.push(rec);
+      indexByKey.set(k, { idx: newIdx, source: "yelp" });
+      yAdded++;
     }
   }
-  console.log(`Yelp: +${yelpAdded} new, ${yelpMerged} merged/dupes, ${yelpSkipped} skipped (missing lat/lng/state)`);
+  console.log(`Yelp: +${yAdded} new, ${yEnriched} enriched, ${ySkipped} skipped`);
 
-  // 3. Overlay OSM grid — only add if not duplicate
-  let osmAdded = 0, osmMerged = 0, osmSkipped = 0, osmInferredState = 0;
+  // --- Pass 3: OSM grid (priority 4 — adds new only, does NOT override) ---
+  let oAdded = 0, oSkipped = 0, oDupe = 0, oInferred = 0;
   for (const o of osm) {
-    if (!o.lat || !o.lng || !o.name) { osmSkipped++; continue; }
+    if (!o.lat || !o.lng || !o.name) { oSkipped++; continue; }
     let state = (o.state || "").toUpperCase();
     if (!state || state.length !== 2) {
       state = stateFromLatLng(o.lat, o.lng);
-      if (!state) { osmSkipped++; continue; } // outside US
-      osmInferredState++;
+      if (!state) { oSkipped++; continue; }
+      oInferred++;
     }
     const k = key(o.name, o.city, state);
-    if (existingIndexByKey.has(k) || newKeys.has(k)) { osmMerged++; continue; }
-    allRecords.push({
-      id: `marina-${slugify(state)}-${slugify(o.name)}-o${osmAdded}`,
+    if (indexByKey.has(k)) { oDupe++; continue; }
+    const rec = {
+      id: `marina-${slugify(state)}-${slugify(o.name)}-o${oAdded}`,
       name: o.name,
       slug: slugify(o.name),
       lat: o.lat,
@@ -155,25 +211,27 @@ function main() {
       operator: o.operator || "",
       description: "",
       categories: [],
-    });
-    newKeys.add(k);
-    osmAdded++;
+    };
+    const newIdx = allRecords.length;
+    allRecords.push(rec);
+    indexByKey.set(k, { idx: newIdx, source: "osm" });
+    oAdded++;
   }
-  console.log(`OSM grid: +${osmAdded} new, ${osmMerged} dupes skipped, ${osmSkipped} skipped (outside US or missing data), ${osmInferredState} had state inferred from lat/lng`);
+  console.log(`OSM grid: +${oAdded} new, ${oDupe} dupes, ${oSkipped} skipped, ${oInferred} had state inferred`);
 
-  const merged = allRecords;
+  // Stats
   const byState = {};
-  for (const m of merged) byState[m.state] = (byState[m.state] || 0) + 1;
+  for (const m of allRecords) byState[m.state] = (byState[m.state] || 0) + 1;
 
   console.log(`\n=== Final ===`);
-  console.log(`Total unique marinas: ${merged.length}`);
+  console.log(`Total marinas: ${allRecords.length}`);
   console.log(`States covered: ${Object.keys(byState).length}`);
-  console.log(`Top 10 states:`);
-  Object.entries(byState).sort((a, b) => b[1] - a[1]).slice(0, 10).forEach(([s, c]) => {
+  console.log(`Top 15 states:`);
+  Object.entries(byState).sort((a, b) => b[1] - a[1]).slice(0, 15).forEach(([s, c]) => {
     console.log(`  ${s}: ${c}`);
   });
 
-  fs.writeFileSync(OUT_PATH, JSON.stringify(merged, null, 2));
+  fs.writeFileSync(OUT_PATH, JSON.stringify(allRecords, null, 2));
   console.log(`\nWrote ${OUT_PATH}`);
 }
 
