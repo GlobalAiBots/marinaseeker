@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Discover the top 10 best marinas in Maryland, from Chesapeake Bay harbors to Ocean City docks. Expert picks for slips, crabbing, sailing, and waterfront dining.",
   alternates: {
-    canonical: "https://marinaseeker.com/best-of/best-marinas-in-maryland",
+    canonical: "https://www.marinaseeker.com/best-of/best-marinas-in-maryland",
   },
 };
 
@@ -19,19 +19,19 @@ export default function BestMarinasMaryland() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://marinaseeker.com",
+        item: "https://www.marinaseeker.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Best Of",
-        item: "https://marinaseeker.com/best-of",
+        item: "https://www.marinaseeker.com/best-of",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Best Marinas in Maryland",
-        item: "https://marinaseeker.com/best-of/best-marinas-in-maryland",
+        item: "https://www.marinaseeker.com/best-of/best-marinas-in-maryland",
       },
     ],
   };

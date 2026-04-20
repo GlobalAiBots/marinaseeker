@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Discover the best liveaboard marinas in America. From Florida to California, these marinas welcome full-time boaters with slips, amenities, and vibrant waterfront communities.",
   alternates: {
-    canonical: "https://marinaseeker.com/best-of/best-liveaboard-marinas",
+    canonical: "https://www.marinaseeker.com/best-of/best-liveaboard-marinas",
   },
 };
 
@@ -19,19 +19,19 @@ export default function BestLiveaboardMarinas() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://marinaseeker.com",
+        item: "https://www.marinaseeker.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Best Of",
-        item: "https://marinaseeker.com/best-of",
+        item: "https://www.marinaseeker.com/best-of",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Best Liveaboard Marinas",
-        item: "https://marinaseeker.com/best-of/best-liveaboard-marinas",
+        item: "https://www.marinaseeker.com/best-of/best-liveaboard-marinas",
       },
     ],
   };

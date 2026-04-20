@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "How to Find Transient Slips for Overnight Stays | MarinaSeeker",
   description: "Everything cruising boaters need to know about transient dockage: how to find overnight slips, what to expect for nightly rates, etiquette, and the best regions for transient cruising.",
-  openGraph: { title: "How to Find Transient Slips for Overnight Stays", url: "https://marinaseeker.com/blog/transient-dockage-guide", siteName: "MarinaSeeker" },
+  openGraph: { title: "How to Find Transient Slips for Overnight Stays", url: "https://www.marinaseeker.com/blog/transient-dockage-guide", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "How to Find Transient Slips for Overnight Stays | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/transient-dockage-guide" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/transient-dockage-guide" },
 };
 
 const articleLd = {
@@ -16,16 +16,16 @@ const articleLd = {
   headline: "How to Find Transient Slips for Overnight Stays",
   datePublished: "2026-04-15",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://marinaseeker.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Transient Dockage Guide", item: "https://marinaseeker.com/blog/transient-dockage-guide" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.marinaseeker.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Transient Dockage Guide", item: "https://www.marinaseeker.com/blog/transient-dockage-guide" },
   ],
 };
 

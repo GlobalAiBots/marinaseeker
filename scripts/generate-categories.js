@@ -46,7 +46,7 @@ categories.forEach(c => console.log(`  ${c.slug}: ${c.totalCount} marinas`));
 
 fs.writeFileSync(path.join(__dirname, "..", "src", "data", "categories.json"), JSON.stringify(categories, null, 2));
 
-const sitemapLines = categories.map(c => `  <url><loc>https://marinaseeker.com/category/${c.slug}</loc><lastmod>2026-04-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
+const sitemapLines = categories.map(c => `  <url><loc>https://www.marinaseeker.com/category/${c.slug}</loc><lastmod>2026-04-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
 fs.writeFileSync(path.join(__dirname, "..", "public", "sitemap-categories.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapLines.join("\n")}\n</urlset>`);
 
 console.log(`\nTotal: ${categories.length} categories`);

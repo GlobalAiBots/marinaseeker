@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "Marina Etiquette: 10 Rules Every Boater Should Know | MarinaSeeker",
   description: "Unwritten rules that will make you a welcome member of any marina community. Learn proper dock etiquette, speed rules, and how to be a great marina neighbor.",
-  openGraph: { title: "Marina Etiquette: 10 Rules Every Boater Should Know", url: "https://marinaseeker.com/blog/marina-etiquette", siteName: "MarinaSeeker" },
+  openGraph: { title: "Marina Etiquette: 10 Rules Every Boater Should Know", url: "https://www.marinaseeker.com/blog/marina-etiquette", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Marina Etiquette: 10 Rules Every Boater Should Know | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/marina-etiquette" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/marina-etiquette" },
 };
 
 const jsonLd = {
@@ -16,7 +16,7 @@ const jsonLd = {
   headline: "Marina Etiquette: 10 Rules Every Boater Should Know",
   datePublished: "2026-04-09",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 export default function MarinaEtiquette() {

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Discover the top 10 best marinas in Florida, from the Gulf Coast to the Atlantic. Expert picks for fuel, slips, boat storage, and waterfront dining across the Sunshine State.",
   alternates: {
-    canonical: "https://marinaseeker.com/best-of/best-marinas-in-florida",
+    canonical: "https://www.marinaseeker.com/best-of/best-marinas-in-florida",
   },
 };
 
@@ -19,19 +19,19 @@ export default function BestMarinasFlorida() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://marinaseeker.com",
+        item: "https://www.marinaseeker.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Best Of",
-        item: "https://marinaseeker.com/best-of",
+        item: "https://www.marinaseeker.com/best-of",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Best Marinas in Florida",
-        item: "https://marinaseeker.com/best-of/best-marinas-in-florida",
+        item: "https://www.marinaseeker.com/best-of/best-marinas-in-florida",
       },
     ],
   };

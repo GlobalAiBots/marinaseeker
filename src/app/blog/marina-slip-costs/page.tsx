@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "How Much Does a Marina Slip Cost in 2026? State-by-State Guide | MarinaSeeker",
   description: "Marina slip costs vary from $500 to $6,000+ per month depending on region, slip size, and amenities. See 2026 pricing by state and tips to save on slip fees.",
-  openGraph: { title: "How Much Does a Marina Slip Cost in 2026? State-by-State Guide", url: "https://marinaseeker.com/blog/marina-slip-costs", siteName: "MarinaSeeker" },
+  openGraph: { title: "How Much Does a Marina Slip Cost in 2026? State-by-State Guide", url: "https://www.marinaseeker.com/blog/marina-slip-costs", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "How Much Does a Marina Slip Cost in 2026? State-by-State Guide | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/marina-slip-costs" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/marina-slip-costs" },
 };
 
 const articleJsonLd = {
@@ -16,16 +16,16 @@ const articleJsonLd = {
   headline: "How Much Does a Marina Slip Cost in 2026? State-by-State Guide",
   datePublished: "2026-04-15",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://marinaseeker.com/blog" },
-    { "@type": "ListItem", position: 3, name: "How Much Does a Marina Slip Cost in 2026?", item: "https://marinaseeker.com/blog/marina-slip-costs" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.marinaseeker.com/blog" },
+    { "@type": "ListItem", position: 3, name: "How Much Does a Marina Slip Cost in 2026?", item: "https://www.marinaseeker.com/blog/marina-slip-costs" },
   ],
 };
 

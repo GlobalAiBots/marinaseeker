@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog | MarinaSeeker",
   description: "Boating tips, marina guides, and news for boaters across America.",
-  alternates: { canonical: "https://marinaseeker.com/blog" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog" },
 };
 
 const posts = [

@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Advertise With MarinaSeeker — Reach Boat Owners & Liveaboards",
   description: "Advertise on MarinaSeeker. Reach boat owners, liveaboards, and transient boaters actively researching marinas, slip costs, and dockage. Featured listings, sponsored posts, and banner ads.",
-  alternates: { canonical: "https://marinaseeker.com/advertise" },
+  alternates: { canonical: "https://www.marinaseeker.com/advertise" },
   openGraph: {
     title: "Advertise With MarinaSeeker",
     description: "Reach boat owners and liveaboards actively researching marinas and dockage.",
-    url: "https://marinaseeker.com/advertise",
+    url: "https://www.marinaseeker.com/advertise",
     siteName: "MarinaSeeker",
   },
 };
@@ -18,8 +18,8 @@ export default function AdvertisePage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-      { "@type": "ListItem", position: 2, name: "Advertise", item: "https://marinaseeker.com/advertise" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+      { "@type": "ListItem", position: 2, name: "Advertise", item: "https://www.marinaseeker.com/advertise" },
     ],
   };
 

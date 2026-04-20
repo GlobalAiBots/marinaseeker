@@ -5,11 +5,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Marina Comparisons — Wet Slip vs Dry Stack, Mooring vs Slip & More | MarinaSeeker",
   description: "Honest head-to-head comparisons for boat owners choosing where to keep their boat. Wet slip vs dry stack, marina vs private dock, mooring ball vs slip.",
-  alternates: { canonical: "https://marinaseeker.com/compare" },
+  alternates: { canonical: "https://www.marinaseeker.com/compare" },
   openGraph: {
     title: "Marina Comparisons",
     description: "Side-by-side comparisons to help you pick the right dockage for your boat.",
-    url: "https://marinaseeker.com/compare",
+    url: "https://www.marinaseeker.com/compare",
     siteName: "MarinaSeeker",
   },
 };
@@ -19,8 +19,8 @@ export default function CompareIndexPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-      { "@type": "ListItem", position: 2, name: "Compare", item: "https://marinaseeker.com/compare" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+      { "@type": "ListItem", position: 2, name: "Compare", item: "https://www.marinaseeker.com/compare" },
     ],
   };
 

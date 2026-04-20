@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "Liveaboard Guide: Best Marinas for Living on Your Boat (2026) | MarinaSeeker",
   description: "Everything you need to know about living on your boat full-time. Best liveaboard states, costs vs renting an apartment, legal requirements, and what to look for in a liveaboard marina.",
-  openGraph: { title: "Liveaboard Guide: Best Marinas for Living on Your Boat (2026)", url: "https://marinaseeker.com/blog/liveaboard-marinas", siteName: "MarinaSeeker" },
+  openGraph: { title: "Liveaboard Guide: Best Marinas for Living on Your Boat (2026)", url: "https://www.marinaseeker.com/blog/liveaboard-marinas", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Liveaboard Guide: Best Marinas for Living on Your Boat (2026) | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/liveaboard-marinas" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/liveaboard-marinas" },
 };
 
 const articleJsonLd = {
@@ -16,16 +16,16 @@ const articleJsonLd = {
   headline: "Liveaboard Guide: Best Marinas for Living on Your Boat (2026)",
   datePublished: "2026-04-15",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://marinaseeker.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Liveaboard Guide: Best Marinas for Living on Your Boat", item: "https://marinaseeker.com/blog/liveaboard-marinas" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.marinaseeker.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Liveaboard Guide: Best Marinas for Living on Your Boat", item: "https://www.marinaseeker.com/blog/liveaboard-marinas" },
   ],
 };
 

@@ -4,8 +4,8 @@ export const metadata: Metadata = {
   title: "CLETUS AI — 24/7 AI Chat & Voice Agent for Any Business | MarinaSeeker",
   description: "CLETUS answers your customers' questions 24/7 on your website and phone. Works for marinas, boat dealers, marine services, and any business. Less than $1/day.",
   keywords: "AI chatbot for marinas, AI customer service, 24/7 chatbot for website, AI phone answering service, chatbot for marine businesses",
-  openGraph: { title: "CLETUS AI — 24/7 Chat & Voice Agent for Any Business", url: "https://marinaseeker.com/for-businesses", siteName: "MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/for-businesses" },
+  openGraph: { title: "CLETUS AI — 24/7 Chat & Voice Agent for Any Business", url: "https://www.marinaseeker.com/for-businesses", siteName: "MarinaSeeker" },
+  alternates: { canonical: "https://www.marinaseeker.com/for-businesses" },
 };
 
 const businesses = [

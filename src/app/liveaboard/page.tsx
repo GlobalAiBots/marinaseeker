@@ -5,17 +5,17 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "Best Liveaboard Marinas in America (2026) | MarinaSeeker",
   description: "Discover the best liveaboard marinas in America for 2026. Compare slip fees, amenities, and regulations for living full-time on your boat at a marina.",
-  openGraph: { title: "Best Liveaboard Marinas in America (2026)", url: "https://marinaseeker.com/liveaboard", siteName: "MarinaSeeker" },
+  openGraph: { title: "Best Liveaboard Marinas in America (2026)", url: "https://www.marinaseeker.com/liveaboard", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Best Liveaboard Marinas in America (2026) | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/liveaboard" },
+  alternates: { canonical: "https://www.marinaseeker.com/liveaboard" },
 };
 
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-    { "@type": "ListItem", position: 2, name: "Liveaboard Marinas", item: "https://marinaseeker.com/liveaboard" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+    { "@type": "ListItem", position: 2, name: "Liveaboard Marinas", item: "https://www.marinaseeker.com/liveaboard" },
   ],
 };
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service | MarinaSeeker",
-  alternates: { canonical: "https://marinaseeker.com/terms" },
+  alternates: { canonical: "https://www.marinaseeker.com/terms" },
 };
 
 export default function TermsPage() {

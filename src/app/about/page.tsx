@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About MarinaSeeker | Every Marina in America",
   description: "MarinaSeeker is the most complete marina directory in America. Free GPS coordinates, amenities, and local information for every marina.",
-  alternates: { canonical: "https://marinaseeker.com/about" },
+  alternates: { canonical: "https://www.marinaseeker.com/about" },
 };
 
 export default function AboutPage() {

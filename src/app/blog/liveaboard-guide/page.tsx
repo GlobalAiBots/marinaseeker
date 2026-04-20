@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "Liveaboard Guide: Living on Your Boat at a Marina | MarinaSeeker",
   description: "Everything you need to know about making a marina your full-time home. Costs, regulations, boat requirements, and the reality of liveaboard life.",
-  openGraph: { title: "Liveaboard Guide: Living on Your Boat at a Marina", url: "https://marinaseeker.com/blog/liveaboard-guide", siteName: "MarinaSeeker" },
+  openGraph: { title: "Liveaboard Guide: Living on Your Boat at a Marina", url: "https://www.marinaseeker.com/blog/liveaboard-guide", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Liveaboard Guide: Living on Your Boat at a Marina | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/liveaboard-guide" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/liveaboard-guide" },
 };
 
 const jsonLd = {
@@ -16,7 +16,7 @@ const jsonLd = {
   headline: "Liveaboard Guide: Living on Your Boat at a Marina",
   datePublished: "2026-04-09",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 export default function LiveaboardGuide() {

@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MarinaSeeker | Every Marina in America",
     description: "9,000+ marinas across the US. GPS coordinates, amenities, slip info.",
-    url: "https://marinaseeker.com",
+    url: "https://www.marinaseeker.com",
     siteName: "MarinaSeeker",
     type: "website",
   },
   twitter: { card: "summary", title: "MarinaSeeker | Every Marina in America", description: "9,000+ marinas across the US. GPS coordinates, amenities, slip info." },
-  alternates: { canonical: "https://marinaseeker.com" },
+  alternates: { canonical: "https://www.marinaseeker.com" },
   other: { "google-adsense-account": "ca-pub-4822220549367368", "impact-site-verification": "5fa40e1e-c7f4-4422-9d60-69146a9bd3b5" },
 };
 
@@ -75,7 +75,7 @@ function Footer() {
               <a href="https://rampseeker.com" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">RampSeeker</a>
               <a href="https://pierseeker.com" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">PierSeeker</a>
               <a href="https://barkseeker.com" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">BarkSeeker</a>
-              <a href="https://marinaseeker.com" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">MarinaSeeker</a>
+              <a href="https://www.marinaseeker.com" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">MarinaSeeker</a>
               <a href="https://mechanicseeker.com" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">MechanicSeeker</a>
               <a href="https://babymydog.com" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">BabyMyDog</a>
               <a href="https://askcletus.com" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">CLETUS AI Chat</a>

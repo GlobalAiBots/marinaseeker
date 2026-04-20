@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "10 Things to Check Before Choosing a Marina | MarinaSeeker",
   description: "Use this marina checklist before signing a slip lease. Covers slip size, depth, fuel, pump-out, electric hookups, security, reviews, insurance, pet policy, and guest amenities.",
-  openGraph: { title: "10 Things to Check Before Choosing a Marina", url: "https://marinaseeker.com/blog/choosing-a-marina-checklist", siteName: "MarinaSeeker" },
+  openGraph: { title: "10 Things to Check Before Choosing a Marina", url: "https://www.marinaseeker.com/blog/choosing-a-marina-checklist", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "10 Things to Check Before Choosing a Marina | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/choosing-a-marina-checklist" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/choosing-a-marina-checklist" },
 };
 
 const articleJsonLd = {
@@ -16,16 +16,16 @@ const articleJsonLd = {
   headline: "10 Things to Check Before Choosing a Marina",
   datePublished: "2026-04-15",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://marinaseeker.com/blog" },
-    { "@type": "ListItem", position: 3, name: "10 Things to Check Before Choosing a Marina", item: "https://marinaseeker.com/blog/choosing-a-marina-checklist" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.marinaseeker.com/blog" },
+    { "@type": "ListItem", position: 3, name: "10 Things to Check Before Choosing a Marina", item: "https://www.marinaseeker.com/blog/choosing-a-marina-checklist" },
   ],
 };
 

@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "What to Look for When Choosing a Marina | MarinaSeeker",
   description: "The complete guide to finding the perfect marina for your boat and lifestyle. Learn what factors matter most when selecting a marina slip.",
-  openGraph: { title: "What to Look for When Choosing a Marina", url: "https://marinaseeker.com/blog/what-to-look-for-choosing-marina", siteName: "MarinaSeeker" },
+  openGraph: { title: "What to Look for When Choosing a Marina", url: "https://www.marinaseeker.com/blog/what-to-look-for-choosing-marina", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "What to Look for When Choosing a Marina | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/what-to-look-for-choosing-marina" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/what-to-look-for-choosing-marina" },
 };
 
 const jsonLd = {
@@ -16,7 +16,7 @@ const jsonLd = {
   headline: "What to Look for When Choosing a Marina",
   datePublished: "2026-04-09",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 export default function WhatToLookForChoosingMarina() {

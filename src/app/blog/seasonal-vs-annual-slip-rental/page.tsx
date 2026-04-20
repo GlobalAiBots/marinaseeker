@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "Seasonal vs Annual Slip Rental: Which Saves You Money? | MarinaSeeker",
   description: "A cost breakdown comparing seasonal and annual marina slip rentals. Learn which option saves money based on your boat size, location, and boating habits.",
-  openGraph: { title: "Seasonal vs Annual Slip Rental: Which Saves You Money?", url: "https://marinaseeker.com/blog/seasonal-vs-annual-slip-rental", siteName: "MarinaSeeker" },
+  openGraph: { title: "Seasonal vs Annual Slip Rental: Which Saves You Money?", url: "https://www.marinaseeker.com/blog/seasonal-vs-annual-slip-rental", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Seasonal vs Annual Slip Rental: Which Saves You Money? | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/seasonal-vs-annual-slip-rental" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/seasonal-vs-annual-slip-rental" },
 };
 
 const jsonLd = {
@@ -16,7 +16,7 @@ const jsonLd = {
   headline: "Seasonal vs Annual Slip Rental: Which Saves You Money?",
   datePublished: "2026-04-09",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 export default function SeasonalVsAnnualSlipRental() {

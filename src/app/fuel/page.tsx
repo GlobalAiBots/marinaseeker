@@ -5,17 +5,17 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "Find Marina Fuel Docks Near You | MarinaSeeker",
   description: "Find marinas with fuel docks across America. Compare marine fuel prices by region and learn tips for saving money on gas and diesel at the dock.",
-  openGraph: { title: "Find Marina Fuel Docks Near You", url: "https://marinaseeker.com/fuel", siteName: "MarinaSeeker" },
+  openGraph: { title: "Find Marina Fuel Docks Near You", url: "https://www.marinaseeker.com/fuel", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Find Marina Fuel Docks Near You | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/fuel" },
+  alternates: { canonical: "https://www.marinaseeker.com/fuel" },
 };
 
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-    { "@type": "ListItem", position: 2, name: "Fuel Docks", item: "https://marinaseeker.com/fuel" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+    { "@type": "ListItem", position: 2, name: "Fuel Docks", item: "https://www.marinaseeker.com/fuel" },
   ],
 };
 

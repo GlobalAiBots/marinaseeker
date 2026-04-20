@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "Top Marinas in Michigan for Weekend Boaters | MarinaSeeker",
   description: "Michigan has 220+ marinas across the Great Lakes and inland waters. Discover the best regions and marinas for weekend boating getaways in the Great Lakes State.",
-  openGraph: { title: "Top Marinas in Michigan for Weekend Boaters", url: "https://marinaseeker.com/blog/top-marinas-michigan", siteName: "MarinaSeeker" },
+  openGraph: { title: "Top Marinas in Michigan for Weekend Boaters", url: "https://www.marinaseeker.com/blog/top-marinas-michigan", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Top Marinas in Michigan for Weekend Boaters | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/top-marinas-michigan" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/top-marinas-michigan" },
 };
 
 const jsonLd = {
@@ -16,7 +16,7 @@ const jsonLd = {
   headline: "Top Marinas in Michigan for Weekend Boaters",
   datePublished: "2026-04-09",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 export default function TopMarinasMichigan() {

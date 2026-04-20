@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Explore the top 10 best marinas in Michigan, from the Great Lakes to inland waterways. Expert picks for slips, fuel, storage, and amenities across the Great Lakes State.",
   alternates: {
-    canonical: "https://marinaseeker.com/best-of/best-marinas-in-michigan",
+    canonical: "https://www.marinaseeker.com/best-of/best-marinas-in-michigan",
   },
 };
 
@@ -19,19 +19,19 @@ export default function BestMarinasMichigan() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://marinaseeker.com",
+        item: "https://www.marinaseeker.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Best Of",
-        item: "https://marinaseeker.com/best-of",
+        item: "https://www.marinaseeker.com/best-of",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Best Marinas in Michigan",
-        item: "https://marinaseeker.com/best-of/best-marinas-in-michigan",
+        item: "https://www.marinaseeker.com/best-of/best-marinas-in-michigan",
       },
     ],
   };

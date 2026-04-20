@@ -5,9 +5,9 @@ import GearRecommendation from "@/components/GearRecommendation";
 export const metadata: Metadata = {
   title: "Dock Life: The Unwritten Rules of Living at a Marina | MarinaSeeker",
   description: "The unwritten rules every marina resident should know. From harbor speed etiquette to helping with dock lines, here's how to be the neighbor everyone wants on their dock.",
-  openGraph: { title: "Dock Life: The Unwritten Rules of Living at a Marina", url: "https://marinaseeker.com/blog/dock-life-rules", siteName: "MarinaSeeker" },
+  openGraph: { title: "Dock Life: The Unwritten Rules of Living at a Marina", url: "https://www.marinaseeker.com/blog/dock-life-rules", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Dock Life: The Unwritten Rules of Living at a Marina | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/dock-life-rules" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/dock-life-rules" },
 };
 
 const articleJsonLd = {
@@ -16,16 +16,16 @@ const articleJsonLd = {
   headline: "Dock Life: The Unwritten Rules of Living at a Marina",
   datePublished: "2026-04-15",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://marinaseeker.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Dock Life: The Unwritten Rules of Living at a Marina", item: "https://marinaseeker.com/blog/dock-life-rules" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.marinaseeker.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Dock Life: The Unwritten Rules of Living at a Marina", item: "https://www.marinaseeker.com/blog/dock-life-rules" },
   ],
 };
 

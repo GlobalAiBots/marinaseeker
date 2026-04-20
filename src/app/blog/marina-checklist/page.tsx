@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Marina Checklist: 10 Things to Inspect Before Signing a Lease | MarinaSeeker",
   description: "Before signing a marina slip lease, walk the docks and check these 10 items. Electrical condition, dock stability, security, fuel access, depth at low tide, and more.",
-  openGraph: { title: "Marina Checklist: 10 Things to Inspect Before Signing a Lease", url: "https://marinaseeker.com/blog/marina-checklist", siteName: "MarinaSeeker" },
+  openGraph: { title: "Marina Checklist: 10 Things to Inspect Before Signing a Lease", url: "https://www.marinaseeker.com/blog/marina-checklist", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Marina Checklist: 10 Things to Inspect Before Signing a Lease | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/marina-checklist" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/marina-checklist" },
 };
 
 const jsonLd = {
@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Marina Checklist: 10 Things to Inspect Before Signing a Lease",
   datePublished: "2026-04-19",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 export default function MarinaChecklist() {

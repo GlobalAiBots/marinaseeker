@@ -14,8 +14,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: cmp.metaTitle,
     description: cmp.metaDescription,
-    alternates: { canonical: `https://marinaseeker.com/compare/${cmp.slug}` },
-    openGraph: { title: cmp.metaTitle, description: cmp.metaDescription, url: `https://marinaseeker.com/compare/${cmp.slug}`, siteName: "MarinaSeeker", type: "article" },
+    alternates: { canonical: `https://www.marinaseeker.com/compare/${cmp.slug}` },
+    openGraph: { title: cmp.metaTitle, description: cmp.metaDescription, url: `https://www.marinaseeker.com/compare/${cmp.slug}`, siteName: "MarinaSeeker", type: "article" },
   };
 }
 
@@ -89,9 +89,9 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-      { "@type": "ListItem", position: 2, name: "Compare", item: "https://marinaseeker.com/compare" },
-      { "@type": "ListItem", position: 3, name: cmp.title, item: `https://marinaseeker.com/compare/${cmp.slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+      { "@type": "ListItem", position: 2, name: "Compare", item: "https://www.marinaseeker.com/compare" },
+      { "@type": "ListItem", position: 3, name: cmp.title, item: `https://www.marinaseeker.com/compare/${cmp.slug}` },
     ],
   };
 
@@ -112,7 +112,7 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
     description: cmp.metaDescription,
     datePublished: "2026-04-19",
     author: { "@type": "Organization", name: "MarinaSeeker" },
-    publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+    publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
   };
 
   return (

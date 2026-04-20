@@ -63,8 +63,8 @@ export default function SlipCostCalculator() {
     <div className="max-w-3xl mx-auto px-4 py-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([
         { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-          { "@type": "ListItem", position: 2, name: "Slip Cost Calculator", item: "https://marinaseeker.com/slip-cost-calculator" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+          { "@type": "ListItem", position: 2, name: "Slip Cost Calculator", item: "https://www.marinaseeker.com/slip-cost-calculator" },
         ]},
         { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
           { "@type": "Question", name: "How much does a marina slip cost?", acceptedAnswer: { "@type": "Answer", text: "Marina slip costs vary widely by location, boat size, and slip type. Expect $8-55 per foot per month. A 30-foot boat in Florida costs roughly $450-750/month, while the same boat in New York could be $750-1,650/month. Annual contracts typically save 10-15%." } },

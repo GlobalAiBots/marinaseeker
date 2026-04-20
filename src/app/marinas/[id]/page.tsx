@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return {
     title: `${marina.name} — ${marina.city ? marina.city + ", " : ""}${stateName} | MarinaSeeker`,
     description: `${marina.name} in ${marina.city ? marina.city + ", " : ""}${stateName}. Slip availability, fuel, amenities, GPS coordinates, and directions. Find marinas near you on MarinaSeeker.`,
-    alternates: { canonical: `https://marinaseeker.com/marinas/${marina.id}` },
+    alternates: { canonical: `https://www.marinaseeker.com/marinas/${marina.id}` },
   };
 }
 
@@ -50,7 +50,7 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
     "@type": "LocalBusiness",
     name: marina.name,
     description: marina.description || `Marina in ${marina.city ? marina.city + ", " : ""}${stateName}`,
-    url: `https://marinaseeker.com/marinas/${marina.id}`,
+    url: `https://www.marinaseeker.com/marinas/${marina.id}`,
     geo: { "@type": "GeoCoordinates", latitude: marina.lat, longitude: marina.lng },
     address: { "@type": "PostalAddress", addressLocality: marina.city, addressRegion: marina.state, addressCountry: "US" },
     ...(marina.phone && { telephone: marina.phone }),
@@ -63,9 +63,9 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" },
-          { "@type": "ListItem", position: 2, name: stateName, item: `https://marinaseeker.com/${stateSlug}` },
-          { "@type": "ListItem", position: 3, name: marina.name, item: `https://marinaseeker.com/marinas/${marina.id}` },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" },
+          { "@type": "ListItem", position: 2, name: stateName, item: `https://www.marinaseeker.com/${stateSlug}` },
+          { "@type": "ListItem", position: 3, name: marina.name, item: `https://www.marinaseeker.com/marinas/${marina.id}` },
         ],
       }) }} />
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Discover the top 10 best marinas in California, from San Francisco Bay to Southern California harbors. Expert picks for slips, sailing, and waterfront living on the Pacific coast.",
   alternates: {
-    canonical: "https://marinaseeker.com/best-of/best-marinas-in-california",
+    canonical: "https://www.marinaseeker.com/best-of/best-marinas-in-california",
   },
 };
 
@@ -19,19 +19,19 @@ export default function BestMarinasCalifornia() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://marinaseeker.com",
+        item: "https://www.marinaseeker.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Best Of",
-        item: "https://marinaseeker.com/best-of",
+        item: "https://www.marinaseeker.com/best-of",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Best Marinas in California",
-        item: "https://marinaseeker.com/best-of/best-marinas-in-california",
+        item: "https://www.marinaseeker.com/best-of/best-marinas-in-california",
       },
     ],
   };

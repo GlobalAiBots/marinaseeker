@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   title: "Winter Boat Storage: Marina vs Dry Stack vs Home | MarinaSeeker",
   description: "Compare marina wet slip, dry stack, and home storage for winter boat storage. Cost ranges, pros and cons, and what to ask your marina about winter storage policies.",
   keywords: "winter boat storage, marina winter storage, dry stack storage, boat storage options",
-  openGraph: { title: "Winter Boat Storage: Marina vs Dry Stack vs Home", url: "https://marinaseeker.com/blog/winter-boat-storage-at-marinas", siteName: "MarinaSeeker" },
+  openGraph: { title: "Winter Boat Storage: Marina vs Dry Stack vs Home", url: "https://www.marinaseeker.com/blog/winter-boat-storage-at-marinas", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Winter Boat Storage: Marina vs Dry Stack vs Home | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/winter-boat-storage-at-marinas" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/winter-boat-storage-at-marinas" },
 };
 
 const jsonLd = {
@@ -17,7 +17,7 @@ const jsonLd = {
   headline: "Winter Boat Storage: Marina vs Dry Stack vs Home",
   datePublished: "2026-04-15",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 export default function WinterBoatStorageAtMarinas() {
@@ -27,9 +27,9 @@ export default function WinterBoatStorageAtMarinas() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://marinaseeker.com" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://marinaseeker.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Winter Boat Storage", "item": "https://marinaseeker.com/blog/winter-boat-storage-at-marinas" },
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.marinaseeker.com" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.marinaseeker.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Winter Boat Storage", "item": "https://www.marinaseeker.com/blog/winter-boat-storage-at-marinas" },
         ],
       }) }} />
 

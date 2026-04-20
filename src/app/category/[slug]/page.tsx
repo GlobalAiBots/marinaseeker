@@ -16,7 +16,7 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com" }, { "@type": "ListItem", position: 2, name: category.title, item: `https://marinaseeker.com/category/${slug}` }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com" }, { "@type": "ListItem", position: 2, name: category.title, item: `https://www.marinaseeker.com/category/${slug}` }] }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
         { "@type": "Question", name: `How many ${category.title.toLowerCase()} are in America?`, acceptedAnswer: { "@type": "Answer", text: `MarinaSeeker lists ${category.totalCount} ${category.title.toLowerCase()} across ${category.states.length} states.` } },
         { "@type": "Question", name: `How do I find ${category.title.toLowerCase()} near me?`, acceptedAnswer: { "@type": "Answer", text: `Browse MarinaSeeker by state to find ${category.title.toLowerCase()} in your area with contact info, amenities, and maps.` } },

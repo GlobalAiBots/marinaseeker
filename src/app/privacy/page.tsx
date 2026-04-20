@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | MarinaSeeker",
-  alternates: { canonical: "https://marinaseeker.com/privacy" },
+  alternates: { canonical: "https://www.marinaseeker.com/privacy" },
 };
 
 export default function PrivacyPage() {

@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Best Marinas on the Chesapeake Bay — Top 10 Picks | MarinaSeeker",
   description: "Top-rated Chesapeake Bay marinas across Maryland and Virginia: Inner Harbor, Bowleys, Occoquan Harbor, Flying Point, Hoffmasters. Slip availability, amenities, and contact info.",
-  openGraph: { title: "Best Marinas on the Chesapeake Bay — Top 10", url: "https://marinaseeker.com/best-of/best-marinas-chesapeake-bay", siteName: "MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/best-of/best-marinas-chesapeake-bay" },
+  openGraph: { title: "Best Marinas on the Chesapeake Bay — Top 10", url: "https://www.marinaseeker.com/best-of/best-marinas-chesapeake-bay", siteName: "MarinaSeeker" },
+  alternates: { canonical: "https://www.marinaseeker.com/best-of/best-marinas-chesapeake-bay" },
 };
 
 export default function BestMarinasChesapeakeBay() {
@@ -15,9 +15,9 @@ export default function BestMarinasChesapeakeBay() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://marinaseeker.com/" },
-          { "@type": "ListItem", position: 2, name: "Best Of", item: "https://marinaseeker.com/best-of" },
-          { "@type": "ListItem", position: 3, name: "Best Marinas on the Chesapeake Bay", item: "https://marinaseeker.com/best-of/best-marinas-chesapeake-bay" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.marinaseeker.com/" },
+          { "@type": "ListItem", position: 2, name: "Best Of", item: "https://www.marinaseeker.com/best-of" },
+          { "@type": "ListItem", position: 3, name: "Best Marinas on the Chesapeake Bay", item: "https://www.marinaseeker.com/best-of/best-marinas-chesapeake-bay" },
         ],
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

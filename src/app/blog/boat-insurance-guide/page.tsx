@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Boat Insurance 101: What Every Boat Owner Needs to Know | MarinaSeeker",
   description: "Boat insurance explained: types of coverage, average costs by boat size, agreed value vs actual cash value, liability, and when it's required. Plain-English 2026 guide.",
-  openGraph: { title: "Boat Insurance 101: What Every Boat Owner Needs to Know", url: "https://marinaseeker.com/blog/boat-insurance-guide", siteName: "MarinaSeeker" },
+  openGraph: { title: "Boat Insurance 101: What Every Boat Owner Needs to Know", url: "https://www.marinaseeker.com/blog/boat-insurance-guide", siteName: "MarinaSeeker" },
   twitter: { card: "summary", title: "Boat Insurance 101: What Every Boat Owner Needs to Know | MarinaSeeker" },
-  alternates: { canonical: "https://marinaseeker.com/blog/boat-insurance-guide" },
+  alternates: { canonical: "https://www.marinaseeker.com/blog/boat-insurance-guide" },
 };
 
 const jsonLd = {
@@ -15,7 +15,7 @@ const jsonLd = {
   headline: "Boat Insurance 101: What Every Boat Owner Needs to Know",
   datePublished: "2026-04-19",
   author: { "@type": "Organization", name: "MarinaSeeker" },
-  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://marinaseeker.com" },
+  publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
 };
 
 export default function BoatInsuranceGuide() {

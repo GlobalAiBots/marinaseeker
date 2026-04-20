@@ -41,9 +41,9 @@ export default function Home() {
   return (
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org", "@type": "WebSite", name: "MarinaSeeker", url: "https://marinaseeker.com",
+        "@context": "https://schema.org", "@type": "WebSite", name: "MarinaSeeker", url: "https://www.marinaseeker.com",
         description: `Find marinas across the United States. ${unified.length.toLocaleString()}+ marinas with GPS coordinates and amenities.`,
-        potentialAction: { "@type": "SearchAction", target: "https://marinaseeker.com/?q={search_term_string}", "query-input": "required name=search_term_string" },
+        potentialAction: { "@type": "SearchAction", target: "https://www.marinaseeker.com/?q={search_term_string}", "query-input": "required name=search_term_string" },
       }) }} />
 
       {/* HERO */}

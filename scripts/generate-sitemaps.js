@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const BASE = "https://marinaseeker.com";
+const BASE = "https://www.marinaseeker.com";
 const TODAY = new Date().toISOString().split("T")[0];
 const PUB = path.join(__dirname, "..", "public");
 
