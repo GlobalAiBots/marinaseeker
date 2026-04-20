@@ -3,20 +3,23 @@ import Link from "next/link";
 import Script from "next/script";
 import StatesDropdown from "@/components/StatesDropdown";
 import CletusWidget from "@/components/CletusWidget";
+import { unified } from "@/data/all-marinas";
 import "./globals.css";
 
+const totalMarinas = unified.length.toLocaleString();
+
 export const metadata: Metadata = {
-  title: "MarinaSeeker | Every Marina in America — 9,000+ Marinas",
-  description: "Find marinas across the United States. 9,000+ marinas with GPS coordinates, amenities, slip info, and local details. Free.",
+  title: `MarinaSeeker | Every Marina in America — ${totalMarinas}+ Marinas`,
+  description: `Find marinas across the United States. ${totalMarinas}+ marinas with GPS coordinates, amenities, slip info, and local details. Free.`,
   keywords: "marina near me, marina directory, boat marina, marina finder, boat slip, marina amenities",
   openGraph: {
     title: "MarinaSeeker | Every Marina in America",
-    description: "9,000+ marinas across the US. GPS coordinates, amenities, slip info.",
+    description: `${totalMarinas}+ marinas across the US. GPS coordinates, amenities, slip info.`,
     url: "https://www.marinaseeker.com",
     siteName: "MarinaSeeker",
     type: "website",
   },
-  twitter: { card: "summary", title: "MarinaSeeker | Every Marina in America", description: "9,000+ marinas across the US. GPS coordinates, amenities, slip info." },
+  twitter: { card: "summary", title: "MarinaSeeker | Every Marina in America", description: `${totalMarinas}+ marinas across the US. GPS coordinates, amenities, slip info.` },
   alternates: { canonical: "https://www.marinaseeker.com" },
   other: { "google-adsense-account": "ca-pub-4822220549367368", "impact-site-verification": "5fa40e1e-c7f4-4422-9d60-69146a9bd3b5" },
 };

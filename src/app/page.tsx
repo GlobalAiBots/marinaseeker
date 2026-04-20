@@ -81,7 +81,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-8 md:gap-16 text-center mt-12">
-            {[{ value: unified.length.toLocaleString(), label: "Marinas" }, { value: "29,500+", label: "Boat Ramps" }, { value: "35,150+", label: "Fishing Piers" }, { value: "51", label: "States" }].map((s) => (
+            {[{ value: unified.length.toLocaleString(), label: "Marinas" }, { value: "27,700+", label: "Boat Ramps" }, { value: "35,000+", label: "Fishing Piers" }, { value: "51", label: "States" }].map((s) => (
               <div key={s.label}><p className="font-[Cabin] text-3xl md:text-4xl font-bold text-white">{s.value}</p><p className="text-white/50 text-xs uppercase tracking-wider mt-1">{s.label}</p></div>
             ))}
           </div>
@@ -103,14 +103,14 @@ export default function Home() {
           <a href="https://rampseeker.com" target="_blank" rel="noopener noreferrer" className="group rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ background: 'linear-gradient(135deg, #F0FFF4, #C6F6D5)', border: '2px solid rgba(45,106,79,0.2)' }}>
             <span className="text-5xl block mb-3">&#9981;</span>
             <h3 className="font-[Cabin] font-extrabold text-[#1A1A1A] text-xl mb-1">Boat Ramps</h3>
-            <p className="font-extrabold text-[28px] text-[#2D6A4F] leading-none mb-2">29,500+</p>
+            <p className="font-extrabold text-[28px] text-[#2D6A4F] leading-none mb-2">27,700+</p>
             <p className="text-gray-500 text-xs mb-4">Public launch sites with GPS and directions.</p>
             <span className="inline-block text-white font-bold text-sm px-5 py-2 rounded-xl" style={{ background: 'linear-gradient(135deg, #40916C, #2D6A4F)', boxShadow: '0 4px 12px rgba(45,106,79,0.25)' }}>Find a Ramp &rarr;</span>
           </a>
           <a href="https://pierseeker.com" target="_blank" rel="noopener noreferrer" className="group rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ background: 'linear-gradient(135deg, #FFF7ED, #FDE68A)', border: '2px solid rgba(196,146,75,0.2)' }}>
             <span className="text-5xl block mb-3">&#127907;</span>
             <h3 className="font-[Cabin] font-extrabold text-[#1A1A1A] text-xl mb-1">Fishing Piers</h3>
-            <p className="font-extrabold text-[28px] text-[#C4924B] leading-none mb-2">35,150</p>
+            <p className="font-extrabold text-[28px] text-[#C4924B] leading-none mb-2">35,000+</p>
             <p className="text-gray-500 text-xs mb-4">Public piers, jetties, and shore fishing spots.</p>
             <span className="inline-block text-white font-bold text-sm px-5 py-2 rounded-xl" style={{ background: 'linear-gradient(135deg, #D4A84B, #C4924B)', boxShadow: '0 4px 12px rgba(196,146,75,0.25)' }}>Find a Pier &rarr;</span>
           </a>

@@ -1,5 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { unified } from "@/data/all-marinas";
+
+const totalMarinas = unified.length.toLocaleString();
 
 export const metadata: Metadata = {
   title: "Advertise With MarinaSeeker — Reach Boat Owners & Liveaboards",
@@ -46,7 +49,7 @@ export default function AdvertisePage() {
 
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           {[
-            { stat: "9,000+", label: "Marinas" },
+            { stat: `${totalMarinas}+`, label: "Marinas" },
             { stat: "50", label: "States Covered" },
             { stat: "12+", label: "Long-Form Guides" },
             { stat: "3", label: "Dockage Comparisons" },

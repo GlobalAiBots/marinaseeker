@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { unified } from "@/data/all-marinas";
+
+const totalMarinas = unified.length.toLocaleString();
 
 export const metadata: Metadata = {
   title: "About MarinaSeeker | Every Marina in America",
@@ -11,13 +14,13 @@ export default function AboutPage() {
     <div className="max-w-3xl mx-auto px-4 py-16">
       <h1 className="font-[Cabin] text-3xl font-bold text-[#1A1A1A] mb-6">About MarinaSeeker</h1>
       <div className="space-y-4 text-gray-600 leading-relaxed">
-        <p>MarinaSeeker is the most complete marina directory in America, with 9,000+ marinas across all 50 states. We compile data from OpenStreetMap, Google Places, Yelp, federal maritime agencies, and community contributions to build a comprehensive, free resource for boaters.</p>
+        <p>MarinaSeeker is the most complete marina directory in America, with {totalMarinas}+ marinas across all 50 states. We compile data from OpenStreetMap, Google Places, Yelp, federal maritime agencies, and community contributions to build a comprehensive, free resource for boaters.</p>
         <p>Every marina listing includes GPS coordinates so you can navigate directly, plus amenity information like fuel availability, electric hookups, pump-out stations, showers, wifi, and restaurant access where available.</p>
         <p>MarinaSeeker is free to use. No login required. No account needed. Just find your marina and go.</p>
         <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mt-8 mb-3">Our Network</h2>
         <p>MarinaSeeker is part of the Global AI Bots family of directories:</p>
         <ul className="list-disc pl-6 space-y-1">
-          <li><a href="https://rampseeker.com" className="text-[#1B3A5C] hover:underline">RampSeeker</a> &mdash; 29,500+ boat ramps</li>
+          <li><a href="https://rampseeker.com" className="text-[#1B3A5C] hover:underline">RampSeeker</a> &mdash; 27,700+ boat ramps</li>
           <li><a href="https://pierseeker.com" className="text-[#1B3A5C] hover:underline">PierSeeker</a> &mdash; 34,900+ fishing piers</li>
           <li><a href="https://barkseeker.com" className="text-[#1B3A5C] hover:underline">BarkSeeker</a> &mdash; 7,300+ dog parks</li>
           <li><a href="https://babymydog.com" className="text-[#1B3A5C] hover:underline">BabyMyDog</a> &mdash; dog products &amp; care guides</li>
