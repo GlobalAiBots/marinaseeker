@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { unified, stateList } from "@/data/all-marinas";
+import marinasRaw from "@/data/marinas.json";
 import MarinaMapWrapper from "@/components/MarinaMapWrapper";
 import FeaturedArticle from "@/components/FeaturedArticle";
 import cityPagesData from "@/data/city-pages.json";
@@ -8,9 +9,17 @@ import type { Metadata } from "next";
 
 const allCities = (cityPagesData as { state: string; stateSlug: string; city: string; citySlug: string; count: number }[]);
 
+// Pre-render only the 100 most-reviewed marinas at build time to stay within Vercel memory limits.
+// The remaining ~9,200 render on-demand (ISR) on first visit, then cache at the edge.
 export function generateStaticParams() {
-  return unified.map((m) => ({ id: m.id }));
+  return (marinasRaw as Array<{ id: string; reviewCount?: number }>)
+    .filter((m) => (m.reviewCount ?? 0) > 0)
+    .sort((a, b) => (b.reviewCount ?? 0) - (a.reviewCount ?? 0))
+    .slice(0, 100)
+    .map((m) => ({ id: m.id }));
 }
+
+export const dynamicParams = true;
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
