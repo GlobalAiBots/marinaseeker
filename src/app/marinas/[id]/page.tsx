@@ -316,12 +316,24 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
           </div>
         </section>
 
-        <section className="bg-[#F0F4F8] rounded-xl p-6 border border-[#D4D8DD] mb-8">
-          <h3 className="font-[Cabin] text-lg font-bold text-[#1A1A1A] mb-2">Own or manage this marina?</h3>
-          <p className="text-gray-500 text-sm mb-4">Claim your free listing to update slip availability, amenities, contact info, and fuel prices.</p>
-          <Link href={`/claim?marina=${encodeURIComponent(marina.id)}&name=${encodeURIComponent(marina.name)}`} className="inline-block bg-[#C4924B] hover:bg-[#b5833e] text-white font-bold px-6 py-3 rounded-lg transition text-sm">
-            Claim This Marina &mdash; It&apos;s Free
-          </Link>
+        <section className="my-8 rounded-xl border-2 border-amber-300 bg-amber-50 p-6">
+          <div className="flex items-start gap-4">
+            <div className="text-3xl leading-none">&#11088;</div>
+            <div className="flex-1">
+              <h3 className="font-[Cabin] text-lg font-bold text-[#1A1A1A] mb-1">Own or manage this marina?</h3>
+              <p className="text-sm text-gray-700 mb-4">
+                Claim your listing free, or upgrade to Featured for priority placement, photos, a customer message form, and a monthly performance report. <Link href="/pricing" className="text-[#1B3A5C] underline hover:text-[#0F2A47]">See pricing</Link>.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link href={`/claim?marina=${encodeURIComponent(marina.id)}&name=${encodeURIComponent(marina.name)}`} className="inline-block bg-gray-700 hover:bg-gray-800 text-white font-semibold px-5 py-2.5 rounded-lg transition text-sm">
+                  Claim Free Listing
+                </Link>
+                <a href="https://buy.stripe.com/cNieVd9I96K3de9dDCcZa00" target="_blank" rel="noopener noreferrer" className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-bold px-5 py-2.5 rounded-lg transition text-sm">
+                  &#11088; Upgrade to Featured &mdash; $49.95/mo
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </div>
