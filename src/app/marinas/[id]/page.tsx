@@ -4,6 +4,7 @@ import { unified, stateList } from "@/data/all-marinas";
 import marinasRaw from "@/data/marinas.json";
 import MarinaMapWrapper from "@/components/MarinaMapWrapper";
 import FeaturedArticle from "@/components/FeaturedArticle";
+import { getRelatedMarinaBlog } from "@/lib/related-blogs";
 import cityPagesData from "@/data/city-pages.json";
 import type { Metadata } from "next";
 
@@ -210,22 +211,22 @@ export default async function MarinaPage({ params }: { params: Promise<{ id: str
           </div>
         </section>
 
-        {/* Related Guides */}
-        <section className="mb-8">
-          <h3 className="font-[Cabin] font-bold text-[#1A1A1A] mb-3">Related Guides</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            {[
-              { href: "/blog/what-to-look-for-choosing-marina", title: "Choosing a Marina", desc: "What to look for in a marina" },
-              { href: "/blog/marina-etiquette", title: "Marina Etiquette", desc: "Be a good neighbor at the dock" },
-              { href: "/blog/seasonal-vs-annual-slip-rental", title: "Slip Rentals", desc: "Seasonal vs annual: which is better?" },
-            ].map((g) => (
-              <Link key={g.href} href={g.href} className="group bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all">
-                <p className="font-bold text-[#1A1A1A] group-hover:text-[#1B3A5C] transition text-sm">{g.title}</p>
-                <p className="text-gray-400 text-xs mt-1">{g.desc}</p>
+        {/* Related Guide — contextual by marina name + city */}
+        {(() => {
+          const tease = getRelatedMarinaBlog(marina);
+          return (
+            <section className="mb-8 rounded-lg border border-gray-200 p-6 bg-gray-50">
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Related Guide</p>
+              <h3 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-2">
+                <Link href={`/blog/${tease.slug}`} className="hover:text-[#1B3A5C] transition">{tease.title}</Link>
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">{tease.excerpt}</p>
+              <Link href={`/blog/${tease.slug}`} className="inline-block text-[#1B3A5C] hover:text-[#0F2A47] font-semibold text-sm">
+                Read the full guide &rarr;
               </Link>
-            ))}
-          </div>
-        </section>
+            </section>
+          );
+        })()}
 
         {/* Details */}
         {(marina.operator || marina.capacity || marina.description) && (
