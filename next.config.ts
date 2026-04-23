@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
       { source: "/blog/liveaboard-marinas-guide", destination: "/blog/liveaboard-guide", permanent: true },
       { source: "/blog/boat-winterization-at-marina", destination: "/blog/winter-boat-storage-at-marinas", permanent: true },
       { source: "/blog/transient-vs-annual-slip", destination: "/blog/seasonal-vs-annual-slip-rental", permanent: true },
+      // Canonicalize apex → www with 308 (Google AdSense ads.txt crawler does not reliably follow 307).
+      { source: "/:path*", has: [{ type: "host", value: "marinaseeker.com" }], destination: "https://www.marinaseeker.com/:path*", permanent: true },
     ];
   },
 };
