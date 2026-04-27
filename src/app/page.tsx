@@ -46,14 +46,16 @@ export default function Home() {
         potentialAction: { "@type": "SearchAction", target: "https://www.marinaseeker.com/?q={search_term_string}", "query-input": "required name=search_term_string" },
       }) }} />
 
-      {/* HERO */}
-      <section className="relative py-20 md:py-32 text-center px-4 text-white overflow-hidden min-h-[500px] flex items-center justify-center">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/hero-marina.jpg')" }} />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0B1E33]/80 via-[#1B3A5C]/70 to-[#0B1E33]/85" />
-        <div className="relative z-10">
+      {/* HERO — Full-bleed dramatic */}
+      <section className="relative min-h-[50vh] md:min-h-[70vh] flex flex-col items-center justify-center overflow-hidden">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/images/hero-marina.jpg" alt={`Boats moored at a marina at golden hour — find ${unified.length.toLocaleString()}+ marinas across America on MarinaSeeker`} className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(27,58,92,0.85) 0%, rgba(27,58,92,0.4) 50%, transparent 100%)' }} />
+
+        <div className="relative z-10 text-center px-4 max-w-3xl mx-auto pt-8">
           <p className="text-white/70 text-sm font-semibold tracking-widest uppercase mb-4">Marina Directory</p>
-          <h1 className="font-[Cabin] text-5xl md:text-7xl font-bold text-white leading-tight max-w-3xl mx-auto">Every Marina in America</h1>
-          <p className="text-white/60 mt-4 max-w-lg mx-auto">{unified.length.toLocaleString()}+ marinas across {statesWithCounts.filter(s => s.count > 0).length} states. Find your slip.</p>
+          <h1 className="font-[Cabin] text-5xl md:text-7xl font-bold text-white leading-tight">Every Marina in America</h1>
+          <p className="text-white/80 mt-4 max-w-lg mx-auto text-lg">{unified.length.toLocaleString()}+ marinas across {statesWithCounts.filter(s => s.count > 0).length} states. Find your slip.</p>
 
           <div className="max-w-xl mx-auto mt-8 relative">
             <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search by state, city, or marina name..." className="w-full px-5 py-4 rounded-xl bg-white border border-gray-200 text-[#1A1A1A] outline-none focus:border-[#C4924B] focus:ring-2 focus:ring-[#C4924B]/20 transition shadow-2xl text-sm" />
@@ -79,11 +81,21 @@ export default function Home() {
               <Link key={s.code} href={`/${s.slug}`} className="bg-white/15 hover:bg-white/25 text-white font-bold px-4 py-2 rounded-lg transition text-xs backdrop-blur-sm border border-white/10">{s.name} ({s.count})</Link>
             ))}
           </div>
+        </div>
 
-          <div className="flex flex-wrap justify-center gap-8 md:gap-16 text-center mt-12">
-            {[{ value: unified.length.toLocaleString(), label: "Marinas" }, { value: "27,700+", label: "Boat Ramps" }, { value: "35,000+", label: "Fishing Piers" }, { value: "51", label: "States" }].map((s) => (
-              <div key={s.label}><p className="font-[Cabin] text-3xl md:text-4xl font-bold text-white">{s.value}</p><p className="text-white/50 text-xs uppercase tracking-wider mt-1">{s.label}</p></div>
-            ))}
+        {/* Hero footer: seasonal accent strip + integrated stats bar */}
+        <div className="relative z-10 w-full mt-auto">
+          <div className="bg-[#C4924B]/90 backdrop-blur-sm py-2.5 text-center">
+            <Link href={(() => { const m = new Date().getMonth(); if (m >= 2 && m <= 4) return "/blog/marina-checklist"; if (m >= 5 && m <= 7) return "/blog/marina-amenities-checklist"; if (m >= 8 && m <= 10) return "/blog/seasonal-vs-annual-slip-rental"; return "/blog/winter-boat-storage-at-marinas"; })()} className="text-white font-bold text-sm hover:underline transition">
+              {(() => { const m = new Date().getMonth(); if (m >= 2 && m <= 4) return "⛵ Spring Launch Season: Find Your Marina →"; if (m >= 5 && m <= 7) return "🌊 Peak Boating Season: Compare Marinas →"; if (m >= 8 && m <= 10) return "⚓ Fall Boating: Last Calls of the Season →"; return "❄️ Winterize Your Boat: Find Storage →"; })()}
+            </Link>
+          </div>
+          <div className="bg-[#1B3A5C]/85 backdrop-blur-sm border-t border-white/10 py-6">
+            <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-8 md:gap-16 text-center">
+              {[{ value: unified.length.toLocaleString(), label: "Marinas" }, { value: "27,700+", label: "Boat Ramps" }, { value: "35,000+", label: "Fishing Piers" }, { value: "51", label: "States" }].map((s) => (
+                <div key={s.label}><p className="font-[Cabin] text-3xl md:text-4xl font-bold text-white">{s.value}</p><p className="text-white/50 text-xs uppercase tracking-wider mt-1">{s.label}</p></div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
