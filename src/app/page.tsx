@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { unified, stateList } from "@/data/all-marinas";
+import cityPages from "@/data/city-pages.json";
 import NearMeButton from "@/components/NearMeButton";
 import CletusAd from "@/components/CletusAd";
 import GearRecommendation from "@/components/GearRecommendation";
@@ -27,6 +28,13 @@ export default function Home() {
 
   const [expanded, setExpanded] = useState(false);
   const showToggle = statesWithCounts.length > 15;
+
+  const topCities = useMemo(() => {
+    return [...(cityPages as Array<{ city: string; citySlug: string; count: number; stateSlug: string; stateName: string; state: string }>)]
+      .filter(c => c.count >= 2)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 6);
+  }, []);
 
   const suggestions = useMemo(() => {
     if (query.length < 2) return [];
@@ -154,6 +162,31 @@ export default function Home() {
           </div>
         )}
       </section>
+
+      {/* POPULAR CITIES */}
+      {topCities.length > 0 && (
+        <section className="py-10" style={{ background: 'linear-gradient(135deg, #EFF6FF 0%, #F8FAFB 100%)' }}>
+          <div className="max-w-5xl mx-auto px-4">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A]">Popular Marina Cities</h2>
+                <p className="text-gray-400 text-sm">Cities with the most marinas on MarinaSeeker.</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {topCities.map((c) => (
+                <Link key={`${c.stateSlug}-${c.citySlug}`} href={`/cities/${c.stateSlug}-${c.citySlug}`} className="group bg-white rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all border-l-4 border-l-[#C4924B]" style={{ boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
+                  <h3 className="font-[Cabin] font-bold text-[#1A1A1A] group-hover:text-[#1B3A5C] transition text-sm">{c.city}</h3>
+                  <div className="flex items-center gap-2 mt-1">
+                    <span className="text-xs font-semibold bg-[#1B3A5C]/10 text-[#1B3A5C] px-2 py-0.5 rounded">{c.count} marinas</span>
+                    <span className="text-gray-400 text-xs">&middot; {c.stateName}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* WHY MARINASEEKER */}
       <section className="max-w-5xl mx-auto px-4 py-10">
