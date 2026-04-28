@@ -52,9 +52,11 @@ export default function CityPage({ params }: { params: Promise<{ slug: string }>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",
         mainEntity: [
-          { "@type": "Question", name: `How many marinas are in ${cityInfo.city}, ${cityInfo.stateName}?`, acceptedAnswer: { "@type": "Answer", text: `There are ${marinas.length} marinas in ${cityInfo.city}, ${cityInfo.stateName}. Browse them all on MarinaSeeker with maps and contact info.` } },
-          { "@type": "Question", name: `Where is the closest marina in ${cityInfo.city}?`, acceptedAnswer: { "@type": "Answer", text: `MarinaSeeker lists all ${marinas.length} marinas in ${cityInfo.city}, ${cityInfo.stateName} with exact GPS locations. Click any listing for directions.` } },
-          { "@type": "Question", name: `Are there marinas with transient slips in ${cityInfo.city}, ${cityInfo.stateName}?`, acceptedAnswer: { "@type": "Answer", text: `Many marinas in ${cityInfo.city} offer transient slips for visiting boaters. Contact individual marinas for availability and rates.` } },
+          { "@type": "Question", name: `How many marinas are in ${cityInfo.city}, ${cityInfo.stateName}?`, acceptedAnswer: { "@type": "Answer", text: `There are ${marinas.length} marinas in ${cityInfo.city}, ${cityInfo.stateName} listed on MarinaSeeker with maps, amenity details, and contact info for each location.` } },
+          { "@type": "Question", name: `Are transient slips available at ${cityInfo.city} marinas?`, acceptedAnswer: { "@type": "Answer", text: `Many marinas in ${cityInfo.city} offer transient slips for visiting boaters, though availability tightens during summer weekends and holiday weeks. Call ahead a few days in advance to confirm space and lock in a rate.` } },
+          { "@type": "Question", name: `Do ${cityInfo.city} marinas have fuel docks and pump-out stations?`, acceptedAnswer: { "@type": "Answer", text: `Several marinas near ${cityInfo.city} operate fuel docks (gas and/or diesel) and pump-out stations. Fuel hours and pump-out availability vary by marina — check each listing for posted services before fueling up.` } },
+          { "@type": "Question", name: `What amenities do marinas in ${cityInfo.city} typically offer?`, acceptedAnswer: { "@type": "Answer", text: `Marinas near ${cityInfo.city} commonly offer slip rentals, dry storage, fuel, pump-out service, restrooms, showers, and on-site repair. Larger marinas may add ship stores, restaurants, and ramp access — see each listing for the exact amenity list.` } },
+          { "@type": "Question", name: `Is MarinaSeeker free to use?`, acceptedAnswer: { "@type": "Answer", text: `Yes. MarinaSeeker is 100% free for boaters. Browse all ${marinas.length} marinas in ${cityInfo.city}, save GPS coordinates, and get directions — no account required.` } },
         ],
       }) }} />
       <nav className="text-sm text-gray-400 mb-6 flex flex-wrap gap-2">
@@ -92,16 +94,20 @@ export default function CityPage({ params }: { params: Promise<{ slug: string }>
       {/* Intro */}
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm mb-6">
         <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-3">Marinas in {cityInfo.city}, {cityInfo.stateName}</h2>
-        <p className="text-gray-600 leading-relaxed text-sm">{cityInfo.city}, {cityInfo.stateName} has {marinas.length} marina{marinas.length !== 1 ? "s" : ""} listed on MarinaSeeker. Browse all marinas above with maps, amenities, and contact info to plan your next trip on the water.</p>
+        <p className="text-gray-600 leading-relaxed text-sm">
+          {cityInfo.city}, {cityInfo.stateName} offers {marinas.length} marina{marinas.length !== 1 ? "s" : ""} for local boat owners and transient cruisers. {cityInfo.city} provides slip access, fuel, pump-out service, and dockside amenities depending on the location &mdash; from full-service yacht harbors to small public docks. Whether you&apos;re shopping for a seasonal slip, planning an overnight stop on a longer cruise, or just need a reliable fuel dock and ship store, the {marinas.length} marina{marinas.length !== 1 ? "s" : ""} below serve {cityInfo.city} and the surrounding waterfront with verified GPS coordinates, amenity lists, and turn-by-turn directions. Slip availability tightens during summer and holiday weekends &mdash; calling ahead is always a good idea before you cast off.
+        </p>
       </div>
 
       {/* Tips */}
       <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-6">
         <h3 className="font-[Cabin] font-bold text-[#1B3A5C] mb-3">Tips for Visiting Marinas in {cityInfo.city}</h3>
         <ul className="space-y-2 text-sm text-gray-700">
-          <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Call ahead to confirm slip availability, especially during peak season.</li>
-          <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Check whether the marina offers fuel and what types are available.</li>
-          <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Ask about transient rates and amenities before committing to a reservation.</li>
+          <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Call ahead to confirm slip availability &mdash; especially on peak summer weekends and during fishing tournaments. <Link href={`/${cityInfo.stateSlug}`} className="text-[#1B3A5C] hover:underline">See all {cityInfo.stateName} marinas</Link>.</li>
+          <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Verify fuel hours before you commit to a destination &mdash; many small-marina fuel docks close earlier than the marina office.</li>
+          <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Ask about pump-out availability and any environmental restrictions on holding-tank discharge.</li>
+          <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Confirm transient slip rates, electric/water hookup, and any minimum-night stays before booking.</li>
+          <li className="flex items-start gap-2"><span className="text-[#1B3A5C] mt-0.5">&#10003;</span> Monitor VHF channel 16 (or the marina&apos;s posted channel) on approach to coordinate dock assignment.</li>
         </ul>
       </div>
 
@@ -110,9 +116,11 @@ export default function CityPage({ params }: { params: Promise<{ slug: string }>
         <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-4">Frequently Asked Questions</h2>
         <div className="space-y-2">
           {[
-            { q: `How many marinas are in ${cityInfo.city}, ${cityInfo.stateName}?`, a: `There are ${marinas.length} marinas in ${cityInfo.city}, ${cityInfo.stateName} listed on MarinaSeeker with maps and contact info.` },
-            { q: `Do marinas in ${cityInfo.city} sell fuel?`, a: `Many marinas in ${cityInfo.city} offer fuel docks with gas and diesel. Check individual listings on MarinaSeeker for fuel availability.` },
-            { q: `Are there transient slips available in ${cityInfo.city}?`, a: `Several marinas in ${cityInfo.city} offer transient slips for visiting boaters. Contact the marina directly for availability and rates.` },
+            { q: `How many marinas are in ${cityInfo.city}, ${cityInfo.stateName}?`, a: `There are ${marinas.length} marinas in ${cityInfo.city}, ${cityInfo.stateName} listed on MarinaSeeker with maps, amenity details, and contact info for each location.` },
+            { q: `Are transient slips available at ${cityInfo.city} marinas?`, a: `Many marinas in ${cityInfo.city} offer transient slips for visiting boaters, though availability tightens during summer weekends and holiday weeks. Call ahead a few days in advance to confirm space and lock in a rate.` },
+            { q: `Do ${cityInfo.city} marinas have fuel docks and pump-out stations?`, a: `Several marinas near ${cityInfo.city} operate fuel docks (gas and/or diesel) and pump-out stations. Fuel hours and pump-out availability vary by marina — check each listing for posted services before fueling up.` },
+            { q: `What amenities do marinas in ${cityInfo.city} typically offer?`, a: `Marinas near ${cityInfo.city} commonly offer slip rentals, dry storage, fuel, pump-out service, restrooms, showers, and on-site repair. Larger marinas may add ship stores, restaurants, and ramp access — see each listing for the exact amenity list.` },
+            { q: `Is MarinaSeeker free to use?`, a: `Yes. MarinaSeeker is 100% free for boaters. Browse all ${marinas.length} marinas in ${cityInfo.city}, save GPS coordinates, and get directions — no account required.` },
           ].map((f, i) => (
             <details key={i} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm group">
               <summary className="px-5 py-4 cursor-pointer font-semibold text-[#1A1A1A] text-sm hover:text-[#1B3A5C] transition list-none flex items-center justify-between">{f.q}<svg className="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg></summary>
