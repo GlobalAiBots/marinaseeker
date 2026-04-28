@@ -63,7 +63,7 @@ console.log(`sitemap-marinas.xml: ${marinaUrls.length} URLs`);
 
 // --- CITY SITEMAP ---
 const cityPages = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "src", "data", "city-pages.json"), "utf8"));
-const cityUrls = cityPages.map(c => urlEntry(`${BASE}/cities/${c.slug || c.citySlug}`, "0.6", "weekly"));
+const cityUrls = cityPages.map(c => urlEntry(`${BASE}/cities/${c.stateSlug}-${c.citySlug}`, "0.6", "weekly"));
 fs.writeFileSync(path.join(PUB, "sitemap-cities.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${cityUrls.join("\n")}\n</urlset>\n`);
 console.log(`sitemap-cities.xml: ${cityUrls.length} URLs`);
