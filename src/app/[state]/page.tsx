@@ -1,52 +1,32 @@
-"use client";
-
-import { use, useState, useMemo } from "react";
 import Link from "next/link";
-import dynamic from "next/dynamic";
+import { notFound } from "next/navigation";
 import { unified, stateList } from "@/data/all-marinas";
 import FeaturedArticle from "@/components/FeaturedArticle";
 import GearRecommendation from "@/components/GearRecommendation";
+import StateMap from "./StateMap";
 
-const MarinaMap = dynamic(() => import("@/components/MarinaMap"), { ssr: false });
+export const dynamicParams = true;
 
-export default function StatePage({ params }: { params: Promise<{ state: string }> }) {
-  const { state } = use(params);
+export default async function StatePage({ params }: { params: Promise<{ state: string }> }) {
+  const { state } = await params;
   const stateInfo = stateList.find((s) => s.slug === state);
-  const stateMarinas = useMemo(
-    () => (stateInfo ? unified.filter((m) => m.state === stateInfo.code) : []),
-    [stateInfo]
-  );
+  if (!stateInfo) notFound();
 
-  const [selectedCity, setSelectedCity] = useState<string | null>(null);
+  const stateMarinas = unified.filter((m) => m.state === stateInfo.code);
 
-  const cityMap = useMemo(() => {
-    const m: Record<string, number> = {};
-    for (const r of stateMarinas) {
-      const c = r.city?.trim();
-      if (c && c.length > 1) m[c] = (m[c] || 0) + 1;
-    }
-    return Object.entries(m).sort((a, b) => b[1] - a[1]);
-  }, [stateMarinas]);
-
-  const filteredMarinas = selectedCity
-    ? stateMarinas.filter((m) => m.city?.trim() === selectedCity)
-    : stateMarinas;
-
-  const mapCenter = useMemo((): [number, number] => {
-    if (stateMarinas.length === 0) return [39.8, -98.5];
-    const avgLat = stateMarinas.reduce((s, m) => s + m.lat, 0) / stateMarinas.length;
-    const avgLng = stateMarinas.reduce((s, m) => s + m.lng, 0) / stateMarinas.length;
-    return [avgLat, avgLng];
-  }, [stateMarinas]);
-
-  if (!stateInfo) {
-    return (
-      <div className="max-w-2xl mx-auto px-4 py-20 text-center">
-        <h1 className="font-[Cabin] text-3xl font-bold text-[#1A1A1A] mb-4">State Not Found</h1>
-        <Link href="/" className="text-[#1B3A5C] hover:underline">Back to Home</Link>
-      </div>
-    );
+  const cityCounts: Record<string, number> = {};
+  for (const r of stateMarinas) {
+    const c = r.city?.trim();
+    if (c && c.length > 1) cityCounts[c] = (cityCounts[c] || 0) + 1;
   }
+  const cityMap = Object.entries(cityCounts).sort((a, b) => b[1] - a[1]);
+
+  const mapCenter: [number, number] = stateMarinas.length === 0
+    ? [39.8, -98.5]
+    : [
+        stateMarinas.reduce((s, m) => s + m.lat, 0) / stateMarinas.length,
+        stateMarinas.reduce((s, m) => s + m.lng, 0) / stateMarinas.length,
+      ];
 
   return (
     <div>
@@ -90,7 +70,7 @@ export default function StatePage({ params }: { params: Promise<{ state: string 
       {/* Map */}
       {stateMarinas.length > 0 && (
         <section className="max-w-6xl mx-auto px-4 pt-8 pb-4">
-          <MarinaMap marinas={stateMarinas} center={mapCenter} zoom={7} height="400px" />
+          <StateMap marinas={stateMarinas} center={mapCenter} />
         </section>
       )}
 
@@ -115,13 +95,8 @@ export default function StatePage({ params }: { params: Promise<{ state: string 
 
       {/* Marina List */}
       <section id="marina-list" className="max-w-6xl mx-auto px-4 py-8">
-        {selectedCity && (
-          <div className="pb-4">
-            <button onClick={() => setSelectedCity(null)} className="text-sm text-[#1B3A5C] hover:underline">&larr; Show all {stateMarinas.length} marinas</button>
-          </div>
-        )}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {filteredMarinas.map((m) => (
+          {stateMarinas.map((m) => (
             <Link key={m.id} href={`/marinas/${m.id}`} className="group bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all">
               <h3 className="font-[Cabin] font-bold text-[#1A1A1A] group-hover:text-[#1B3A5C] transition">{m.name}</h3>
               <p className="text-gray-500 text-sm mt-1">{m.city ? `${m.city}, ` : ""}{m.state}</p>

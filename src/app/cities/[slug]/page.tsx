@@ -1,51 +1,30 @@
-"use client";
-
-import { use, useState, useMemo } from "react";
-import dynamic from "next/dynamic";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { unified } from "@/data/all-marinas";
 import cityPages from "@/data/city-pages.json";
 import FeaturedArticle from "@/components/FeaturedArticle";
-
-const MarinaMap = dynamic(() => import("@/components/MarinaMap"), { ssr: false, loading: () => <div className="rounded-xl bg-gray-100 flex items-center justify-center" style={{ height: 350 }}><p className="text-gray-400 text-sm">Loading map...</p></div> });
+import CityClientView from "./CityClientView";
 
 interface CityPage { state: string; stateName: string; stateSlug: string; city: string; citySlug: string; count: number; lat: number; lng: number; }
 const allCityPages = cityPages as CityPage[];
 
-export default function CityPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = use(params);
+export const dynamicParams = true;
+
+export default async function CityPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const cityInfo = allCityPages.find((c) => `${c.stateSlug}-${c.citySlug}` === slug);
+  if (!cityInfo) notFound();
 
-  const marinas = useMemo(() => {
-    if (!cityInfo) return [];
-    return unified.filter((m) => m.state === cityInfo.state && m.city?.trim() === cityInfo.city);
-  }, [cityInfo]);
+  const marinas = unified.filter((m) => m.state === cityInfo.state && m.city?.trim() === cityInfo.city);
+  const center: [number, number] = marinas.length
+    ? [marinas.reduce((s, m) => s + m.lat, 0) / marinas.length, marinas.reduce((s, m) => s + m.lng, 0) / marinas.length]
+    : [39.8, -98.5];
 
-  const mapMarinas = useMemo(() => marinas.map(m => ({ id: m.id, name: m.name, lat: m.lat, lng: m.lng, city: m.city })), [marinas]);
-  const center = useMemo<[number, number]>(() => marinas.length ? [marinas.reduce((s, m) => s + m.lat, 0) / marinas.length, marinas.reduce((s, m) => s + m.lng, 0) / marinas.length] : [39.8, -98.5], [marinas]);
-
-  const [search, setSearch] = useState("");
-  const filtered = search.length >= 2
-    ? marinas.filter((m) => m.name.toLowerCase().includes(search.toLowerCase()))
-    : marinas;
-
-  const nearbyCities = useMemo(() => {
-    if (!cityInfo) return [];
-    return allCityPages
-      .filter((c) => c !== cityInfo)
-      .map((c) => ({ ...c, dist: Math.sqrt(Math.pow(c.lat - cityInfo.lat, 2) + Math.pow(c.lng - cityInfo.lng, 2)) }))
-      .sort((a, b) => a.dist - b.dist)
-      .slice(0, 5);
-  }, [cityInfo]);
-
-  if (!cityInfo) {
-    return (
-      <div className="max-w-2xl mx-auto px-4 py-20 text-center">
-        <h1 className="font-[Cabin] text-3xl font-bold text-[#1A1A1A] mb-4">City Not Found</h1>
-        <Link href="/" className="text-[#1B3A5C] hover:underline">Back to Home</Link>
-      </div>
-    );
-  }
+  const nearbyCities = allCityPages
+    .filter((c) => c !== cityInfo)
+    .map((c) => ({ ...c, dist: Math.sqrt(Math.pow(c.lat - cityInfo.lat, 2) + Math.pow(c.lng - cityInfo.lng, 2)) }))
+    .sort((a, b) => a.dist - b.dist)
+    .slice(0, 5);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -68,28 +47,7 @@ export default function CityPage({ params }: { params: Promise<{ slug: string }>
       <h1 className="font-[Cabin] text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-2">Marinas in {cityInfo.city}, {cityInfo.stateName}</h1>
       <p className="text-gray-500 mb-6">{marinas.length} marina{marinas.length !== 1 ? "s" : ""} in {cityInfo.city}, {cityInfo.stateName}. Slip info, fuel, amenities, and maps.</p>
 
-      {marinas.length > 5 && (
-        <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search marinas in this city..." className="w-full max-w-md px-4 py-2.5 rounded-lg border border-gray-200 text-sm outline-none focus:border-[#C4924B] transition mb-6" />
-      )}
-
-      {marinas.length > 0 && <div className="mb-8"><MarinaMap marinas={mapMarinas} center={center} zoom={12} height="350px" /></div>}
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-12">
-        {filtered.map((m) => (
-          <Link key={m.id} href={`/marinas/${m.id}`} className="group bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md hover:-translate-y-0.5 transition-all">
-            <h3 className="font-[Cabin] font-bold text-[#1A1A1A] group-hover:text-[#1B3A5C] transition">{m.name}</h3>
-            <p className="text-gray-500 text-sm mt-1">{m.city}, {m.state}</p>
-            {m.amenities.length > 0 && (
-              <div className="flex flex-wrap gap-1 mt-2">
-                {m.amenities.slice(0, 3).map((a) => (
-                  <span key={a} className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">{a}</span>
-                ))}
-              </div>
-            )}
-            <span className="text-sm font-semibold text-[#C4924B] mt-2 inline-block">View Details &rarr;</span>
-          </Link>
-        ))}
-      </div>
+      <CityClientView marinas={marinas.map(m => ({ id: m.id, name: m.name, lat: m.lat, lng: m.lng, city: m.city, state: m.state, amenities: m.amenities }))} center={center} />
 
       {/* Intro */}
       <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm mb-6">
