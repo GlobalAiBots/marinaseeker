@@ -49,12 +49,32 @@ export default function Home() {
     return results.slice(0, 8);
   }, [query]);
 
+  const faqItems = [
+    { q: "How much does a marina slip typically cost?", a: "Slip costs vary by region and amenities. Expect $50-150 per foot per year on the East Coast and Great Lakes, $80-300 per foot in high-demand areas (South Florida, Southern California, Pacific Northwest). Transient slips usually run $1.50-$5 per foot per night." },
+    { q: "What's a transient slip and how do I book one?", a: "A transient slip is a short-term dock rental for boats traveling through. Most marinas accept reservations via phone or Dockwa, with same-day availability common at smaller marinas. Always confirm depth at the slip before arrival." },
+    { q: "What amenities should I expect at a full-service marina?", a: "Full-service marinas typically include fuel dock, pump-out, restrooms and showers, on-site mechanic, ship store, and often a restaurant. Many also offer drystack storage, haul-out and yard services, and seasonal events. MarinaSeeker lists verified amenities per location." },
+    { q: "Can I live aboard my boat at any marina?", a: "Liveaboard policies vary. Many marinas restrict liveaboards entirely, others permit them with limits or premium fees. Some municipalities regulate liveaboard density. Confirm in writing before signing — verbal permissions don't survive new ownership or management." },
+    { q: "Is MarinaSeeker free to use?", a: "Yes, completely free. No login, no account, no paid tier. We're funded by display advertising and listing partnerships. Find your marina and go." },
+  ];
+
   return (
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "WebSite", name: "MarinaSeeker", url: "https://www.marinaseeker.com",
         description: `Find marinas across the United States. ${unified.length.toLocaleString()}+ marinas with GPS coordinates and amenities.`,
         potentialAction: { "@type": "SearchAction", target: "https://www.marinaseeker.com/?q={search_term_string}", "query-input": "required name=search_term_string" },
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "Article",
+        headline: "How to Choose a Marina: The Complete Guide",
+        description: "Practical guide to evaluating marinas — slip costs, fee inclusions, liveaboard and drystack options, amenity priorities, and contract questions every boater should ask.",
+        author: { "@type": "Organization", name: "MarinaSeeker Editorial", url: "https://www.marinaseeker.com" },
+        publisher: { "@type": "Organization", name: "MarinaSeeker", url: "https://www.marinaseeker.com" },
+        datePublished: "2026-04-29",
+        dateModified: "2026-04-29",
+        mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.marinaseeker.com" },
+        articleSection: "Boating",
+        keywords: ["how to choose a marina", "marina slip costs", "transient slip", "liveaboard marina", "drystack storage", "marina amenities", "slip agreement"],
       }) }} />
 
       {/* HERO — Full-bleed dramatic */}
@@ -140,6 +160,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ARTICLE HEADER */}
+      <article id="marina-guide" className="max-w-3xl mx-auto px-4 pt-12 pb-8">
+        <h1 className="font-[Cabin] text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-6 leading-tight">How to Choose a Marina: The Complete Guide</h1>
+        <div className="text-gray-700 leading-relaxed space-y-5">
+          <p>Choosing a marina is one of the most consequential decisions a boat owner makes. The right marina is your second home &mdash; somewhere you can leave your boat with confidence, fuel up without a 30-minute wait, get repairs from a mechanic who knows your engine, and tie up next to people who become friends. The wrong marina is a recurring headache: dock space that floods at high tide, a fuel dock that&apos;s always closed, a slip neighbor who plays music until midnight, and a yard manager who can&apos;t find your boat.</p>
+          <p>MarinaSeeker indexes marinas across the U.S. coastline, the Great Lakes, and major inland waterways &mdash; covering everything from full-service marinas with restaurants and ship stores to bare-bones county-run facilities with a fuel dock and a pump-out. We track slip availability signals, transient policies, fuel and pump-out access, hauling capacity, and the amenity details that matter to liveaboards, weekend cruisers, and first-time slip renters.</p>
+          <p>Below is MarinaSeeker&apos;s directory of marinas organized by state. Continue reading below the directory for the complete guide to evaluating slip costs and contracts, understanding what&apos;s included (and what&apos;s not), reading marina reviews critically, and the questions every boater should ask before signing a slip agreement.</p>
+        </div>
+      </article>
+
       {/* BROWSE BY STATE */}
       <section id="browse-states" className="max-w-5xl mx-auto px-4 pt-14 pb-8">
         <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mb-6">Browse by State</h2>
@@ -162,6 +192,45 @@ export default function Home() {
           </div>
         )}
       </section>
+
+      {/* ARTICLE CONTINUATION */}
+      <article className="max-w-3xl mx-auto px-4 py-12">
+        <div className="border-t border-[#1B3A5C]/30 pt-6 mb-8">
+          <p className="text-xs text-gray-500 uppercase tracking-widest font-semibold font-[Cabin]">Complete Guide Continues</p>
+        </div>
+        <div className="text-gray-700 leading-relaxed space-y-5">
+
+          <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mt-2 mb-3">Why Choosing the Right Marina Matters</h2>
+          <p>Marina selection is one of the most expensive decisions in boat ownership. A standard slip in a mid-tier East Coast marina runs $3,000 to $6,000 a year. South Florida, Southern California, and the Pacific Northwest can push that to $10,000 or more for a 30-foot slip. Over a decade of ownership, the cumulative cost difference between two marinas a mile apart can exceed the purchase price of the boat itself.</p>
+          <p>But cost is just the start. The right marina is convenient to your home, has a fuel dock that&apos;s actually open when you need it, employs mechanics who know your engine, and houses a community of boaters you actually want to spend Saturday afternoons with. The wrong marina is a chronic headache &mdash; slip neighbors who run generators at 3am, an absentee yard manager, sketchy security, and a fuel pricing scheme that quietly costs you a thousand dollars a season. Picking right matters more than picking the boat itself for a lot of owners. Get the marina wrong and you&apos;ll resent the boat by year two.</p>
+
+          <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mt-10 mb-3">Understanding Slip Costs: Annual, Monthly, Transient</h2>
+          <p>Annual slip rentals are almost always the best per-foot rate, typically priced at $50 to $150 per linear foot per year on the East Coast and Great Lakes, $80 to $300 per foot in high-demand markets. The trade-off is a 12-month commitment, often with a security deposit and limited refund if you sell the boat or change marinas mid-year.</p>
+          <p>Monthly rates run 20 to 40 percent higher than annual on a per-foot basis, but the flexibility matters if you&apos;re new to the marina or boat. Many owners sign monthly for a season before committing annually &mdash; it lets you evaluate the marina in real conditions before locking in.</p>
+          <p>Transient slips serve traveling boaters and run $1.50 to $5+ per foot per night. Reservations are mandatory at popular destinations during summer; a few smaller marinas still take walk-up dockage if space is open. Dockwa and SnagASlip are the standard reservation platforms now, replacing phone calls at most full-service marinas. Always confirm what fees are in addition to the slip rate. Electric, water, internet, pump-out, and parking are common adders.</p>
+
+          <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mt-10 mb-3">What&apos;s Included in Slip Fees (and What&apos;s Almost Never Included)</h2>
+          <p>Most slip contracts include the dock space itself, water hookup at the slip, basic 24-hour security (gate, cameras, sometimes a watchman), and access to common amenities &mdash; restrooms, showers, parking. Anything beyond that is usually billed separately or sold as an add-on package.</p>
+          <p>Electric is almost always metered or flat-rate billed separately. Expect $30 to $150 per month depending on amperage (30A vs. 50A) and how much shore power you draw. Pump-out service is usually free at full-service marinas but billed per use at smaller facilities. Internet and TV are sometimes free, often $20-50 a month. Dinghy storage on a rack costs $100-300 a year. Trailer storage in the lot is usually billed seasonally.</p>
+          <p>Read the contract before signing. Marinas that bury fees in the fine print (winter haul-out at &quot;winter rates&quot; that double the slip cost, mandatory shrink-wrap surcharges, late payment penalties) often do this consistently across customers. Ask the dockmaster directly: what do most boats my size pay total per year, including everything? An honest answer, given quickly, is itself a useful signal.</p>
+
+          <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mt-10 mb-3">Liveaboard, Drystack, and Long-Term Storage Options</h2>
+          <p>Liveaboard policies are the most-misunderstood part of marina selection. Many marinas restrict liveaboards entirely, often because of municipal regulations on residential density or sewage. Others permit them with limits &mdash; for example, &quot;up to 20 percent of slips can be liveaboards&quot; &mdash; and charge a $200 to $500 monthly premium. A few marinas openly cater to liveaboards with full-time hookups, mail service, and parking. Confirm liveaboard status in writing before signing; verbal permissions don&apos;t survive a change in management.</p>
+          <p>Drystack storage (indoor rack storage with valet launch) is increasingly the default for power boats under 35 feet in coastal markets. Annual costs typically run between wet-slip and dry-trailer storage, but the boat stays out of the water &mdash; extending hull life and reducing maintenance. Most drystacks launch on a few hours&apos; notice during business hours; advance scheduling is required during peak season weekends.</p>
+          <p>Wet slip with off-season haul-out is the cheapest annual setup in cold-climate states. The boat lives in the slip from May to October and on the hard from November to April. Verify what the haul-out, winterization, and shrink-wrap costs total &mdash; they add up to $1,000 to $3,000 in most yards.</p>
+
+          <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mt-10 mb-3">Marina Amenities That Actually Matter</h2>
+          <p>Restaurants and pools are nice. Reliable mechanics and a working pump-out are critical. Optimize for the second category first.</p>
+          <p>A good fuel dock is open the hours its hours say it&apos;s open. Fuel pricing should be within 20 cents of the area average &mdash; significantly higher means the marina is using fuel as a profit center. Pump-out should be free or low-cost and actually working most days. Restrooms and showers should be cleaned daily during the season. Trash dumpsters should be unlocked during business hours, not so full they overflow.</p>
+          <p>On-site mechanic with manufacturer training (Yamaha, Mercury, Volvo Penta) saves you from trailering to an outside shop every time something breaks. Verify certifications during the marina tour; the mechanic should be willing to talk about what they specialize in. A working ladder at every slip &mdash; not just at the corner &mdash; matters when you fall in or need to come back aboard from the water. Ice machines, ship stores, and laundry facilities round out the practical list. Restaurants and pools are pleasant but should never be the primary reason you pick a marina.</p>
+
+          <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mt-10 mb-3">Questions to Ask Before Signing a Slip Agreement</h2>
+          <p>Most marinas will rent you a slip without telling you the things you actually need to know. Ask directly. The answers, and how they&apos;re delivered, reveal management quality.</p>
+          <p>What&apos;s the no-fault termination clause if I sell the boat or move? Standard answer: 30 days notice, prorated refund. Anything worse is worth questioning. What&apos;s the storm or hurricane policy? Coastal marinas should have a written plan covering storm-watch protocols, mandatory haul-out triggers, and liability allocation. Verbal answers are not enforceable when the storm comes.</p>
+          <p>Are there liveaboard fees if I overnight occasionally? Most marinas allow 1-3 nights a week as &quot;guest stays&quot; without triggering liveaboard pricing &mdash; confirm the threshold. What&apos;s the fuel discount for slip holders? Most full-service marinas offer 5-15 cents off pump price; if there&apos;s no discount, you&apos;re effectively paying retail at your home marina.</p>
+          <p>What&apos;s the policy on guests, pets, dinghies tied to your slip, working on your own boat in the slip vs. having to use the yard? These vary widely and matter daily once you&apos;re using the marina. A dockmaster who answers them directly is signaling that the place runs on clear rules &mdash; that&apos;s exactly the marina you want.</p>
+        </div>
+      </article>
 
       {/* POPULAR CITIES */}
       {topCities.length > 0 && (
@@ -294,23 +363,11 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-4 py-10">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org", "@type": "FAQPage",
-          mainEntity: [
-            { "@type": "Question", name: "How many marinas does MarinaSeeker list?", acceptedAnswer: { "@type": "Answer", text: `MarinaSeeker lists ${unified.length.toLocaleString()}+ marinas across ${statesWithCounts.filter(s => s.count > 0).length} states with GPS coordinates, amenities, and contact details.` } },
-            { "@type": "Question", name: "Is MarinaSeeker free?", acceptedAnswer: { "@type": "Answer", text: "Yes, completely free. No login, no account, no fees. Just find your marina and go." } },
-            { "@type": "Question", name: "How do I find a marina near me?", acceptedAnswer: { "@type": "Answer", text: "Click the 'Find Marinas Near Me' button or browse by state. MarinaSeeker will show the closest marinas with slip info, fuel, and amenities." } },
-            { "@type": "Question", name: "How much does a boat slip cost?", acceptedAnswer: { "@type": "Answer", text: "Boat slip costs vary by location and size. Expect $200-$800/month for a standard slip. Contact individual marinas for current rates." } },
-            { "@type": "Question", name: "Can I claim my marina listing?", acceptedAnswer: { "@type": "Answer", text: "Yes! If you own or manage a marina, visit our Claim page to update your amenities, contact info, and slip availability for free." } },
-          ],
+          mainEntity: faqItems.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
         }) }} />
         <h2 className="font-[Cabin] text-2xl font-bold text-[#1A1A1A] mb-4">Frequently Asked Questions</h2>
         <div className="space-y-2">
-          {[
-            { q: `How many marinas does MarinaSeeker list?`, a: `MarinaSeeker lists ${unified.length.toLocaleString()}+ marinas across ${statesWithCounts.filter(s => s.count > 0).length} states with GPS coordinates, amenities, and contact details.` },
-            { q: "Is MarinaSeeker free?", a: "Yes, completely free. No login, no account, no fees. Just find your marina and go." },
-            { q: "How do I find a marina near me?", a: "Click the \"Find Marinas Near Me\" button or browse by state. MarinaSeeker will show the closest marinas with slip info, fuel, and amenities." },
-            { q: "How much does a boat slip cost?", a: "Boat slip costs vary by location and size. Expect $200-$800/month for a standard slip. Contact individual marinas for current rates." },
-            { q: "Can I claim my marina listing?", a: "Yes! If you own or manage a marina, visit our Claim page to update your amenities, contact info, and slip availability for free." },
-          ].map((f, i) => (
+          {faqItems.map((f, i) => (
             <details key={i} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm group">
               <summary className="px-5 py-4 cursor-pointer font-semibold text-[#1A1A1A] text-sm hover:text-[#1B3A5C] transition list-none flex items-center justify-between">{f.q}<svg className="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg></summary>
               <div className="px-5 pb-4 text-gray-600 text-sm leading-relaxed">{f.a}</div>
