@@ -189,8 +189,78 @@ export const STATE_EDITORIAL: Record<string, StateEditorial> = {
       }
     ]
   },
+  washington: {
+    introOverride:
+      "Washington has 279 marinas spanning Puget Sound's 2,500+ miles of saltwater shoreline, the San Juan Islands archipelago, the Strait of Juan de Fuca, the Pacific coast at Westport and Ilwaco, the Columbia River from Astoria up to the inland gorges, and the freshwater Lake Washington and Lake Union complex within Seattle. Whether you need year-round dockage in Lake Union, transient slips in Friday Harbor for a San Juan Islands cruise, a refit yard in Anacortes, or a salmon-charter berth in Westport, the directory below shows marinas with verified slip counts, fuel availability, transient policies, and amenity details.",
+    h2Blocks: [
+      {
+        heading: "Washington's Marina Landscape",
+        body:
+          "Washington runs the most varied saltwater-and-freshwater marina market in the Pacific Northwest. Puget Sound is the dominant cruising region — Seattle (Shilshole Bay, Elliott Bay, Lake Union, Lake Washington), Tacoma, Olympia, Bremerton, Port Townsend, Anacortes, and Bellingham anchor a Sound-wide cruising network. Anacortes is the unofficial gateway to the San Juan Islands, with major refit yards (Cap Sante, Skyline) and the largest charter fleet in the region. The San Juan Islands themselves (Friday Harbor, Roche Harbor, Deer Harbor, Lopez Village) host destination marinas catering to summer cruisers and the heavy U.S.-Canada border traffic. The Strait of Juan de Fuca and the outer coast at La Push, Neah Bay, and Sekiu support working fishing fleets and weather-window cruisers. The Pacific coast harbors at Westport and Ilwaco anchor the salmon and tuna charter fleet. The Columbia River corridor — Astoria, Cathlamet, Longview-Kelso, Portland-Vancouver, Hood River, The Dalles — supports a mixed fishing-and-cruising market that extends inland through the Columbia River Gorge. Lake Washington and Lake Union within Seattle host one of the densest urban freshwater marina clusters in the country, with year-round operation and significant liveaboard population."
+      },
+      {
+        heading: "PNW Cruising Season, Tides, and U.S.-Canada Border Logistics",
+        body:
+          "Three Washington-specific factors shape every marina decision. The Pacific Northwest cruising season runs effectively May through September, with peak demand June-August. Most Puget Sound marinas operate year-round (no ice issues except occasional shallow-bay freezing), but slip availability tightens dramatically in summer at popular destination marinas (Friday Harbor, Roche Harbor, Port Townsend) — book transient slips 4-8 weeks ahead during peak season. Tides are substantial and matter: 8-14 foot tide ranges are typical, currents at Deception Pass, Tacoma Narrows, Admiralty Inlet, and the San Juan Islands passes can run 5-9 knots, requiring tide-aware passage planning. Many cruisers consult the Puget Sound Tides app or the Washburne's tide and current tables before each transit. U.S.-Canada border crossings are real for any cruising into British Columbia (Gulf Islands, Vancouver, Princess Louisa Inlet) — vessels must check in at designated entry ports (Roche Harbor, Friday Harbor, Anacortes, Point Roberts) and clear CBP on return. Slip rates run $25-55 per foot per month at premier Seattle/Anacortes/Friday Harbor facilities, $15-40 elsewhere on the Sound, $20-45 on the Pacific coast, and $20-45 on the Columbia River. Liveaboard slips are tightly regulated and command premium rates."
+      },
+      {
+        heading: "Regional Patterns Across the State",
+        body:
+          "Washington's marina market splits into five distinct regions. Seattle metro and Lake Washington/Lake Union (King County): year-round operation, dense urban marina cluster, significant liveaboard population, deepest yacht service and refit infrastructure. Anacortes, Bellingham, and the North Sound: gateway to the San Juans, largest concentration of refit yards in the region, charter fleet base. San Juan Islands: destination cruising market, summer peak with multi-week wait lists at popular harbors, liveaboard-friendly at some facilities. Olympic Peninsula and outer coast (Port Townsend, Port Angeles, La Push, Neah Bay, Sekiu, Westport, Ilwaco): working fishing fleets, weather-window cruising, lower density. Columbia River corridor (Astoria, Longview, Vancouver, Hood River, The Dalles): mixed fishing and cruising, freshwater above Bonneville Dam, gorge winds make Hood River one of the country's premier sailing and windsurfing destinations. The directory above includes coverage across all five regions."
+      }
+    ],
+    faqExtra: [
+      {
+        q: "How much does it cost to keep a boat in a Washington marina?",
+        a: "Monthly slip rates in Washington vary by region. Seattle metro and Lake Union/Washington: $30-60 per foot per month, with liveaboard slips at premium pricing. Anacortes, Bellingham, San Juan Islands: $25-55 per foot. Tacoma, Olympia, Bremerton: $20-45 per foot. Pacific coast and Columbia River: $20-45 per foot. Annual contracts typically discount 10-20% from monthly rates. Liveaboard slip availability is tightly regulated by city and county; most marinas cap liveaboard density at 10-20% of total slips."
+      },
+      {
+        q: "When is San Juan Islands cruising season?",
+        a: "Peak San Juans cruising runs June through August, with shoulder-season cruising in May and September. Most destination harbors (Friday Harbor, Roche Harbor, Deer Harbor) require transient slip bookings 4-8 weeks ahead during peak. Some marinas have multi-month wait lists for summer permanent slips. Off-season cruising October-April is much quieter; many smaller marinas reduce hours. The San Juans rarely freeze, so year-round access is possible at most facilities, but services are limited in winter."
+      },
+      {
+        q: "Do I need to clear customs to cruise from Washington to Canada?",
+        a: "Yes. U.S. vessels entering Canadian waters must check in with Canada Border Services Agency by phone (1-888-226-7277) at the first port of call. Returning U.S. vessels must clear U.S. Customs and Border Protection at a designated entry port — Roche Harbor, Friday Harbor, Anacortes, Point Roberts, or Bellingham. Both countries require advance arrival notification and proper documentation (passports, vessel registration, NEXUS for expedited clearance). Plan crossings with adequate daylight to clear customs before marinas close."
+      }
+    ]
+  },
+  "north-carolina": {
+    introOverride:
+      "North Carolina has 268 marinas spanning the Outer Banks barrier-island chain, the Pamlico and Albemarle Sounds (the second-largest estuarine system on the East Coast), the Intracoastal Waterway from Currituck to South Carolina, the Cape Fear River and Wilmington's busy port, and inland lakes like Lake Norman, Lake Gaston, and the High Rock Lake chain. Whether you need offshore charter dockage in Hatteras or Morehead City, transient slips on the ICW, hurricane-protected dockage during Outer Banks storm cycles, or year-round inland dockage on Lake Norman, the directory below shows marinas with verified slip counts, fuel availability, transient policies, and amenity details.",
+    h2Blocks: [
+      {
+        heading: "North Carolina's Marina Landscape",
+        body:
+          "North Carolina runs one of the most diverse Atlantic-coast-and-inland marina markets in the country. The Outer Banks (Manteo, Wanchese, Hatteras, Ocracoke) anchor the offshore charter fishing fleet — Oregon Inlet, Hatteras Inlet, and Beaufort Inlet provide Gulf Stream access for marlin, tuna, sailfish, and dolphinfish. Morehead City and Beaufort host the country's deepest blue-marlin tournament tradition, with major facilities supporting a year-round charter fleet. The Intracoastal Waterway runs the entire length of the state and supports a steady transient-cruiser flow during the spring and fall snowbird migrations — Coinjock, Belhaven, Oriental, Beaufort, Swansboro, Wrightsville Beach, Carolina Beach, Southport, and the Calabash area all serve ICW traffic. Pamlico and Albemarle Sounds host a quieter cruising scene with marinas at Edenton, Plymouth, Washington (NC), Bath, Belhaven, and Engelhard. Wilmington and the Cape Fear River support a major cruising stopover plus the heavy commercial port. Inland, Lake Norman north of Charlotte (the largest man-made lake in NC at 32,500 acres) anchors a year-round powerboat and bass-tournament market with dozens of marinas; Lake Gaston, High Rock Lake, Jordan Lake, and Falls Lake support smaller inland marina scenes. The Western mountain region has limited marina access — small facilities at Lake James, Lake Hickory, and Fontana Lake."
+      },
+      {
+        heading: "Hurricane Season, Outer Banks Inlet Conditions, and ICW Transient Patterns",
+        body:
+          "Three North Carolina-specific factors shape every marina decision. Hurricane season (June 1 through November 30, peaking August-October) heavily affects Outer Banks and coastal marinas — Hurricanes Florence (2018), Dorian (2019), and Matthew (2016) generated major destruction across the coastal marina network. Most Outer Banks and ICW marinas have written hurricane plans; many require haul-out or relocation 48-72 hours before named storm landfall, and some facilities (particularly on the Outer Banks) require full evacuation when major storms threaten direct landfall. Outer Banks inlet conditions are dynamic and dangerous: Oregon Inlet, Hatteras Inlet, and Beaufort Inlet shoal seasonally, and breaking surf at the inlet entrances during outgoing tides combined with onshore winds can be lethal. Captains monitor inlet conditions daily; marinas at the inlet harbors (Wanchese, Hatteras, Beaufort) often have the most current local conditions information. Transient ICW traffic peaks twice yearly — fall southbound migration (October-November) heading to Florida and the Bahamas, and spring northbound (April-May) heading north for summer. Marinas along the route (Coinjock, Belhaven, Oriental, Wrightsville Beach) book transient slips heavily during these windows, often 1-2 weeks ahead during peak migration. Slip rates run $25-55 per foot per month at premier coastal facilities, $15-35 inland, and $20-45 on Lake Norman."
+      },
+      {
+        heading: "Regional Patterns Across the State",
+        body:
+          "North Carolina's marina market splits into five distinct regions. Outer Banks (Currituck, Dare, Hyde counties): offshore charter fishing dominance, hurricane-vulnerable, seasonal demand peaks in summer charter season, limited slip count relative to demand. Pamlico and Albemarle Sounds (Belhaven, Oriental, Edenton, Bath, Manteo back-side): quieter cruising, sailing club scene, lower dockage rates than Outer Banks, ICW connection. Crystal Coast and Cape Fear corridor (Beaufort, Morehead City, Swansboro, Wrightsville Beach, Carolina Beach, Southport, Calabash): heavy ICW transient traffic, blue-marlin tournament tradition, strong resort-area marina scene. Inland lakes (Lake Norman, Lake Gaston, High Rock, Jordan, Falls): year-round powerboat fleet, bass tournaments, lower dockage rates, Lake Norman dominance with dozens of facilities. Western mountains (Lake James, Lake Hickory, Fontana Lake, Lake Glenville): limited marina access, smaller facilities serving regional powerboaters. The directory above includes coverage across all five regions."
+      }
+    ],
+    faqExtra: [
+      {
+        q: "How much does it cost to keep a boat in a North Carolina marina?",
+        a: "Slip rates in North Carolina vary by region. Outer Banks (Hatteras, Manteo, Wanchese): $30-65 per foot per month, with charter-friendly facilities at the high end. Crystal Coast (Beaufort, Morehead City, Wrightsville Beach): $25-55 per foot. Inland sounds (Belhaven, Oriental, Edenton): $20-40 per foot. Cape Fear River and Wilmington: $25-50 per foot. Lake Norman and inland lakes: $20-45 per foot. Annual contracts typically discount 10-20% from monthly rates. Many coastal marinas offer storm-watch contingency pricing during hurricane season."
+      },
+      {
+        q: "When is the best time to cruise the North Carolina ICW?",
+        a: "Two peak windows: fall southbound (October-November) when cruisers head to Florida and the Bahamas, and spring northbound (April-May) when boats return north for summer. Both windows pack transient slips along the route — book Coinjock, Belhaven, Oriental, and Wrightsville Beach 1-2 weeks ahead during peak migration. Summer (June-September) is hurricane-vulnerable on the coast. Winter (December-March) is quieter but cold and weather-window-dependent. Pre-Christmas southbound and post-Easter northbound are the most practical migration windows for most cruisers."
+      },
+      {
+        q: "How does hurricane season affect Outer Banks marinas?",
+        a: "Hurricane season runs June 1 through November 30, peaking August through October. Outer Banks marinas face direct hurricane exposure — Hurricanes Florence (2018), Dorian (2019), and Matthew (2016) all caused major destruction to the coastal marina network. Most facilities have hurricane plans requiring haul-out or relocation within 48-72 hours of named-storm landfall forecast. Some Outer Banks marinas require full evacuation during major storms. Marina insurance for Outer Banks vessels remaining during hurricane season has tightened significantly. Confirm your marina's hurricane plan and your insurance coverage before signing dockage contracts."
+      }
+    ]
+  },
   // Remaining top-10 entries will be added in batches:
-  // washington, north-carolina, massachusetts, new-jersey, virginia
+  // massachusetts, new-jersey, virginia
 };
 
 export function getStateEditorial(stateSlug: string): StateEditorial | null {
