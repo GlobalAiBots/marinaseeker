@@ -6,6 +6,7 @@ import GearRecommendation from "@/components/GearRecommendation";
 import StateMap from "./StateMap";
 import precomputedCities from "@/data/state-cities-prefiltered.json";
 import marinaTotals from "@/data/state-marina-totals.json";
+import { getStateEditorial } from "@/data/state-editorial";
 
 interface PrecomputedCity {
   city: string;
@@ -27,6 +28,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
 
   const cities = ((precomputedCities as unknown) as Record<string, PrecomputedCity[]>)[state] || [];
   const stateTotal = ((marinaTotals as unknown) as Record<string, number>)[state] || 0;
+  const editorial = getStateEditorial(state);
 
   const mapCenter: [number, number] = stateMarinas.length === 0
     ? [39.8, -98.5]
@@ -35,18 +37,35 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
         stateMarinas.reduce((s, m) => s + m.lng, 0) / stateMarinas.length,
       ];
 
+  const baseFaqs = [
+    { q: `How many marinas are in ${stateInfo.name}?`, a: `There are ${stateTotal.toLocaleString()} marinas in ${stateInfo.name} on MarinaSeeker with GPS coordinates, amenities, and contact details.` },
+    { q: `How much does a boat slip cost in ${stateInfo.name}?`, a: `Boat slip costs in ${stateInfo.name} vary from $200-$800/month depending on location, size, and season. Contact individual marinas for current rates.` },
+    { q: `Are there marinas with fuel in ${stateInfo.name}?`, a: `Yes, many marinas in ${stateInfo.name} offer fuel docks. Check individual marina listings on MarinaSeeker for fuel availability.` },
+    { q: `Can I live on my boat in ${stateInfo.name}?`, a: `Some marinas in ${stateInfo.name} allow liveaboards. Policies and fees vary — contact the marina directly about liveaboard regulations.` },
+    { q: `When is the best time to boat in ${stateInfo.name}?`, a: `Boating season varies by region. In ${stateInfo.name}, peak season is typically May through October, though southern states enjoy year-round access.` },
+  ];
+  const faqs = [...baseFaqs, ...(editorial?.faqExtra || [])];
+
   return (
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "FAQPage",
-        mainEntity: [
-          { "@type": "Question", name: `How many marinas are in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `There are ${stateTotal.toLocaleString()} marinas in ${stateInfo.name}. MarinaSeeker has mapped every marina with GPS coordinates and amenity details.` } },
-          { "@type": "Question", name: `How much does a boat slip cost in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `Boat slip costs in ${stateInfo.name} vary by location, size, and season. Expect $200-$800/month for a standard slip. Contact individual marinas for current rates.` } },
-          { "@type": "Question", name: `Are there marinas with fuel in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `Yes, many marinas in ${stateInfo.name} offer fuel docks. Browse MarinaSeeker listings and filter for marinas with fuel availability.` } },
-          { "@type": "Question", name: `Can I live on my boat at a marina in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `Some marinas in ${stateInfo.name} allow liveaboards. Policies vary by marina — contact them directly about liveaboard regulations and fees.` } },
-          { "@type": "Question", name: `How do I find marinas near me in ${stateInfo.name}?`, acceptedAnswer: { "@type": "Answer", text: `Use MarinaSeeker to browse all ${stateTotal.toLocaleString()} marinas in ${stateInfo.name} by city. Each listing includes a map, contact info, and amenities.` } },
-        ],
+        mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
       }) }} />
+      {editorial && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: `Marinas in ${stateInfo.name}: The Complete Guide`,
+          description: editorial.introOverride,
+          datePublished: "2026-04-30",
+          dateModified: "2026-04-30",
+          author: { "@type": "Organization", name: "MarinaSeeker Editorial" },
+          publisher: { "@type": "Organization", name: "MarinaSeeker" },
+          articleSection: "Marinas",
+          keywords: ["marina", stateInfo.name, "boating", "dockage", "slip rental"],
+        }) }} />
+      )}
       <section className="py-16 md:py-24 text-center px-4" style={{ background: "#FAF8F5", backgroundImage: "radial-gradient(circle at 20% 80%, rgba(27,58,92,0.06) 0%, transparent 50%)" }}>
         <p className="text-[#1B3A5C] text-sm font-bold tracking-wider uppercase mb-3 font-[Cabin]">{stateInfo.name} Marina Directory</p>
         <h1 className="font-[Cabin] text-4xl md:text-5xl font-bold text-[#1A1A1A] leading-tight max-w-3xl mx-auto">Marinas in {stateInfo.name}</h1>
@@ -56,7 +75,9 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
       {/* Brief intro */}
       <section className="max-w-4xl mx-auto px-4 pt-8">
         <p className="text-gray-600 leading-relaxed text-sm md:text-base">
-          {stateInfo.name} has {stateTotal.toLocaleString()} marinas listed on MarinaSeeker, offering everything from full-service facilities with fuel, electric, and pump-out to simple docks and boat launches. Whether you&apos;re looking for a transient slip, seasonal rental, or liveaboard berth, browse by city below to find the right marina.
+          {editorial?.introOverride
+            ? editorial.introOverride
+            : `${stateInfo.name} has ${stateTotal.toLocaleString()} marinas listed on MarinaSeeker, offering everything from full-service facilities with fuel, electric, and pump-out to simple docks and boat launches. Whether you're looking for a transient slip, seasonal rental, or liveaboard berth, browse by city below to find the right marina.`}
         </p>
       </section>
 
@@ -83,6 +104,24 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
               </Link>
             ))}
           </div>
+        </section>
+      )}
+
+      {editorial && (
+        <section className="max-w-3xl mx-auto my-12 px-4">
+          <div className="text-xs uppercase tracking-wide text-gray-500 mb-6 text-center font-[Cabin]">
+            The Complete Guide
+          </div>
+          {editorial.h2Blocks.map((block, idx) => (
+            <div key={idx} className="mb-10">
+              <h2 className="font-[Cabin] text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-4">
+                {block.heading}
+              </h2>
+              <p className="text-gray-600 leading-relaxed text-base">
+                {block.body}
+              </p>
+            </div>
+          ))}
         </section>
       )}
 
@@ -129,13 +168,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
       <section className="max-w-4xl mx-auto px-4 py-8">
         <h2 className="font-[Cabin] text-xl font-bold text-[#1A1A1A] mb-4">Frequently Asked Questions</h2>
         <div className="space-y-2">
-          {[
-            { q: `How many marinas are in ${stateInfo.name}?`, a: `There are ${stateTotal.toLocaleString()} marinas in ${stateInfo.name} on MarinaSeeker with GPS coordinates, amenities, and contact details.` },
-            { q: `How much does a boat slip cost in ${stateInfo.name}?`, a: `Boat slip costs in ${stateInfo.name} vary from $200-$800/month depending on location, size, and season. Contact individual marinas for current rates.` },
-            { q: `Are there marinas with fuel in ${stateInfo.name}?`, a: `Yes, many marinas in ${stateInfo.name} offer fuel docks. Check individual marina listings on MarinaSeeker for fuel availability.` },
-            { q: `Can I live on my boat in ${stateInfo.name}?`, a: `Some marinas in ${stateInfo.name} allow liveaboards. Policies and fees vary — contact the marina directly about liveaboard regulations.` },
-            { q: `When is the best time to boat in ${stateInfo.name}?`, a: `Boating season varies by region. In ${stateInfo.name}, peak season is typically May through October, though southern states enjoy year-round access.` },
-          ].map((f, i) => (
+          {faqs.map((f, i) => (
             <details key={i} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm group">
               <summary className="px-5 py-4 cursor-pointer font-semibold text-[#1A1A1A] text-sm hover:text-[#1B3A5C] transition list-none flex items-center justify-between">{f.q}<svg className="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg></summary>
               <div className="px-5 pb-4 text-gray-600 text-sm leading-relaxed">{f.a}</div>
