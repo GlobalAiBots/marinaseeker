@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.env.local
+scripts/.geocode-progress.json
+scripts/geocode-batch1.log

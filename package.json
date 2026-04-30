@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/precompute-state-cities.js",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "precompute-cities": "node scripts/precompute-state-cities.js"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
@@ -17,6 +19,8 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@turf/boolean-point-in-polygon": "^7.3.5",
+    "@turf/helpers": "^7.3.5",
     "@types/leaflet": "^1.9.4",
     "@types/node": "^20",
     "@types/react": "^19",
