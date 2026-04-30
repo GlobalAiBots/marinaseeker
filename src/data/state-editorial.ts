@@ -119,9 +119,78 @@ export const STATE_EDITORIAL: Record<string, StateEditorial> = {
       }
     ]
   },
+  michigan: {
+    introOverride:
+      "Michigan has 514 marinas spanning 3,288 miles of Great Lakes coastline (more than any other state), the densest inland-lake system in the country at 11,000+ named lakes, the Detroit River and Lake St. Clair fleet, the Saginaw Bay and Thumb shoreline, and the Upper Peninsula's Lake Superior and Lake Michigan harbors. Whether you need a slip on Charlevoix's Round Lake, a winter haul-out before ice-in on Lake Erie, transient dockage on a Pure Michigan summer cruise from Saugatuck to Mackinac, or a club mooring on a Cadillac inland lake, the directory below shows marinas with verified slip counts, fuel availability, transient policies, and amenity details.",
+    h2Blocks: [
+      {
+        heading: "Michigan's Marina Landscape",
+        body:
+          "Michigan runs the largest Great Lakes marina market in the country, with marinas serving four of the five Great Lakes (Superior, Michigan, Huron, Erie) plus Lake St. Clair and the country's densest inland-lake fleet. Lake Michigan's eastern shore is the heaviest-trafficked corridor: Harbor Country (New Buffalo, St. Joseph, South Haven), Saugatuck and Holland, Grand Haven, Muskegon, Pentwater, Ludington, Manistee, Frankfort, Leland, Northport, Charlevoix, and Petoskey support the Pure Michigan summer cruising migration. Mackinac Island and the Straits region anchor the Lake Michigan-to-Lake Huron transition with marinas at St. Ignace, Mackinac City, and the iconic island itself. Lake Huron's Sunrise Coast (Cheboygan, Alpena, Tawas, Au Sable, Bay City) and the Thumb (Caseville, Port Austin, Harbor Beach, Lexington, Port Huron) support a quieter cruising scene plus heavy commercial fishing. Lake St. Clair and the Detroit River host one of the densest urban marina clusters in the Midwest, with the Detroit Yacht Club, Belle Isle, Grosse Pointe, and dozens of municipal facilities. Lake Superior on the Upper Peninsula (Marquette, Munising, Grand Marais, Houghton, Copper Harbor) supports a smaller, more remote cruising market. Inland, Michigan's 11,000+ lakes support a vast smaller-marina scene serving runabouts, pontoons, and bass-tournament boats, with the heaviest concentration in the Cadillac, Traverse City, Houghton Lake, and Higgins Lake regions."
+      },
+      {
+        heading: "Ice-In Season, Great Lakes Weather, and Slip Logistics",
+        body:
+          "Three Michigan-specific factors shape every marina decision. Ice-in dictates the boating season across most of the state. Most marinas run from approximately mid-May through late October, with northern Michigan and Upper Peninsula facilities operating an even shorter window (early June through early October). Vessel haul-out, winterization, and indoor storage are major Michigan marina services — most facilities offer storage and many operate in-and-out programs that include spring launch and fall haul. Indoor heated storage in northern Michigan often books a year ahead. Great Lakes weather is the dominant safety factor: Lake Michigan, Superior, and Huron generate sea-state conditions that rival ocean cruising, with sustained northwest blows over 25 knots producing 8-12 foot wave heights regularly. Marinas with shallow-approach harbors (St. Joseph, Manistee, Grand Marais) become inaccessible in heavy westerlies. Smart cruisers monitor NOAA marine forecasts and time crossings around weather windows. Slip availability runs tight on Lake Michigan's eastern shore from Memorial Day through Labor Day; transient slips at popular destinations (Mackinac Island, Charlevoix, Saugatuck) often book 2-4 weeks ahead during peak season. Annual slip rates run $40-90 per foot per season at premier west-shore facilities, dropping to $25-55 on Lake Huron and Saginaw Bay, and $15-40 on inland lakes."
+      },
+      {
+        heading: "Regional Patterns Across the State",
+        body:
+          "Michigan's marina market splits into six distinct regions. Lake Michigan southeast and Harbor Country (New Buffalo, St. Joseph, South Haven, Saugatuck, Holland, Grand Haven): heaviest tourist demand, highest seasonal dockage rates in the state, peak-season transient bookings essential. Lake Michigan northeast and Up North (Muskegon, Ludington, Manistee, Frankfort, Leland, Charlevoix, Petoskey, Mackinac): premier summer cruising corridor, premium dockage at island and resort destinations. Saginaw Bay and the Thumb (Bay City, Caseville, Port Austin, Harbor Beach): quieter cruising, strong commercial fishing scene, lower dockage rates than west shore. Detroit River, Lake St. Clair, and Lake Erie corridor (Detroit, Grosse Pointe, St. Clair Shores, Algonac, Monroe): dense urban-and-suburban marina cluster, year-round access at some facilities, southern Michigan's main metro fleet. Lake Superior and Upper Peninsula (Marquette, Houghton, Copper Harbor, Sault Ste. Marie): shortest season, remote cruising specialty, lowest density. Inland lakes (Traverse City Bay, Cadillac, Houghton Lake, Higgins Lake, Lake Charlevoix, Torch Lake): seasonal pontoon and runabout fleet, smaller marina footprints, club-mooring scene strong in Traverse Bay and Charlevoix. The directory above includes coverage across all six regions."
+      }
+    ],
+    faqExtra: [
+      {
+        q: "When does the Michigan boating season open?",
+        a: "Most Michigan marinas operate mid-May through late October. Lake Michigan eastern shore and Lake St. Clair facilities typically open by Memorial Day; northern Michigan and Lake Huron facilities open by early June. Upper Peninsula and Lake Superior marinas operate the shortest seasons — early June through early October at most. Ice-out and ice-in dates vary year to year; cold winters can compress the season at northern facilities. Most marinas publish opening and closing dates by April."
+      },
+      {
+        q: "How much does it cost to keep a boat in a Michigan marina?",
+        a: "Seasonal slip rates in Michigan vary by region. Lake Michigan eastern shore and Up North destinations: $40-90 per foot for the season, with Mackinac Island, Charlevoix, and Harbor Springs at the high end. Lake Huron and Saginaw Bay: $25-55 per foot. Detroit River and Lake St. Clair: $30-70 per foot. Inland lakes: $15-40 per foot. Indoor heated winter storage runs $15-35 per foot extra. Most Michigan marinas charge for the full season (May-October) rather than monthly."
+      },
+      {
+        q: "Do Michigan marinas offer winter storage?",
+        a: "Yes — winter storage and winterization are major Michigan marina services because most boats can't stay in the water through ice-in season. Options include outdoor open storage (cheapest), shrink-wrapped outdoor (better protection), unheated indoor (mid-tier), and heated indoor (premium, often books a year ahead at popular northern facilities). Many marinas offer in-and-out programs that include winterization, storage, spring de-winterization, and launch — typically priced as a package. Book by August for fall haul-out at popular facilities."
+      }
+    ]
+  },
+  maryland: {
+    introOverride:
+      "Maryland has 368 marinas concentrated overwhelmingly on the Chesapeake Bay and its tributaries — the country's largest estuary and one of its most-trafficked recreational boating regions. From the Susquehanna Flats at the Bay's head to the Potomac at its southern reach, Maryland marinas serve sailors, sport fishers, charter captains, racers, and Loop-trip cruisers in unusual concentration. Whether you need a year-round slip in Annapolis, a working dock for crab boats on the Eastern Shore, transient dockage at St. Michael's, or a hurricane-protected hole on the Patuxent, the directory below shows marinas with verified slip counts, fuel availability, transient policies, and amenity details.",
+    h2Blocks: [
+      {
+        heading: "Maryland's Marina Landscape",
+        body:
+          "Maryland runs the most Bay-concentrated marina market in the country. The Chesapeake Bay and its tributaries hold over 90% of the state's marinas, making this the densest cruising-grade marina concentration on the East Coast. Annapolis is the unofficial sailing capital of the Eastern Seaboard — Spa Creek, Back Creek, the Severn, and Whitehall Bay support hundreds of slips at facilities like Bert Jabin's, Annapolis Yacht Basin, and Eastport Yacht Center, plus the Naval Academy. The Magothy and Severn rivers, plus Galesville on the West River, anchor the western shore midway market. The Patuxent River from Solomons Island north supports a strong sailing and powerboat fleet. Kent Narrows, Rock Hall, Chestertown, St. Michael's, Oxford, and Cambridge anchor the Eastern Shore market — quieter, more historic, with strong deadrise and skipjack heritage. The Susquehanna Flats at the Bay's head (Havre de Grace, North East, Charlestown) support a freshwater-influenced market specializing in striped bass fishing. Ocean City on the Atlantic side is a separate market — offshore charter, tournament fishing, and tighter inlet conditions. The Potomac River from the D.C. line south to Point Lookout is its own boating fishery with scattered marinas at Solomons, Lexington Park, and Coltons Point."
+      },
+      {
+        heading: "Bay Cruising Season, Striper Cycle, and Hurricane Exposure",
+        body:
+          "Three Maryland-specific factors shape every marina decision. Bay cruising season runs effectively April through November, with peak demand May through October. The Bay rarely freezes hard enough to require widespread haul-out, so many Maryland marinas operate year-round, though most pleasure boats are wintered between November and April. Striper season — particularly the trophy spring run from approximately mid-April through mid-May — drives massive transient and tournament fishing activity at Susquehanna Flats, Bay Bridge, and the Eastern Shore tributaries. Slip availability tightens at upper Bay marinas during the trophy season; transient bookings often go fast even on weekdays. Hurricane exposure is real: the Bay funnels storm surge dramatically when hurricanes track up the East Coast, and the Eastern Shore is particularly vulnerable. Most Maryland marinas have hurricane plans requiring vessels over a certain size to be hauled or relocated when named storms threaten landfall within 48-72 hours. Annapolis area marinas have implemented enhanced surge protection requirements after Isabel (2003) and subsequent storms. Slip rates in Maryland run $30-70 per foot per month at premier Annapolis facilities, $20-45 elsewhere on the western shore, $15-35 on the Eastern Shore, and $25-50 at Solomons and Patuxent marinas."
+      },
+      {
+        heading: "Regional Patterns Across the State",
+        body:
+          "Maryland's marina market splits into five distinct regions. Annapolis and the western shore midway (Severn, South, West, Magothy rivers): largest concentration, highest dockage rates, peak demand from sailing and racing fleet, deepest yacht service infrastructure. Upper Bay and Susquehanna Flats (Havre de Grace, North East, Rock Hall, Chestertown): striper trophy season market, freshwater-influenced fishing, mid-priced dockage. Eastern Shore (Kent Narrows, St. Michael's, Oxford, Cambridge): quieter cruising, historic working-waterfront heritage, lower dockage rates than western shore, strong transient demand at destination towns. Patuxent and Solomons (southern western shore): mid-Bay sailing fleet, strong charter scene, mid-priced dockage. Potomac, southern Maryland, and Ocean City: fewer marinas but distinct markets — Potomac is freshwater-influenced fishing and cruising, Ocean City is separate Atlantic offshore charter. The directory above includes coverage across all five regions."
+      }
+    ],
+    faqExtra: [
+      {
+        q: "How much does it cost to keep a boat in a Maryland marina?",
+        a: "Slip rates in Maryland vary by region. Annapolis area (Spa Creek, Back Creek, Severn): $40-70 per foot per month, with premier facilities running higher. Western shore (West, South, Magothy, Patuxent): $25-50 per foot. Solomons and lower Patuxent: $25-50 per foot. Eastern Shore (Rock Hall, Kent Narrows, St. Michael's, Oxford): $15-40 per foot. Upper Bay and Susquehanna Flats: $20-40 per foot. Annual contracts typically discount 10-20% from monthly rates. Liveaboard slips, where available, command premium pricing and have stricter regulations."
+      },
+      {
+        q: "When is striper season on the Chesapeake Bay?",
+        a: "Maryland's trophy spring striper season runs approximately mid-April through mid-May, when post-spawn rockfish above 28 inches are catchable on the upper Bay. Summer slot season follows with smaller fish. The fall run runs September through November as fish school heading south. Winter catch-and-release continues on the Susquehanna Flats. Maryland DNR sets exact dates and slot limits annually — rules change yearly, so check before each trip. Slip availability at upper Bay marinas tightens significantly during the trophy spring season."
+      },
+      {
+        q: "How does hurricane season affect Maryland marinas?",
+        a: "Hurricane exposure is real for Chesapeake Bay marinas. Storm surge funnels up the Bay dramatically when hurricanes track up the East Coast, and the Eastern Shore is particularly vulnerable. Most Maryland marinas have written hurricane plans requiring vessels over a certain size to be hauled or relocated within 48-72 hours of named storm landfall forecast. Annapolis area marinas tightened surge protection requirements after Isabel (2003). Marina insurance underwriting for vessels remaining at Bay marinas during named-storm windows has tightened significantly post-Isabel and post-Sandy. Confirm your marina's hurricane plan and your insurance hurricane coverage before signing dockage contracts."
+      }
+    ]
+  },
   // Remaining top-10 entries will be added in batches:
-  // michigan, maryland, washington, north-carolina,
-  // massachusetts, new-jersey, virginia
+  // washington, north-carolina, massachusetts, new-jersey, virginia
 };
 
 export function getStateEditorial(stateSlug: string): StateEditorial | null {
