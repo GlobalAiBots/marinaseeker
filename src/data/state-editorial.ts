@@ -259,8 +259,111 @@ export const STATE_EDITORIAL: Record<string, StateEditorial> = {
       }
     ]
   },
-  // Remaining top-10 entries will be added in batches:
-  // massachusetts, new-jersey, virginia
+  massachusetts: {
+    introOverride:
+      "Massachusetts has 238 marinas spanning Boston Harbor's deep urban marina cluster, Cape Cod and the islands (Martha's Vineyard, Nantucket, the Elizabeth Islands), the South Coast from Buzzards Bay through New Bedford and Westport, the North Shore from Salem to Newburyport, and the inland Connecticut River and Quabbin Reservoir freshwater systems. Whether you need a year-round Boston slip, transient dockage at Edgartown for a Vineyard summer, a working slip in New Bedford's commercial port, or a club mooring on Buzzards Bay, the directory below shows marinas with verified slip counts, fuel availability, transient policies, and amenity details.",
+    h2Blocks: [
+      {
+        heading: "Massachusetts's Marina Landscape",
+        body:
+          "Massachusetts runs one of the most concentrated saltwater marina markets on the East Coast. Boston Harbor and the inner harbor (Charlestown, East Boston, Quincy, Hingham, Hull) host a dense urban marina cluster with year-round operation, supporting commercial fishing fleets, working harbor traffic, and pleasure boating from the same waters. The North Shore from Lynn through Salem, Marblehead, Beverly, Manchester, Gloucester, Rockport, Ipswich, and Newburyport hosts a deeply traditional yachting culture — Marblehead and Gloucester anchor some of the country's oldest yacht clubs and the most prestigious sailing race scene. The South Shore from Hingham through Plymouth, Duxbury, Marshfield, and Scituate supports a quieter cruising market with strong powerboat presence. Cape Cod (Sandwich, Falmouth, Hyannis, Chatham, Provincetown, Wellfleet, Truro) and the islands (Martha's Vineyard at Vineyard Haven, Edgartown, Oak Bluffs, Menemsha; Nantucket harbor) anchor the country's most concentrated summer-cruising destination market — slip availability is among the tightest anywhere from Memorial Day through Labor Day. Buzzards Bay (Marion, Mattapoisett, New Bedford, Westport, Padanaram) supports a strong sailing scene, with the New Bedford working harbor handling commercial fishing, ferry traffic, and pleasure boating side-by-side. Inland, the Connecticut River corridor (Northampton, Holyoke, Springfield) and Quabbin Reservoir support smaller freshwater marina scenes."
+      },
+      {
+        heading: "Cape and Islands Demand, Hurricane Exposure, and Mooring Logistics",
+        body:
+          "Three Massachusetts-specific factors shape every marina decision. Cape and Islands demand is the tightest summer marina market in the country — Edgartown, Vineyard Haven, Nantucket, and Provincetown maintain multi-year wait lists for permanent slips, with transient dockage during peak season (July-August) booking 8-12 weeks ahead at minimum. Town moorings (where dockage isn't available) require local resident affiliations or yacht club membership in many cases; a substantial portion of the Cape's boating fleet uses moorings rather than slips. Hurricane exposure is real for Massachusetts: the Bay Area and Cape are tracks for hurricanes that bend up the East Coast, and Hurricane Bob (1991) and several recent named storms have produced major surge damage. Most coastal marinas have hurricane plans requiring vessels over a certain size to be hauled or relocated 48-72 hours before landfall; the Cape and Islands have particularly aggressive evacuation requirements during major storm threats. Slip availability statewide tightens dramatically Memorial Day through Labor Day. Slip rates run $50-90 per foot per month in Boston Harbor and the inner harbor, $40-80 per foot on the Cape and Islands, $30-60 per foot on the North Shore, $25-55 per foot on Buzzards Bay, and $20-45 per foot inland. Mooring fees (where available) typically run $400-1,200 per season."
+      },
+      {
+        heading: "Regional Patterns Across the State",
+        body:
+          "Massachusetts's marina market splits into five distinct regions. Boston Harbor and inner harbor (Boston, Charlestown, Quincy, Hingham, Hull): year-round operation, dense urban marina cluster, commercial-and-pleasure mixed-use harbors. North Shore (Salem, Marblehead, Beverly, Manchester, Gloucester, Newburyport): deeply traditional yachting culture, prestigious racing scene, premium dockage at Marblehead and Gloucester. South Shore (Hingham, Plymouth, Duxbury, Marshfield, Scituate): quieter cruising market, strong powerboat presence, lower demand than North Shore. Cape Cod and the islands (Falmouth, Hyannis, Chatham, Provincetown, Vineyard Haven, Edgartown, Oak Bluffs, Nantucket): tightest summer demand in the country, multi-year wait lists at premier facilities, transient bookings 8-12 weeks ahead in peak season. Buzzards Bay and South Coast (Marion, Mattapoisett, New Bedford, Westport): strong sailing scene, mixed commercial-and-pleasure harbors at New Bedford, mid-priced dockage. Inland (Connecticut River corridor, Quabbin Reservoir, smaller lakes): seasonal freshwater operation, smaller marina footprints, lowest dockage rates. The directory above includes coverage across all five regions."
+      }
+    ],
+    faqExtra: [
+      {
+        q: "How much does it cost to keep a boat in a Massachusetts marina?",
+        a: "Slip rates in Massachusetts vary by region. Boston Harbor and inner harbor: $50-90 per foot per month. Cape Cod and islands (Edgartown, Vineyard Haven, Nantucket, Provincetown): $40-80 per foot, with premier facilities running higher and multi-year wait lists. North Shore (Marblehead, Gloucester, Salem): $30-60 per foot. Buzzards Bay and South Coast: $25-55 per foot. South Shore: $25-50 per foot. Mooring fees, where available, typically run $400-1,200 per season. Annual contracts typically discount 10-20% from monthly rates."
+      },
+      {
+        q: "How far ahead should I book a Cape Cod or Nantucket marina slip?",
+        a: "For peak season (July-August) at Edgartown, Vineyard Haven, Nantucket harbor, Provincetown, or Hyannis: book transient slips 8-12 weeks ahead minimum. Permanent seasonal slips at these destinations typically have multi-year wait lists. Shoulder season (June and September) is more available with 4-6 week notice. Off-Cape destinations like Falmouth, Sandwich, and lesser-known Cape harbors are easier to book on shorter notice. Town mooring availability varies and often requires local resident affiliation or yacht club membership."
+      },
+      {
+        q: "How does hurricane season affect Massachusetts marinas?",
+        a: "Hurricane exposure is real for Massachusetts coastal waters. Hurricane Bob (1991) and several subsequent named storms caused major surge damage. Most coastal marinas have hurricane plans requiring vessels over a certain size to be hauled or relocated 48-72 hours before named-storm landfall forecast. Cape and Islands marinas have particularly aggressive evacuation requirements during major storm threats. Marina insurance underwriting for vessels remaining at coastal Massachusetts marinas during hurricane season has tightened. Confirm your marina's hurricane plan and your insurance hurricane coverage before signing dockage contracts."
+      }
+    ]
+  },
+  "new-jersey": {
+    introOverride:
+      "New Jersey has 233 marinas spanning the Hudson and Raritan riverfront across from Manhattan, the Atlantic coast from Sandy Hook to Cape May, the Intracoastal Waterway through the back bays of Barnegat, Great Bay, and Great Egg Harbor, the Delaware Bay and River, and inland lakes like Lake Hopatcong and the Pine Barrens reservoirs. Whether you need a year-round Hudson River slip with a Manhattan view, transient dockage at Cape May for a Delaware Bay crossing, sportfishing dockage at Cape May or Brielle, or a back-bay slip in the Long Beach Island region, the directory below shows marinas with verified slip counts, fuel availability, transient policies, and amenity details.",
+    h2Blocks: [
+      {
+        heading: "New Jersey's Marina Landscape",
+        body:
+          "New Jersey runs one of the most varied saltwater marina markets on the East Coast — bookended by the Hudson River across from Manhattan in the north and Cape May at the entrance to Delaware Bay in the south. The Hudson River and Raritan Bay (Liberty Landing, Hoboken, Edgewater, Weehawken, Fort Lee, Atlantic Highlands) host an urban marina cluster catering to NYC commuters and weekend cruisers. The northern Atlantic coast from Sandy Hook through Asbury Park, Belmar, Manasquan, and Brielle anchors a strong sportfishing fleet — Brielle hosts one of the largest charter fleets in the Northeast for tuna, marlin, and offshore work. The Manasquan Inlet provides reliable Atlantic access. Barnegat Bay and the Long Beach Island corridor (Toms River, Forked River, Beach Haven, Long Beach Township) host a dense back-bay marina cluster serving the heaviest summer-vacation boating market on the Jersey coast. Atlantic City and the Great Egg Harbor / Great Bay system support sportfishing and commercial-pleasure mixed-use marinas. Cape May at the southern tip is the country's premier sportfishing tournament hub — major facilities support marlin, tuna, and offshore tournament traffic, plus the Delaware Bay crossing for ICW cruisers. Inland, Lake Hopatcong (the largest lake in NJ at 2,685 acres) anchors a year-round powerboat fleet, and Pine Barrens reservoirs support smaller freshwater marina scenes."
+      },
+      {
+        heading: "Sportfishing Tournaments, Hurricane Exposure, and ICW Logistics",
+        body:
+          "Three New Jersey-specific factors shape every marina decision. Sportfishing tournament season (May through October) drives heavy demand at Brielle, Cape May, and Atlantic City marinas — the White Marlin Open (Ocean City MD-adjacent), the South Jersey Marina Mid-Atlantic, and dozens of smaller tournaments fill slip availability for weeks at a time during peak windows. Tournament boats reserve slip space months ahead. Hurricane exposure is severe for New Jersey: Sandy (2012) destroyed or damaged hundreds of marinas across the Jersey Shore and Hudson River corridor; the Jersey coast remains one of the most hurricane-vulnerable marina markets on the East Coast. Most coastal marinas have hurricane plans requiring vessels over a certain size to be hauled or relocated 48-72 hours before named-storm landfall forecast; many post-Sandy facilities now require enhanced surge protection and proof of hurricane insurance. ICW cruiser traffic is heavy in fall (southbound to Florida via Cape May) and spring (northbound to summer destinations via the Hudson) — Cape May and Atlantic Highlands serve as primary transient stopover points. Slip rates run $40-80 per foot per month on the Hudson and northern coast, $30-60 per foot in Barnegat Bay and Atlantic City, $35-70 per foot in Cape May, and $20-40 per foot at Lake Hopatcong and inland."
+      },
+      {
+        heading: "Regional Patterns Across the State",
+        body:
+          "New Jersey's marina market splits into five distinct regions. Hudson River and Raritan Bay (Liberty Landing, Hoboken, Edgewater, Atlantic Highlands): urban commuter-and-weekend market, year-round operation at most facilities, premium dockage rates with Manhattan-view premiums. Northern Atlantic coast (Sandy Hook, Belmar, Manasquan, Brielle): sportfishing fleet dominance, charter operation hub, mid-to-high dockage rates. Barnegat Bay and Long Beach Island corridor (Toms River, Forked River, Beach Haven, Long Beach Township): heaviest summer back-bay vacation market, dense marina cluster, summer peak with multi-week transient bookings. Atlantic City and South Jersey (Atlantic City, Margate, Ocean City NJ, Brigantine): sportfishing focus, casino-adjacent demand patterns, hurricane-vulnerable. Cape May (southern tip): country's premier sportfishing tournament hub, ICW transient stopover, Delaware Bay crossing logistics. The directory above includes coverage across all five regions."
+      }
+    ],
+    faqExtra: [
+      {
+        q: "How much does it cost to keep a boat in a New Jersey marina?",
+        a: "Slip rates in New Jersey vary by region. Hudson River and Raritan Bay: $40-80 per foot per month, with Manhattan-view facilities running higher. Northern Atlantic coast (Brielle, Manasquan, Belmar): $35-70 per foot. Barnegat Bay and LBI corridor: $25-55 per foot. Atlantic City and South Jersey: $30-60 per foot. Cape May: $35-70 per foot, with tournament-friendly facilities at the high end. Lake Hopatcong and inland: $20-40 per foot. Annual contracts typically discount 10-20% from monthly rates. Many post-Sandy facilities now charge surge-protection surcharges during hurricane season."
+      },
+      {
+        q: "When is sportfishing tournament season in New Jersey?",
+        a: "New Jersey sportfishing tournament season runs May through October, peaking June through September. Major events include the South Jersey Marina Mid-Atlantic, Manasquan River Marlin and Tuna Club tournaments, Cape May tournaments, and dozens of smaller club and charter events. Tournament boats reserve slips months ahead at Brielle, Cape May, and Atlantic City; transient slip availability can be tight even on weekdays during peak tournament windows. Confirm scheduling before planning summer cruises that need transient dockage at these ports."
+      },
+      {
+        q: "How does hurricane season affect New Jersey marinas?",
+        a: "Hurricane exposure is severe — Sandy (2012) destroyed or damaged hundreds of New Jersey marinas, and the Jersey coast remains one of the most hurricane-vulnerable marina markets on the East Coast. Most coastal marinas have hurricane plans requiring vessels over a certain size to be hauled or relocated 48-72 hours before named-storm landfall forecast. Post-Sandy, many facilities require enhanced surge protection and proof of hurricane insurance. Marina insurance underwriting has tightened significantly. Confirm your marina's hurricane plan and your insurance hurricane coverage before signing dockage contracts."
+      }
+    ]
+  },
+  virginia: {
+    introOverride:
+      "Virginia has 231 marinas spanning the Chesapeake Bay's southern reach (Hampton Roads, the Lower Bay, the Eastern Shore), the four major rivers that feed the Bay (the Potomac, Rappahannock, York, and James), the Atlantic coast at Virginia Beach, the Intracoastal Waterway from Norfolk south, and inland reservoirs like Smith Mountain Lake, Lake Anna, and Lake Gaston. Whether you need a year-round slip in Norfolk's Hampton Roads naval port, transient dockage on the ICW heading south, a club mooring on the Northern Neck, or a year-round freshwater slip on Smith Mountain Lake, the directory below shows marinas with verified slip counts, fuel availability, transient policies, and amenity details.",
+    h2Blocks: [
+      {
+        heading: "Virginia's Marina Landscape",
+        body:
+          "Virginia runs one of the most varied Bay-and-river marina markets on the East Coast. Hampton Roads (Norfolk, Portsmouth, Newport News, Hampton, Virginia Beach) anchors the southern Bay market — the largest naval base in the world (Naval Station Norfolk) plus the heaviest commercial port traffic on the Bay create a unique mixed-use harbor environment with major facilities like Waterside, Tidewater Yacht Marina, and the Hampton waterfront. The Lower Chesapeake (Yorktown, Gloucester, Mathews County) supports a quieter cruising scene with deep history. The four river systems each anchor their own cruising markets: the Potomac River (lower stretch from Colonial Beach south through Reedville and Coles Point), the Rappahannock (Tappahannock, Urbanna, Deltaville, Kilmarnock, Irvington), the York (Yorktown, West Point, Gloucester Point), and the James (Williamsburg, Surry, Charles City, Hopewell). Deltaville on the lower Rappahannock is unofficially the Bay's southern sailing capital. The Eastern Shore (Cape Charles, Onancock, Wachapreague, Chincoteague) supports a different market — quieter, more remote, with strong waterfowling heritage. Virginia Beach hosts a smaller Atlantic-coast marina cluster with offshore charter capability. Inland, Smith Mountain Lake (the largest lake in VA at 20,600 acres) anchors a year-round powerboat market, with Lake Anna, Lake Gaston (shared with NC), Claytor Lake, and Kerr Lake supporting smaller freshwater marina scenes."
+      },
+      {
+        heading: "Bay Cruising, ICW Transient Patterns, and Hurricane Exposure",
+        body:
+          "Three Virginia-specific factors shape every marina decision. Bay cruising season runs effectively April through November, with peak demand May through October. Most Virginia marinas operate year-round — the southern Bay rarely freezes hard, and Hampton Roads stays accessible all winter — though most pleasure boats are wintered between November and April. Norfolk is the southern terminus of the upper Bay cruising network and the start of the ICW heading south to Florida; transient cruiser traffic peaks heavily in fall (October-November southbound migration) and spring (April-May northbound). Norfolk-area marinas (Tidewater, Waterside, plus the Portsmouth side) book transient slips heavily during these windows. Hurricane exposure is real for Hampton Roads and the lower Bay — Hurricanes Isabel (2003), Sandy (2012), and several recent named storms have produced major surge damage. Most coastal marinas have hurricane plans requiring vessels over a certain size to be hauled or relocated 48-72 hours before named-storm landfall forecast. Hampton Roads' deep-water port location means storm surge funnels dramatically up the rivers during hurricane events. Slip rates run $25-55 per foot per month at premier Hampton Roads facilities, $20-45 per foot on the Bay rivers (Rappahannock, Potomac, York), $30-60 per foot at Virginia Beach, and $20-40 per foot on inland reservoirs."
+      },
+      {
+        heading: "Regional Patterns Across the State",
+        body:
+          "Virginia's marina market splits into five distinct regions. Hampton Roads (Norfolk, Portsmouth, Newport News, Hampton): largest concentration, year-round operation, ICW southern terminus drives heavy fall and spring transient traffic, mixed naval-commercial-pleasure harbor environment. Bay Rivers — Potomac, Rappahannock, York, James (Colonial Beach, Reedville, Tappahannock, Urbanna, Deltaville, Kilmarnock, Irvington, Yorktown, Williamsburg): traditional cruising market, sailing club scene strong on the Rappahannock, lower dockage rates than Hampton Roads, summer-peak demand. Eastern Shore (Cape Charles, Onancock, Wachapreague, Chincoteague): quieter cruising, waterfowling heritage, lower density, the most remote marina market in Virginia. Virginia Beach Atlantic coast: smaller Atlantic-coast cluster, offshore charter capability, mid-priced dockage. Inland reservoirs (Smith Mountain Lake, Lake Anna, Lake Gaston, Claytor Lake, Kerr Lake): year-round powerboat fleet, lower dockage rates, Smith Mountain Lake dominance with dozens of facilities. The directory above includes coverage across all five regions."
+      }
+    ],
+    faqExtra: [
+      {
+        q: "How much does it cost to keep a boat in a Virginia marina?",
+        a: "Slip rates in Virginia vary by region. Hampton Roads (Norfolk, Portsmouth, Hampton): $25-55 per foot per month. Bay rivers (Rappahannock, Potomac, York, James): $20-45 per foot, with Deltaville and Urbanna at the high end. Virginia Beach: $30-60 per foot. Eastern Shore (Cape Charles, Onancock): $20-40 per foot. Smith Mountain Lake and inland reservoirs: $20-40 per foot. Annual contracts typically discount 10-20% from monthly rates."
+      },
+      {
+        q: "When is the best time to use Virginia marinas as an ICW stopover?",
+        a: "Two peak windows: fall southbound (October-November) when cruisers head from the Bay to Florida and the Bahamas via the ICW, and spring northbound (April-May) when boats return north. Both windows pack transient slips at Hampton Roads and Norfolk facilities (Tidewater, Waterside, plus Portsmouth side) — book 1-2 weeks ahead during peak migration. Summer (June-September) is hurricane-vulnerable on the lower Bay. Winter cruising is quieter but weather-window-dependent; pre-Christmas southbound and post-Easter northbound are the most practical migration windows."
+      },
+      {
+        q: "How does hurricane season affect Hampton Roads marinas?",
+        a: "Hurricane exposure is real for Hampton Roads and the lower Bay. Hurricanes Isabel (2003), Sandy (2012), and several recent named storms have produced major surge damage. Hampton Roads' deep-water port location means storm surge funnels dramatically up the rivers during hurricane events. Most coastal marinas have hurricane plans requiring vessels over a certain size to be hauled or relocated 48-72 hours before named-storm landfall forecast. Marina insurance for vessels remaining at Hampton Roads marinas during hurricane season has tightened significantly. Confirm your marina's hurricane plan and your insurance hurricane coverage before signing dockage contracts."
+      }
+    ]
+  }
 };
 
 export function getStateEditorial(stateSlug: string): StateEditorial | null {
